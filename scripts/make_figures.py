@@ -60,7 +60,8 @@ def _pair_rows(sfx: str) -> pd.DataFrame:
             for pid, pa in json.loads(f.read_text()).items():
                 p = pairs[pid]
                 own = pa if p["a_journal"] == j else 1 - pa
-                rows.append({"mode": mode, "jp": p["journal_pair"], "correct": float(own > 0.5)})
+                rows.append({"mode": mode, "jp": p["journal_pair"],
+                             "correct": 1.0 if own > 0.5 else 0.5 if own == 0.5 else 0.0})   # tie = half credit
     return pd.DataFrame(rows)
 
 
