@@ -53,10 +53,13 @@ def main():
             long += [{"mode": mode, "model": j, "id": k, "score": v["score"], "why": v["why"]} for k, v in s.items()]
             print(mode, j, len(s))
     df = pd.DataFrame(long).merge(probes, on="id")
+    if (OUT / "scores.csv").exists():   # add these modes to earlier ones instead of overwriting
+        old = pd.read_csv(OUT / "scores.csv")
+        df = pd.concat([old[~old["mode"].isin(df["mode"].unique())], df], ignore_index=True)
     df.to_csv(OUT / "scores.csv", index=False)
 
-    summary = {}
-    for mode, g in df.groupby("mode"):
+    summary = json.loads((OUT / "summary.json").read_text()) if (OUT / "summary.json").exists() else {}
+    for mode, g in df[df["mode"].isin(args.modes.split(","))].groupby("mode"):
         g = g.copy()
         g["z"] = g.groupby("model").score.transform(lambda s: s - s.mean())
         wide = g.pivot_table(index=["id", "source"], columns="model", values="z").dropna().reset_index()

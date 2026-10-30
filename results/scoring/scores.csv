@@ -701,3 +701,354 @@ contrast,MgmtSci,W4401643197,72,Theory plus empirics on common ownership and inn
 contrast,MgmtSci,W4416425919,62,Principal-multiagent NPD model with managerial implications,MgmtSci
 contrast,MgmtSci,W4408879455,45,Causal field evidence on pay transparency; SMJ phrasing but MS-relevant,SMJ
 contrast,MgmtSci,W7128598029,60,Comment on prior MS paper; MS publishes such notes,MgmtSci
+rulebook,OrgSci,W7139935458,55,"Hierarchy and technology fit OS, but framed as effect estimation in percentages",MgmtSci
+rulebook,OrgSci,W4401577217,45,"Field experiment on managerial attention, but the framing is strategy and pricing",MgmtSci
+rulebook,OrgSci,W4403538563,30,Economics-style DiD on strategic disclosure with a thin organizational mechanism,MgmtSci
+rulebook,OrgSci,W7221144841,68,Team relational processes with countervailing individual versus team effects,OrgSci
+rulebook,OrgSci,W4404720756,55,"Entrepreneurial learning and hiring, though the matching-quality explanation is somewhat economic",SMJ
+rulebook,OrgSci,W4401000659,25,Mainly descriptive decomposition aimed at a strategy audience,SMJ
+rulebook,OrgSci,W4399786255,50,"Paradox framing with political ties, but the China VC returns focus is strategy",SMJ
+rulebook,OrgSci,W4410431490,62,Board sensemaking via expectancy violations and agency/communion perceptions,OrgSci
+rulebook,OrgSci,W4407199819,40,Resource complementarity matching that leans economic and strategy,OrgSci
+rulebook,OrgSci,W4414092254,50,"M&A strategy framing, though it includes knowledge integration mechanisms",OrgSci
+rulebook,OrgSci,W4403538325,15,Economics signaling model built around a market failure,MgmtSci
+rulebook,OrgSci,W4411180928,5,Principal-agent contract design model,MgmtSci
+rulebook,OrgSci,W7127576577,68,"Inventor networks shaped by alliance safeguards, with a hidden trade-off",OrgSci
+rulebook,OrgSci,W4415674079,10,Methods guidance paper rather than organizational theory,SMJ
+rulebook,OrgSci,W7213887525,40,"Serendipity and value capture, but strategy-leaning and largely descriptive",SMJ
+rulebook,OrgSci,W4406212660,72,"Social movements, attention, search, distant recombination; contrasting mechanisms fit org theory",OrgSci
+rulebook,OrgSci,W4415429094,30,Policy evaluation of TRIPS via staggered implementation; economics-style,SMJ
+rulebook,OrgSci,W4405500024,45,Historical economics of corporate R&D; substitution argument but strategy/econ framing,OrgSci
+rulebook,OrgSci,W4405486240,45,Work-nonwork micro OB; countervailing paths but more applied psychology,OrgSci
+rulebook,OrgSci,W4409620756,68,Formal model of problemistic search and aspirations; core org learning,SMJ
+rulebook,OrgSci,W4401533471,70,Inductive theory-building on institutional entrepreneurship and learning,OrgSci
+rulebook,OrgSci,W4415962253,62,Links internal organizational design to alliance governance,OrgSci
+rulebook,OrgSci,W4410537786,12,IO platform competition model with welfare analysis,MgmtSci
+rulebook,OrgSci,W4392760955,45,"Trade-off framing but job-posting measure, thin social mechanism",SMJ
+rulebook,OrgSci,W4416011092,66,"Behavioral emotion mechanism with field and experiments, moderators",MgmtSci
+rulebook,OrgSci,W4403493445,68,Attention and feedback-driven search overcoming familiarity bias,SMJ
+rulebook,OrgSci,W4404164210,25,Principal-agent incentive model; economics red flag,MgmtSci
+rulebook,OrgSci,W4416351719,55,Network coevolution via structuration; strategy-leaning governance framing,SMJ
+rulebook,OrgSci,W4391361637,10,"Property rights economics model of ad exchanges, policy implications",MgmtSci
+rulebook,OrgSci,W4413313723,30,Natural experiment effect estimation; some learning mechanism,MgmtSci
+rulebook,OrgSci,W7140330321,22,Main contribution is new dataset/measure,OrgSci
+rulebook,OrgSci,W4402408038,85,"Inhabited institutionalism, temporal miscoupling; core org theory field study",OrgSci
+rulebook,OrgSci,W4410127539,55,"Organizational learning via CSR, mixed methods, but economics-style design",SMJ
+rulebook,OrgSci,W4402845374,30,"Economic free-riding model, strategy framing, thin behavioral mechanism",MgmtSci
+rulebook,OrgSci,W4413342591,30,"RD effect estimation, strategy/political economy framing",MgmtSci
+rulebook,OrgSci,W4410298372,50,"Status pursuit and audience sentiment, opposing effects; somewhat micro-strategy",OrgSci
+rulebook,OrgSci,W4405915894,30,"Strategy framing, business model moderator, thin mechanism",SMJ
+rulebook,OrgSci,W4402310152,35,"Governance effect estimation, limited theoretical mechanism",OrgSci
+rulebook,OrgSci,W7138921623,50,Mobility network position and culture; strategy-flavored but org relevant,SMJ
+rulebook,OrgSci,W7160168093,58,"Field experiment on manager-worker collaboration, practice adoption contingencies",MgmtSci
+rulebook,OrgSci,W7170761526,50,"Organizing skills theory, but econ shock estimation",MgmtSci
+rulebook,OrgSci,W4408928101,72,Stereotypes and interactions shaping evaluations of gender categories,OrgSci
+rulebook,OrgSci,W4394808604,82,"Ethnography linking role conflict to workplace relationships, belonging",OrgSci
+rulebook,OrgSci,W7129025385,65,"Mentorship relational process, tacit knowledge, independence trade-off",OrgSci
+rulebook,OrgSci,W4417280442,22,"Import competition effect estimation, methodological tool for strategy",MgmtSci
+rulebook,OrgSci,W7165365766,12,"Finance event study, effect estimation with prescriptive framing",MgmtSci
+rulebook,OrgSci,W4391436263,72,"Status characteristics and audience evaluation consensus, mechanism experiment",SMJ
+rulebook,OrgSci,W4394978746,45,"Innovation strategy response to litigation; strategy framing, thin behavioral mechanism",SMJ
+rulebook,OrgSci,W4415181102,78,"Associative stigma, audience evaluations, multimethod mechanism separation",MgmtSci
+rulebook,OrgSci,W4392369033,65,"Ideological lens on appropriateness judgments, audience meaning-making",OrgSci
+rulebook,OrgSci,W4410739828,62,"Team adaptation, mental models and coordination; solid group process theory",OrgSci
+rulebook,OrgSci,W4413584536,58,"Employer experimentation and stereotypes, but policy RDiT effect framing",MgmtSci
+rulebook,OrgSci,W7172310516,25,"Economic signaling model of pricing and ratings, market design",MgmtSci
+rulebook,OrgSci,W4415848566,55,"Behavioral theory performance feedback, contingent on economic conditions",SMJ
+rulebook,OrgSci,W4398168833,72,Ethnographic identity transformation theory with surprising finding,OrgSci
+rulebook,OrgSci,W7168163083,74,"Qualitative theory of discrimination disappearance, embedded in employment structure",OrgSci
+rulebook,OrgSci,W4406871104,68,"Audience differentiation evaluations, optimal distinctiveness, critics vs commercial",MgmtSci
+rulebook,OrgSci,W4415700242,30,"Strategic timing model with typology, strategy audience",MgmtSci
+rulebook,OrgSci,W4415966340,60,Status hierarchy prototypes and attributions; more psychology-focused,OrgSci
+rulebook,OrgSci,W7215045513,52,"Pay gap estimation, monitoring substituting incentives somewhat organizational",MgmtSci
+rulebook,OrgSci,W4406619528,12,Economic competition model of AGI funding; no organizational mechanism,MgmtSci
+rulebook,OrgSci,W4415667705,40,"Audit experiment on identity in negotiation; percentage-point effects, thin theory",OrgSci
+rulebook,OrgSci,W4415885063,42,"Ecosystem/complementor strategy framing, adjustment costs; strategy-oriented",SMJ
+rulebook,OrgSci,W4407430050,80,"Qualitative process model of organizational generations, rhetorical history",OrgSci
+rulebook,OrgSci,W4411880120,42,Misconduct under financial pressure; economics-style capital constraint estimation,MgmtSci
+rulebook,OrgSci,W4396930942,15,Methods guide for ML matching; not theoretical contribution,SMJ
+rulebook,OrgSci,W4401533548,85,"Experiment on exploration, peer feedback, self-enhancement; core OT learning",OrgSci
+rulebook,OrgSci,W7133752671,55,New task-space measure plus integrative team experiment; measure-heavy,MgmtSci
+rulebook,OrgSci,W7164527973,62,Field experiment on AI and collaboration; effect-focused but organizationally relevant,OrgSci
+rulebook,OrgSci,W4400456134,45,Diff-in-diff policy reform on pay; bargaining economics logic,OrgSci
+rulebook,OrgSci,W4391108968,18,M&A market for corporate control; strategy/finance framing,SMJ
+rulebook,OrgSci,W4391957405,72,"Formal cultural evolution model of adaptation trade-offs, inverted-U",OrgSci
+rulebook,OrgSci,W4392191201,50,Historical interdependence and automation; economic-history flavor,MgmtSci
+rulebook,OrgSci,W7160560531,45,"Acquisition motives and collaborations; strategy framing, puzzle resolution",SMJ
+rulebook,OrgSci,W7204030819,48,"Embeddedness and client ties; question-driven, exploratory diversification",SMJ
+rulebook,OrgSci,W7131875656,30,"Principal-agent model, economics framing, though managerial practice relevant",MgmtSci
+rulebook,OrgSci,W4413128838,35,"Conceptual governance typology, strategy-leaning, cost-efficiency logic",SMJ
+rulebook,OrgSci,W4403391988,75,Field experiment revealing efficiency-learning trade-off in dynamic teams,OrgSci
+rulebook,OrgSci,W4410132467,20,Main contribution is a new measure,SMJ
+rulebook,OrgSci,W4391928606,25,Strategy-oriented competitive positioning formal model,SMJ
+rulebook,OrgSci,W4401437965,35,"Nonmarket strategy, country-specific panel, thin organizational mechanism",SMJ
+rulebook,OrgSci,W7160896437,10,IO model with merger policy prescriptions,MgmtSci
+rulebook,OrgSci,W4400494323,60,"Field experiment on peer networks and learning, some economics framing",MgmtSci
+rulebook,OrgSci,W7162518787,45,"Formal model with trade-off, but strategy/human-capital framing",SMJ
+rulebook,OrgSci,W4395478680,45,"Information asymmetry hiring, economics-leaning mechanism",SMJ
+rulebook,OrgSci,W7140292561,25,"Nonmarket strategy, policy-focused, economic framing",SMJ
+rulebook,OrgSci,W4415221881,78,"Qualitative study of expert practice reconciliation, core org theory",OrgSci
+rulebook,OrgSci,W4391822681,68,"Quasi-experiment on proximity, social interaction, diversity trade-off",MgmtSci
+rulebook,OrgSci,W4393992555,62,Theory of authenticity paradox and audience perceptions,OrgSci
+rulebook,OrgSci,W4413078142,40,Strategy/innovation framing with policy-shock estimation,OrgSci
+rulebook,OrgSci,W4401438064,80,Intraorganizational network change with asymmetric signaling mechanism,SMJ
+rulebook,OrgSci,W4408615243,70,"Audience evaluation of ambiguous rule violations, status contingency",MgmtSci
+rulebook,OrgSci,W4414575593,75,Category work and label appropriation under audience scrutiny,SMJ
+rulebook,OrgSci,W7140163197,62,Brokerage paradox with mechanism-based moderators; somewhat strategy-framed,OrgSci
+rulebook,OrgSci,W7204194857,45,Innovation direction effect of GAI; thin organizational mechanism,SMJ
+rulebook,OrgSci,W4401913114,25,Event-study valuation estimates; finance-style effect estimation,OrgSci
+rulebook,OrgSci,W7167915571,50,Field experiment with heterogeneous effects; economics-style framing,MgmtSci
+rulebook,OrgSci,W4409654205,28,Policy evaluation of regulation; environmental economics framing,MgmtSci
+rulebook,OrgSci,W7165627926,45,Historical industry emergence; strategy/industry evolution focus,OrgSci
+rulebook,OrgSci,W4416295432,58,Learning tradeoff with theorized contingencies on signal clarity,OrgSci
+rulebook,OrgSci,W7118789025,50,"Trade-off and learning, but operations/strategy framing",SMJ
+rulebook,OrgSci,W4412477089,45,Categories conversation but measure-centric replication,OrgSci
+rulebook,OrgSci,W4396826999,45,Upper echelons attention mechanism; more SMJ-style,SMJ
+rulebook,OrgSci,W7154732713,68,Qualitative organizing process for human-AI collaboration,SMJ
+rulebook,OrgSci,W7140141833,10,Methodological essay for strategy audience,SMJ
+rulebook,OrgSci,W4410395534,72,Sociopsychological barriers to network activation; mixed methods challenging network theory,OrgSci
+rulebook,OrgSci,W4408103243,40,RCT policy evaluation of training; thin organizational theory mechanism,MgmtSci
+rulebook,OrgSci,W7223183398,70,Incentives for network prominence with unintended trade-off; field quasi-experiment,SMJ
+rulebook,OrgSci,W4407148851,10,Database contribution framed for strategy research,SMJ
+rulebook,OrgSci,W4400595406,80,"Status anxiety paradox, rankings, decoupling; RD with mechanism moderator",SMJ
+rulebook,OrgSci,W4408812156,80,"Audience evaluation, categories, misfit spillover; archival plus experiment",OrgSci
+rulebook,OrgSci,W4414937457,72,"Inductive study of holding, identity, innovation; relational process theory",OrgSci
+rulebook,OrgSci,W7168839273,12,Measurement/classification for strategy variance decomposition,SMJ
+rulebook,OrgSci,W4401643197,8,"Economics common ownership, welfare framing",MgmtSci
+rulebook,OrgSci,W4416425919,8,Principal-multiagent incentive design model,MgmtSci
+rulebook,OrgSci,W4408879455,55,Equity theory pay transparency field evidence; somewhat economics-style,SMJ
+rulebook,OrgSci,W7128598029,2,Game theory comment note,MgmtSci
+rulebook,SMJ,W7139935458,62,Technology adoption and organizational design at firm level; somewhat org-design framing,MgmtSci
+rulebook,SMJ,W4401577217,80,Field experiment on competitor information shaping firm strategic choices and performance,MgmtSci
+rulebook,SMJ,W4403538563,60,Competitive dynamics drive disclosure; strategy framing but disclosure economics flavor,MgmtSci
+rulebook,SMJ,W7221144841,22,"Team and individual performance in NBA; organizational behavior, not strategy",OrgSci
+rulebook,SMJ,W4404720756,60,"Entrepreneurial strategy hiring by serial founders; learning mechanism, no performance outcome",SMJ
+rulebook,SMJ,W4401000659,62,"Firm growth modes, corporate strategy, links to competition and survival",SMJ
+rulebook,SMJ,W4399786255,55,Political ties and VC risk-return paradox; entrepreneurship/finance hybrid,SMJ
+rulebook,SMJ,W4410431490,55,"CEO dismissal governance, but personnel outcome and perception focus",OrgSci
+rulebook,SMJ,W4407199819,60,Resource complementarity matching and value creation in startups,OrgSci
+rulebook,SMJ,W4414092254,78,Knowledge-based view on post-acquisition integration and innovation outcomes,OrgSci
+rulebook,SMJ,W4403538325,22,"Signaling mechanism in crowdfunding; economics framing, model plus experiment",MgmtSci
+rulebook,SMJ,W4411180928,5,Formal contract theory model without strategy contribution,MgmtSci
+rulebook,SMJ,W7127576577,75,Alliance portfolio safeguards trade-offs affecting innovation performance,OrgSci
+rulebook,SMJ,W4415674079,40,Methods guidance for management research; SMJ occasionally publishes methods pieces,SMJ
+rulebook,SMJ,W7213887525,72,"Serendipitous inventions as option-like assets; real options, value capture",SMJ
+rulebook,SMJ,W4406212660,72,"Firm innovation response to activists; attention and search mechanisms, strategy framing",OrgSci
+rulebook,SMJ,W4415429094,45,"Policy-level IPR effects; mostly economics/science diffusion, weak firm strategy",SMJ
+rulebook,SMJ,W4405500024,60,"Firm R&D investment decision, historical firm-level data; strategy relevant",OrgSci
+rulebook,SMJ,W4405486240,5,"Individual employee thriving; OB topic, no firm outcomes",OrgSci
+rulebook,SMJ,W4409620756,45,"Formal model on aspirations, behavioral theory, exploration; no empirics",SMJ
+rulebook,SMJ,W4401533471,65,"Qualitative strategy formation processes in ventures, linked to performance",OrgSci
+rulebook,SMJ,W4415962253,75,Organization design shaping alliance governance; core corporate strategy,OrgSci
+rulebook,SMJ,W4410537786,30,Formal IO model of platform business models with welfare focus,MgmtSci
+rulebook,SMJ,W4392760955,70,"Startup scaling timing, trade-offs, firm survival outcomes",SMJ
+rulebook,SMJ,W4416011092,68,Managerial emotions driving firm exit decisions; field plus experiments,MgmtSci
+rulebook,SMJ,W4403493445,74,"Technology in-sourcing, attention-based view, biopharma archival evidence",SMJ
+rulebook,SMJ,W4404164210,25,Pure principal-agent theory model; economics framing,MgmtSci
+rulebook,SMJ,W4416351719,70,Board interlocks coevolving with corporate strategic actions,SMJ
+rulebook,SMJ,W4391361637,15,"Economic model of ad exchanges, consumer welfare and policy",MgmtSci
+rulebook,SMJ,W4413313723,15,"Bargaining communication on eBay; economics, individual-level outcomes",MgmtSci
+rulebook,SMJ,W7140330321,12,Data/measure release on employee partisanship; no strategic choice or firm outcome,OrgSci
+rulebook,SMJ,W4402408038,4,Inhabited institutionalism ethnography of strikes; organization theory focus,OrgSci
+rulebook,SMJ,W4410127539,72,CSR as strategic learning improving core operations; quasi-random design,SMJ
+rulebook,SMJ,W4402845374,70,Supplier concentration as governance strategy; challenges Porter; airline evidence,MgmtSci
+rulebook,SMJ,W4413342591,68,"Competitive dynamics in corporate political activity, contingencies, differentiation response",MgmtSci
+rulebook,SMJ,W4410298372,45,"CEO narcissism and venture funding; investor-sentiment, Shark Tank, partly strategic",OrgSci
+rulebook,SMJ,W4405915894,62,Business model design moderates strategic change after media coverage,SMJ
+rulebook,SMJ,W4402310152,40,CEO pay and dismissal outcomes; governance but personnel rewards,OrgSci
+rulebook,SMJ,W7138921623,75,"Hiring-source network position drives firm innovation and productivity, culture moderator",SMJ
+rulebook,SMJ,W7160168093,60,"Firm field experiment, practice adoption with firm contingencies",MgmtSci
+rulebook,SMJ,W7170761526,55,"GenAI shock on firm skill demand; organizing theory, labor-outcome flavor",MgmtSci
+rulebook,SMJ,W4408928101,12,Gender hiring stereotypes on online platforms; individual outcomes,OrgSci
+rulebook,SMJ,W4394808604,4,Ethnography of work-family conflict; individual workplace relationships,OrgSci
+rulebook,SMJ,W7129025385,15,"Scientist career outcomes; individual-level, not firm strategy",OrgSci
+rulebook,SMJ,W4417280442,66,Import competition drives firm innovation and diversification; competitive strategy,MgmtSci
+rulebook,SMJ,W7165365766,35,"Event study, finance framing, though managerial announcement guidance",MgmtSci
+rulebook,SMJ,W4391436263,40,Audience evaluation focus; box office revenue link gives some strategy value,SMJ
+rulebook,SMJ,W4394978746,78,Firm innovation strategy response to litigation with contingencies,SMJ
+rulebook,SMJ,W4415181102,22,"Worker career outcomes, stigma sociology, no firm-level outcome",MgmtSci
+rulebook,SMJ,W4392369033,35,Media ideology/evaluator focus; CSR firm value weakly addressed,OrgSci
+rulebook,SMJ,W4410739828,12,"Team-level OB adaptation, not strategic choice",OrgSci
+rulebook,SMJ,W4413584536,30,"Gender hiring gap; personnel outcome, some startup employer decision",MgmtSci
+rulebook,SMJ,W7172310516,25,"Formal model without empirical test, marketing/IO framing",MgmtSci
+rulebook,SMJ,W4415848566,80,"Behavioral theory, alliance portfolio strategy, economic contingencies",SMJ
+rulebook,SMJ,W4398168833,8,"Identity ethnography, individual outcomes, org theory",OrgSci
+rulebook,SMJ,W7168163083,5,"Individual discrimination accounts, sociology, no firm strategy",OrgSci
+rulebook,SMJ,W4406871104,28,Audience evaluation of differentiation; categories/identity framing,MgmtSci
+rulebook,SMJ,W4415700242,48,Formal model but strategy-relevant disruption timing typology,MgmtSci
+rulebook,SMJ,W4415966340,5,"Psychology of discrimination attributions, no firm strategy",OrgSci
+rulebook,SMJ,W7215045513,42,"Ownership and pay; compensation outcome, governance angle",MgmtSci
+rulebook,SMJ,W4406619528,22,"Formal model of AGI competition and social funders, no empirical testing",MgmtSci
+rulebook,SMJ,W4415667705,5,"Negotiation bias audit study; individual identity outcomes, no firm strategy",OrgSci
+rulebook,SMJ,W4415885063,85,Complementor adjustment costs and disruptor strategies; core ecosystem strategy,SMJ
+rulebook,SMJ,W4407430050,12,Inductive process theory on rhetorical history in unions; org-theory focus,OrgSci
+rulebook,SMJ,W4411880120,55,Misconduct framed as firm strategy under financial pressure; economics-flavored,MgmtSci
+rulebook,SMJ,W4396930942,50,Methods guide for ML matching; methods pieces sometimes fit SMJ,SMJ
+rulebook,SMJ,W4401533548,55,"Experiment on exploration with behavioral theory, peer performance feedback",OrgSci
+rulebook,SMJ,W7133752671,12,"Team task-space methodology; individual/group outcomes, not strategy",MgmtSci
+rulebook,SMJ,W7164527973,40,"AI field experiment in NPD; individual outcomes, limited strategic framing",OrgSci
+rulebook,SMJ,W4400456134,38,Pay variance outcome; personnel reward without firm performance,OrgSci
+rulebook,SMJ,W4391108968,62,"M&A value capture, competition for targets; somewhat finance-framed",SMJ
+rulebook,SMJ,W4391957405,35,"Formal cultural evolution model of adaptation, not core strategy theory",OrgSci
+rulebook,SMJ,W4392191201,62,"Historical study of automation interdependencies, firm-level adoption",MgmtSci
+rulebook,SMJ,W7160560531,78,Acquisition motives and partner collaborations; corporate strategy,SMJ
+rulebook,SMJ,W7204030819,80,"Diversification via client ties, value-destroying entry, firm performance",SMJ
+rulebook,SMJ,W7131875656,22,"Formal principal-agent model about employee motivation, economics framing",MgmtSci
+rulebook,SMJ,W4413128838,62,"Conceptual stakeholder governance of boards, corporate strategy relevance",SMJ
+rulebook,SMJ,W4403391988,12,"Team coordination field experiment, individual/team outcomes, not strategy",OrgSci
+rulebook,SMJ,W4410132467,60,Methodological measure of science commercial potential for innovation strategy,SMJ
+rulebook,SMJ,W4391928606,40,"Formal model of competitive repositioning, strategy-relevant but untested",SMJ
+rulebook,SMJ,W4401437965,62,"Nonmarket strategy, political connections, business group contingency",SMJ
+rulebook,SMJ,W7160896437,25,Formal IO model with merger policy welfare focus,MgmtSci
+rulebook,SMJ,W4400494323,45,"Field experiment entrepreneurs' networking, firm profits outcome",MgmtSci
+rulebook,SMJ,W7162518787,75,"Founder experience, startup performance, model plus archival test",SMJ
+rulebook,SMJ,W4395478680,55,"Pipeline hiring as strategic human capital, performance outcomes",SMJ
+rulebook,SMJ,W7140292561,70,"Nonmarket strategy under trade policy shock, firm actions",SMJ
+rulebook,SMJ,W4415221881,10,Inductive organization-theory study of expert practice reconciliation,OrgSci
+rulebook,SMJ,W4391822681,45,"Startup knowledge spillovers with performance outcome, more org/innovation",MgmtSci
+rulebook,SMJ,W4393992555,5,"Individual self-presentation conceptual piece, no firm strategy",OrgSci
+rulebook,SMJ,W4413078142,72,"Demand spillovers on innovation via human capital competition, natural experiment",OrgSci
+rulebook,SMJ,W4401438064,42,Firm intervention but individual network-tie outcomes; no firm performance,SMJ
+rulebook,SMJ,W4408615243,15,"Individual career consequences in sports; personnel outcomes, no firm strategy",MgmtSci
+rulebook,SMJ,W4414575593,35,"Category work, organization-theory framing; some strategic resource angle",SMJ
+rulebook,SMJ,W7140163197,72,Firm brokerage and innovation performance with contingencies; network strategy,OrgSci
+rulebook,SMJ,W7204194857,45,"Product-level innovation direction from GAI; developer-level, limited firm strategy",SMJ
+rulebook,SMJ,W4401913114,30,"Finance event study of diversity; market-price test, little strategy theory",OrgSci
+rulebook,SMJ,W7167915571,62,"Field experiment with firm revenue/profit outcomes, heterogeneous effects",MgmtSci
+rulebook,SMJ,W4409654205,55,Unintended firm responses to regulation with contingencies; policy framing,MgmtSci
+rulebook,SMJ,W7165627926,55,Historical industry emergence study; ecosystem relevance but systems focus,OrgSci
+rulebook,SMJ,W4416295432,72,"Startup international entry, learning tradeoff, contingencies on growth",OrgSci
+rulebook,SMJ,W7118789025,70,"Scope economies trade-off, reliability penalty, firm-level product outcomes",SMJ
+rulebook,SMJ,W4412477089,50,Replication of category spanning with firm value; sociological framing,OrgSci
+rulebook,SMJ,W4396826999,75,"CEO narcissism, board attention, corporate risk-taking; governance fit",SMJ
+rulebook,SMJ,W7154732713,40,"Qualitative organizing process, limited strategic outcome linkage",SMJ
+rulebook,SMJ,W7140141833,55,Methods essay for strategy research; synthesis guidance fits,SMJ
+rulebook,SMJ,W4410395534,5,"Individual job-search behavior, sociological; no firm strategy",OrgSci
+rulebook,SMJ,W4408103243,6,Police training RCT with individual outcomes only,MgmtSci
+rulebook,SMJ,W7223183398,45,"In-firm quasi-experiment, trade-offs, but outcomes are individual networks/attrition",SMJ
+rulebook,SMJ,W4407148851,55,Executive turnover database explicitly framed for strategy scholarship,SMJ
+rulebook,SMJ,W4400595406,40,"Status/CSR response, firm-level, but org-theory decoupling framing",SMJ
+rulebook,SMJ,W4408812156,30,"Audience evaluation bias, categories focus, weak firm strategic value",OrgSci
+rulebook,SMJ,W4414937457,5,"Inductive individual-level process study, identity focus",OrgSci
+rulebook,SMJ,W7168839273,80,"Re-examines variance decomposition of firm performance, core strategy",SMJ
+rulebook,SMJ,W4401643197,20,"Finance/IO common ownership framing, welfare debate",MgmtSci
+rulebook,SMJ,W4416425919,10,Formal principal-agent model without empirical test,MgmtSci
+rulebook,SMJ,W4408879455,12,"Pay transparency individual productivity, personnel economics",SMJ
+rulebook,SMJ,W7128598029,2,Pure game-theory note on equilibria,MgmtSci
+rulebook,MgmtSci,W7139935458,72,"DiD on large novel data, clear effect sizes, supervision trade-off",MgmtSci
+rulebook,MgmtSci,W4401577217,85,"Large field experiment on competitor information, inattention mechanism",MgmtSci
+rulebook,MgmtSci,W4403538563,72,Strategic disclosure DiD with interpretable 13% effect,MgmtSci
+rulebook,MgmtSci,W7221144841,30,"Multi-theory verbal model, NBA single context, interviews",OrgSci
+rulebook,MgmtSci,W4404720756,55,"Register data, matching mechanism, but descriptive comparison",SMJ
+rulebook,MgmtSci,W4401000659,50,"Comprehensive census decomposition, mostly descriptive",SMJ
+rulebook,MgmtSci,W4399786255,25,"Coined risk-return paradoxes, verbal theorizing, associations",SMJ
+rulebook,MgmtSci,W4410431490,15,"Perception-based expectancy theory, moderator lists, no identification",OrgSci
+rulebook,MgmtSci,W4407199819,58,Assortative matching framework with large platform data,OrgSci
+rulebook,MgmtSci,W4414092254,42,"Coined label, moderators, KBV verbal theory",OrgSci
+rulebook,MgmtSci,W4403538325,75,Signaling model with experimental test of crowdfunding mechanism,MgmtSci
+rulebook,MgmtSci,W4411180928,78,Crisp principal-monitor-agent contracting model with empirical tie,MgmtSci
+rulebook,MgmtSci,W7127576577,35,"Verbal theorizing on safeguards, no clear identification",OrgSci
+rulebook,MgmtSci,W4415674079,25,Methodological guidance for management researchers,SMJ
+rulebook,MgmtSci,W7213887525,50,"Survey-patent data, option-like insight, associational",SMJ
+rulebook,MgmtSci,W4406212660,35,"Social movement framing, matched-sample associations, verbal theorizing",OrgSci
+rulebook,MgmtSci,W4415429094,62,Staggered TRIPS policy shock identifies knowledge diffusion,SMJ
+rulebook,MgmtSci,W4405500024,68,"New historical firm data, substitution mechanism for corporate research",OrgSci
+rulebook,MgmtSci,W4405486240,12,"Micro-OB experience sampling, construct-focused, thriving literature",OrgSci
+rulebook,MgmtSci,W4409620756,60,"Tractable model of aspirations and search, crisp result",SMJ
+rulebook,MgmtSci,W4401533471,5,"Inductive two-case theory-building, institutional framing",OrgSci
+rulebook,MgmtSci,W4415962253,40,"Plausible org design mechanism, but associational alliance data",OrgSci
+rulebook,MgmtSci,W4410537786,72,Formal platform competition model with privacy and welfare insights,MgmtSci
+rulebook,MgmtSci,W4392760955,55,"Novel job-posting measure of scaling timing, large data, trade-off",SMJ
+rulebook,MgmtSci,W4416011092,62,"Field shock plus large experiments, managerial exit decisions",MgmtSci
+rulebook,MgmtSci,W4403493445,38,"Attention-based verbal theory, case-control association",SMJ
+rulebook,MgmtSci,W4404164210,75,Principal-agent model with crisp incentive insights,MgmtSci
+rulebook,MgmtSci,W4416351719,20,"Structuration theory framing, literature-integration contribution",SMJ
+rulebook,MgmtSci,W4391361637,72,"Property rights model of ad exchanges, policy-relevant",MgmtSci
+rulebook,MgmtSci,W4413313723,85,"Natural experiment on eBay, interpretable effect, mechanism",MgmtSci
+rulebook,MgmtSci,W7140330321,62,New large-scale reusable partisanship measure; validation mostly descriptive,OrgSci
+rulebook,MgmtSci,W4402408038,5,"Inductive single-case field study, inhabited institutionalism framing",OrgSci
+rulebook,MgmtSci,W4410127539,55,"Quasi-random matching gives causal learning effect, mixed with qualitative",SMJ
+rulebook,MgmtSci,W4402845374,80,Formal model of free-riding tested on airline field data,MgmtSci
+rulebook,MgmtSci,W4413342591,72,"RDD on close elections, interpretable 41% effect",MgmtSci
+rulebook,MgmtSci,W4410298372,25,"Psychology construct relabeling, associational Shark Tank evidence",OrgSci
+rulebook,MgmtSci,W4405915894,12,"Small-sample moderator study, literature-framed contribution",SMJ
+rulebook,MgmtSci,W4402310152,70,Board incentives on large data with staggered DiD,OrgSci
+rulebook,MgmtSci,W7138921623,30,"Verbal network theorizing with moderators, panel associations",SMJ
+rulebook,MgmtSci,W7160168093,82,"Large field experiment on manager-worker incentives, real outcomes",MgmtSci
+rulebook,MgmtSci,W7170761526,58,"ChatGPT shock and queuing model, but jargon taxonomy",MgmtSci
+rulebook,MgmtSci,W4408928101,60,"Large platform hiring data, demand-side discrimination mechanism",OrgSci
+rulebook,MgmtSci,W4394808604,6,Ethnographic inductive study of work-family conflict,OrgSci
+rulebook,MgmtSci,W7129025385,60,"Large novel scientist dataset, mostly associational",OrgSci
+rulebook,MgmtSci,W4417280442,55,China shock DiD with text measure; strategy-scholar tool framing,MgmtSci
+rulebook,MgmtSci,W7165365766,62,Event study with interpretable dollar effect sizes; modest sample,MgmtSci
+rulebook,MgmtSci,W4391436263,55,Huge ratings data plus experiment on mechanisms; status framing,SMJ
+rulebook,MgmtSci,W4394978746,50,"Firm response to litigation risk; verbal theorizing, unclear identification",SMJ
+rulebook,MgmtSci,W4415181102,30,"Stigma framing, multimethod with vignettes",MgmtSci
+rulebook,MgmtSci,W4392369033,25,"Appropriateness/ideology framing, moderator hypotheses, no identification",OrgSci
+rulebook,MgmtSci,W4410739828,12,"Team mental models in firefighters; context-bound, small sample",OrgSci
+rulebook,MgmtSci,W4413584536,75,"RDiT on registry data, employer-side incentive mechanism for gender gap",MgmtSci
+rulebook,MgmtSci,W7172310516,80,Crisp formal signaling model with platform design implications,MgmtSci
+rulebook,MgmtSci,W4415848566,20,"Performance feedback moderators, panel associations without identification",SMJ
+rulebook,MgmtSci,W4398168833,4,Ethnography on identity work,OrgSci
+rulebook,MgmtSci,W7168163083,5,Inductive interview study on discrimination accounts,OrgSci
+rulebook,MgmtSci,W4406871104,28,"Audience perceptions of novelty, legitimacy framing",MgmtSci
+rulebook,MgmtSci,W4415700242,55,"Formal timing model, but coined typology without empirical tie-in",MgmtSci
+rulebook,MgmtSci,W4415966340,35,"Psych perception experiments, some EEOC data",OrgSci
+rulebook,MgmtSci,W7215045513,78,"Large payroll data, interpretable pay gap, incentive-monitoring mechanism",MgmtSci
+rulebook,MgmtSci,W4406619528,68,Formal economic model of AGI competition with crisp insight,MgmtSci
+rulebook,MgmtSci,W4415667705,62,Large preregistered audit field experiment with interpretable effect sizes,OrgSci
+rulebook,MgmtSci,W4415885063,40,"Mixed qualitative/quantitative ecosystem study, adjustment cost mechanism partially economic",SMJ
+rulebook,MgmtSci,W4407430050,5,"Inductive comparative case study, process model, coined constructs",OrgSci
+rulebook,MgmtSci,W4411880120,72,"Granular GPS data, capital constraints causal effect on misconduct",MgmtSci
+rulebook,MgmtSci,W4396930942,18,"Methodological guidance for scholars, not substantive question",SMJ
+rulebook,MgmtSci,W4401533548,42,"Lab experiment with self-enhancement moderator, behavioral but small",OrgSci
+rulebook,MgmtSci,W7133752671,58,New reusable task measure plus large integrative experiment,MgmtSci
+rulebook,MgmtSci,W7164527973,75,Large randomized field experiment on AI and teams at P&G,OrgSci
+rulebook,MgmtSci,W4400456134,62,"DiD on entry reform, outside option bargaining mechanism",OrgSci
+rulebook,MgmtSci,W4391108968,65,"Airline route shocks, bargaining power in M&A, large archival",SMJ
+rulebook,MgmtSci,W4391957405,42,"Formal model but inverted-U, cultural evolution framing, no empirics",OrgSci
+rulebook,MgmtSci,W4392191201,50,"Historical single firm case, but complementarity insight on automation",MgmtSci
+rulebook,MgmtSci,W7160560531,32,"Typology of motives, associational, literature-framed contribution",SMJ
+rulebook,MgmtSci,W7204030819,45,"Archival lobbying data, agency costs, but associational correlation",SMJ
+rulebook,MgmtSci,W7131875656,72,Principal-agent model with crisp strategic complementarity insight on delegation,MgmtSci
+rulebook,MgmtSci,W4413128838,22,"Conceptual governance typology, verbal propositions, no empirics",SMJ
+rulebook,MgmtSci,W4403391988,55,"Field RCT but small sample, associational coordination outcomes",OrgSci
+rulebook,MgmtSci,W4410132467,70,New validated reusable measure of commercial potential with applications,SMJ
+rulebook,MgmtSci,W4391928606,62,Formal competition model with clear counterintuitive insight; thin empirics,SMJ
+rulebook,MgmtSci,W4401437965,40,Panel associations with moderators; concealment framing; rare data,SMJ
+rulebook,MgmtSci,W7160896437,75,Formal kill-zone model with merger policy implications,MgmtSci
+rulebook,MgmtSci,W4400494323,78,"Randomized networking field experiment, profit effect sizes",MgmtSci
+rulebook,MgmtSci,W7162518787,62,"Formal model tested on census microdata, but direction-only support",SMJ
+rulebook,MgmtSci,W4395478680,42,"Information asymmetry, but niche sports context and hypothesis-confirmation",SMJ
+rulebook,MgmtSci,W7140292561,68,"Trade war shock, shipping records, information mechanism",SMJ
+rulebook,MgmtSci,W4415221881,8,Inductive qualitative single hospital case study,OrgSci
+rulebook,MgmtSci,W4391822681,74,"Exogenous office assignment, distance-decay spillover estimates",MgmtSci
+rulebook,MgmtSci,W4393992555,6,Purely conceptual identity theorizing with paradox framing,OrgSci
+rulebook,MgmtSci,W4413078142,60,Policy shock identification of labor-market spillovers,OrgSci
+rulebook,MgmtSci,W4401438064,62,"Firm intervention effect on networks, signaling mechanism, behavioral network data",SMJ
+rulebook,MgmtSci,W4408615243,35,"Context-bound sports setting, institutional framing, associational",MgmtSci
+rulebook,MgmtSci,W4414575593,10,"Qualitative category work, label appropriation, coined dilemma",SMJ
+rulebook,MgmtSci,W7140163197,22,"Coined label, verbal theorizing with moderators, no identification",OrgSci
+rulebook,MgmtSci,W7204194857,55,"GAI shock on innovation direction, platform data",SMJ
+rulebook,MgmtSci,W4401913114,70,"Event studies, interpretable dollar effect sizes, investor valuation",OrgSci
+rulebook,MgmtSci,W7167915571,85,"Randomized field experiment, interpretable heterogeneous effects, managerial relevance",MgmtSci
+rulebook,MgmtSci,W4409654205,78,"Policy shock, unintended consequences, strategic firm response mechanisms",MgmtSci
+rulebook,MgmtSci,W7165627926,12,"Historical qualitative case study, systems perspective",OrgSci
+rulebook,MgmtSci,W4416295432,60,"Learning trade-off, platform timing variation for identification",OrgSci
+rulebook,MgmtSci,W7118789025,52,"Explicit trade-off, large industry data, but associational",SMJ
+rulebook,MgmtSci,W4412477089,38,"New measure but category-literature framing, replication",OrgSci
+rulebook,MgmtSci,W4396826999,35,"Upper echelons, attention-based view, small sample associations",SMJ
+rulebook,MgmtSci,W7154732713,12,Qualitative single-context process study,SMJ
+rulebook,MgmtSci,W7140141833,5,Purely methodological philosophy-of-science essay,SMJ
+rulebook,MgmtSci,W4410395534,22,"Sociological mixed-methods, qualitative interviews drive mechanism; context-bound",OrgSci
+rulebook,MgmtSci,W4408103243,55,"Large RCT on actual behavior, but justice framing, no effect sizes",MgmtSci
+rulebook,MgmtSci,W7223183398,45,"Field quasi-experiment on incentives, but coined concept and network-theory framing",SMJ
+rulebook,MgmtSci,W4407148851,20,Database descriptive paper aimed at strategy scholars; no substantive answer,SMJ
+rulebook,MgmtSci,W4400595406,35,"RDD credible but status anxiety, paradox, decoupling sociological framing",SMJ
+rulebook,MgmtSci,W4408812156,35,"Categories-literature framing, coined 'misfit bias', perception mechanism",OrgSci
+rulebook,MgmtSci,W4414937457,5,Inductive qualitative interview study with identity framing,OrgSci
+rulebook,MgmtSci,W7168839273,35,"New ML measure, but framed as methodological critique for strategy scholars",SMJ
+rulebook,MgmtSci,W4401643197,80,Formal model plus empirical test with BlackRock-BGI shock; economic mechanism,MgmtSci
+rulebook,MgmtSci,W4416425919,65,Principal-multiagent model of incentives with managerial implications,MgmtSci
+rulebook,MgmtSci,W4408879455,75,"Large field data, staggered transparency shocks, incentive mechanism on pay",SMJ
+rulebook,MgmtSci,W7128598029,50,Comment correcting MS game-theory paper; journal publishes such notes,MgmtSci

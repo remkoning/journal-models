@@ -95,6 +95,11 @@
 - **Results (test pairs, one pair per call):**
   - Journal hidden, rules only: **86%** [82–89], vs. 50% with nothing and 93% with 100 abstracts. On Org Sci vs. MS: 85% vs. 80% for the abstracts.
   - Journal named, empty vs. final rulebook: 92 → 89 (Org Sci), 93 → 86 (SMJ), 99 → 96 (MS). Validation gains on 30 pairs did not generalize; the named prior already carries the taste.
+  - **Rulebook models in calibration and feedback (named):**
+    - Attribution 69% (vs. 72% name only, 78% contrastive); AUC .77 / .77 / .87.
+    - Feedback pushes are *more* differentiated than with contrastive abstracts (χ² = 109 vs. 68).
+    - Revisions move toward their own journal 73 / 70 / 90% of the time (vs. 57 / 53 / 77%).
+    - Push profiles correlate with the contrastive ones at 0.81 (Org Sci), 0.24 (SMJ) and 0.95 (MS).
   - Run: 6 iterations per journal, 3,549 CLI calls, 271 minutes (interrupted once by the plan's 5-hour limit and resumed from cache).
 
 ## 8. Infrastructure and cost

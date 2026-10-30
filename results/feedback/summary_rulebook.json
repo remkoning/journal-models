@@ -1,0 +1,94 @@
+{
+  "mode": "rulebook",
+  "n_papers": 30,
+  "n_reviews": 90,
+  "category_mix": {
+    "OrgSci": {
+      "mechanism": 22,
+      "methods": 3,
+      "theory": 34,
+      "scope": 17,
+      "positioning": 13,
+      "data": 1
+    },
+    "SMJ": {
+      "methods": 5,
+      "positioning": 19,
+      "theory": 19,
+      "scope": 20,
+      "mechanism": 3,
+      "data": 15,
+      "practice": 9
+    },
+    "MgmtSci": {
+      "methods": 23,
+      "theory": 21,
+      "mechanism": 17,
+      "practice": 18,
+      "data": 11
+    }
+  },
+  "category_share": {
+    "OrgSci": {
+      "theory": 0.378,
+      "mechanism": 0.244,
+      "methods": 0.033,
+      "data": 0.011,
+      "scope": 0.189,
+      "practice": 0.0,
+      "positioning": 0.144
+    },
+    "SMJ": {
+      "theory": 0.211,
+      "mechanism": 0.033,
+      "methods": 0.056,
+      "data": 0.167,
+      "scope": 0.222,
+      "practice": 0.1,
+      "positioning": 0.211
+    },
+    "MgmtSci": {
+      "theory": 0.233,
+      "mechanism": 0.189,
+      "methods": 0.256,
+      "data": 0.122,
+      "scope": 0.0,
+      "practice": 0.2,
+      "positioning": 0.0
+    }
+  },
+  "mean_fit_score_by_model_and_paper_journal": {
+    "OrgSci": {
+      "OrgSci": 54.5,
+      "SMJ": 44.1,
+      "MgmtSci": 25.8
+    },
+    "SMJ": {
+      "OrgSci": 37.9,
+      "SMJ": 52.8,
+      "MgmtSci": 34.2
+    },
+    "MgmtSci": {
+      "OrgSci": 33.6,
+      "SMJ": 48.7,
+      "MgmtSci": 52.2
+    }
+  },
+  "movement": {
+    "OrgSci": {
+      "mean_toward_own": 0.02976919412612915,
+      "mean_toward_other": 0.02024486263593038,
+      "share_own_is_max": 0.7333333333333333
+    },
+    "SMJ": {
+      "mean_toward_own": 0.03639661471048991,
+      "mean_toward_other": 0.026799793044726055,
+      "share_own_is_max": 0.7
+    },
+    "MgmtSci": {
+      "mean_toward_own": 0.020239106814066567,
+      "mean_toward_other": 0.004118000467618306,
+      "share_own_is_max": 0.9
+    }
+  }
+}
