@@ -7,8 +7,10 @@ replies, awards, calls for papers), abstracts < 50 words after cleaning, duplica
 """
 from __future__ import annotations
 
+import filecmp
 import hashlib
 import json
+import os
 import re
 import sys
 from collections import Counter
@@ -121,7 +123,13 @@ def main():
             "abstract_norm", "n_words", "n_words_norm", "ms_department", "in_core", "split", "cites_total", "cites_5yr",
             "counts_by_year", "primary_topic", "primary_topic_id", "subfield", "field", "referenced_works"]
     df = df[cols]
-    df.to_parquet(LOCAL / "works.parquet", index=False)
+    out, tmp = LOCAL / "works.parquet", LOCAL / "works.parquet.tmp"
+    df.to_parquet(tmp, index=False)
+    if out.exists() and filecmp.cmp(tmp, out, shallow=False):
+        os.remove(tmp)
+        print("works.parquet unchanged; not rewritten")
+    else:   # atomic replace, so concurrent readers never see a half-written file
+        os.replace(tmp, out)
 
     mdir = (LOCAL / "manifest_rebuild") if pin else MANIFEST
     mdir.mkdir(parents=True, exist_ok=True)

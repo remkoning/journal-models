@@ -4,8 +4,6 @@ cross_{split}.jsonl : topic-matched cross-journal pairs (in_core only), greedy o
                       similarity, |year diff| <= 1, sim >= threshold. Candidate edges must share the OpenAlex
                       subfield OR have cosine >= HI_SIM (topic block). Plain thresholding without the block could not
                       reach 70% topic/subfield agreement at usable N (diagnostic table kept in pair_stats.json).
-cite_{split}.jsonl  : within-journal-year 'promise' pairs, 2016-2020, top vs bottom quartile of 5-year citations.
-cross_fullms_{split}.jsonl : robustness, as cross but MgmtSci side uses ALL MgmtSci departments.
 Pairs never cross splits. Order within a pair is randomized (seeded).
 """
 from __future__ import annotations
@@ -62,16 +60,12 @@ def greedy_match(A: pd.DataFrame, B: pd.DataFrame, XA: np.ndarray, XB: np.ndarra
     return out
 
 
-def build_cross(df: pd.DataFrame, X: np.ndarray, row: dict, ms_full: bool = False, block: bool = True) -> pd.DataFrame:
+def build_cross(df: pd.DataFrame, X: np.ndarray, row: dict, block: bool = True) -> pd.DataFrame:
     recs = []
-    jpairs = JPAIRS if not ms_full else [p for p in JPAIRS if "MgmtSci" in p]
     for split in SPLITS:
-        for J, K in jpairs:
+        for J, K in JPAIRS:
             def side(j):
-                m = (df.journal == j) & (df.split == split)
-                if not (ms_full and j == "MgmtSci"):
-                    m &= df.in_core
-                return df[m].reset_index(drop=True)
+                return df[(df.journal == j) & (df.split == split) & df.in_core].reset_index(drop=True)
             A, B = side(J), side(K)
             XA, XB = X[[row[i] for i in A.openalex_id]], X[[row[i] for i in B.openalex_id]]
             for a, b, s in greedy_match(A, B, XA, XB, block=block):
@@ -118,42 +112,6 @@ def finalize_cross(m: pd.DataFrame, thr: float, prefix: str) -> pd.DataFrame:
     return pd.DataFrame(out)
 
 
-def build_cite(df: pd.DataFrame, X: np.ndarray, row: dict) -> tuple[pd.DataFrame, list]:
-    """Within journal-year (in_core, 2016-2020): quartiles on cites_5yr computed across all splits; pairs formed
-    within split. Each high paper is matched to an unused low paper, preferring same subfield, then highest cosine."""
-    core = df[df.in_core & df.year.between(2016, 2020) & df.cites_5yr.notna()]
-    recs, qstats = [], []
-    for (j, y), g in core.groupby(["journal", "year"]):
-        q25, q75 = np.quantile(g.cites_5yr, [0.25, 0.75])
-        qstats.append({"journal": j, "year": int(y), "n": len(g), "q25": float(q25), "q75": float(q75)})
-        for split in SPLITS:
-            gs = g[g.split == split]
-            hi = gs[gs.cites_5yr >= q75].sample(frac=1, random_state=int(_rng("hi", j, y, split).integers(1e9)))
-            lo = gs[gs.cites_5yr <= q25]
-            if len(hi) == 0 or len(lo) == 0:
-                continue
-            lo_used = set()
-            Xlo = X[[row[i] for i in lo.openalex_id]]
-            for h in hi.itertuples(index=False):
-                avail = np.array([i not in lo_used for i in lo.openalex_id])
-                if not avail.any():
-                    break
-                sims = Xlo @ X[row[h.openalex_id]]
-                same = (lo.subfield.to_numpy() == h.subfield) & avail
-                pool = same if same.any() else avail
-                k = int(np.argmax(np.where(pool, sims, -np.inf)))
-                l = lo.iloc[k]
-                lo_used.add(l.openalex_id)
-                flip = _rng("cite", h.openalex_id, l.openalex_id).random() < 0.5
-                hi_rec, lo_rec = (h.openalex_id, h.cites_5yr), (l.openalex_id, l.cites_5yr)
-                (aid, ac), (bid, bc) = (lo_rec, hi_rec) if flip else (hi_rec, lo_rec)
-                recs.append({"pair_id": f"cite-{split}-{j}-{y}-{hashlib.sha1((h.openalex_id + l.openalex_id).encode()).hexdigest()[:8]}",
-                             "a_id": aid, "b_id": bid, "journal": j, "year": int(y), "a_cites5": int(ac), "b_cites5": int(bc),
-                             "higher": "b" if flip else "a", "same_subfield": bool(same.any()),
-                             "sim": round(float(sims[k]), 4), "q25": float(q25), "q75": float(q75), "split": split})
-    return pd.DataFrame(recs), qstats
-
-
 def write_split(d: pd.DataFrame, kind: str):
     OUT.mkdir(parents=True, exist_ok=True)
     for split in SPLITS:
@@ -173,11 +131,6 @@ def main():
     thr, tab = choose_threshold(m)
     cross = finalize_cross(m, thr, "cross")
     write_split(cross, "cross")
-    mf = build_cross(df, X, row, ms_full=True)
-    cross_full = finalize_cross(mf, thr, "crossfull")
-    write_split(cross_full, "cross_fullms")
-    cite, qstats = build_cite(df, X, row)
-    write_split(cite, "cite")
 
     def counts(d, by):
         return {f"{k[0]}|{k[1]}" if isinstance(k, tuple) else k: int(v) for k, v in d.groupby(by).size().items()}
@@ -198,18 +151,9 @@ def main():
                            "mean_abs_year_diff": round(float((g.a_year - g.b_year).abs().mean()), 2),
                            "share_a_is_first_journal": round(float((g.a_journal == jp.split('-')[0]).mean()), 3)}
                       for jp, g in cross.groupby("journal_pair")},
-        "cross_fullms_counts": counts(cross_full, ["journal_pair", "split"]),
-        "cross_fullms_sim": {jp: {"mean": round(g.sim.mean(), 3), "share_same_topic_or_subfield": round(g.same_topic.mean(), 3)}
-                             for jp, g in cross_full.groupby("journal_pair")},
-        "cite_counts": counts(cite, ["journal", "split"]),
-        "cite_share_same_subfield": round(float(cite.same_subfield.mean()), 3),
-        "cite_share_higher_a": round(float((cite.higher == "a").mean()), 3),
-        "cite_median_ratio_hi_lo": round(float((cite[["a_cites5", "b_cites5"]].max(axis=1) /
-                                                cite[["a_cites5", "b_cites5"]].min(axis=1).clip(lower=1)).median()), 2),
-        "cite_quartiles": qstats,
     }
     (ROOT / "data" / "manifest" / "pair_stats.json").write_text(json.dumps(stats, indent=1, default=float))
-    print(json.dumps({k: v for k, v in stats.items() if k not in ("cross_threshold_table", "cite_quartiles")}, indent=1, default=float))
+    print(json.dumps({k: v for k, v in stats.items() if k != "cross_threshold_table"}, indent=1, default=float))
     print(tab[tab.t.isin([0.6, 0.65, 0.7, 0.75, 0.8, 0.85, thr])].to_string())
 
 
