@@ -37,75 +37,7 @@ def main():
     em = json.loads((M / "embedding_meta.json").read_text())
     seeds = pd.DataFrame(jl(ROOT / "develop" / "seeds.jsonl"))
     fut = pd.DataFrame(jl(ROOT / "develop" / "future_manifest.jsonl"))
-    gong = pd.DataFrame(jl(ROOT / "evals" / "external_gong_manifest.jsonl"))
     usage = oa.usage_summary()
-    lt = json.loads((M / "lower_tier_stats.json").read_text()) if (M / "lower_tier_stats.json").exists() else None
-    cal = pd.DataFrame(jl(ROOT / "evals" / "calibration_manifest.jsonl")) if lt else None
-    calib_md = ""
-    if lt:
-        lt_counts = pd.DataFrame(lt["counts"]).T
-        lt_counts["total"] = lt_counts.sum(axis=1)
-        lt_split = pd.DataFrame(lt["split_counts"]).T[["train", "val", "test"]]
-        ov = pd.DataFrame(lt["topical_overlap"]).T.drop(columns=["top_subfields"], errors="ignore").reset_index(names="journal")
-        au = pd.DataFrame(lt["audit_clean_pct"]).T.reset_index(names="journal")
-        cc = cal.groupby(["source", "tier"]).size().reset_index(name="n")
-        cy = pd.DataFrame(lt["calibration_years"]).T.reset_index(names="source")
-        drops_l = pd.Series(lt["dropped"]).rename_axis("journal / reason").reset_index(name="n")
-        drops_l["journal / reason"] = drops_l["journal / reason"].str.replace("|", " / ", regex=False)
-        calib_md = f"""
-## CALIBRATION: "is my paper good enough for journal J?"
-
-**Lower-tier journals.** The two are chosen from Gong, Li & Zhou's management tier map (ST3, in
-`data/local/external/ai_taste_3e6637c7/`). The requirements were: non-Elsevier, ≥85% OpenAlex abstract coverage for
-2022-2026 articles, and topical overlap with OrgSci/SMJ.
-
-| short | journal | publisher | Gong tier | OpenAlex source | abstract coverage 2022-26 |
-|---|---|---|---|---|---|
-| JMS | Journal of Management Studies | Wiley | Fair | S151705444 | 98.2% |
-| GOM | Group & Organization Management | SAGE | Limited | S192266589 | 87.8% |
-
-JMS has the closest strategy, organization-theory, innovation and entrepreneurship overlap among the Fair journals.
-GOM, from the Limited tier, adds a second step down, mostly on organizations and teams.
-
-Excluded candidates and why:
-* Leadership Quarterly is Elsevier.
-* Human Relations is Fair, with 93.7% coverage; it is the fallback if a second Fair journal is wanted.
-* Human Resource Management, Journal of Organizational Behavior, J Business & Psychology, J Managerial Psychology,
-  J Org Behavior Management and J Personnel Psychology are HR- or psychology-centred.
-
-Topical overlap was checked against the OrgSci+SMJ 2022-2026 corpus by nearest-neighbour bge cosine. Both lower-tier
-journals are about as close to the flagships as the flagships are to each other:
-
-{md(ov)}
-
-**Table.** `data/local/lower_tier.parquet` has the same columns as `works.parquet`, plus `tier="lower"` and `gong_tier`.
-It holds 2022-2026 articles with abstracts and is cleaned by the same pipeline: same filters, `abstract_norm` ≤180
-words, and the journals' own names masked as `[JOURNAL]`. Embeddings are in `lower_tier_embeddings.npy` and
-`lower_tier_embedding_ids.json` (same bge model). `split` uses the same ID hash. In this table, `in_core=False` means
-"not applicable". Nothing was added to `works.parquet`, and no existing split, pair or ID file was changed.
-`jm.data.text(id)` resolves these IDs, and `load_lower_tier()` loads the table.
-
-{md(lt_counts.reset_index(names="journal"))}
-
-{md(lt_split.reset_index(names="journal"))}
-
-Dropped rows (same filters as the main corpus):
-
-{md(drops_l)}
-
-Residual giveaway audit on the clean text (%); `own_name` is JMS/GOM name mentions after masking:
-
-{md(au)}
-
-**Probe set: `evals/calibration_manifest.jsonl`** (IDs only; fields `openalex_id, source, tier, year`). All rows are
-from the test split and 2022-2026. It has 20 core papers each from OrgSci, SMJ and MgmtSci, and 30 each from JMS and
-GOM, so 60 are `top` and 60 `lower`. Each source has equal per-year quotas (4 per year for the 20s, 6 per year for the
-30s). Gong external-check items are excluded. Load it with `jm.data.load_calibration()`.
-
-{md(cc)}
-
-{md(cy)}
-"""
     fetched = sorted({json.loads(x)["ts"][:10] for x in oa.USAGE_LOG.read_text().splitlines()}) if oa.USAGE_LOG.exists() else []
 
     # counts
@@ -174,8 +106,6 @@ labels, pairs and metadata only (`data/manifest/`, `evals/`, `develop/`, `credit
   cursor paging needs a key, so we use page-based paging per journal-year). Full log: `data/local/openalex_usage.jsonl`.
 * **DEVELOP citing works** come from OpenAlex `filter=cites:<seed>,publication_year:>seed_year+1,has_abstract:true,
   type:article|review|book-chapter`, sorted by `cited_by_count:desc`, top 10, any venue.
-* **External check**: Gong, Li & Zhou (2026), `github.com/FutureTech-OB/ai-taste` at commit `3e6637c7`. Data are CC BY 4.0.
-  Only data files were downloaded; no code from the repo was run.
 * **Embeddings**: `{em['model']}` (HF revision `{em.get('hf_revision')}`), {em['dim']}-d, L2-normalized, no query instruction.
   Built locally with sentence-transformers {em.get('sentence_transformers')} and torch {em.get('torch')}, on the `{em['text_field']}` field.
   Cost: $0.
@@ -318,18 +248,6 @@ IDs that also appear in the placebo's future. Downstream scoring should drop the
 
 All players and all t have embeddings in `data/local/embeddings.npy`.
 
-## External check: `evals/external_gong_manifest.jsonl` and `data/local/external_gong.jsonl`
-
-The source is the Gong et al. management benchmark (120 items). We keep all 12 Organization Science and Strategic Management
-Journal items, all labelled `top`, which maps to unified `exceptional`. We add 12 lowest-tier items (`fair`, unified
-`limited`) from other management journals, chosen round-robin by journal. The text field used is **`rq_with_context`**,
-the released research-idea pitch, which is not the abstract. All {int(gong.in_our_corpus_openalex_id.notna().sum())} OrgSci/SMJ items
-are also in our corpus (2025 papers; their splits are recorded in `our_split`). Exclude them from any playbook training
-before using this as an external check. The raw files are in `data/local/external/ai_taste_3e6637c7/`.
-
-{md(gong.groupby(['selected_as', 'journal_short', 'unified_label']).size().reset_index(name='n'))}
-
-{calib_md}
 ## Regenerate
 
 ```bash

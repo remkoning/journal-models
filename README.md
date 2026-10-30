@@ -34,16 +34,13 @@ commits IDs, labels and pairs. Rebuild the local store with one command:
 ```
 
 Downstream code loads data through `jm/data.py`: `load_works()`, `text(id)`, `emb(id)`, `load_pairs(kind, split)`,
-`load_seeds()`, `load_develop_future()`, `load_credit()`, `load_calibration()`, `load_lower_tier()` and
-`load_external_gong()`. Schemas, counts, the cleaning audit
+`load_seeds()`, `load_develop_future()` and `load_credit()`. Schemas, counts, the cleaning audit
 and known limitations are in [`data/README.md`](data/README.md).
 
 | Path | Contents |
 |---|---|
 | `data/manifest/` | `works_manifest.csv` (IDs and metadata), drop log, cleaning audit, pair, credit and embedding stats |
 | `evals/pairs/` | EVALUATE pairs: `cross_*`, `cite_*`, `cross_fullms_*` (train/val/test) |
-| `evals/external_gong_manifest.jsonl` | Gong et al. (2026) pitches, for the external check |
-| `evals/calibration_manifest.jsonl` | CALIBRATION probe set: 60 top (OrgSci, SMJ, MgmtSci) vs 60 lower-tier (JMS, GOM) test abstracts |
 | `develop/` | DEVELOP `seeds.jsonl` and `future_manifest.jsonl` |
 | `credit/` | CREDIT `players.json`, `future_T.json`, `citation_edges.jsonl` |
 | `scripts/s01..s08` | pipeline steps, orchestrated by `data/build_all.py` |
