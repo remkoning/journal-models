@@ -53,6 +53,19 @@
 - **Metrics:**
   - AUC for own vs. other journals' papers. Name only → contrastive: Org Sci 0.74 → 0.86, SMJ 0.82 → 0.93, MS 0.89 → 0.92.
   - Within each score band, the share of papers truly from *J*. This rises monotonically: 0% at ≤20, and 61% (Org Sci), 79% (SMJ) and 88% (MS) at 61–80, against a 33% base rate.
+- **Vertical vs. horizontal** (`scripts/vertical_horizontal.py`), following the firm × application matrix of Alidaee, Khanna & Koning (2026):
+  - All 117 papers × 3 models are re-scored with a different batch order (seed 1), giving two replicates.
+  - A two-way random-effects ANOVA with replication splits score variance into paper (shared, vertical), paper × journal (journal-specific, horizontal) and noise. Each model's mean (leniency) is removed first.
+  - The *within-venue* version also removes model means within each publishing journal, so venue sorting cannot drive disagreement.
+  - Results:
+
+    | Mode | Test-retest r | Within venue: shared | Within venue: journal-specific | Cross-model r within venue |
+    |---|---|---|---|---|
+    | Name only | 0.91–0.92 | 23% | 77% | 0.05 to 0.38 |
+    | Contrastive | 0.95 | 0% | 100% | −0.30 to 0.21 |
+    | Rulebook | 0.97–0.98 | 0% | 100% | −0.24 to 0.20 |
+
+  - Caveats: published papers only, so quality is compressed. The question asked is fit ("would *J* publish this?"), not quality.
 
 ## 5. C. Same paper, three journals: feedback
 - **Papers:** 30 held-out papers from 2025–26, 10 per journal. Each of the three contrastive journal-models returns:
@@ -76,12 +89,22 @@
   - β[i, p] = mean score of probe p when abstract i is included minus when it is excluded (a Banzhaf / datamodel estimator).
   - **Value** = β on own-journal probes minus β on other probes.
   - **Influence** = RMS of β, estimated from split halves.
-- **Pilot (Org Sci, m = 150):**
-  - With the journal named, split-half reliability is 0.20; Claude's prior about the journal swamps any one abstract.
-  - Anonymized ("Journal X"), reliability is 0.36.
+- **Reliability** = split-half correlation of value, averaged over 200 random half-splits, then Spearman–Brown. *Correction:* an earlier version used one odd/even split, which overstated reliability (0.20 → 0.07 named; 0.36 → 0.24 anonymized).
+- **Pilot (Org Sci, m = 150, contrast design):**
+  - Named, reliability 0.07: Claude's prior about the journal swamps any one abstract.
+  - Anonymized ("Journal X"), reliability 0.24.
   - Correlation with citations is null at this scale.
-  - Projection: about 600 runs per journal for reliability near 0.7.
-- **Status:** a working pipeline that needs more runs. Fine-tuning-based influence functions are a Stage 2 alternative.
+- **Diagnosis:**
+  - A ridge "datamodel" regression on all inclusion indicators does *not* raise reliability (0.14–0.18), so interference from the other abstracts is not the problem.
+  - Probe position within the batch explains 4–7% of residual score variance.
+  - A per-run leniency shift explains ~21%, but it cancels in the own-minus-other value.
+  - **Per-probe scoring noise dominates.**
+- **v2 design** (`--design own --anonymous --k 10 --n-probes 48`):
+  - Hidden journal, own abstracts only (no contrast set), so all of the model's taste comes from the abstracts that vary.
+  - k = 10, so each abstract carries a larger share.
+  - 48 probes (24 own, 24 other) in one fixed order, so runs differ only in the subset.
+  - m = 600. Results are compared with the pilot at matched m.
+- **Status:** a working pipeline, and a separate option rather than a core exhibit. Fine-tuning-based influence functions are a Stage 2 alternative.
 
 ## 7. Self-improving rulebook harness
 - A rulebook has two parts: ≤12 "what *J* values" rules and ≤8 "what *J* does not value" rules. It holds general principles only and never names a paper.
@@ -111,7 +134,9 @@
   - `python -m scripts.run_scoring`
   - `python -m scripts.run_feedback`
   - `python -m scripts.feedback_robustness`
-  - `python -m scripts.run_credit --journal OrgSci [--anonymous]`
+  - `python -m scripts.vertical_horizontal`
+  - `python -m scripts.run_credit --journal OrgSci [--anonymous]` (pilot)
+  - `python -m scripts.run_credit --journal OrgSci --design own --anonymous --k 10 --n-probes 48 --m 600` (v2), or `scripts/credit_overnight.sh SMJ MgmtSci`
   - `python -m scripts.make_figures`
 
 ## 9. Limitations

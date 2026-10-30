@@ -1,0 +1,95 @@
+{
+  "plain": {
+    "n_papers": 117,
+    "share_vertical": 0.04303973267611759,
+    "share_horizontal": 0.9569602673238824,
+    "noise_share_of_total": 0.08396935506018696,
+    "retest_r": {
+      "OrgSci": 0.9093996357198059,
+      "SMJ": 0.9150536176874234,
+      "MgmtSci": 0.9237491880038323
+    },
+    "cross_model_r": {
+      "OrgSci-SMJ": 0.014458139590284885,
+      "OrgSci-MgmtSci": -0.06992980640058985,
+      "SMJ-MgmtSci": 0.15451908868221279
+    },
+    "within_venue": {
+      "share_vertical": 0.2322862547487944,
+      "share_horizontal": 0.7677137452512056,
+      "noise_share_of_total": 0.11144597359514105,
+      "retest_r": {
+        "OrgSci": 0.8968015521269678,
+        "SMJ": 0.8869842634919981,
+        "MgmtSci": 0.8800703330084957
+      },
+      "cross_model_r": {
+        "OrgSci-SMJ": 0.21248394862862718,
+        "OrgSci-MgmtSci": 0.05347623822857604,
+        "SMJ-MgmtSci": 0.37530177203293397
+      }
+    }
+  },
+  "contrast": {
+    "n_papers": 117,
+    "share_vertical": 0.0,
+    "share_horizontal": 1.0,
+    "noise_share_of_total": 0.041682264581428645,
+    "retest_r": {
+      "OrgSci": 0.9513092550234808,
+      "SMJ": 0.9455572756098627,
+      "MgmtSci": 0.9495011159920543
+    },
+    "cross_model_r": {
+      "OrgSci-SMJ": -0.27527829321421443,
+      "OrgSci-MgmtSci": -0.3799167588824742,
+      "SMJ-MgmtSci": -0.05339985036080061
+    },
+    "within_venue": {
+      "share_vertical": 0.0,
+      "share_horizontal": 1.0,
+      "noise_share_of_total": 0.0798722927016044,
+      "retest_r": {
+        "OrgSci": 0.9289377660044277,
+        "SMJ": 0.9039998331464899,
+        "MgmtSci": 0.9124729577871871
+      },
+      "cross_model_r": {
+        "OrgSci-SMJ": -0.06074696991626108,
+        "OrgSci-MgmtSci": -0.3032401689052815,
+        "SMJ-MgmtSci": 0.2095573845421945
+      }
+    }
+  },
+  "rulebook": {
+    "n_papers": 117,
+    "share_vertical": 0.0,
+    "share_horizontal": 1.0,
+    "noise_share_of_total": 0.025031342972719903,
+    "retest_r": {
+      "OrgSci": 0.970837440505491,
+      "SMJ": 0.9684465975506952,
+      "MgmtSci": 0.9775923484952548
+    },
+    "cross_model_r": {
+      "OrgSci-SMJ": -0.08750933044875134,
+      "OrgSci-MgmtSci": -0.4083068990513039,
+      "SMJ-MgmtSci": 0.0904008088806603
+    },
+    "within_venue": {
+      "share_vertical": 0.0,
+      "share_horizontal": 1.0,
+      "noise_share_of_total": 0.03712634117621588,
+      "retest_r": {
+        "OrgSci": 0.9629028558754558,
+        "SMJ": 0.9603265214130448,
+        "MgmtSci": 0.9658511410317404
+      },
+      "cross_model_r": {
+        "OrgSci-SMJ": -0.018782751506412017,
+        "OrgSci-MgmtSci": -0.23875566789246083,
+        "SMJ-MgmtSci": 0.198238877877959
+      }
+    }
+  }
+}

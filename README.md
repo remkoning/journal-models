@@ -9,7 +9,7 @@ Prototype accompanying the Organization Science special-issue proposal *"The Jou
 | | Question | Script |
 |---|---|---|
 | A | Is journal taste learnable, and does it differ? | `scripts/pilot_taste.py --split test --batch 1 [--anonymous]` · `scripts/run_scoring.py` |
-| B | Calibration: does a high score mean it really is that journal's paper? | `scripts/run_scoring.py` |
+| B | Calibration: does a high score mean it really is that journal's paper? Do the models share a quality ranking (vertical) or not (horizontal)? | `scripts/run_scoring.py` · `scripts/vertical_horizontal.py` |
 | C | Same paper, three journals: where does each push the research? | `scripts/run_feedback.py` · `scripts/feedback_robustness.py` |
 | D | Credit: how much does each training abstract shape the model? | `scripts/run_credit.py` |
 | + | Self-improving rulebooks: what each journal values, in plain language | `harness/` → `results/harness/RULEBOOKS.md` |

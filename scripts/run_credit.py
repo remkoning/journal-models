@@ -10,9 +10,16 @@ Random-subset ("datamodel"/Banzhaf) estimate of each abstract's influence on the
                     (does including i sharpen the model's taste for its own journal's work?)
      influence[i] = RMS of beta over probes, estimated from independent split halves
                     (how much does including i move the model's judgments at all?)
-  4. Split-half reliability, then correlation with citations.
+  4. Split-half reliability (mean over random half-splits), then correlation with citations.
+
+Designs:
+  contrast  (pilot) the subset plus a fixed contrast set; probe order reshuffled each run
+  own       (v2) the subset only, so every bit of the model's taste comes from the abstracts that vary;
+            run with --anonymous ("Journal X"), --k 10 so each abstract carries more weight, 48 probes,
+            and one fixed probe order so runs differ only in the subset
 
     .venv/bin/python -m scripts.run_credit --journal OrgSci --m 300 --k 20
+    .venv/bin/python -m scripts.run_credit --journal OrgSci --design own --anonymous --k 10 --n-probes 48 --m 600
 """
 from __future__ import annotations
 
@@ -54,10 +61,11 @@ def probe_set(journal: str, n_own: int = 12, n_other: int = 12, seed: int = 0) -
     return out
 
 
-def run_subset(journal, subset, probes, s_idx, model, effort, anonymous=False):
-    jmod = JournalModel(journal, mode="contrast", ids=subset, model=model, effort=effort, anonymous=anonymous)
+def run_subset(journal, subset, probes, s_idx, model, effort, anonymous=False, design="contrast"):
+    jmod = JournalModel(journal, mode="contrast" if design == "contrast" else "incontext", ids=subset,
+                        model=model, effort=effort, anonymous=anonymous)
     order = list(range(len(probes)))
-    random.Random(s_idx).shuffle(order)
+    random.Random(s_idx if design == "contrast" else 0).shuffle(order)
     ids = [probes[i]["id"] for i in order]
     r = call(jmod.score_prompt(ids).replace(", and in `why` a short phrase (at most 15 words) naming what drives "
                                              "your judgment", ""),
@@ -79,16 +87,27 @@ def betas(X, Y):
     return B
 
 
+def split_half(X, Y, own, splits=200):
+    """Mean split-half r of value over random half-splits of the runs (one fixed split is too noisy)."""
+    val = lambda b: b[:, own].mean(1) - b[:, ~own].mean(1)
+    rs = []
+    for s in range(splits):
+        h = np.random.default_rng(s).permutation(len(X)) < len(X) // 2
+        rs.append(np.corrcoef(val(betas(X[h], Y[h])), val(betas(X[~h], Y[~h])))[0, 1])
+    r = float(np.mean(rs))
+    return r, 2 * r / (1 + r)                                           # Spearman-Brown to all runs
+
+
 def analyze(journal, X, Y, probes, ids):
     own = np.array([p["own"] for p in probes])
     half = np.arange(len(X)) % 2 == 0
     BA, BB, B = betas(X[half], Y[half]), betas(X[~half], Y[~half]), betas(X, Y)
     val = lambda b: b[:, own].mean(1) - b[:, ~own].mean(1)
-    vA, vB, v = val(BA), val(BB), val(B)
+    v = val(B)
     infl_sq = (BA * BB).mean(1)                       # unbiased for mean squared signal
     influence = np.sqrt(np.clip(infl_sq, 0, None))
-    r_half = float(np.corrcoef(vA, vB)[0, 1])
-    rel = 2 * r_half / (1 + r_half) if r_half > -1 else np.nan   # Spearman-Brown
+    r_half, rel = split_half(X, Y, own)
+    by_m = {int(m): split_half(X[:m], Y[:m], own, splits=100)[1] for m in (150, 300) if m < len(X)}
     w = load_works().set_index("openalex_id").loc[ids]
     pct = w.groupby("year")["cites_total"].rank(pct=True).values  # within-year citation percentile
     logc = np.log1p(w["cites_total"].values)
@@ -96,7 +115,7 @@ def analyze(journal, X, Y, probes, ids):
     res = {
         "journal": journal, "m_subsets": int(len(X)), "k": int(X[0].sum()), "n_probes": len(probes),
         "missing_scores_share": float(np.isnan(Y).mean()),
-        "split_half_r_value": r_half, "reliability_value": rel,
+        "split_half_r_value": r_half, "reliability_value": rel, "reliability_at_m": by_m,
         "mean_own_minus_other_score": float(np.nanmean(Y[:, own]) - np.nanmean(Y[:, ~own])),
         "spearman_value_vs_cite_pct": corr(v, pct), "spearman_value_vs_logcites": corr(v, logc),
         "spearman_influence_vs_cite_pct": corr(influence, pct),
@@ -118,22 +137,25 @@ def main():
     ap.add_argument("--effort", default="low")
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--anonymous", action="store_true")
+    ap.add_argument("--design", default="contrast", choices=["contrast", "own"])
+    ap.add_argument("--n-probes", type=int, default=24)
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     ids = taste_ids(args.journal)
-    probes = probe_set(args.journal)
+    probes = probe_set(args.journal, args.n_probes // 2, args.n_probes // 2)
     rng = random.Random(f"subsets-{args.journal}")
     subsets = [sorted(rng.sample(range(len(ids)), args.k)) for _ in range(args.m)]
     X = np.zeros((args.m, len(ids)), dtype=int)
     for s, sub in enumerate(subsets):
         X[s, sub] = 1
-    rows = map_parallel(lambda s: run_subset(args.journal, [ids[i] for i in subsets[s]], probes, s,
-                                             args.model, args.effort, args.anonymous), range(args.m), workers=args.workers)
+    rows = map_parallel(lambda s: run_subset(args.journal, [ids[i] for i in subsets[s]], probes, s, args.model,
+                                             args.effort, args.anonymous, args.design),
+                        range(args.m), workers=args.workers)
     ok = [s for s, r in enumerate(rows) if not isinstance(r, Exception)]
     print(f"{args.journal}: {len(ok)}/{args.m} subsets succeeded")
     Y = np.vstack([rows[s] for s in ok])
     X = X[ok]
-    sfx = "_anon" if args.anonymous else ""
+    sfx = ("_anon" if args.anonymous else "") + ("" if args.design == "contrast" else f"_own_k{args.k}_p{args.n_probes}")
     np.savez(OUT / f"{args.journal}{sfx}_runs.npz", X=X, Y=Y, ids=np.array(ids), probes=json.dumps(probes))
     res = analyze(args.journal, X, Y, probes, ids)
     (OUT / f"{args.journal}{sfx}_credit.json").write_text(json.dumps(res, indent=2))
