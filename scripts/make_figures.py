@@ -49,45 +49,61 @@ def boot(x, n=2000, seed=0):
     return np.percentile(m, [2.5, 97.5])
 
 
-def fig_pairs():
+def _pair_rows(sfx: str) -> pd.DataFrame:
     pairs = {p["pair_id"]: p for p in load_pairs("cross", "test")}
     rows = []
     for mode, _, _ in CONDS:
         for j in JOURNALS:
-            f = RES / "pilot" / f"probs_test_{mode}_{j}.json"
+            f = RES / "pilot" / f"probs_test_{mode}_{j}{sfx}.json"
             if not f.exists():
                 continue
             for pid, pa in json.loads(f.read_text()).items():
                 p = pairs[pid]
                 own = pa if p["a_journal"] == j else 1 - pa
                 rows.append({"mode": mode, "jp": p["journal_pair"], "correct": float(own > 0.5)})
-    if not rows:
-        return
-    d = pd.DataFrame(rows)
+    return pd.DataFrame(rows)
+
+
+def _pair_panel(ax, d, title, labels):
     jps = ["OrgSci-SMJ", "SMJ-MgmtSci", "OrgSci-MgmtSci"]
     conds = [c for c in CONDS if c[0] in set(d["mode"])]
-    fig, ax = plt.subplots(figsize=(7.2, 3.6))
     w = 0.8 / len(conds)
-    for k, (mode, label, color) in enumerate(conds):
+    for k, (mode, _, color) in enumerate(conds):
         for i, jp in enumerate(jps):
             x = d[(d["mode"] == mode) & (d.jp == jp)].correct.values
             if len(x) == 0:
                 continue
             lo, hi = boot(x)
             xi = i + (k - (len(conds) - 1) / 2) * w
-            ax.bar(xi, x.mean(), w - 0.02, color=color, label=label if i == 0 else None, zorder=2)
+            ax.bar(xi, x.mean(), w - 0.02, color=color, label=labels.get(mode) if i == 0 else None, zorder=2)
             ax.plot([xi, xi], [lo, hi], color=INK, lw=1, zorder=3)
-            ax.text(xi, hi + 0.012, f"{x.mean():.0%}", ha="center", va="bottom", fontsize=8, color=INK2)
-    n_pairs = {jp: int((d[d["mode"] == conds[0][0]].jp == jp).sum()) for jp in jps}
-    ax.set_xticks(range(len(jps)), [f"{SHORT[a]} vs {SHORT[b]}\n(n={n_pairs[f'{a}-{b}']} judgments)"
-                                   for a, b in (jp.split("-") for jp in jps)])
+            ax.text(xi, hi + 0.012, f"{x.mean():.0%}", ha="center", va="bottom", fontsize=7.5, color=INK2)
+    ax.set_xticks(range(len(jps)), [f"{SHORT[a]}\nvs {SHORT[b]}" for a, b in (jp.split("-") for jp in jps)])
     ax.axhline(0.5, color=INK2, lw=0.8, ls="--", zorder=1)
     ax.text(-0.55, 0.51, "chance", fontsize=8, color=INK2, ha="left")
-    ax.set_ylim(0.4, 1.08)
-    ax.set_ylabel("Picks its own journal's paper")
+    ax.set_ylim(0.3, 1.08)
     ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
-    ax.set_title("Is journal taste learnable? Topic-matched held-out pairs", loc="left", fontsize=11)
-    ax.legend(frameon=False, fontsize=8, ncol=len(conds), loc="upper left", bbox_to_anchor=(0, -0.2))
+    ax.set_title(title, loc="left", fontsize=10)
+    ax.legend(frameon=False, fontsize=8, loc="upper left", bbox_to_anchor=(0, -0.2))
+
+
+def fig_pairs():
+    named, anon = _pair_rows(""), _pair_rows("_anon")
+    if named.empty:
+        return
+    panels = [(named, "Journal named", {"plain": "Name only", "incontext": "+ 100 own abstracts",
+                                        "contrast": "+ 100 own & 100 elsewhere"})]
+    if not anon.empty:
+        panels.append((anon, 'Journal hidden ("Journal X")', {"plain": "No name, no abstracts",
+                                                              "incontext": "+ 100 own abstracts only",
+                                                              "contrast": "+ 100 own & 100 elsewhere"}))
+    fig, axes = plt.subplots(1, len(panels), figsize=(5.0 * len(panels), 3.9), sharey=True)
+    axes = np.atleast_1d(axes)
+    for ax, (d, title, labels) in zip(axes, panels):
+        _pair_panel(ax, d, title, labels)
+    axes[0].set_ylabel("Picks its own journal's paper")
+    fig.suptitle("Is journal taste learnable? Topic-matched held-out pairs, both presentation orders",
+                 x=0.01, ha="left", fontsize=11)
     fig.tight_layout()
     fig.savefig(FIG / "fig_A_pairs.png", dpi=200)
     plt.close(fig)
