@@ -1,0 +1,154 @@
+{
+ "raw": {
+  "MgmtSci": {
+   "accepted_by": 88.46,
+   "funding_label": 28.75,
+   "supplemental": 51.39,
+   "history_label": 0.03,
+   "copyright": 0.03,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.06,
+   "journal_name": 1.65,
+   "publisher_doi": 53.1,
+   "n": 3569
+  },
+  "OrgSci": {
+   "accepted_by": 0.11,
+   "funding_label": 22.37,
+   "supplemental": 38.16,
+   "history_label": 3.84,
+   "copyright": 0.0,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.0,
+   "journal_name": 3.84,
+   "publisher_doi": 39.36,
+   "n": 912
+  },
+  "SMJ": {
+   "accepted_by": 0.0,
+   "funding_label": 0.0,
+   "supplemental": 0.0,
+   "history_label": 0.0,
+   "copyright": 12.92,
+   "smj_headers": 98.32,
+   "abstract_prefix": 68.24,
+   "journal_name": 1.08,
+   "publisher_doi": 0.0,
+   "n": 1014
+  }
+ },
+ "clean": {
+  "MgmtSci": {
+   "accepted_by": 0.08,
+   "funding_label": 0.0,
+   "supplemental": 0.0,
+   "history_label": 0.0,
+   "copyright": 0.0,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.0,
+   "journal_name": 0.0,
+   "publisher_doi": 0.0,
+   "n": 3569
+  },
+  "OrgSci": {
+   "accepted_by": 0.11,
+   "funding_label": 0.0,
+   "supplemental": 0.0,
+   "history_label": 0.0,
+   "copyright": 0.0,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.0,
+   "journal_name": 0.0,
+   "publisher_doi": 0.0,
+   "n": 912
+  },
+  "SMJ": {
+   "accepted_by": 0.0,
+   "funding_label": 0.0,
+   "supplemental": 0.0,
+   "history_label": 0.0,
+   "copyright": 0.0,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.0,
+   "journal_name": 0.0,
+   "publisher_doi": 0.0,
+   "n": 1014
+  }
+ },
+ "norm": {
+  "MgmtSci": {
+   "accepted_by": 0.08,
+   "funding_label": 0.0,
+   "supplemental": 0.0,
+   "history_label": 0.0,
+   "copyright": 0.0,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.0,
+   "journal_name": 0.0,
+   "publisher_doi": 0.0,
+   "n": 3569
+  },
+  "OrgSci": {
+   "accepted_by": 0.11,
+   "funding_label": 0.0,
+   "supplemental": 0.0,
+   "history_label": 0.0,
+   "copyright": 0.0,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.0,
+   "journal_name": 0.0,
+   "publisher_doi": 0.0,
+   "n": 912
+  },
+  "SMJ": {
+   "accepted_by": 0.0,
+   "funding_label": 0.0,
+   "supplemental": 0.0,
+   "history_label": 0.0,
+   "copyright": 0.0,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.0,
+   "journal_name": 0.0,
+   "publisher_doi": 0.0,
+   "n": 1014
+  }
+ },
+ "n_words_median": {
+  "MgmtSci": {
+   "raw": 182.0,
+   "clean": 159.0,
+   "norm": 151.0,
+   "share_truncated": 0.389
+  },
+  "OrgSci": {
+   "raw": 209.0,
+   "clean": 198.0,
+   "norm": 164.0,
+   "share_truncated": 0.666
+  },
+  "SMJ": {
+   "raw": 247.0,
+   "clean": 123.0,
+   "norm": 123.0,
+   "share_truncated": 0.015
+  }
+ },
+ "dropped": {
+  "OrgSci|type": 3,
+  "OrgSci|doi_prefix_mismatch": 3,
+  "OrgSci|nonresearch_title": 7,
+  "OrgSci|nonresearch_abstract": 1,
+  "OrgSci|short_abstract": 2,
+  "SMJ|nonresearch_title": 46,
+  "SMJ|nonresearch_abstract": 9,
+  "SMJ|short_abstract": 1,
+  "SMJ|type": 8,
+  "SMJ|retracted": 1,
+  "MgmtSci|doi_prefix_mismatch": 147,
+  "MgmtSci|nonresearch_title": 22,
+  "MgmtSci|nonresearch_abstract": 16,
+  "MgmtSci|short_abstract": 8,
+  "MgmtSci|type": 9,
+  "OrgSci|duplicate_title": 5
+ }
+}

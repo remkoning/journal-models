@@ -1,0 +1,600 @@
+{
+ "cross_threshold": 0.75,
+ "target_share": 0.7,
+ "sim_floor": 0.75,
+ "hi_sim_override": 0.85,
+ "cross_rule": "greedy 1:1 by cosine; |dy|<=1; same OpenAlex subfield OR cosine>=HI_SIM; cosine>=threshold",
+ "cross_unblocked_threshold_table": [
+  {
+   "t": 0.6,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 286,
+   "n_test": 82,
+   "share_topic_or_subfield": 0.21,
+   "share_primary_topic": 0.143
+  },
+  {
+   "t": 0.6,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 882,
+   "n_test": 260,
+   "share_topic_or_subfield": 0.279,
+   "share_primary_topic": 0.213
+  },
+  {
+   "t": 0.6,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 287,
+   "n_test": 83,
+   "share_topic_or_subfield": 0.261,
+   "share_primary_topic": 0.192
+  },
+  {
+   "t": 0.65,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 284,
+   "n_test": 82,
+   "share_topic_or_subfield": 0.211,
+   "share_primary_topic": 0.144
+  },
+  {
+   "t": 0.65,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 862,
+   "n_test": 253,
+   "share_topic_or_subfield": 0.285,
+   "share_primary_topic": 0.218
+  },
+  {
+   "t": 0.65,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 285,
+   "n_test": 82,
+   "share_topic_or_subfield": 0.263,
+   "share_primary_topic": 0.193
+  },
+  {
+   "t": 0.7,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 269,
+   "n_test": 76,
+   "share_topic_or_subfield": 0.223,
+   "share_primary_topic": 0.152
+  },
+  {
+   "t": 0.7,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 797,
+   "n_test": 234,
+   "share_topic_or_subfield": 0.302,
+   "share_primary_topic": 0.232
+  },
+  {
+   "t": 0.7,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 276,
+   "n_test": 80,
+   "share_topic_or_subfield": 0.272,
+   "share_primary_topic": 0.199
+  },
+  {
+   "t": 0.75,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 221,
+   "n_test": 63,
+   "share_topic_or_subfield": 0.244,
+   "share_primary_topic": 0.172
+  },
+  {
+   "t": 0.75,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 641,
+   "n_test": 196,
+   "share_topic_or_subfield": 0.34,
+   "share_primary_topic": 0.265
+  },
+  {
+   "t": 0.75,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 226,
+   "n_test": 64,
+   "share_topic_or_subfield": 0.323,
+   "share_primary_topic": 0.239
+  },
+  {
+   "t": 0.8,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 98,
+   "n_test": 22,
+   "share_topic_or_subfield": 0.337,
+   "share_primary_topic": 0.255
+  },
+  {
+   "t": 0.8,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 314,
+   "n_test": 95,
+   "share_topic_or_subfield": 0.417,
+   "share_primary_topic": 0.369
+  },
+  {
+   "t": 0.8,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 102,
+   "n_test": 26,
+   "share_topic_or_subfield": 0.441,
+   "share_primary_topic": 0.333
+  },
+  {
+   "t": 0.85,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 8,
+   "n_test": 3,
+   "share_topic_or_subfield": 0.625,
+   "share_primary_topic": 0.5
+  },
+  {
+   "t": 0.85,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 37,
+   "n_test": 10,
+   "share_topic_or_subfield": 0.595,
+   "share_primary_topic": 0.595
+  },
+  {
+   "t": 0.85,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 12,
+   "n_test": 1,
+   "share_topic_or_subfield": 0.583,
+   "share_primary_topic": 0.583
+  },
+  {
+   "t": 0.88,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 0,
+   "n_test": 0,
+   "share_topic_or_subfield": NaN,
+   "share_primary_topic": NaN
+  },
+  {
+   "t": 0.88,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 11,
+   "n_test": 2,
+   "share_topic_or_subfield": 0.727,
+   "share_primary_topic": 0.727
+  },
+  {
+   "t": 0.88,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 1,
+   "n_test": 0,
+   "share_topic_or_subfield": 1.0,
+   "share_primary_topic": 1.0
+  },
+  {
+   "t": 0.9,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 0,
+   "n_test": 0,
+   "share_topic_or_subfield": NaN,
+   "share_primary_topic": NaN
+  },
+  {
+   "t": 0.9,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 4,
+   "n_test": 1,
+   "share_topic_or_subfield": 1.0,
+   "share_primary_topic": 1.0
+  },
+  {
+   "t": 0.9,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 0,
+   "n_test": 0,
+   "share_topic_or_subfield": NaN,
+   "share_primary_topic": NaN
+  }
+ ],
+ "cross_threshold_table": [
+  {
+   "t": 0.6,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 218,
+   "n_test": 60,
+   "share_topic_or_subfield": 0.986,
+   "share_primary_topic": 0.459
+  },
+  {
+   "t": 0.6,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 500,
+   "n_test": 146,
+   "share_topic_or_subfield": 0.97,
+   "share_primary_topic": 0.606
+  },
+  {
+   "t": 0.6,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 212,
+   "n_test": 59,
+   "share_topic_or_subfield": 0.976,
+   "share_primary_topic": 0.524
+  },
+  {
+   "t": 0.65,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 204,
+   "n_test": 56,
+   "share_topic_or_subfield": 0.985,
+   "share_primary_topic": 0.49
+  },
+  {
+   "t": 0.65,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 496,
+   "n_test": 145,
+   "share_topic_or_subfield": 0.97,
+   "share_primary_topic": 0.611
+  },
+  {
+   "t": 0.65,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 203,
+   "n_test": 56,
+   "share_topic_or_subfield": 0.975,
+   "share_primary_topic": 0.547
+  },
+  {
+   "t": 0.7,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 190,
+   "n_test": 52,
+   "share_topic_or_subfield": 0.984,
+   "share_primary_topic": 0.511
+  },
+  {
+   "t": 0.7,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 472,
+   "n_test": 139,
+   "share_topic_or_subfield": 0.968,
+   "share_primary_topic": 0.629
+  },
+  {
+   "t": 0.7,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 182,
+   "n_test": 52,
+   "share_topic_or_subfield": 0.973,
+   "share_primary_topic": 0.599
+  },
+  {
+   "t": 0.75,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 132,
+   "n_test": 34,
+   "share_topic_or_subfield": 0.977,
+   "share_primary_topic": 0.621
+  },
+  {
+   "t": 0.75,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 386,
+   "n_test": 113,
+   "share_topic_or_subfield": 0.961,
+   "share_primary_topic": 0.702
+  },
+  {
+   "t": 0.75,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 139,
+   "n_test": 33,
+   "share_topic_or_subfield": 0.964,
+   "share_primary_topic": 0.691
+  },
+  {
+   "t": 0.8,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 51,
+   "n_test": 12,
+   "share_topic_or_subfield": 0.941,
+   "share_primary_topic": 0.686
+  },
+  {
+   "t": 0.8,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 190,
+   "n_test": 53,
+   "share_topic_or_subfield": 0.921,
+   "share_primary_topic": 0.747
+  },
+  {
+   "t": 0.8,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 58,
+   "n_test": 11,
+   "share_topic_or_subfield": 0.914,
+   "share_primary_topic": 0.724
+  },
+  {
+   "t": 0.85,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 8,
+   "n_test": 3,
+   "share_topic_or_subfield": 0.625,
+   "share_primary_topic": 0.5
+  },
+  {
+   "t": 0.85,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 37,
+   "n_test": 10,
+   "share_topic_or_subfield": 0.595,
+   "share_primary_topic": 0.595
+  },
+  {
+   "t": 0.85,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 12,
+   "n_test": 1,
+   "share_topic_or_subfield": 0.583,
+   "share_primary_topic": 0.583
+  },
+  {
+   "t": 0.9,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 0,
+   "n_test": 0,
+   "share_topic_or_subfield": NaN,
+   "share_primary_topic": NaN
+  },
+  {
+   "t": 0.9,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 4,
+   "n_test": 1,
+   "share_topic_or_subfield": 1.0,
+   "share_primary_topic": 1.0
+  },
+  {
+   "t": 0.9,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 0,
+   "n_test": 0,
+   "share_topic_or_subfield": NaN,
+   "share_primary_topic": NaN
+  },
+  {
+   "t": 0.95,
+   "journal_pair": "OrgSci-MgmtSci",
+   "n": 0,
+   "n_test": 0,
+   "share_topic_or_subfield": NaN,
+   "share_primary_topic": NaN
+  },
+  {
+   "t": 0.95,
+   "journal_pair": "OrgSci-SMJ",
+   "n": 0,
+   "n_test": 0,
+   "share_topic_or_subfield": NaN,
+   "share_primary_topic": NaN
+  },
+  {
+   "t": 0.95,
+   "journal_pair": "SMJ-MgmtSci",
+   "n": 0,
+   "n_test": 0,
+   "share_topic_or_subfield": NaN,
+   "share_primary_topic": NaN
+  }
+ ],
+ "cross_blocked_unthresholded_sim_quantiles_p10_p25_p50_p75_p90": {
+  "OrgSci-MgmtSci": [
+   0.689,
+   0.723,
+   0.765,
+   0.797,
+   0.83
+  ],
+  "OrgSci-SMJ": [
+   0.718,
+   0.753,
+   0.788,
+   0.814,
+   0.838
+  ],
+  "SMJ-MgmtSci": [
+   0.686,
+   0.731,
+   0.768,
+   0.804,
+   0.83
+  ]
+ },
+ "cross_counts": {
+  "OrgSci-MgmtSci|test": 34,
+  "OrgSci-MgmtSci|train": 79,
+  "OrgSci-MgmtSci|val": 19,
+  "OrgSci-SMJ|test": 113,
+  "OrgSci-SMJ|train": 196,
+  "OrgSci-SMJ|val": 77,
+  "SMJ-MgmtSci|test": 33,
+  "SMJ-MgmtSci|train": 80,
+  "SMJ-MgmtSci|val": 26
+ },
+ "cross_sim": {
+  "OrgSci-MgmtSci": {
+   "mean": 0.795,
+   "min": 0.75,
+   "median": 0.788,
+   "share_same_topic_or_subfield": 0.977,
+   "share_same_primary_topic": 0.621,
+   "share_same_subfield": 0.977,
+   "mean_abs_year_diff": 0.68,
+   "share_a_is_first_journal": 0.545
+  },
+  "OrgSci-SMJ": {
+   "mean": 0.803,
+   "min": 0.75,
+   "median": 0.799,
+   "share_same_topic_or_subfield": 0.961,
+   "share_same_primary_topic": 0.702,
+   "share_same_subfield": 0.961,
+   "mean_abs_year_diff": 0.65,
+   "share_a_is_first_journal": 0.549
+  },
+  "SMJ-MgmtSci": {
+   "mean": 0.797,
+   "min": 0.75,
+   "median": 0.789,
+   "share_same_topic_or_subfield": 0.964,
+   "share_same_primary_topic": 0.691,
+   "share_same_subfield": 0.964,
+   "mean_abs_year_diff": 0.66,
+   "share_a_is_first_journal": 0.511
+  }
+ },
+ "cross_fullms_counts": {
+  "OrgSci-MgmtSci|test": 103,
+  "OrgSci-MgmtSci|train": 187,
+  "OrgSci-MgmtSci|val": 47,
+  "SMJ-MgmtSci|test": 132,
+  "SMJ-MgmtSci|train": 238,
+  "SMJ-MgmtSci|val": 75
+ },
+ "cross_fullms_sim": {
+  "OrgSci-MgmtSci": {
+   "mean": 0.798,
+   "share_same_topic_or_subfield": 0.979
+  },
+  "SMJ-MgmtSci": {
+   "mean": 0.795,
+   "share_same_topic_or_subfield": 0.982
+  }
+ },
+ "cite_counts": {
+  "MgmtSci|test": 5,
+  "MgmtSci|train": 8,
+  "MgmtSci|val": 2,
+  "OrgSci|test": 22,
+  "OrgSci|train": 37,
+  "OrgSci|val": 15,
+  "SMJ|test": 33,
+  "SMJ|train": 58,
+  "SMJ|val": 19
+ },
+ "cite_share_same_subfield": 0.367,
+ "cite_share_higher_a": 0.452,
+ "cite_median_ratio_hi_lo": 6.88,
+ "cite_quartiles": [
+  {
+   "journal": "MgmtSci",
+   "year": 2016,
+   "n": 20,
+   "q25": 17.75,
+   "q75": 67.25
+  },
+  {
+   "journal": "MgmtSci",
+   "year": 2017,
+   "n": 28,
+   "q25": 13.0,
+   "q75": 49.5
+  },
+  {
+   "journal": "MgmtSci",
+   "year": 2018,
+   "n": 8,
+   "q25": 22.0,
+   "q75": 56.5
+  },
+  {
+   "journal": "MgmtSci",
+   "year": 2019,
+   "n": 14,
+   "q25": 18.0,
+   "q75": 47.0
+  },
+  {
+   "journal": "MgmtSci",
+   "year": 2020,
+   "n": 21,
+   "q25": 20.0,
+   "q75": 84.0
+  },
+  {
+   "journal": "OrgSci",
+   "year": 2016,
+   "n": 68,
+   "q25": 19.75,
+   "q75": 69.25
+  },
+  {
+   "journal": "OrgSci",
+   "year": 2017,
+   "n": 60,
+   "q25": 19.75,
+   "q75": 56.25
+  },
+  {
+   "journal": "OrgSci",
+   "year": 2018,
+   "n": 62,
+   "q25": 25.0,
+   "q75": 61.75
+  },
+  {
+   "journal": "OrgSci",
+   "year": 2019,
+   "n": 67,
+   "q25": 19.0,
+   "q75": 54.0
+  },
+  {
+   "journal": "OrgSci",
+   "year": 2020,
+   "n": 87,
+   "q25": 18.0,
+   "q75": 54.0
+  },
+  {
+   "journal": "SMJ",
+   "year": 2016,
+   "n": 93,
+   "q25": 25.0,
+   "q75": 80.0
+  },
+  {
+   "journal": "SMJ",
+   "year": 2017,
+   "n": 100,
+   "q25": 26.0,
+   "q75": 72.25
+  },
+  {
+   "journal": "SMJ",
+   "year": 2018,
+   "n": 96,
+   "q25": 25.75,
+   "q75": 73.75
+  },
+  {
+   "journal": "SMJ",
+   "year": 2019,
+   "n": 92,
+   "q25": 27.75,
+   "q75": 84.5
+  },
+  {
+   "journal": "SMJ",
+   "year": 2020,
+   "n": 105,
+   "q25": 33.0,
+   "q75": 117.0
+  }
+ ]
+}

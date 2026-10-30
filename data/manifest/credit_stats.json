@@ -1,0 +1,20 @@
+{
+ "n_players": 708,
+ "n_future": 1292,
+ "players_by_journal": {
+  "SMJ": 381,
+  "OrgSci": 257,
+  "MgmtSci": 70
+ },
+ "future_by_journal": {
+  "OrgSci": 568,
+  "SMJ": 528,
+  "MgmtSci": 196
+ },
+ "n_edges": 3725,
+ "n_future_citing_any_player": 1023,
+ "share_future_citing_any_player": 0.792,
+ "n_players_cited_at_least_once": 626,
+ "share_players_cited": 0.884,
+ "future_with_no_refs": 25
+}
