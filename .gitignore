@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store
 data/raw/
 data/local/
+# model-generated revisions paraphrase copyrighted abstracts: keep local
+results/feedback/*.jsonl
+results/*.log

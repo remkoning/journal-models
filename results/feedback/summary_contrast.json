@@ -1,0 +1,97 @@
+{
+  "mode": "contrast",
+  "n_papers": 30,
+  "n_reviews": 90,
+  "category_mix": {
+    "OrgSci": {
+      "methods": 6,
+      "mechanism": 26,
+      "theory": 23,
+      "scope": 13,
+      "data": 13,
+      "positioning": 8,
+      "practice": 1
+    },
+    "SMJ": {
+      "methods": 15,
+      "mechanism": 10,
+      "practice": 13,
+      "positioning": 20,
+      "scope": 14,
+      "theory": 14,
+      "data": 4
+    },
+    "MgmtSci": {
+      "methods": 23,
+      "mechanism": 12,
+      "theory": 24,
+      "practice": 15,
+      "data": 13,
+      "positioning": 2,
+      "scope": 1
+    }
+  },
+  "category_share": {
+    "OrgSci": {
+      "theory": 0.256,
+      "mechanism": 0.289,
+      "methods": 0.067,
+      "data": 0.144,
+      "scope": 0.144,
+      "practice": 0.011,
+      "positioning": 0.089
+    },
+    "SMJ": {
+      "theory": 0.156,
+      "mechanism": 0.111,
+      "methods": 0.167,
+      "data": 0.044,
+      "scope": 0.156,
+      "practice": 0.144,
+      "positioning": 0.222
+    },
+    "MgmtSci": {
+      "theory": 0.267,
+      "mechanism": 0.133,
+      "methods": 0.256,
+      "data": 0.144,
+      "scope": 0.011,
+      "practice": 0.167,
+      "positioning": 0.022
+    }
+  },
+  "mean_fit_score_by_model_and_paper_journal": {
+    "OrgSci": {
+      "OrgSci": 51.0,
+      "SMJ": 37.6,
+      "MgmtSci": 27.7
+    },
+    "SMJ": {
+      "OrgSci": 34.9,
+      "SMJ": 55.5,
+      "MgmtSci": 32.3
+    },
+    "MgmtSci": {
+      "OrgSci": 33.3,
+      "SMJ": 37.8,
+      "MgmtSci": 51.3
+    }
+  },
+  "movement": {
+    "OrgSci": {
+      "mean_toward_own": 0.028626084327697754,
+      "mean_toward_other": 0.020156888167063396,
+      "share_own_is_max": 0.5666666666666667
+    },
+    "SMJ": {
+      "mean_toward_own": 0.031196884314219155,
+      "mean_toward_other": 0.025565512975056968,
+      "share_own_is_max": 0.5333333333333333
+    },
+    "MgmtSci": {
+      "mean_toward_own": 0.019624306758244833,
+      "mean_toward_other": 0.009712645411491394,
+      "share_own_is_max": 0.7666666666666667
+    }
+  }
+}
