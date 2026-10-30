@@ -97,9 +97,10 @@ def fig_pairs():
     panels = [(named, "Journal named", {"plain": "Name only", "incontext": "+ 100 own abstracts",
                                         "contrast": "+ 100 own & 100 elsewhere"})]
     if not anon.empty:
-        panels.append((anon, 'Journal hidden ("Journal X")', {"plain": "No name, no abstracts",
-                                                              "incontext": "+ 100 own abstracts only",
-                                                              "contrast": "+ 100 own & 100 elsewhere"}))
+        panels.append((anon, 'Journal hidden ("Journal X")', {"plain": "Nothing (no name, no abstracts)",
+                                                              "incontext": "100 own abstracts only",
+                                                              "contrast": "100 own & 100 elsewhere",
+                                                              "rulebook": "~20 evolved rules only"}))
     fig, axes = plt.subplots(1, len(panels), figsize=(5.0 * len(panels), 3.9), sharey=True)
     axes = np.atleast_1d(axes)
     for ax, (d, title, labels) in zip(axes, panels):

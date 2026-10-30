@@ -124,8 +124,12 @@ class JournalModel:
             others = [j for j in JOURNALS if j != journal]
             per = (contrast_n or len(self.ids)) // len(others)   # deterministic, so fixed across runs
             self.contrast_ids = [x for j in others for x in taste_ids(j, per, seed)]
-        self.system = (rulebook_system(journal) if mode == "rulebook"
-                       else system_prompt(journal, self.ids, self.contrast_ids, anonymous))
+        if mode == "rulebook":
+            self.system = rulebook_system(journal)
+            if anonymous:   # rules only: the journal's name is replaced everywhere it appears
+                self.system = self.system.replace(JOURNAL_NAMES[journal], "Journal X")
+        else:
+            self.system = system_prompt(journal, self.ids, self.contrast_ids, anonymous)
 
     @property
     def name(self) -> str:

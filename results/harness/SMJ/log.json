@@ -1,0 +1,1532 @@
+[
+ {
+  "iteration": 0,
+  "version": 0,
+  "parent": null,
+  "rulebook": {
+   "values": [],
+   "red_flags": []
+  },
+  "val_acc": 0.9166666666666666,
+  "val_by_rival": {
+   "OrgSci": 0.9,
+   "MgmtSci": 0.9333333333333333
+  },
+  "val_mean_p": 0.716,
+  "val_probs": {
+   "cross-val-SMJ-MgmtSci-fee6be9e": 0.71,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.725,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.8300000000000001,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.8,
+   "cross-val-SMJ-MgmtSci-d86d518f": 0.71,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.44999999999999996,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.79,
+   "cross-val-SMJ-MgmtSci-c338b99c": 0.775,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.8,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.7,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.65,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.78,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.74,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.85,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.71,
+   "cross-val-OrgSci-SMJ-f817dd58": 0.7,
+   "cross-val-OrgSci-SMJ-12fd6f02": 0.685,
+   "cross-val-OrgSci-SMJ-660ea215": 0.5,
+   "cross-val-OrgSci-SMJ-0f5ed265": 0.725,
+   "cross-val-OrgSci-SMJ-f5c25431": 0.6499999999999999,
+   "cross-val-OrgSci-SMJ-dc08d1f2": 0.435,
+   "cross-val-OrgSci-SMJ-f91132f7": 0.9,
+   "cross-val-OrgSci-SMJ-1862b60e": 0.825,
+   "cross-val-OrgSci-SMJ-b6058596": 0.75,
+   "cross-val-OrgSci-SMJ-c0463663": 0.735,
+   "cross-val-OrgSci-SMJ-3c93c54b": 0.515,
+   "cross-val-OrgSci-SMJ-45bee890": 0.735,
+   "cross-val-OrgSci-SMJ-39492d36": 0.6799999999999999,
+   "cross-val-OrgSci-SMJ-ebec8eec": 0.925,
+   "cross-val-OrgSci-SMJ-dbf5862c": 0.7
+  },
+  "accepted": true,
+  "best_before": null
+ },
+ {
+  "iteration": 1,
+  "version": 1,
+  "parent": 0,
+  "rulebook": {
+   "values": [
+    "The firm, or the founder acting for the venture, is the decision-maker, and the abstract studies a strategic choice such as entry, positioning, investment, scope or innovation direction.",
+    "The outcomes are at firm level: performance, value creation, growth-option value, revenue or competitive advantage, not only individual or audience outcomes.",
+    "Effects depend on contingencies: the abstract shows how strategy\u2013environment fit or firm and industry characteristics strengthen or weaken the main relationship.",
+    "The abstract names the costs, trade-offs or unintended penalties of strategic moves for the firm, such as change, repositioning, path dependence or departing from tradition.",
+    "Individual or employee-level mechanisms (micro-foundations) are explicitly tied to firm-level results, such as leaders affecting performance or worker interventions raising revenue.",
+    "The study covers strategic leadership and governance: top teams, dominant coalitions, family control or CEO succession, and their link to firm strategy or performance feedback.",
+    "Hypotheses are derived from core strategy theories (resource-based, real options, behavioral theory of the firm, capabilities, competitive dynamics) and tested on archival or field-experimental data.",
+    "The abstract explicitly claims contributions to strategy literatures, such as competitive, corporate, complementor, entrepreneurial or international strategy, and states what managers should do.",
+    "Customer or audience reactions are framed as determinants of the value or cost of a firm's strategic choice, not as phenomena of evaluator cognition in their own right."
+   ],
+   "red_flags": [
+    "A formal or analytical model deriving optimal design, pricing or fee policies without empirical testing suggests an operations, economics or marketing journal.",
+    "An economics or finance framing: testing information asymmetry with market-price predictions, macro or local economic outcomes, or impacts at the level of public policy.",
+    "Personnel or labor outcomes such as exit, promotion, aspirations or gender gaps, studied without any link to firm strategy or firm performance.",
+    "A sociological focus on categories, identity or evaluator perception where the producer is an individual and the firm's strategic value is absent.",
+    "An inductive comparative case study that builds a process theory from a handful of firms suggests a qualitative organization-theory outlet.",
+    "Purely conceptual or simulation arguments about organizational adaptation, or about reconciling theoretical paradigms, with no empirical test of strategic outcomes.",
+    "The main contribution is settling a debate between theories of the firm, rather than explaining a strategic choice and what follows from it."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "added",
+    "before": "",
+    "after": "The firm, or the founder acting for the venture, is the decision-maker, and the abstract studies a strategic choice such as entry, positioning, investment, scope or innovation direction.",
+    "reason": "The SMJ articles in these pairs consistently frame the question as a strategic decision, such as industry choice or entry into nascent versus established markets."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "The outcomes are at firm level: performance, value creation, growth-option value, revenue or competitive advantage, not only individual or audience outcomes.",
+    "reason": "SMJ winners linked their findings to firm value or performance, while counterparts stopped at employee exit or at theoretical mechanisms."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Effects depend on contingencies: the abstract shows how strategy\u2013environment fit or firm and industry characteristics strengthen or weaken the main relationship.",
+    "reason": "SMJ abstracts emphasized alignment and moderation, for example investment strategy matched to uncertainty, or effects varying by firm and industry traits."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "The abstract names the costs, trade-offs or unintended penalties of strategic moves for the firm, such as change, repositioning, path dependence or departing from tradition.",
+    "reason": "The misjudged identity-ambiguity pair and the tradition-renewal pairs both framed audience effects as costs a firm bears for strategic change."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Individual or employee-level mechanisms (micro-foundations) are explicitly tied to firm-level results, such as leaders affecting performance or worker interventions raising revenue.",
+    "reason": "The field experiment that reported revenue effects beat the study limited to employee turnover; the female-leadership anchor also links micro to macro."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "The study covers strategic leadership and governance: top teams, dominant coalitions, family control or CEO succession, and their link to firm strategy or performance feedback.",
+    "reason": "In the dominant-coalition pair, the empirical study of CEO succession and performance feedback beat the conceptual piece on politics and adaptation."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Hypotheses are derived from core strategy theories (resource-based, real options, behavioral theory of the firm, capabilities, competitive dynamics) and tested on archival or field-experimental data.",
+    "reason": "SMJ winners were deductive tests of strategy theories, whereas the losers were cases, models or conceptual pieces."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "The abstract explicitly claims contributions to strategy literatures, such as competitive, corporate, complementor, entrepreneurial or international strategy, and states what managers should do.",
+    "reason": "The anchors and winners explicitly informed firm strategy, for example complementor strategy."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Customer or audience reactions are framed as determinants of the value or cost of a firm's strategic choice, not as phenomena of evaluator cognition in their own right.",
+    "reason": "This separates the SMJ audience-reaction papers from the categorization papers centered on evaluators."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "A formal or analytical model deriving optimal design, pricing or fee policies without empirical testing suggests an operations, economics or marketing journal.",
+    "reason": "In the platform anchor, the analytical model of optimal design appeared elsewhere."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "An economics or finance framing: testing information asymmetry with market-price predictions, macro or local economic outcomes, or impacts at the level of public policy.",
+    "reason": "The franchising information paper and the university-science paper had an economics or policy framing and appeared outside SMJ."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Personnel or labor outcomes such as exit, promotion, aspirations or gender gaps, studied without any link to firm strategy or firm performance.",
+    "reason": "The ranking-curve exit study and the lawyer-aspirations study lacked any link to firm strategy."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "A sociological focus on categories, identity or evaluator perception where the producer is an individual and the firm's strategic value is absent.",
+    "reason": "The categorical-stickiness paper about individual authors lost to the firm-value framing of tradition renewal."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "An inductive comparative case study that builds a process theory from a handful of firms suggests a qualitative organization-theory outlet.",
+    "reason": "The multi-case process theory of venture growth appeared elsewhere, while the deductive study of founder entry choices was the SMJ article."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Purely conceptual or simulation arguments about organizational adaptation, or about reconciling theoretical paradigms, with no empirical test of strategic outcomes.",
+    "reason": "The conceptual piece on organizational politics and adaptation lost to an empirical study of political slack."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "The main contribution is settling a debate between theories of the firm, rather than explaining a strategic choice and what follows from it.",
+    "reason": "The paper reconciling the opportunism debate lost to a paper on how multinational investment creates value."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-SMJ-45bfd426"
+   ],
+   "shaky": [
+    "cross-train-SMJ-MgmtSci-7864b8e8",
+    "cross-train-OrgSci-SMJ-cb67499e",
+    "cross-train-OrgSci-SMJ-f4855264",
+    "cross-train-SMJ-MgmtSci-f5703373",
+    "cross-train-OrgSci-SMJ-b0e3f94d",
+    "cross-train-OrgSci-SMJ-e40cb662",
+    "cross-train-OrgSci-SMJ-294fcb27",
+    "cross-train-SMJ-MgmtSci-017fe55c"
+   ],
+   "anchors": [
+    "cross-train-SMJ-MgmtSci-bb099f3c",
+    "cross-train-SMJ-MgmtSci-d01620ee",
+    "cross-train-SMJ-MgmtSci-a75b1c2a"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-4eab45fb",
+   "cross-train-OrgSci-SMJ-ecc95ae9",
+   "cross-train-OrgSci-SMJ-cb67499e",
+   "cross-train-OrgSci-SMJ-d67aaa70",
+   "cross-train-OrgSci-SMJ-45bfd426",
+   "cross-train-OrgSci-SMJ-0ca3f0f9",
+   "cross-train-OrgSci-SMJ-c9aa1a4b",
+   "cross-train-OrgSci-SMJ-b0e3f94d",
+   "cross-train-OrgSci-SMJ-8657a4d6",
+   "cross-train-OrgSci-SMJ-e40cb662",
+   "cross-train-OrgSci-SMJ-05d3772e",
+   "cross-train-OrgSci-SMJ-294fcb27",
+   "cross-train-OrgSci-SMJ-067c8f44",
+   "cross-train-OrgSci-SMJ-af81ae00",
+   "cross-train-OrgSci-SMJ-a9401228",
+   "cross-train-OrgSci-SMJ-92b06e96",
+   "cross-train-OrgSci-SMJ-d850dfe4",
+   "cross-train-OrgSci-SMJ-f4855264",
+   "cross-train-OrgSci-SMJ-2c228cad",
+   "cross-train-SMJ-MgmtSci-bd2e68c7",
+   "cross-train-SMJ-MgmtSci-7864b8e8",
+   "cross-train-SMJ-MgmtSci-6403efdc",
+   "cross-train-SMJ-MgmtSci-9163f53e",
+   "cross-train-SMJ-MgmtSci-24bbd61e",
+   "cross-train-SMJ-MgmtSci-88207385",
+   "cross-train-SMJ-MgmtSci-f5703373",
+   "cross-train-SMJ-MgmtSci-bb099f3c",
+   "cross-train-SMJ-MgmtSci-071d5db8",
+   "cross-train-SMJ-MgmtSci-a75b1c2a",
+   "cross-train-SMJ-MgmtSci-ca2b9357",
+   "cross-train-SMJ-MgmtSci-fc332950",
+   "cross-train-SMJ-MgmtSci-13b10d83",
+   "cross-train-SMJ-MgmtSci-017fe55c",
+   "cross-train-SMJ-MgmtSci-af924620",
+   "cross-train-SMJ-MgmtSci-a9ea4143",
+   "cross-train-SMJ-MgmtSci-e6298464",
+   "cross-train-SMJ-MgmtSci-d01620ee",
+   "cross-train-SMJ-MgmtSci-eebca082",
+   "cross-train-SMJ-MgmtSci-cc36f1de"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-4eab45fb": 0.7,
+   "cross-train-OrgSci-SMJ-ecc95ae9": 0.725,
+   "cross-train-OrgSci-SMJ-cb67499e": 0.65,
+   "cross-train-OrgSci-SMJ-d67aaa70": 0.725,
+   "cross-train-OrgSci-SMJ-45bfd426": 0.5,
+   "cross-train-OrgSci-SMJ-0ca3f0f9": 0.7,
+   "cross-train-OrgSci-SMJ-c9aa1a4b": 0.725,
+   "cross-train-OrgSci-SMJ-b0e3f94d": 0.675,
+   "cross-train-OrgSci-SMJ-8657a4d6": 0.75,
+   "cross-train-OrgSci-SMJ-e40cb662": 0.675,
+   "cross-train-OrgSci-SMJ-05d3772e": 0.7250000000000001,
+   "cross-train-OrgSci-SMJ-294fcb27": 0.675,
+   "cross-train-OrgSci-SMJ-067c8f44": 0.775,
+   "cross-train-OrgSci-SMJ-af81ae00": 0.75,
+   "cross-train-OrgSci-SMJ-a9401228": 0.775,
+   "cross-train-OrgSci-SMJ-92b06e96": 0.725,
+   "cross-train-OrgSci-SMJ-d850dfe4": 0.8,
+   "cross-train-OrgSci-SMJ-f4855264": 0.65,
+   "cross-train-OrgSci-SMJ-2c228cad": 0.75,
+   "cross-train-SMJ-MgmtSci-bd2e68c7": 0.725,
+   "cross-train-SMJ-MgmtSci-7864b8e8": 0.575,
+   "cross-train-SMJ-MgmtSci-6403efdc": 0.775,
+   "cross-train-SMJ-MgmtSci-9163f53e": 0.75,
+   "cross-train-SMJ-MgmtSci-24bbd61e": 0.725,
+   "cross-train-SMJ-MgmtSci-88207385": 0.75,
+   "cross-train-SMJ-MgmtSci-f5703373": 0.65,
+   "cross-train-SMJ-MgmtSci-bb099f3c": 0.8,
+   "cross-train-SMJ-MgmtSci-071d5db8": 0.7250000000000001,
+   "cross-train-SMJ-MgmtSci-a75b1c2a": 0.825,
+   "cross-train-SMJ-MgmtSci-ca2b9357": 0.865,
+   "cross-train-SMJ-MgmtSci-fc332950": 0.7,
+   "cross-train-SMJ-MgmtSci-13b10d83": 0.76,
+   "cross-train-SMJ-MgmtSci-017fe55c": 0.675,
+   "cross-train-SMJ-MgmtSci-af924620": 0.675,
+   "cross-train-SMJ-MgmtSci-a9ea4143": 0.85,
+   "cross-train-SMJ-MgmtSci-e6298464": 0.75,
+   "cross-train-SMJ-MgmtSci-d01620ee": 0.825,
+   "cross-train-SMJ-MgmtSci-eebca082": 0.7749999999999999,
+   "cross-train-SMJ-MgmtSci-cc36f1de": 0.865
+  },
+  "train_acc": 0.9871794871794872,
+  "val_acc": 0.9333333333333333,
+  "val_by_rival": {
+   "OrgSci": 0.9333333333333333,
+   "MgmtSci": 0.9333333333333333
+  },
+  "val_mean_p": 0.6753333333333335,
+  "val_probs": {
+   "cross-val-SMJ-MgmtSci-fee6be9e": 0.655,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.7,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.88,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.815,
+   "cross-val-SMJ-MgmtSci-d86d518f": 0.775,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.16999999999999998,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.79,
+   "cross-val-SMJ-MgmtSci-c338b99c": 0.75,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.89,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.775,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.605,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.645,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.7150000000000001,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.91,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.6,
+   "cross-val-OrgSci-SMJ-f817dd58": 0.635,
+   "cross-val-OrgSci-SMJ-12fd6f02": 0.6599999999999999,
+   "cross-val-OrgSci-SMJ-660ea215": 0.185,
+   "cross-val-OrgSci-SMJ-0f5ed265": 0.7,
+   "cross-val-OrgSci-SMJ-f5c25431": 0.6799999999999999,
+   "cross-val-OrgSci-SMJ-dc08d1f2": 0.585,
+   "cross-val-OrgSci-SMJ-f91132f7": 0.79,
+   "cross-val-OrgSci-SMJ-1862b60e": 0.73,
+   "cross-val-OrgSci-SMJ-b6058596": 0.64,
+   "cross-val-OrgSci-SMJ-c0463663": 0.655,
+   "cross-val-OrgSci-SMJ-3c93c54b": 0.515,
+   "cross-val-OrgSci-SMJ-45bee890": 0.63,
+   "cross-val-OrgSci-SMJ-39492d36": 0.6950000000000001,
+   "cross-val-OrgSci-SMJ-ebec8eec": 0.85,
+   "cross-val-OrgSci-SMJ-dbf5862c": 0.635
+  },
+  "accepted": true,
+  "best_before": 0.9166666666666666
+ },
+ {
+  "iteration": 2,
+  "version": 2,
+  "parent": 1,
+  "rulebook": {
+   "values": [
+    "The firm, or the founder acting for the venture, is the decision-maker, and the abstract studies a strategic choice such as entry, positioning, investment, scope or innovation direction.",
+    "The outcomes are at firm level: performance, value creation, growth-option value, revenue or competitive advantage, not only individual or audience outcomes.",
+    "Effects depend on contingencies: the abstract shows how strategy\u2013environment fit or firm and industry characteristics strengthen or weaken the main relationship.",
+    "The abstract names the costs, trade-offs or unintended penalties of strategic moves for the firm, such as change, repositioning, path dependence or departing from tradition.",
+    "Micro-level mechanisms are tied to firm-level drivers or results in either direction: firm growth or strategy shaping employees, or employees and departures shaping firm performance.",
+    "Strategic leadership and governance: CEO traits or biases measured archivally, top teams, board composition, family control or succession, linked to firm strategy or performance.",
+    "Hypotheses are derived from core strategy theories (resource-based, Penrosean growth, real options, behavioral theory of the firm, capabilities, absorptive capacity, competitive dynamics) applied to firms.",
+    "The abstract explicitly claims contributions to strategy literatures, such as competitive, corporate, nonmarket, complementor, human-capital or entrepreneurial strategy, and states what managers should do.",
+    "Customer or audience reactions are framed as determinants of the value or cost of a firm's strategic choice, not as phenomena of evaluator cognition in their own right.",
+    "Cognition or emotion of top or founding teams is studied as a driver of strategic decisions such as persisting, escalating commitment, or exiting a venture.",
+    "Exogenous shocks or natural experiments identify how firm resources, ties, human capital or technology adoption causally change firm innovation, scope or performance."
+   ],
+   "red_flags": [
+    "A formal or analytical model deriving optimal design, pricing or fee policies without empirical testing suggests an operations, economics or marketing journal.",
+    "Economics framing: market-price tests of information asymmetry, macro or policy outcomes, or partner-firm experiments evaluating an HR practice's productivity without strategy theory.",
+    "Personnel or labor outcomes such as exit, promotion, aspirations, motivation or gender gaps, studied without any link to firm strategy or firm performance.",
+    "A sociological focus on categories, identity, collective action or intra-team exchange and free riding, where the firm's strategic choice and value are absent.",
+    "Inductive case or mixed-methods theory-building (interviews, field observation, iterative build-and-test cycles) suggests a qualitative organization-theory outlet.",
+    "Purely conceptual or simulation arguments about organizational adaptation, or about reconciling theoretical paradigms, with no empirical test of strategic outcomes.",
+    "The main contribution is settling a debate between theories of the firm, rather than explaining a strategic choice and what follows from it.",
+    "International-business framing centered on foreign versus domestic firms, MNC host-country networks or national institutional features suggests an international business outlet."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Individual or employee-level mechanisms (micro-foundations) are explicitly tied to firm-level results, such as leaders affecting performance or worker interventions raising revenue.",
+    "after": "Micro-level mechanisms are tied to firm-level drivers or results in either direction: firm growth or strategy shaping employees, or employees and departures shaping firm performance.",
+    "reason": "SMJ also publishes employee outcomes explained by firm-level drivers such as growth, not only micro-to-firm effects."
+   },
+   {
+    "change": "edited",
+    "before": "The study covers strategic leadership and governance: top teams, dominant coalitions, family control or CEO succession, and their link to firm strategy or performance feedback.",
+    "after": "Strategic leadership and governance: CEO traits or biases measured archivally, top teams, board composition, family control or succession, linked to firm strategy or performance.",
+    "reason": "Executive-bias and board-composition studies of large public firms were underweighted compared with entrepreneur-level studies."
+   },
+   {
+    "change": "edited",
+    "before": "Hypotheses are derived from core strategy theories (resource-based, real options, behavioral theory of the firm, capabilities, competitive dynamics) and tested on archival or field-experimental data.",
+    "after": "Hypotheses are derived from core strategy theories (resource-based, Penrosean growth, real options, behavioral theory of the firm, capabilities, absorptive capacity, competitive dynamics) applied to firms.",
+    "reason": "Grounding in strategy theory applied to firms separated SMJ abstracts; when real options was applied to individual investors, it misled the board."
+   },
+   {
+    "change": "edited",
+    "before": "The abstract explicitly claims contributions to strategy literatures, such as competitive, corporate, complementor, entrepreneurial or international strategy, and states what managers should do.",
+    "after": "The abstract explicitly claims contributions to strategy literatures, such as competitive, corporate, nonmarket, complementor, human-capital or entrepreneurial strategy, and states what managers should do.",
+    "reason": "Abstracts framed around MNCs or foreign versus domestic firms went to IB outlets, while nonmarket and human-capital framings went to SMJ."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Cognition or emotion of top or founding teams is studied as a driver of strategic decisions such as persisting, escalating commitment, or exiting a venture.",
+    "reason": "SMJ published team-psychology work when it explained decisions to persist with or exit a venture."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Exogenous shocks or natural experiments identify how firm resources, ties, human capital or technology adoption causally change firm innovation, scope or performance.",
+    "reason": "Several SMJ abstracts used shock-based identification to show how firm resources or ties affect innovation or performance."
+   },
+   {
+    "change": "edited",
+    "before": "An economics or finance framing: testing information asymmetry with market-price predictions, macro or local economic outcomes, or impacts at the level of public policy.",
+    "after": "Economics framing: market-price tests of information asymmetry, macro or policy outcomes, or partner-firm experiments evaluating an HR practice's productivity without strategy theory.",
+    "reason": "A personnel-economics field experiment that evaluated a management practice went elsewhere, while a theory-grounded SMJ study was published."
+   },
+   {
+    "change": "edited",
+    "before": "Personnel or labor outcomes such as exit, promotion, aspirations or gender gaps, studied without any link to firm strategy or firm performance.",
+    "after": "Personnel or labor outcomes such as exit, promotion, aspirations, motivation or gender gaps, studied without any link to firm strategy or firm performance.",
+    "reason": "An employee-motivation experiment with no firm-level outcome lost to a study linking human capital to firm performance."
+   },
+   {
+    "change": "edited",
+    "before": "A sociological focus on categories, identity or evaluator perception where the producer is an individual and the firm's strategic value is absent.",
+    "after": "A sociological focus on categories, identity, collective action or intra-team exchange and free riding, where the firm's strategic choice and value are absent.",
+    "reason": "A collective-action framing of resource contributions within teams marked the non-SMJ entrepreneurial-team abstract."
+   },
+   {
+    "change": "edited",
+    "before": "An inductive comparative case study that builds a process theory from a handful of firms suggests a qualitative organization-theory outlet.",
+    "after": "Inductive case or mixed-methods theory-building (interviews, field observation, iterative build-and-test cycles) suggests a qualitative organization-theory outlet.",
+    "reason": "A mixed-methods theory-building study of knowledge transfer went elsewhere, while the purely experimental one was SMJ."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "International-business framing centered on foreign versus domestic firms, MNC host-country networks or national institutional features suggests an international business outlet.",
+    "reason": "Abstracts on MNC knowledge networks and on domestic versus foreign firms under different institutions were the non-SMJ choices."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Investor screening of individual entrepreneurs' pitches or funding requests, modeled formally and tested experimentally, suggests an entrepreneurial-finance or management-science outlet.",
+    "reason": "A formal model of investors evaluating pitches, tested in a field experiment, lost to an archival study of executive bias."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-SMJ-MgmtSci-ba230906",
+    "cross-train-OrgSci-SMJ-ca199749",
+    "cross-train-SMJ-MgmtSci-e690a0bb"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-SMJ-71322b3d",
+    "cross-train-OrgSci-SMJ-f8296b47",
+    "cross-train-SMJ-MgmtSci-754f2696",
+    "cross-train-SMJ-MgmtSci-c32ed010",
+    "cross-train-OrgSci-SMJ-96df3a7d",
+    "cross-train-OrgSci-SMJ-909fc028"
+   ],
+   "anchors": [
+    "cross-train-SMJ-MgmtSci-9976ec99",
+    "cross-train-OrgSci-SMJ-2ec03161",
+    "cross-train-OrgSci-SMJ-0c4abe65"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-adcb9935",
+   "cross-train-OrgSci-SMJ-0c4abe65",
+   "cross-train-OrgSci-SMJ-531b9730",
+   "cross-train-OrgSci-SMJ-2cdb7ccf",
+   "cross-train-OrgSci-SMJ-3f76de51",
+   "cross-train-OrgSci-SMJ-96df3a7d",
+   "cross-train-OrgSci-SMJ-909fc028",
+   "cross-train-OrgSci-SMJ-86d9584b",
+   "cross-train-OrgSci-SMJ-ca199749",
+   "cross-train-OrgSci-SMJ-cff880b6",
+   "cross-train-OrgSci-SMJ-5d21af7b",
+   "cross-train-OrgSci-SMJ-f8296b47",
+   "cross-train-OrgSci-SMJ-ab88140a",
+   "cross-train-OrgSci-SMJ-d35a2f77",
+   "cross-train-OrgSci-SMJ-02cad14a",
+   "cross-train-OrgSci-SMJ-f28d8903",
+   "cross-train-OrgSci-SMJ-04d28cd4",
+   "cross-train-OrgSci-SMJ-2ec03161",
+   "cross-train-OrgSci-SMJ-cf439914",
+   "cross-train-OrgSci-SMJ-71322b3d",
+   "cross-train-SMJ-MgmtSci-a398ef28",
+   "cross-train-SMJ-MgmtSci-4a51d670",
+   "cross-train-SMJ-MgmtSci-754f2696",
+   "cross-train-SMJ-MgmtSci-5b305c56",
+   "cross-train-SMJ-MgmtSci-9976ec99",
+   "cross-train-SMJ-MgmtSci-715e5558",
+   "cross-train-SMJ-MgmtSci-d204ab09",
+   "cross-train-SMJ-MgmtSci-1bb8deb3",
+   "cross-train-SMJ-MgmtSci-456dab6c",
+   "cross-train-SMJ-MgmtSci-468fbf09",
+   "cross-train-SMJ-MgmtSci-adb561c0",
+   "cross-train-SMJ-MgmtSci-28c9c429",
+   "cross-train-SMJ-MgmtSci-c32ed010",
+   "cross-train-SMJ-MgmtSci-2a558cc9",
+   "cross-train-SMJ-MgmtSci-debda0e3",
+   "cross-train-SMJ-MgmtSci-57ec795e",
+   "cross-train-SMJ-MgmtSci-e690a0bb",
+   "cross-train-SMJ-MgmtSci-77f45cca",
+   "cross-train-SMJ-MgmtSci-c3495786",
+   "cross-train-SMJ-MgmtSci-ba230906"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-adcb9935": 0.7,
+   "cross-train-OrgSci-SMJ-0c4abe65": 0.85,
+   "cross-train-OrgSci-SMJ-531b9730": 0.7,
+   "cross-train-OrgSci-SMJ-2cdb7ccf": 0.725,
+   "cross-train-OrgSci-SMJ-3f76de51": 0.725,
+   "cross-train-OrgSci-SMJ-96df3a7d": 0.625,
+   "cross-train-OrgSci-SMJ-909fc028": 0.625,
+   "cross-train-OrgSci-SMJ-86d9584b": 0.7,
+   "cross-train-OrgSci-SMJ-ca199749": 0.5,
+   "cross-train-OrgSci-SMJ-cff880b6": 0.6499999999999999,
+   "cross-train-OrgSci-SMJ-5d21af7b": 0.7,
+   "cross-train-OrgSci-SMJ-f8296b47": 0.6,
+   "cross-train-OrgSci-SMJ-ab88140a": 0.71,
+   "cross-train-OrgSci-SMJ-d35a2f77": 0.675,
+   "cross-train-OrgSci-SMJ-02cad14a": 0.71,
+   "cross-train-OrgSci-SMJ-f28d8903": 0.725,
+   "cross-train-OrgSci-SMJ-04d28cd4": 0.74,
+   "cross-train-OrgSci-SMJ-2ec03161": 0.865,
+   "cross-train-OrgSci-SMJ-cf439914": 0.725,
+   "cross-train-OrgSci-SMJ-71322b3d": 0.525,
+   "cross-train-SMJ-MgmtSci-a398ef28": 0.775,
+   "cross-train-SMJ-MgmtSci-4a51d670": 0.675,
+   "cross-train-SMJ-MgmtSci-754f2696": 0.6,
+   "cross-train-SMJ-MgmtSci-5b305c56": 0.725,
+   "cross-train-SMJ-MgmtSci-9976ec99": 0.825,
+   "cross-train-SMJ-MgmtSci-715e5558": 0.75,
+   "cross-train-SMJ-MgmtSci-d204ab09": 0.675,
+   "cross-train-SMJ-MgmtSci-1bb8deb3": 0.625,
+   "cross-train-SMJ-MgmtSci-456dab6c": 0.675,
+   "cross-train-SMJ-MgmtSci-468fbf09": 0.675,
+   "cross-train-SMJ-MgmtSci-adb561c0": 0.675,
+   "cross-train-SMJ-MgmtSci-28c9c429": 0.685,
+   "cross-train-SMJ-MgmtSci-c32ed010": 0.6,
+   "cross-train-SMJ-MgmtSci-2a558cc9": 0.7,
+   "cross-train-SMJ-MgmtSci-debda0e3": 0.75,
+   "cross-train-SMJ-MgmtSci-57ec795e": 0.7,
+   "cross-train-SMJ-MgmtSci-e690a0bb": 0.5,
+   "cross-train-SMJ-MgmtSci-77f45cca": 0.75,
+   "cross-train-SMJ-MgmtSci-c3495786": 0.625,
+   "cross-train-SMJ-MgmtSci-ba230906": 0.45
+  },
+  "train_acc": 0.95,
+  "val_acc": 0.8833333333333333,
+  "val_by_rival": {
+   "OrgSci": 0.8333333333333334,
+   "MgmtSci": 0.9333333333333333
+  },
+  "val_mean_p": 0.6871666666666667,
+  "val_probs": {
+   "cross-val-SMJ-MgmtSci-fee6be9e": 0.69,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.7,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.865,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.79,
+   "cross-val-SMJ-MgmtSci-d86d518f": 0.79,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.185,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.815,
+   "cross-val-SMJ-MgmtSci-c338b99c": 0.76,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.8300000000000001,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.775,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.625,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.69,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.75,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.9,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.63,
+   "cross-val-OrgSci-SMJ-f817dd58": 0.635,
+   "cross-val-OrgSci-SMJ-12fd6f02": 0.6699999999999999,
+   "cross-val-OrgSci-SMJ-660ea215": 0.20999999999999996,
+   "cross-val-OrgSci-SMJ-0f5ed265": 0.725,
+   "cross-val-OrgSci-SMJ-f5c25431": 0.71,
+   "cross-val-OrgSci-SMJ-dc08d1f2": 0.5,
+   "cross-val-OrgSci-SMJ-f91132f7": 0.8,
+   "cross-val-OrgSci-SMJ-1862b60e": 0.765,
+   "cross-val-OrgSci-SMJ-b6058596": 0.775,
+   "cross-val-OrgSci-SMJ-c0463663": 0.675,
+   "cross-val-OrgSci-SMJ-3c93c54b": 0.42500000000000004,
+   "cross-val-OrgSci-SMJ-45bee890": 0.59,
+   "cross-val-OrgSci-SMJ-39492d36": 0.75,
+   "cross-val-OrgSci-SMJ-ebec8eec": 0.89,
+   "cross-val-OrgSci-SMJ-dbf5862c": 0.7
+  },
+  "accepted": false,
+  "best_before": 0.9333333333333333
+ },
+ {
+  "iteration": 3,
+  "version": 3,
+  "parent": 1,
+  "rulebook": {
+   "values": [
+    "The firm, or the founder acting for the venture, is the decision-maker, and the abstract studies a strategic choice such as entry, positioning, investment, scope or innovation direction.",
+    "Outcomes are firm- or unit-level, such as performance, productivity, value capture, survival or returns. Linking a choice to its payoff beats only predicting the choice.",
+    "Effects depend on contingencies: the abstract shows how strategy\u2013environment fit or firm and industry characteristics strengthen or weaken the main relationship.",
+    "The abstract names the costs, trade-offs or unintended penalties of strategic moves for the firm, such as change, repositioning, path dependence or departing from tradition.",
+    "Individual, team or employee-level mechanisms (micro-foundations) are explicitly tied to firm or unit results, such as team composition shaping innovation output.",
+    "Strategic leaders such as CEOs, boards, top teams, family owners or founders are agents whose traits shape firm strategy, governance or members' choices.",
+    "Hypotheses come from named strategy theories (resource-based, real options, behavioral/problemistic search, capabilities, strategic human capital, value creation/appropriation) and are tested on archival or field data.",
+    "The abstract explicitly claims contributions to strategy literatures, such as competitive, corporate, complementor, entrepreneurial or international strategy, and states what managers should do.",
+    "Customer or audience reactions are framed as determinants of the value or cost of a firm's strategic choice, not as phenomena of evaluator cognition in their own right.",
+    "How a firm organizes internally, through multi-unit footprint, cross-unit knowledge transfer or team design, explains productivity differences among its units or the firm as a whole.",
+    "Interactions between firms, such as rivals, bidders or partners, are framed as shaping the focal firm's value capture or competitive position."
+   ],
+   "red_flags": [
+    "A formal or analytical model deriving optimal design, pricing or fee policies without empirical testing suggests an operations, economics or marketing journal.",
+    "An economics framing, such as market-price tests or effects of public data, policy or collective arrangements on industry-wide aggregates, not on focal-firm choice and performance.",
+    "Employee mobility, promotion, aspiration or career outcomes explained by network position or labor processes, with no link to firm strategy, founders or performance.",
+    "A sociological focus on categories, identity or evaluator perception where the producer is an individual and the firm's strategic value is absent.",
+    "Inductive case-based process theorizing about routines, identity or work practices that is not framed around a strategy construct suggests an organization-theory outlet.",
+    "Purely conceptual arguments about organizational adaptation, or about reconciling theoretical paradigms, with no empirical or modeled link to strategic outcomes.",
+    "The main contribution is settling a debate between theories of the firm, rather than explaining a strategic choice and what follows from it.",
+    "Psychological, group-process or sociological theory used as the main lens, without anchoring in a named strategy construct, suggests another outlet."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "The outcomes are at firm level: performance, value creation, growth-option value, revenue or competitive advantage, not only individual or audience outcomes.",
+    "after": "Outcomes are firm- or unit-level, such as performance, productivity, value capture, survival or returns. Linking a choice to its payoff beats only predicting the choice.",
+    "reason": "The SMJ articles tied search or strategy choices to performance, while their counterparts only explained antecedents of a behavior such as adaptation."
+   },
+   {
+    "change": "edited",
+    "before": "Individual or employee-level mechanisms (micro-foundations) are explicitly tied to firm-level results, such as leaders affecting performance or worker interventions raising revenue.",
+    "after": "Individual, team or employee-level mechanisms (micro-foundations) are explicitly tied to firm or unit results, such as team composition shaping innovation output.",
+    "reason": "SMJ framed team composition inside the firm as micro-foundations of innovation, while the counterpart studied industry-level arrangements."
+   },
+   {
+    "change": "edited",
+    "before": "The study covers strategic leadership and governance: top teams, dominant coalitions, family control or CEO succession, and their link to firm strategy or performance feedback.",
+    "after": "Strategic leaders such as CEOs, boards, top teams, family owners or founders are agents whose traits shape firm strategy, governance or members' choices.",
+    "reason": "SMJ published work on founders shaping their joiners' choices. Leadership should cover founders acting as influencers inside their organizations."
+   },
+   {
+    "change": "edited",
+    "before": "Hypotheses are derived from core strategy theories (resource-based, real options, behavioral theory of the firm, capabilities, competitive dynamics) and tested on archival or field-experimental data.",
+    "after": "Hypotheses come from named strategy theories (resource-based, real options, behavioral/problemistic search, capabilities, strategic human capital, value creation/appropriation) and are tested on archival or field data.",
+    "reason": "The SMJ winners explicitly named strategic human capital, problemistic search or value creation/appropriation, while their counterparts estimated effects without naming a strategy theory."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "How a firm organizes internally, through multi-unit footprint, cross-unit knowledge transfer or team design, explains productivity differences among its units or the firm as a whole.",
+    "reason": "SMJ favored within-firm organization driving unit productivity over industry-wide market-structure effects."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Interactions between firms, such as rivals, bidders or partners, are framed as shaping the focal firm's value capture or competitive position.",
+    "reason": "In the acquisitions pair, SMJ framed contact between firms as reducing bidding competition and raising the acquirer's value; the counterpart took a board group-process view."
+   },
+   {
+    "change": "edited",
+    "before": "An economics or finance framing: testing information asymmetry with market-price predictions, macro or local economic outcomes, or impacts at the level of public policy.",
+    "after": "An economics framing, such as market-price tests or effects of public data, policy or collective arrangements on industry-wide aggregates, not on focal-firm choice and performance.",
+    "reason": "The non-SMJ articles estimated how public goods or collective arrangements changed aggregate discovery rates, follow-on innovation or industry structure."
+   },
+   {
+    "change": "edited",
+    "before": "Personnel or labor outcomes such as exit, promotion, aspirations or gender gaps, studied without any link to firm strategy or firm performance.",
+    "after": "Employee mobility, promotion, aspiration or career outcomes explained by network position or labor processes, with no link to firm strategy, founders or performance.",
+    "reason": "SMJ accepted career outcomes driven by founder influence in startups, so the flag should target mobility explained purely by labor processes or network position."
+   },
+   {
+    "change": "edited",
+    "before": "An inductive comparative case study that builds a process theory from a handful of firms suggests a qualitative organization-theory outlet.",
+    "after": "Inductive case-based process theorizing about routines, identity or work practices that is not framed around a strategy construct suggests an organization-theory outlet.",
+    "reason": "SMJ published a mixed-methods study of a few firms framed around value creation and appropriation, so case methods alone are not disqualifying."
+   },
+   {
+    "change": "edited",
+    "before": "Purely conceptual or simulation arguments about organizational adaptation, or about reconciling theoretical paradigms, with no empirical test of strategic outcomes.",
+    "after": "Purely conceptual arguments about organizational adaptation, or about reconciling theoretical paradigms, with no empirical or modeled link to strategic outcomes.",
+    "reason": "SMJ published a network simulation model, so simulation by itself should not be treated as a red flag."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Psychological, group-process or sociological theory used as the main lens, without anchoring in a named strategy construct, suggests another outlet.",
+    "reason": "A counterpart that relied on group information-processing theory lost. The SMJ anchor that borrowed psychology tied it to strategic framing, hence the anchoring condition."
+   }
+  ],
+  "minibatch": {
+   "wrong": [],
+   "shaky": [
+    "cross-train-SMJ-MgmtSci-81839b38",
+    "cross-train-OrgSci-SMJ-ccfc1014",
+    "cross-train-OrgSci-SMJ-e55947fe",
+    "cross-train-OrgSci-SMJ-fa8a4ac6",
+    "cross-train-OrgSci-SMJ-e1328d02",
+    "cross-train-OrgSci-SMJ-1cc62907",
+    "cross-train-OrgSci-SMJ-90c3cd93",
+    "cross-train-OrgSci-SMJ-55b8ef33",
+    "cross-train-SMJ-MgmtSci-c0751f97"
+   ],
+   "anchors": [
+    "cross-train-OrgSci-SMJ-e9e538c1",
+    "cross-train-OrgSci-SMJ-4f95b80b",
+    "cross-train-OrgSci-SMJ-f35fb882"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-e9e538c1",
+   "cross-train-OrgSci-SMJ-e0156da4",
+   "cross-train-OrgSci-SMJ-a44aeb12",
+   "cross-train-OrgSci-SMJ-51850762",
+   "cross-train-OrgSci-SMJ-fa8a4ac6",
+   "cross-train-OrgSci-SMJ-4f95b80b",
+   "cross-train-OrgSci-SMJ-f35fb882",
+   "cross-train-OrgSci-SMJ-a17e1d45",
+   "cross-train-OrgSci-SMJ-e1328d02",
+   "cross-train-OrgSci-SMJ-ccfc1014",
+   "cross-train-OrgSci-SMJ-261fb791",
+   "cross-train-OrgSci-SMJ-2676f488",
+   "cross-train-OrgSci-SMJ-e17c0835",
+   "cross-train-OrgSci-SMJ-1cc62907",
+   "cross-train-OrgSci-SMJ-4b8654c7",
+   "cross-train-OrgSci-SMJ-e55947fe",
+   "cross-train-OrgSci-SMJ-0fcd315e",
+   "cross-train-OrgSci-SMJ-90c3cd93",
+   "cross-train-OrgSci-SMJ-55b8ef33",
+   "cross-train-SMJ-MgmtSci-219816db",
+   "cross-train-SMJ-MgmtSci-ea030702",
+   "cross-train-SMJ-MgmtSci-cdb4f214",
+   "cross-train-SMJ-MgmtSci-c0751f97",
+   "cross-train-SMJ-MgmtSci-47d9790c",
+   "cross-train-SMJ-MgmtSci-996bc48f",
+   "cross-train-SMJ-MgmtSci-57232e69",
+   "cross-train-SMJ-MgmtSci-87c02e81",
+   "cross-train-SMJ-MgmtSci-81839b38",
+   "cross-train-SMJ-MgmtSci-d2029b26",
+   "cross-train-SMJ-MgmtSci-fc2e8822",
+   "cross-train-SMJ-MgmtSci-f7f989fe",
+   "cross-train-SMJ-MgmtSci-8766a6e6",
+   "cross-train-SMJ-MgmtSci-49e2a83f",
+   "cross-train-SMJ-MgmtSci-d1138ee9",
+   "cross-train-SMJ-MgmtSci-f522f4ea",
+   "cross-train-SMJ-MgmtSci-e8683ec6",
+   "cross-train-SMJ-MgmtSci-94f62895",
+   "cross-train-SMJ-MgmtSci-cfc0651e",
+   "cross-train-SMJ-MgmtSci-f77f4bfa"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-e9e538c1": 0.885,
+   "cross-train-OrgSci-SMJ-e0156da4": 0.7250000000000001,
+   "cross-train-OrgSci-SMJ-a44aeb12": 0.675,
+   "cross-train-OrgSci-SMJ-51850762": 0.675,
+   "cross-train-OrgSci-SMJ-fa8a4ac6": 0.625,
+   "cross-train-OrgSci-SMJ-4f95b80b": 0.825,
+   "cross-train-OrgSci-SMJ-f35fb882": 0.875,
+   "cross-train-OrgSci-SMJ-a17e1d45": 0.7,
+   "cross-train-OrgSci-SMJ-e1328d02": 0.625,
+   "cross-train-OrgSci-SMJ-ccfc1014": 0.6,
+   "cross-train-OrgSci-SMJ-261fb791": 0.685,
+   "cross-train-OrgSci-SMJ-2676f488": 0.675,
+   "cross-train-OrgSci-SMJ-e17c0835": 0.75,
+   "cross-train-OrgSci-SMJ-1cc62907": 0.625,
+   "cross-train-OrgSci-SMJ-4b8654c7": 0.65,
+   "cross-train-OrgSci-SMJ-e55947fe": 0.6,
+   "cross-train-OrgSci-SMJ-0fcd315e": 0.6499999999999999,
+   "cross-train-OrgSci-SMJ-90c3cd93": 0.625,
+   "cross-train-OrgSci-SMJ-55b8ef33": 0.625,
+   "cross-train-SMJ-MgmtSci-219816db": 0.75,
+   "cross-train-SMJ-MgmtSci-ea030702": 0.675,
+   "cross-train-SMJ-MgmtSci-cdb4f214": 0.775,
+   "cross-train-SMJ-MgmtSci-c0751f97": 0.625,
+   "cross-train-SMJ-MgmtSci-47d9790c": 0.775,
+   "cross-train-SMJ-MgmtSci-996bc48f": 0.85,
+   "cross-train-SMJ-MgmtSci-57232e69": 0.75,
+   "cross-train-SMJ-MgmtSci-87c02e81": 0.75,
+   "cross-train-SMJ-MgmtSci-81839b38": 0.525,
+   "cross-train-SMJ-MgmtSci-d2029b26": 0.65,
+   "cross-train-SMJ-MgmtSci-fc2e8822": 0.75,
+   "cross-train-SMJ-MgmtSci-f7f989fe": 0.815,
+   "cross-train-SMJ-MgmtSci-8766a6e6": 0.85,
+   "cross-train-SMJ-MgmtSci-49e2a83f": 0.6499999999999999,
+   "cross-train-SMJ-MgmtSci-d1138ee9": 0.875,
+   "cross-train-SMJ-MgmtSci-f522f4ea": 0.75,
+   "cross-train-SMJ-MgmtSci-e8683ec6": 0.725,
+   "cross-train-SMJ-MgmtSci-94f62895": 0.85,
+   "cross-train-SMJ-MgmtSci-cfc0651e": 0.775,
+   "cross-train-SMJ-MgmtSci-f77f4bfa": 0.725
+  },
+  "train_acc": 1.0,
+  "val_acc": 0.9,
+  "val_by_rival": {
+   "OrgSci": 0.9333333333333333,
+   "MgmtSci": 0.8666666666666667
+  },
+  "val_mean_p": 0.6784999999999999,
+  "val_probs": {
+   "cross-val-SMJ-MgmtSci-fee6be9e": 0.475,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.725,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.865,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.765,
+   "cross-val-SMJ-MgmtSci-d86d518f": 0.8,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.19999999999999998,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.775,
+   "cross-val-SMJ-MgmtSci-c338b99c": 0.715,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.8400000000000001,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.7,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.61,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.65,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.75,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.91,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.62,
+   "cross-val-OrgSci-SMJ-f817dd58": 0.635,
+   "cross-val-OrgSci-SMJ-12fd6f02": 0.6499999999999999,
+   "cross-val-OrgSci-SMJ-660ea215": 0.2,
+   "cross-val-OrgSci-SMJ-0f5ed265": 0.72,
+   "cross-val-OrgSci-SMJ-f5c25431": 0.625,
+   "cross-val-OrgSci-SMJ-dc08d1f2": 0.6,
+   "cross-val-OrgSci-SMJ-f91132f7": 0.85,
+   "cross-val-OrgSci-SMJ-1862b60e": 0.75,
+   "cross-val-OrgSci-SMJ-b6058596": 0.7,
+   "cross-val-OrgSci-SMJ-c0463663": 0.675,
+   "cross-val-OrgSci-SMJ-3c93c54b": 0.5900000000000001,
+   "cross-val-OrgSci-SMJ-45bee890": 0.6799999999999999,
+   "cross-val-OrgSci-SMJ-39492d36": 0.7,
+   "cross-val-OrgSci-SMJ-ebec8eec": 0.88,
+   "cross-val-OrgSci-SMJ-dbf5862c": 0.7
+  },
+  "accepted": false,
+  "best_before": 0.9333333333333333
+ },
+ {
+  "iteration": 4,
+  "version": 4,
+  "parent": 1,
+  "rulebook": {
+   "values": [
+    "The firm, or the founder acting for the venture, is the decision-maker, and the abstract studies a strategic choice such as entry, positioning, investment, scope or innovation direction.",
+    "The outcomes are at firm level: performance, value creation, growth-option value, revenue or competitive advantage, not only individual or audience outcomes.",
+    "Effects depend on contingencies: the abstract shows how strategy\u2013environment fit or firm and industry characteristics strengthen or weaken the main relationship.",
+    "The abstract names the costs, trade-offs or unintended penalties of strategic moves for the firm, such as change, repositioning, path dependence or departing from tradition.",
+    "Individual-level mechanisms count when they explain strategic processes (search, competitive response, decision-making) or firm results; lab or manager experiments qualify.",
+    "The study covers strategic leadership and governance: top teams, dominant coalitions, family control or CEO succession, and their link to firm strategy or performance feedback.",
+    "Hypotheses come from core strategy theories (resource-based, real options, behavioral theory, capabilities, competitive dynamics, transaction costs) and are tested with archival, experimental or qualitative evidence.",
+    "The abstract explicitly claims contributions to strategy literatures, such as competitive, corporate, complementor, entrepreneurial or international strategy, and states what managers should do.",
+    "Customer or audience reactions are framed as determinants of the value or cost of a firm's strategic choice, not as phenomena of evaluator cognition in their own right.",
+    "Reviews, essays or conceptual pieces that synthesize, extend or guide use of a strategy theory for strategy researchers fit, even without new data.",
+    "Network positions, prior relationships or stakeholder ties are treated as firm-level sources of advantage, risk or boundary choices, often under environmental shocks.",
+    "Qualitative studies fit when they examine how strategy-makers formulate, justify or communicate strategy and explicitly link findings to strategy research."
+   ],
+   "red_flags": [
+    "The main contribution is a formal model deriving optimal policies, equilibria or new mathematical constructs, without empirical testing or a synthesis for strategy research.",
+    "Economics or finance framing: corporate-finance mechanisms, market-price tests, IO-style effect-size estimates without management theory, or macro and public-policy outcomes.",
+    "The dependent variable is a personnel outcome such as turnover, exit, promotion, aspirations or gender gaps, even when it is framed as relevant to the firm.",
+    "A sociological focus on categories, identity or evaluator perception, framed mainly within organization theory, where the firm's strategic value is absent.",
+    "An inductive case study that builds process theory framed in organization theory, with no tie to strategy-making or strategy literatures, suggests another outlet.",
+    "Conceptual or simulation arguments about organizational adaptation or reconciling paradigms that are not anchored in a core strategy theory.",
+    "The main contribution is settling a debate between theories of the firm, rather than explaining a strategic choice and what follows from it.",
+    "The abstract mainly describes an intervention or training design and its causal effect, without theory-derived hypotheses about strategic choices or firm outcomes."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Individual or employee-level mechanisms (micro-foundations) are explicitly tied to firm-level results, such as leaders affecting performance or worker interventions raising revenue.",
+    "after": "Individual-level mechanisms count when they explain strategic processes (search, competitive response, decision-making) or firm results; lab or manager experiments qualify.",
+    "reason": "Lab experiments on organizational search and manager experiments on competitive response were SMJ, while an employee intervention study on turnover was not."
+   },
+   {
+    "change": "edited",
+    "before": "Hypotheses are derived from core strategy theories (resource-based, real options, behavioral theory of the firm, capabilities, competitive dynamics) and tested on archival or field-experimental data.",
+    "after": "Hypotheses come from core strategy theories (resource-based, real options, behavioral theory, capabilities, competitive dynamics, transaction costs) and are tested with archival, experimental or qualitative evidence.",
+    "reason": "SMJ articles used lab experiments and qualitative evidence, so a rule limited to archival or field data misled the board."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Reviews, essays or conceptual pieces that synthesize, extend or guide use of a strategy theory for strategy researchers fit, even without new data.",
+    "reason": "SMJ published reviews and conceptual extensions of strategy theories, while other journals took the formal-model and empirical counterparts."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Network positions, prior relationships or stakeholder ties are treated as firm-level sources of advantage, risk or boundary choices, often under environmental shocks.",
+    "reason": "SMJ papers framed brokerage, relational capital and stakeholder risk as firm advantage or risk; the board underweighted this framing."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Qualitative studies fit when they examine how strategy-makers formulate, justify or communicate strategy and explicitly link findings to strategy research.",
+    "reason": "A qualitative study of strategy-makers' discursive practices was SMJ, which goes against a blanket penalty on qualitative work."
+   },
+   {
+    "change": "edited",
+    "before": "A formal or analytical model deriving optimal design, pricing or fee policies without empirical testing suggests an operations, economics or marketing journal.",
+    "after": "The main contribution is a formal model deriving optimal policies, equilibria or new mathematical constructs, without empirical testing or a synthesis for strategy research.",
+    "reason": "Formal papers that build new constructs went elsewhere, while SMJ took reviews of the same formal approach; the rule needs to separate the two."
+   },
+   {
+    "change": "edited",
+    "before": "An economics or finance framing: testing information asymmetry with market-price predictions, macro or local economic outcomes, or impacts at the level of public policy.",
+    "after": "Economics or finance framing: corporate-finance mechanisms, market-price tests, IO-style effect-size estimates without management theory, or macro and public-policy outcomes.",
+    "reason": "An IO-style entry-deterrence test and an internal capital markets paper went elsewhere, while their theory-driven strategy counterparts were SMJ."
+   },
+   {
+    "change": "edited",
+    "before": "Personnel or labor outcomes such as exit, promotion, aspirations or gender gaps, studied without any link to firm strategy or firm performance.",
+    "after": "The dependent variable is a personnel outcome such as turnover, exit, promotion, aspirations or gender gaps, even when it is framed as relevant to the firm.",
+    "reason": "A turnover study framed as relevant to the firm still went elsewhere, so framing it that way does not rescue an HR outcome."
+   },
+   {
+    "change": "edited",
+    "before": "A sociological focus on categories, identity or evaluator perception where the producer is an individual and the firm's strategic value is absent.",
+    "after": "A sociological focus on categories, identity or evaluator perception, framed mainly within organization theory, where the firm's strategic value is absent.",
+    "reason": "A diversification-authenticity study positioned in organization theory went elsewhere even though the producer was a firm."
+   },
+   {
+    "change": "edited",
+    "before": "An inductive comparative case study that builds a process theory from a handful of firms suggests a qualitative organization-theory outlet.",
+    "after": "An inductive case study that builds process theory framed in organization theory, with no tie to strategy-making or strategy literatures, suggests another outlet.",
+    "reason": "SMJ published inductive work on strategy-makers, so the flag should apply only when the strategy link is missing."
+   },
+   {
+    "change": "edited",
+    "before": "Purely conceptual or simulation arguments about organizational adaptation, or about reconciling theoretical paradigms, with no empirical test of strategic outcomes.",
+    "after": "Conceptual or simulation arguments about organizational adaptation or reconciling paradigms that are not anchored in a core strategy theory.",
+    "reason": "A conceptual extension of the resource-based view was SMJ, so being conceptual is not a red flag in itself."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "The abstract mainly describes an intervention or training design and its causal effect, without theory-derived hypotheses about strategic choices or firm outcomes.",
+    "reason": "Abstracts centred on an RCT's design or intervention went elsewhere, while hypothesis-driven strategy counterparts on the same topic were SMJ."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-SMJ-ada07092",
+    "cross-train-SMJ-MgmtSci-f180647d",
+    "cross-train-SMJ-MgmtSci-107cf6d6"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-SMJ-fc97cf3b",
+    "cross-train-OrgSci-SMJ-658c760a",
+    "cross-train-SMJ-MgmtSci-9d003c30",
+    "cross-train-OrgSci-SMJ-e80729e4",
+    "cross-train-SMJ-MgmtSci-550d32c1",
+    "cross-train-OrgSci-SMJ-2874a3c8"
+   ],
+   "anchors": [
+    "cross-train-SMJ-MgmtSci-b4d107d4",
+    "cross-train-SMJ-MgmtSci-3e8f66fc",
+    "cross-train-SMJ-MgmtSci-b1932106"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-9e4aaec3",
+   "cross-train-OrgSci-SMJ-1f29f8e6",
+   "cross-train-OrgSci-SMJ-249ffad1",
+   "cross-train-OrgSci-SMJ-9abf810c",
+   "cross-train-OrgSci-SMJ-7a511e32",
+   "cross-train-OrgSci-SMJ-fc97cf3b",
+   "cross-train-OrgSci-SMJ-45ee9453",
+   "cross-train-OrgSci-SMJ-ba94284b",
+   "cross-train-OrgSci-SMJ-599216f5",
+   "cross-train-OrgSci-SMJ-e80729e4",
+   "cross-train-OrgSci-SMJ-0d6a5828",
+   "cross-train-OrgSci-SMJ-ff4e5118",
+   "cross-train-OrgSci-SMJ-776317b5",
+   "cross-train-OrgSci-SMJ-9b6e1834",
+   "cross-train-OrgSci-SMJ-c6c3ff4a",
+   "cross-train-OrgSci-SMJ-658c760a",
+   "cross-train-OrgSci-SMJ-f5f33e4c",
+   "cross-train-OrgSci-SMJ-2874a3c8",
+   "cross-train-OrgSci-SMJ-8ae1e38e",
+   "cross-train-OrgSci-SMJ-ada07092",
+   "cross-train-SMJ-MgmtSci-b1932106",
+   "cross-train-SMJ-MgmtSci-e5401e9f",
+   "cross-train-SMJ-MgmtSci-107cf6d6",
+   "cross-train-SMJ-MgmtSci-415c2e86",
+   "cross-train-SMJ-MgmtSci-c6b54021",
+   "cross-train-SMJ-MgmtSci-65716e01",
+   "cross-train-SMJ-MgmtSci-b4d107d4",
+   "cross-train-SMJ-MgmtSci-3e8f66fc",
+   "cross-train-SMJ-MgmtSci-26f5c1fe",
+   "cross-train-SMJ-MgmtSci-61cb0e0e",
+   "cross-train-SMJ-MgmtSci-a7184d4d",
+   "cross-train-SMJ-MgmtSci-e6fef0d1",
+   "cross-train-SMJ-MgmtSci-7f95e1a6",
+   "cross-train-SMJ-MgmtSci-7dd36cb1",
+   "cross-train-SMJ-MgmtSci-7f2d8177",
+   "cross-train-SMJ-MgmtSci-e3fa2704",
+   "cross-train-SMJ-MgmtSci-9d003c30",
+   "cross-train-SMJ-MgmtSci-ae6bbb5e",
+   "cross-train-SMJ-MgmtSci-f180647d",
+   "cross-train-SMJ-MgmtSci-550d32c1"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-9e4aaec3": 0.775,
+   "cross-train-OrgSci-SMJ-1f29f8e6": 0.75,
+   "cross-train-OrgSci-SMJ-249ffad1": 0.75,
+   "cross-train-OrgSci-SMJ-9abf810c": 0.7,
+   "cross-train-OrgSci-SMJ-7a511e32": 0.7,
+   "cross-train-OrgSci-SMJ-fc97cf3b": 0.55,
+   "cross-train-OrgSci-SMJ-45ee9453": 0.75,
+   "cross-train-OrgSci-SMJ-ba94284b": 0.75,
+   "cross-train-OrgSci-SMJ-599216f5": 0.75,
+   "cross-train-OrgSci-SMJ-e80729e4": 0.625,
+   "cross-train-OrgSci-SMJ-0d6a5828": 0.775,
+   "cross-train-OrgSci-SMJ-ff4e5118": 0.75,
+   "cross-train-OrgSci-SMJ-776317b5": 0.7,
+   "cross-train-OrgSci-SMJ-9b6e1834": 0.8,
+   "cross-train-OrgSci-SMJ-c6c3ff4a": 0.85,
+   "cross-train-OrgSci-SMJ-658c760a": 0.575,
+   "cross-train-OrgSci-SMJ-f5f33e4c": 0.65,
+   "cross-train-OrgSci-SMJ-2874a3c8": 0.6499999999999999,
+   "cross-train-OrgSci-SMJ-8ae1e38e": 0.7,
+   "cross-train-OrgSci-SMJ-ada07092": 0.35000000000000003,
+   "cross-train-SMJ-MgmtSci-b1932106": 0.89,
+   "cross-train-SMJ-MgmtSci-e5401e9f": 0.7,
+   "cross-train-SMJ-MgmtSci-107cf6d6": 0.475,
+   "cross-train-SMJ-MgmtSci-415c2e86": 0.7250000000000001,
+   "cross-train-SMJ-MgmtSci-c6b54021": 0.7,
+   "cross-train-SMJ-MgmtSci-65716e01": 0.6499999999999999,
+   "cross-train-SMJ-MgmtSci-b4d107d4": 0.825,
+   "cross-train-SMJ-MgmtSci-3e8f66fc": 0.85,
+   "cross-train-SMJ-MgmtSci-26f5c1fe": 0.75,
+   "cross-train-SMJ-MgmtSci-61cb0e0e": 0.7250000000000001,
+   "cross-train-SMJ-MgmtSci-a7184d4d": 0.65,
+   "cross-train-SMJ-MgmtSci-e6fef0d1": 0.775,
+   "cross-train-SMJ-MgmtSci-7f95e1a6": 0.675,
+   "cross-train-SMJ-MgmtSci-7dd36cb1": 0.725,
+   "cross-train-SMJ-MgmtSci-7f2d8177": 0.725,
+   "cross-train-SMJ-MgmtSci-e3fa2704": 0.65,
+   "cross-train-SMJ-MgmtSci-9d003c30": 0.6,
+   "cross-train-SMJ-MgmtSci-ae6bbb5e": 0.675,
+   "cross-train-SMJ-MgmtSci-f180647d": 0.4,
+   "cross-train-SMJ-MgmtSci-550d32c1": 0.625
+  },
+  "train_acc": 0.925,
+  "val_acc": 0.9333333333333333,
+  "val_by_rival": {
+   "OrgSci": 0.9333333333333333,
+   "MgmtSci": 0.9333333333333333
+  },
+  "val_mean_p": 0.6858333333333333,
+  "val_probs": {
+   "cross-val-SMJ-MgmtSci-fee6be9e": 0.665,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.69,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.865,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.735,
+   "cross-val-SMJ-MgmtSci-d86d518f": 0.79,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.165,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.815,
+   "cross-val-SMJ-MgmtSci-c338b99c": 0.71,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.875,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.725,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.5900000000000001,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.7150000000000001,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.74,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.91,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.6,
+   "cross-val-OrgSci-SMJ-f817dd58": 0.615,
+   "cross-val-OrgSci-SMJ-12fd6f02": 0.675,
+   "cross-val-OrgSci-SMJ-660ea215": 0.16500000000000004,
+   "cross-val-OrgSci-SMJ-0f5ed265": 0.725,
+   "cross-val-OrgSci-SMJ-f5c25431": 0.69,
+   "cross-val-OrgSci-SMJ-dc08d1f2": 0.625,
+   "cross-val-OrgSci-SMJ-f91132f7": 0.8600000000000001,
+   "cross-val-OrgSci-SMJ-1862b60e": 0.79,
+   "cross-val-OrgSci-SMJ-b6058596": 0.75,
+   "cross-val-OrgSci-SMJ-c0463663": 0.7,
+   "cross-val-OrgSci-SMJ-3c93c54b": 0.54,
+   "cross-val-OrgSci-SMJ-45bee890": 0.635,
+   "cross-val-OrgSci-SMJ-39492d36": 0.6849999999999999,
+   "cross-val-OrgSci-SMJ-ebec8eec": 0.8400000000000001,
+   "cross-val-OrgSci-SMJ-dbf5862c": 0.69
+  },
+  "accepted": true,
+  "best_before": 0.9333333333333333
+ },
+ {
+  "iteration": 5,
+  "version": 5,
+  "parent": 4,
+  "rulebook": {
+   "values": [
+    "The firm, or the founder acting for the venture, is the decision-maker, and the abstract studies a strategic choice such as entry, positioning, investment, scope or innovation direction.",
+    "The outcomes are at firm level: performance, value creation, growth-option value, revenue or competitive advantage, not only individual or audience outcomes.",
+    "Effects depend on contingencies: the abstract shows how strategy\u2013environment fit or firm and industry characteristics strengthen or weaken the main relationship.",
+    "The abstract names the costs, trade-offs or unintended penalties of strategic moves for the firm, such as change, repositioning, path dependence or departing from tradition.",
+    "Individual-level mechanisms count when they explain strategic actions or firm results; lab, manager or in-firm field experiments that measure firm-level outcomes such as revenue qualify.",
+    "Governance and leadership: boards, top teams, CEO succession or dismissal, and executive motives such as status rivalry that drive strategic actions and their value consequences.",
+    "Hypotheses come from core strategy theories (resource-based, real options, behavioral theory, capabilities, competitive dynamics, transaction costs) and are tested with archival, experimental or qualitative evidence.",
+    "The abstract explicitly claims contributions to strategy literatures, such as competitive, corporate, complementor, entrepreneurial or international strategy, and states what managers should do.",
+    "Customer or audience reactions are framed as determinants of the value or cost of a firm's strategic choice, not as phenomena of evaluator cognition in their own right.",
+    "Reviews, conceptual syntheses, or replications and re-examinations of influential firm-level studies that guide strategy researchers fit, even without new theory or data.",
+    "Network positions, political connections or stakeholder ties are treated as firm-level sources of advantage, resource access, risk or boundary choices, often under environmental shocks.",
+    "Qualitative studies fit when they show how strategy-making processes (formulation, collaboration, participant selection) produce different strategic outcomes, linked to strategy research."
+   ],
+   "red_flags": [
+    "The main contribution is a formal model deriving optimal policies, equilibria or new mathematical constructs, without empirical testing or a synthesis for strategy research.",
+    "Economics or finance framing: corporate-finance mechanisms, market-price tests, IO-style effect-size estimates without management theory, or macro and public-policy outcomes.",
+    "The outcome is a personnel or personal reward (pay, turnover, promotion, executive compensation, gender gaps) with no measured effect on firm performance or strategic action.",
+    "A sociological focus on categories, identity or evaluator perception, framed mainly within organization theory, where the firm's strategic value is absent.",
+    "Inductive case studies building process theory for organization-theory debates (meaning-making, change resistance, identity) rather than explaining strategic outcomes suggest another outlet.",
+    "Conceptual or simulation arguments about organizational adaptation or reconciling paradigms that are not anchored in a core strategy theory.",
+    "Executive or political behavior explained mainly by individual motives or ideology (donations, self-promotion), rather than as firm strategy affecting firm resources or value.",
+    "An intervention or program is evaluated only on individual-level outcomes, without theory about strategic choices or firm-level results such as revenue or productivity."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Individual-level mechanisms count when they explain strategic processes (search, competitive response, decision-making) or firm results; lab or manager experiments qualify.",
+    "after": "Individual-level mechanisms count when they explain strategic actions or firm results; lab, manager or in-firm field experiments that measure firm-level outcomes such as revenue qualify.",
+    "reason": "SMJ published in-firm field experiments on employees when they also measured firm revenue; the board was penalizing them."
+   },
+   {
+    "change": "edited",
+    "before": "The study covers strategic leadership and governance: top teams, dominant coalitions, family control or CEO succession, and their link to firm strategy or performance feedback.",
+    "after": "Governance and leadership: boards, top teams, CEO succession or dismissal, and executive motives such as status rivalry that drive strategic actions and their value consequences.",
+    "reason": "SMJ articles covered board dismissal decisions and CEO motives that drive acquisitions; the rival articles covered CEO personal rewards."
+   },
+   {
+    "change": "edited",
+    "before": "Reviews, essays or conceptual pieces that synthesize, extend or guide use of a strategy theory for strategy researchers fit, even without new data.",
+    "after": "Reviews, conceptual syntheses, or replications and re-examinations of influential firm-level studies that guide strategy researchers fit, even without new theory or data.",
+    "reason": "SMJ published a replication of an influential firm-survival study, and the board ranked it below a study with new theory."
+   },
+   {
+    "change": "edited",
+    "before": "Network positions, prior relationships or stakeholder ties are treated as firm-level sources of advantage, risk or boundary choices, often under environmental shocks.",
+    "after": "Network positions, political connections or stakeholder ties are treated as firm-level sources of advantage, resource access, risk or boundary choices, often under environmental shocks.",
+    "reason": "SMJ framed corporate political connections as firm access to public resources, while the rival focused on individual donor motives."
+   },
+   {
+    "change": "edited",
+    "before": "Qualitative studies fit when they examine how strategy-makers formulate, justify or communicate strategy and explicitly link findings to strategy research.",
+    "after": "Qualitative studies fit when they show how strategy-making processes (formulation, collaboration, participant selection) produce different strategic outcomes, linked to strategy research.",
+    "reason": "The SMJ qualitative study explained how strategy-process dynamics lead to different outcomes; the rival added to the literature on meaning-making and change."
+   },
+   {
+    "change": "edited",
+    "before": "The dependent variable is a personnel outcome such as turnover, exit, promotion, aspirations or gender gaps, even when it is framed as relevant to the firm.",
+    "after": "The outcome is a personnel or personal reward (pay, turnover, promotion, executive compensation, gender gaps) with no measured effect on firm performance or strategic action.",
+    "reason": "The old rule wrongly penalized SMJ papers that measured retention together with firm revenue, and CEO-departure governance papers; it should target personnel or pay outcomes with no firm link."
+   },
+   {
+    "change": "edited",
+    "before": "An inductive case study that builds process theory framed in organization theory, with no tie to strategy-making or strategy literatures, suggests another outlet.",
+    "after": "Inductive case studies building process theory for organization-theory debates (meaning-making, change resistance, identity) rather than explaining strategic outcomes suggest another outlet.",
+    "reason": "Both qualitative rivals used the word 'strategic'; the real difference is whether the claimed contribution is to organization-theory debates or to strategic outcomes."
+   },
+   {
+    "change": "dropped",
+    "before": "The main contribution is settling a debate between theories of the firm, rather than explaining a strategic choice and what follows from it.",
+    "after": "",
+    "reason": "None of these pairs relied on it, and the slot was needed for a more frequent pattern about individual executive motives."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Executive or political behavior explained mainly by individual motives or ideology (donations, self-promotion), rather than as firm strategy affecting firm resources or value.",
+    "reason": "The non-SMJ rivals explained executive donations or media appearances by personal motives; the SMJ papers tied this behavior to firm resources or acquisitions."
+   },
+   {
+    "change": "edited",
+    "before": "The abstract mainly describes an intervention or training design and its causal effect, without theory-derived hypotheses about strategic choices or firm outcomes.",
+    "after": "An intervention or program is evaluated only on individual-level outcomes, without theory about strategic choices or firm-level results such as revenue or productivity.",
+    "reason": "SMJ accepts RCTs that report firm-level results, so the flag should apply only when outcomes stay at the individual level."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-SMJ-9b3a9d11",
+    "cross-train-OrgSci-SMJ-5f647c0f"
+   ],
+   "shaky": [
+    "cross-train-SMJ-MgmtSci-7864b8e8",
+    "cross-train-OrgSci-SMJ-791bbd57",
+    "cross-train-OrgSci-SMJ-ed698a75",
+    "cross-train-OrgSci-SMJ-4791a18e",
+    "cross-train-OrgSci-SMJ-55ff2995",
+    "cross-train-OrgSci-SMJ-c6aba894",
+    "cross-train-OrgSci-SMJ-0dd0d63b"
+   ],
+   "anchors": [
+    "cross-train-SMJ-MgmtSci-cc36f1de",
+    "cross-train-SMJ-MgmtSci-ca2b9357",
+    "cross-train-SMJ-MgmtSci-bb099f3c"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-791bbd57",
+   "cross-train-OrgSci-SMJ-2316d17d",
+   "cross-train-OrgSci-SMJ-7ab02313",
+   "cross-train-OrgSci-SMJ-b98d15a1",
+   "cross-train-OrgSci-SMJ-6b11ae31",
+   "cross-train-OrgSci-SMJ-ed698a75",
+   "cross-train-OrgSci-SMJ-2fc3cfad",
+   "cross-train-OrgSci-SMJ-8753e5f5",
+   "cross-train-OrgSci-SMJ-b8dab650",
+   "cross-train-OrgSci-SMJ-2669a134",
+   "cross-train-OrgSci-SMJ-4791a18e",
+   "cross-train-OrgSci-SMJ-55ff2995",
+   "cross-train-OrgSci-SMJ-c5b0ae69",
+   "cross-train-OrgSci-SMJ-c6aba894",
+   "cross-train-OrgSci-SMJ-7705de7d",
+   "cross-train-OrgSci-SMJ-622242ff",
+   "cross-train-OrgSci-SMJ-9b3a9d11",
+   "cross-train-OrgSci-SMJ-5f647c0f",
+   "cross-train-OrgSci-SMJ-0dd0d63b",
+   "cross-train-OrgSci-SMJ-fe7a1b08",
+   "cross-train-SMJ-MgmtSci-bd2e68c7",
+   "cross-train-SMJ-MgmtSci-7864b8e8",
+   "cross-train-SMJ-MgmtSci-6403efdc",
+   "cross-train-SMJ-MgmtSci-9163f53e",
+   "cross-train-SMJ-MgmtSci-24bbd61e",
+   "cross-train-SMJ-MgmtSci-88207385",
+   "cross-train-SMJ-MgmtSci-f5703373",
+   "cross-train-SMJ-MgmtSci-bb099f3c",
+   "cross-train-SMJ-MgmtSci-071d5db8",
+   "cross-train-SMJ-MgmtSci-a75b1c2a",
+   "cross-train-SMJ-MgmtSci-ca2b9357",
+   "cross-train-SMJ-MgmtSci-fc332950",
+   "cross-train-SMJ-MgmtSci-13b10d83",
+   "cross-train-SMJ-MgmtSci-017fe55c",
+   "cross-train-SMJ-MgmtSci-af924620",
+   "cross-train-SMJ-MgmtSci-a9ea4143",
+   "cross-train-SMJ-MgmtSci-e6298464",
+   "cross-train-SMJ-MgmtSci-d01620ee",
+   "cross-train-SMJ-MgmtSci-eebca082",
+   "cross-train-SMJ-MgmtSci-cc36f1de"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-791bbd57": 0.625,
+   "cross-train-OrgSci-SMJ-2316d17d": 0.725,
+   "cross-train-OrgSci-SMJ-7ab02313": 0.8,
+   "cross-train-OrgSci-SMJ-b98d15a1": 0.7,
+   "cross-train-OrgSci-SMJ-6b11ae31": 0.85,
+   "cross-train-OrgSci-SMJ-ed698a75": 0.625,
+   "cross-train-OrgSci-SMJ-2fc3cfad": 0.675,
+   "cross-train-OrgSci-SMJ-8753e5f5": 0.775,
+   "cross-train-OrgSci-SMJ-b8dab650": 0.7,
+   "cross-train-OrgSci-SMJ-2669a134": 0.775,
+   "cross-train-OrgSci-SMJ-4791a18e": 0.625,
+   "cross-train-OrgSci-SMJ-55ff2995": 0.625,
+   "cross-train-OrgSci-SMJ-c5b0ae69": 0.65,
+   "cross-train-OrgSci-SMJ-c6aba894": 0.6499999999999999,
+   "cross-train-OrgSci-SMJ-7705de7d": 0.75,
+   "cross-train-OrgSci-SMJ-622242ff": 0.7,
+   "cross-train-OrgSci-SMJ-9b3a9d11": 0.35,
+   "cross-train-OrgSci-SMJ-5f647c0f": 0.475,
+   "cross-train-OrgSci-SMJ-0dd0d63b": 0.6499999999999999,
+   "cross-train-OrgSci-SMJ-fe7a1b08": 0.675,
+   "cross-train-SMJ-MgmtSci-bd2e68c7": 0.725,
+   "cross-train-SMJ-MgmtSci-7864b8e8": 0.525,
+   "cross-train-SMJ-MgmtSci-6403efdc": 0.8,
+   "cross-train-SMJ-MgmtSci-9163f53e": 0.85,
+   "cross-train-SMJ-MgmtSci-24bbd61e": 0.75,
+   "cross-train-SMJ-MgmtSci-88207385": 0.7,
+   "cross-train-SMJ-MgmtSci-f5703373": 0.75,
+   "cross-train-SMJ-MgmtSci-bb099f3c": 0.825,
+   "cross-train-SMJ-MgmtSci-071d5db8": 0.675,
+   "cross-train-SMJ-MgmtSci-a75b1c2a": 0.9,
+   "cross-train-SMJ-MgmtSci-ca2b9357": 0.85,
+   "cross-train-SMJ-MgmtSci-fc332950": 0.675,
+   "cross-train-SMJ-MgmtSci-13b10d83": 0.65,
+   "cross-train-SMJ-MgmtSci-017fe55c": 0.675,
+   "cross-train-SMJ-MgmtSci-af924620": 0.725,
+   "cross-train-SMJ-MgmtSci-a9ea4143": 0.8,
+   "cross-train-SMJ-MgmtSci-e6298464": 0.775,
+   "cross-train-SMJ-MgmtSci-d01620ee": 0.75,
+   "cross-train-SMJ-MgmtSci-eebca082": 0.725,
+   "cross-train-SMJ-MgmtSci-cc36f1de": 0.85
+  },
+  "train_acc": 0.95,
+  "val_acc": 0.9333333333333333,
+  "val_by_rival": {
+   "OrgSci": 0.9333333333333333,
+   "MgmtSci": 0.9333333333333333
+  },
+  "val_mean_p": 0.6853333333333332,
+  "val_probs": {
+   "cross-val-SMJ-MgmtSci-fee6be9e": 0.665,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.71,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.9,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.74,
+   "cross-val-SMJ-MgmtSci-d86d518f": 0.79,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.185,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.79,
+   "cross-val-SMJ-MgmtSci-c338b99c": 0.71,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.8300000000000001,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.75,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.64,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.7,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.725,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.925,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.6000000000000001,
+   "cross-val-OrgSci-SMJ-f817dd58": 0.615,
+   "cross-val-OrgSci-SMJ-12fd6f02": 0.71,
+   "cross-val-OrgSci-SMJ-660ea215": 0.2,
+   "cross-val-OrgSci-SMJ-0f5ed265": 0.74,
+   "cross-val-OrgSci-SMJ-f5c25431": 0.655,
+   "cross-val-OrgSci-SMJ-dc08d1f2": 0.575,
+   "cross-val-OrgSci-SMJ-f91132f7": 0.85,
+   "cross-val-OrgSci-SMJ-1862b60e": 0.765,
+   "cross-val-OrgSci-SMJ-b6058596": 0.685,
+   "cross-val-OrgSci-SMJ-c0463663": 0.7,
+   "cross-val-OrgSci-SMJ-3c93c54b": 0.52,
+   "cross-val-OrgSci-SMJ-45bee890": 0.6499999999999999,
+   "cross-val-OrgSci-SMJ-39492d36": 0.675,
+   "cross-val-OrgSci-SMJ-ebec8eec": 0.8500000000000001,
+   "cross-val-OrgSci-SMJ-dbf5862c": 0.71
+  },
+  "accepted": true,
+  "best_before": 0.9333333333333333
+ },
+ {
+  "iteration": 6,
+  "version": 6,
+  "parent": 5,
+  "rulebook": {
+   "values": [
+    "The firm, or the founder acting for the venture, is the decision-maker, and the abstract studies a strategic choice such as entry, positioning, investment, scope or innovation direction.",
+    "Outcomes are firm-level (performance, value, innovation, growth, competitive advantage), or employee outcomes explained by firm-level strategic conditions such as growth, scaling or scope.",
+    "Effects depend on contingencies: the abstract shows how strategy\u2013environment fit or firm and industry characteristics strengthen or weaken the main relationship.",
+    "The abstract names the costs, trade-offs or unintended penalties of strategic moves for the firm, such as change, repositioning, path dependence or departing from tradition.",
+    "Lab or field experiments fit when they manipulate a managerial or organizational lever (monitoring, hierarchy, incentives, authority) and link it to strategic search or decisions.",
+    "Governance and leadership: boards, top teams, CEO succession, and executive traits or biases (overconfidence, founder status, status rivalry) shaping strategic actions, disclosures or firm value.",
+    "Hypotheses come from core strategy theories: resource-based, Penrosean growth, real options, behavioral theory, capabilities, competitive dynamics, transaction costs, strategic human capital.",
+    "The abstract explicitly claims contributions to strategy literatures, such as competitive, corporate, complementor, entrepreneurial or international strategy, and states what managers should do.",
+    "Customer or audience reactions are framed as determinants of the value or cost of a firm's strategic choice, not as phenomena of evaluator cognition in their own right.",
+    "Reviews, conceptual syntheses, or replications and re-examinations of influential firm-level studies that guide strategy researchers fit, even without new theory or data.",
+    "Political connections, corporate political activity or stakeholder ties are treated as firm-level assets or liabilities affecting value, innovation or risk, often identified through shocks.",
+    "Qualitative studies fit when they show how strategy-making processes (formulation, collaboration, participant selection) produce different strategic outcomes, linked to strategy research."
+   ],
+   "red_flags": [
+    "A formal model deriving optimal policies or equilibria for markets, operations or public policy; models of firm strategy problems with managerial implications are acceptable.",
+    "Economics framing: macro or public-policy outcomes, or IO-style effect estimates without management theory; investor or market reactions are fine when tied to firm strategy or leadership.",
+    "Personnel outcomes (pay, promotion, turnover, gender gaps, motivation) studied without strategy theory linking them to firm growth, strategic action or performance.",
+    "A sociological focus on categories, identity, legitimacy or decoupling, framed within organization or institutional theory, where the firm's strategic value is absent.",
+    "Inductive case studies building process theory for organization-theory debates (meaning-making, change resistance, identity) rather than explaining strategic outcomes suggest another outlet.",
+    "Conceptual or simulation arguments about organizational adaptation or reconciling paradigms that are not anchored in a core strategy theory.",
+    "Executive or political behavior explained mainly by individual motives or ideology (donations, self-promotion), rather than as firm strategy affecting firm resources or value.",
+    "Individual traits, preferences or training (cognitive styles, abilities, pitch skills) predicting individual behavior or outcomes, without a managerial lever or firm-level strategic outcome."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "The outcomes are at firm level: performance, value creation, growth-option value, revenue or competitive advantage, not only individual or audience outcomes.",
+    "after": "Outcomes are firm-level (performance, value, innovation, growth, competitive advantage), or employee outcomes explained by firm-level strategic conditions such as growth, scaling or scope.",
+    "reason": "Employee outcomes explained by firm growth dynamics through strategy theory were published in SMJ, so the old rule was too strict."
+   },
+   {
+    "change": "edited",
+    "before": "Individual-level mechanisms count when they explain strategic actions or firm results; lab, manager or in-firm field experiments that measure firm-level outcomes such as revenue qualify.",
+    "after": "Lab or field experiments fit when they manipulate a managerial or organizational lever (monitoring, hierarchy, incentives, authority) and link it to strategic search or decisions.",
+    "reason": "SMJ's experiments manipulate managerial levers. Experiments on individual traits, or management-practice experiments framed in economics terms, went to other journals, even when they reported revenue."
+   },
+   {
+    "change": "edited",
+    "before": "Governance and leadership: boards, top teams, CEO succession or dismissal, and executive motives such as status rivalry that drive strategic actions and their value consequences.",
+    "after": "Governance and leadership: boards, top teams, CEO succession, and executive traits or biases (overconfidence, founder status, status rivalry) shaping strategic actions, disclosures or firm value.",
+    "reason": "An upper-echelons study of executive bias in large firms was published in SMJ, but the board missed it because the rule only covered motives."
+   },
+   {
+    "change": "edited",
+    "before": "Hypotheses come from core strategy theories (resource-based, real options, behavioral theory, capabilities, competitive dynamics, transaction costs) and are tested with archival, experimental or qualitative evidence.",
+    "after": "Hypotheses come from core strategy theories: resource-based, Penrosean growth, real options, behavioral theory, capabilities, competitive dynamics, transaction costs, strategic human capital.",
+    "reason": "Penrosean growth theory and strategic human capital theory marked SMJ articles but were not on the list; the clause on evidence types did not help tell journals apart."
+   },
+   {
+    "change": "edited",
+    "before": "Network positions, political connections or stakeholder ties are treated as firm-level sources of advantage, resource access, risk or boundary choices, often under environmental shocks.",
+    "after": "Political connections, corporate political activity or stakeholder ties are treated as firm-level assets or liabilities affecting value, innovation or risk, often identified through shocks.",
+    "reason": "SMJ political-strategy papers treat ties as liabilities as well as assets and use firm value or innovation as outcomes. The board underweighted these papers."
+   },
+   {
+    "change": "edited",
+    "before": "The main contribution is a formal model deriving optimal policies, equilibria or new mathematical constructs, without empirical testing or a synthesis for strategy research.",
+    "after": "A formal model deriving optimal policies or equilibria for markets, operations or public policy; models of firm strategy problems with managerial implications are acceptable.",
+    "reason": "SMJ published a game-theoretic model of a multinational's CSR strategy, so a blanket penalty on formal models misleads the board."
+   },
+   {
+    "change": "edited",
+    "before": "Economics or finance framing: corporate-finance mechanisms, market-price tests, IO-style effect-size estimates without management theory, or macro and public-policy outcomes.",
+    "after": "Economics framing: macro or public-policy outcomes, or IO-style effect estimates without management theory; investor or market reactions are fine when tied to firm strategy or leadership.",
+    "reason": "SMJ articles used abnormal returns and investor perception moderated by firm political strategy or CEO type. The market-price penalty caused misjudgments."
+   },
+   {
+    "change": "edited",
+    "before": "The outcome is a personnel or personal reward (pay, turnover, promotion, executive compensation, gender gaps) with no measured effect on firm performance or strategic action.",
+    "after": "Personnel outcomes (pay, promotion, turnover, gender gaps, motivation) studied without strategy theory linking them to firm growth, strategic action or performance.",
+    "reason": "Employee outcomes are acceptable when strategy theory links them to firm strategy. The flag should target studies that lack that link."
+   },
+   {
+    "change": "edited",
+    "before": "A sociological focus on categories, identity or evaluator perception, framed mainly within organization theory, where the firm's strategic value is absent.",
+    "after": "A sociological focus on categories, identity, legitimacy or decoupling, framed within organization or institutional theory, where the firm's strategic value is absent.",
+    "reason": "Studies framed around institutional decoupling and legitimacy appeared in the other journal, while firm-strategy treatments of similar topics went to SMJ."
+   },
+   {
+    "change": "edited",
+    "before": "An intervention or program is evaluated only on individual-level outcomes, without theory about strategic choices or firm-level results such as revenue or productivity.",
+    "after": "Individual traits, preferences or training (cognitive styles, abilities, pitch skills) predicting individual behavior or outcomes, without a managerial lever or firm-level strategic outcome.",
+    "reason": "Papers on individual differences and individual training went elsewhere, even when they were framed as microfoundations or used a real-options model."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-SMJ-3da1cd1e",
+    "cross-train-OrgSci-SMJ-69caa2b7",
+    "cross-train-SMJ-MgmtSci-e690a0bb",
+    "cross-train-SMJ-MgmtSci-ba230906"
+   ],
+   "shaky": [
+    "cross-train-SMJ-MgmtSci-1bb8deb3",
+    "cross-train-OrgSci-SMJ-de553185",
+    "cross-train-OrgSci-SMJ-47142da5",
+    "cross-train-SMJ-MgmtSci-754f2696",
+    "cross-train-SMJ-MgmtSci-c32ed010"
+   ],
+   "anchors": [
+    "cross-train-OrgSci-SMJ-bd0ce877",
+    "cross-train-OrgSci-SMJ-575835f4",
+    "cross-train-OrgSci-SMJ-09acdb52"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-2de65b0e",
+   "cross-train-OrgSci-SMJ-09acdb52",
+   "cross-train-OrgSci-SMJ-87a77634",
+   "cross-train-OrgSci-SMJ-404dbe23",
+   "cross-train-OrgSci-SMJ-34cfa348",
+   "cross-train-OrgSci-SMJ-69caa2b7",
+   "cross-train-OrgSci-SMJ-575835f4",
+   "cross-train-OrgSci-SMJ-4057abf4",
+   "cross-train-OrgSci-SMJ-e6762cbb",
+   "cross-train-OrgSci-SMJ-5c9b23ff",
+   "cross-train-OrgSci-SMJ-3da1cd1e",
+   "cross-train-OrgSci-SMJ-bff76633",
+   "cross-train-OrgSci-SMJ-de553185",
+   "cross-train-OrgSci-SMJ-d382ecc0",
+   "cross-train-OrgSci-SMJ-6a1940b5",
+   "cross-train-OrgSci-SMJ-1166c891",
+   "cross-train-OrgSci-SMJ-65e141df",
+   "cross-train-OrgSci-SMJ-bd0ce877",
+   "cross-train-OrgSci-SMJ-47142da5",
+   "cross-train-SMJ-MgmtSci-a398ef28",
+   "cross-train-SMJ-MgmtSci-4a51d670",
+   "cross-train-SMJ-MgmtSci-754f2696",
+   "cross-train-SMJ-MgmtSci-5b305c56",
+   "cross-train-SMJ-MgmtSci-9976ec99",
+   "cross-train-SMJ-MgmtSci-715e5558",
+   "cross-train-SMJ-MgmtSci-d204ab09",
+   "cross-train-SMJ-MgmtSci-1bb8deb3",
+   "cross-train-SMJ-MgmtSci-456dab6c",
+   "cross-train-SMJ-MgmtSci-468fbf09",
+   "cross-train-SMJ-MgmtSci-adb561c0",
+   "cross-train-SMJ-MgmtSci-28c9c429",
+   "cross-train-SMJ-MgmtSci-c32ed010",
+   "cross-train-SMJ-MgmtSci-2a558cc9",
+   "cross-train-SMJ-MgmtSci-debda0e3",
+   "cross-train-SMJ-MgmtSci-57ec795e",
+   "cross-train-SMJ-MgmtSci-e690a0bb",
+   "cross-train-SMJ-MgmtSci-77f45cca",
+   "cross-train-SMJ-MgmtSci-c3495786",
+   "cross-train-SMJ-MgmtSci-ba230906"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-2de65b0e": 0.8,
+   "cross-train-OrgSci-SMJ-09acdb52": 0.8,
+   "cross-train-OrgSci-SMJ-87a77634": 0.8,
+   "cross-train-OrgSci-SMJ-404dbe23": 0.7,
+   "cross-train-OrgSci-SMJ-34cfa348": 0.65,
+   "cross-train-OrgSci-SMJ-69caa2b7": 0.475,
+   "cross-train-OrgSci-SMJ-575835f4": 0.8,
+   "cross-train-OrgSci-SMJ-4057abf4": 0.675,
+   "cross-train-OrgSci-SMJ-e6762cbb": 0.75,
+   "cross-train-OrgSci-SMJ-5c9b23ff": 0.85,
+   "cross-train-OrgSci-SMJ-3da1cd1e": 0.42500000000000004,
+   "cross-train-OrgSci-SMJ-bff76633": 0.7,
+   "cross-train-OrgSci-SMJ-de553185": 0.625,
+   "cross-train-OrgSci-SMJ-d382ecc0": 0.75,
+   "cross-train-OrgSci-SMJ-6a1940b5": 0.6499999999999999,
+   "cross-train-OrgSci-SMJ-1166c891": 0.75,
+   "cross-train-OrgSci-SMJ-65e141df": 0.675,
+   "cross-train-OrgSci-SMJ-bd0ce877": 0.8,
+   "cross-train-OrgSci-SMJ-47142da5": 0.625,
+   "cross-train-SMJ-MgmtSci-a398ef28": 0.825,
+   "cross-train-SMJ-MgmtSci-4a51d670": 0.7,
+   "cross-train-SMJ-MgmtSci-754f2696": 0.625,
+   "cross-train-SMJ-MgmtSci-5b305c56": 0.7,
+   "cross-train-SMJ-MgmtSci-9976ec99": 0.85,
+   "cross-train-SMJ-MgmtSci-715e5558": 0.7,
+   "cross-train-SMJ-MgmtSci-d204ab09": 0.675,
+   "cross-train-SMJ-MgmtSci-1bb8deb3": 0.6,
+   "cross-train-SMJ-MgmtSci-456dab6c": 0.775,
+   "cross-train-SMJ-MgmtSci-468fbf09": 0.675,
+   "cross-train-SMJ-MgmtSci-adb561c0": 0.725,
+   "cross-train-SMJ-MgmtSci-28c9c429": 0.675,
+   "cross-train-SMJ-MgmtSci-c32ed010": 0.625,
+   "cross-train-SMJ-MgmtSci-2a558cc9": 0.675,
+   "cross-train-SMJ-MgmtSci-debda0e3": 0.825,
+   "cross-train-SMJ-MgmtSci-57ec795e": 0.7250000000000001,
+   "cross-train-SMJ-MgmtSci-e690a0bb": 0.475,
+   "cross-train-SMJ-MgmtSci-77f45cca": 0.825,
+   "cross-train-SMJ-MgmtSci-c3495786": 0.6499999999999999,
+   "cross-train-SMJ-MgmtSci-ba230906": 0.475
+  },
+  "train_acc": 0.8974358974358975,
+  "val_acc": 0.9,
+  "val_by_rival": {
+   "OrgSci": 0.9333333333333333,
+   "MgmtSci": 0.8666666666666667
+  },
+  "val_mean_p": 0.6784999999999999,
+  "val_probs": {
+   "cross-val-SMJ-MgmtSci-fee6be9e": 0.645,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.71,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.85,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.775,
+   "cross-val-SMJ-MgmtSci-d86d518f": 0.815,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.16999999999999998,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.8,
+   "cross-val-SMJ-MgmtSci-c338b99c": 0.74,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.8300000000000001,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.725,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.47500000000000003,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.6699999999999999,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.74,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.91,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.61,
+   "cross-val-OrgSci-SMJ-f817dd58": 0.655,
+   "cross-val-OrgSci-SMJ-12fd6f02": 0.685,
+   "cross-val-OrgSci-SMJ-660ea215": 0.185,
+   "cross-val-OrgSci-SMJ-0f5ed265": 0.765,
+   "cross-val-OrgSci-SMJ-f5c25431": 0.6499999999999999,
+   "cross-val-OrgSci-SMJ-dc08d1f2": 0.615,
+   "cross-val-OrgSci-SMJ-f91132f7": 0.85,
+   "cross-val-OrgSci-SMJ-1862b60e": 0.71,
+   "cross-val-OrgSci-SMJ-b6058596": 0.675,
+   "cross-val-OrgSci-SMJ-c0463663": 0.685,
+   "cross-val-OrgSci-SMJ-3c93c54b": 0.515,
+   "cross-val-OrgSci-SMJ-45bee890": 0.655,
+   "cross-val-OrgSci-SMJ-39492d36": 0.6849999999999999,
+   "cross-val-OrgSci-SMJ-ebec8eec": 0.8600000000000001,
+   "cross-val-OrgSci-SMJ-dbf5862c": 0.7
+  },
+  "accepted": false,
+  "best_before": 0.9333333333333333
+ }
+]

@@ -1,0 +1,1589 @@
+[
+ {
+  "iteration": 0,
+  "version": 0,
+  "parent": null,
+  "rulebook": {
+   "values": [],
+   "red_flags": []
+  },
+  "val_acc": 0.9666666666666667,
+  "val_by_rival": {
+   "OrgSci": 0.9333333333333333,
+   "SMJ": 1.0
+  },
+  "val_mean_p": 0.7308333333333334,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-4126d805": 0.825,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.775,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.88,
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.275,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.75,
+   "cross-val-OrgSci-MgmtSci-e4df3702": 0.8,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.61,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.625,
+   "cross-val-OrgSci-MgmtSci-ce85dc1b": 0.675,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.61,
+   "cross-val-OrgSci-MgmtSci-70d84011": 0.825,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.69,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.765,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.89,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.64,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.815,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.685,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.675,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.8,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.79,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.8,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.79,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.765,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.775,
+   "cross-val-SMJ-MgmtSci-132a543a": 0.725,
+   "cross-val-SMJ-MgmtSci-8a64f2ae": 0.8,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.6,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.79,
+   "cross-val-SMJ-MgmtSci-467111c3": 0.665,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.815
+  },
+  "accepted": true,
+  "best_before": null
+ },
+ {
+  "iteration": 1,
+  "version": 1,
+  "parent": 0,
+  "rulebook": {
+   "values": [
+    "Formal models (game-theoretic, principal-agent, dynamic, market equilibrium) that derive clear results about incentives, contracts, or welfare.",
+    "Economics reasoning about mechanisms: incentives, contractibility, credibility, market failure, efficiency, collusion, or the costs and benefits of adoption.",
+    "Large-scale archival, administrative, platform, census, or proprietary transaction data analysed with careful identification or natural experiments.",
+    "Precise measurement of an important phenomenon, such as how widespread, fast, or large it is, even if mostly descriptive, when it informs productivity or policy.",
+    "Concrete quantified findings (percentages, effect sizes, profit or time gaps) reported directly in the abstract.",
+    "Controlled lab or field experiments, especially when combined with computational or formal modeling to separate mechanisms.",
+    "Comparing decision structures (individuals vs. groups, centralized vs. decentralized) through their effects on choices, learning, or performance.",
+    "Outcomes that can be measured as behaviour or economic results (effort, hiring, profits, productivity, sourcing, market share) rather than identities or perceptions.",
+    "Separating competing explanations or sources, such as supply vs. demand or aggregation vs. context effects, to locate where an effect really comes from.",
+    "A model or analysis that explains empirical patterns and draws out unexpected implications for value creation or policy."
+   ],
+   "red_flags": [
+    "Qualitative interviews, ethnography, or a single longitudinal case study that builds a process model or new theory.",
+    "Methodological commentary or recommendations aimed at researchers in one field rather than a substantive finding.",
+    "Coining a new concept or label as the headline contribution rather than a model result or a quantified finding.",
+    "Abstracts mostly made of 'we argue/theorize/hypothesize' statements with no results or magnitudes reported.",
+    "Framed mainly as extending a named management theory (resource dependence, behavioral theory of the firm, identity) or contributing to a literature.",
+    "Main focus on how people subjectively experience status, gender, or identity, measured through felt appropriateness or beliefs.",
+    "Theorizing propositions after the fact from observational patterns ('we propose a self-limiting nature') instead of testing or modeling them."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "added",
+    "before": "",
+    "after": "Formal models (game-theoretic, principal-agent, dynamic, market equilibrium) that derive clear results about incentives, contracts, or welfare.",
+    "reason": "MS articles in several pairs were stylized formal models; their counterparts were empirical or verbal theory."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Economics reasoning about mechanisms: incentives, contractibility, credibility, market failure, efficiency, collusion, or the costs and benefits of adoption.",
+    "reason": "The MS side used economic mechanisms such as relational contracts and collusion, while the counterparts used trust or hypothesis-testing strategy framing."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Large-scale archival, administrative, platform, census, or proprietary transaction data analysed with careful identification or natural experiments.",
+    "reason": "MS winners used census, platform, or search-firm data; the losers used interviews or case studies."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Precise measurement of an important phenomenon, such as how widespread, fast, or large it is, even if mostly descriptive, when it informs productivity or policy.",
+    "reason": "A nationally representative descriptive measurement paper beat a field experiment whose headline was a new concept."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Concrete quantified findings (percentages, effect sizes, profit or time gaps) reported directly in the abstract.",
+    "reason": "MS abstracts consistently report effect magnitudes."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Controlled lab or field experiments, especially when combined with computational or formal modeling to separate mechanisms.",
+    "reason": "Experiment plus computational modeling beat archival theorizing on the same group-learning question."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Comparing decision structures (individuals vs. groups, centralized vs. decentralized) through their effects on choices, learning, or performance.",
+    "reason": "MS favours a decision-science framing of how organizational structure shapes choices."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Outcomes that can be measured as behaviour or economic results (effort, hiring, profits, productivity, sourcing, market share) rather than identities or perceptions.",
+    "reason": "MS winners on status, gender, and hiring topics measured effort, hiring, or profit; the losers measured perceptions or identity."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Separating competing explanations or sources, such as supply vs. demand or aggregation vs. context effects, to locate where an effect really comes from.",
+    "reason": "MS papers separated sources of disparities and of group effects."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "A model or analysis that explains empirical patterns and draws out unexpected implications for value creation or policy.",
+    "reason": "A historical natural experiment paired with a model showing an unexpected welfare effect beat hypothesis testing derived from game theory."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Qualitative interviews, ethnography, or a single longitudinal case study that builds a process model or new theory.",
+    "reason": "Interview-based and case-study counterparts were consistently the non-MS article."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Methodological commentary or recommendations aimed at researchers in one field rather than a substantive finding.",
+    "reason": "A methods-guidance paper for strategy research was the non-MS article."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Coining a new concept or label as the headline contribution rather than a model result or a quantified finding.",
+    "reason": "Leading with a new concept marked the non-MS side even when the evidence was experimental."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Abstracts mostly made of 'we argue/theorize/hypothesize' statements with no results or magnitudes reported.",
+    "reason": "Abstracts that were all theorizing with no findings belonged to other journals."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Framed mainly as extending a named management theory (resource dependence, behavioral theory of the firm, identity) or contributing to a literature.",
+    "reason": "Counterparts framed their contribution as extending a named management theory."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Main focus on how people subjectively experience status, gender, or identity, measured through felt appropriateness or beliefs.",
+    "reason": "Subjective-experience framings of status or gender appeared on the non-MS side."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Theorizing propositions after the fact from observational patterns ('we propose a self-limiting nature') instead of testing or modeling them.",
+    "reason": "Theorizing from archival patterns after the fact lost to an experimental and modeling design."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-MgmtSci-419f2880",
+    "cross-train-OrgSci-MgmtSci-e20314df",
+    "cross-train-OrgSci-MgmtSci-569e8765"
+   ],
+   "shaky": [
+    "cross-train-SMJ-MgmtSci-fc2e8822",
+    "cross-train-OrgSci-MgmtSci-e842bfd8",
+    "cross-train-OrgSci-MgmtSci-e9680ad6",
+    "cross-train-OrgSci-MgmtSci-fc167ea7",
+    "cross-train-OrgSci-MgmtSci-52e3979c",
+    "cross-train-OrgSci-MgmtSci-80e75ace"
+   ],
+   "anchors": [
+    "cross-train-SMJ-MgmtSci-456dab6c",
+    "cross-train-SMJ-MgmtSci-d1138ee9",
+    "cross-train-SMJ-MgmtSci-debda0e3"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-MgmtSci-e1337962",
+   "cross-train-OrgSci-MgmtSci-e20314df",
+   "cross-train-OrgSci-MgmtSci-e842bfd8",
+   "cross-train-OrgSci-MgmtSci-e9680ad6",
+   "cross-train-OrgSci-MgmtSci-d68e16ac",
+   "cross-train-OrgSci-MgmtSci-419f2880",
+   "cross-train-OrgSci-MgmtSci-20f1dbed",
+   "cross-train-OrgSci-MgmtSci-98cd8761",
+   "cross-train-OrgSci-MgmtSci-52e3979c",
+   "cross-train-OrgSci-MgmtSci-5305a2fd",
+   "cross-train-OrgSci-MgmtSci-07f08dea",
+   "cross-train-OrgSci-MgmtSci-569e8765",
+   "cross-train-OrgSci-MgmtSci-f378687c",
+   "cross-train-OrgSci-MgmtSci-80e75ace",
+   "cross-train-OrgSci-MgmtSci-d42eb9df",
+   "cross-train-OrgSci-MgmtSci-e5a890bf",
+   "cross-train-OrgSci-MgmtSci-ca4ed862",
+   "cross-train-OrgSci-MgmtSci-822d0207",
+   "cross-train-OrgSci-MgmtSci-fc167ea7",
+   "cross-train-SMJ-MgmtSci-49e2a83f",
+   "cross-train-SMJ-MgmtSci-87c02e81",
+   "cross-train-SMJ-MgmtSci-d1138ee9",
+   "cross-train-SMJ-MgmtSci-ca2b9357",
+   "cross-train-SMJ-MgmtSci-a75b1c2a",
+   "cross-train-SMJ-MgmtSci-b1932106",
+   "cross-train-SMJ-MgmtSci-e6fef0d1",
+   "cross-train-SMJ-MgmtSci-a398ef28",
+   "cross-train-SMJ-MgmtSci-107cf6d6",
+   "cross-train-SMJ-MgmtSci-81839b38",
+   "cross-train-SMJ-MgmtSci-2a558cc9",
+   "cross-train-SMJ-MgmtSci-f5703373",
+   "cross-train-SMJ-MgmtSci-debda0e3",
+   "cross-train-SMJ-MgmtSci-1bb8deb3",
+   "cross-train-SMJ-MgmtSci-65716e01",
+   "cross-train-SMJ-MgmtSci-9163f53e",
+   "cross-train-SMJ-MgmtSci-fc2e8822",
+   "cross-train-SMJ-MgmtSci-a7184d4d",
+   "cross-train-SMJ-MgmtSci-456dab6c",
+   "cross-train-SMJ-MgmtSci-cfc0651e"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-MgmtSci-e1337962": 0.825,
+   "cross-train-OrgSci-MgmtSci-e20314df": 0.45,
+   "cross-train-OrgSci-MgmtSci-e842bfd8": 0.6,
+   "cross-train-OrgSci-MgmtSci-e9680ad6": 0.6,
+   "cross-train-OrgSci-MgmtSci-d68e16ac": 0.7,
+   "cross-train-OrgSci-MgmtSci-419f2880": 0.35,
+   "cross-train-OrgSci-MgmtSci-20f1dbed": 0.725,
+   "cross-train-OrgSci-MgmtSci-98cd8761": 0.75,
+   "cross-train-OrgSci-MgmtSci-52e3979c": 0.65,
+   "cross-train-OrgSci-MgmtSci-5305a2fd": 0.7,
+   "cross-train-OrgSci-MgmtSci-07f08dea": 0.725,
+   "cross-train-OrgSci-MgmtSci-569e8765": 0.5,
+   "cross-train-OrgSci-MgmtSci-f378687c": 0.775,
+   "cross-train-OrgSci-MgmtSci-80e75ace": 0.65,
+   "cross-train-OrgSci-MgmtSci-d42eb9df": 0.675,
+   "cross-train-OrgSci-MgmtSci-e5a890bf": 0.7,
+   "cross-train-OrgSci-MgmtSci-ca4ed862": 0.7,
+   "cross-train-OrgSci-MgmtSci-822d0207": 0.775,
+   "cross-train-OrgSci-MgmtSci-fc167ea7": 0.6499999999999999,
+   "cross-train-SMJ-MgmtSci-49e2a83f": 0.85,
+   "cross-train-SMJ-MgmtSci-87c02e81": 0.825,
+   "cross-train-SMJ-MgmtSci-d1138ee9": 0.875,
+   "cross-train-SMJ-MgmtSci-ca2b9357": 0.825,
+   "cross-train-SMJ-MgmtSci-a75b1c2a": 0.85,
+   "cross-train-SMJ-MgmtSci-b1932106": 0.875,
+   "cross-train-SMJ-MgmtSci-e6fef0d1": 0.85,
+   "cross-train-SMJ-MgmtSci-a398ef28": 0.85,
+   "cross-train-SMJ-MgmtSci-107cf6d6": 0.75,
+   "cross-train-SMJ-MgmtSci-81839b38": 0.75,
+   "cross-train-SMJ-MgmtSci-2a558cc9": 0.775,
+   "cross-train-SMJ-MgmtSci-f5703373": 0.775,
+   "cross-train-SMJ-MgmtSci-debda0e3": 0.825,
+   "cross-train-SMJ-MgmtSci-1bb8deb3": 0.725,
+   "cross-train-SMJ-MgmtSci-65716e01": 0.8,
+   "cross-train-SMJ-MgmtSci-9163f53e": 0.85,
+   "cross-train-SMJ-MgmtSci-fc2e8822": 0.575,
+   "cross-train-SMJ-MgmtSci-a7184d4d": 0.8,
+   "cross-train-SMJ-MgmtSci-456dab6c": 0.85,
+   "cross-train-SMJ-MgmtSci-cfc0651e": 0.8
+  },
+  "train_acc": 0.9358974358974359,
+  "val_acc": 0.9333333333333333,
+  "val_by_rival": {
+   "OrgSci": 0.9333333333333333,
+   "SMJ": 0.9333333333333333
+  },
+  "val_mean_p": 0.7426666666666667,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-4126d805": 0.775,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.865,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.955,
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.26,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.81,
+   "cross-val-OrgSci-MgmtSci-e4df3702": 0.91,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.5249999999999999,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.7,
+   "cross-val-OrgSci-MgmtSci-ce85dc1b": 0.69,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.6849999999999999,
+   "cross-val-OrgSci-MgmtSci-70d84011": 0.775,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.735,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.71,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.95,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.69,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.835,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.43,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.675,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.8,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.75,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.815,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.75,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.78,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.81,
+   "cross-val-SMJ-MgmtSci-132a543a": 0.79,
+   "cross-val-SMJ-MgmtSci-8a64f2ae": 0.76,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.615,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.85,
+   "cross-val-SMJ-MgmtSci-467111c3": 0.735,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.85
+  },
+  "accepted": false,
+  "best_before": 0.9666666666666667
+ },
+ {
+  "iteration": 2,
+  "version": 2,
+  "parent": 0,
+  "rulebook": {
+   "values": [
+    "Formal analytical models (game-theoretic, equilibrium, optimization) yielding conditions under which a decision or design choice is optimal are strongly favored.",
+    "Models framed in economic terms (competition, incentives, welfare, platform or contract design) beat models framed around sociological concepts like legitimacy or stratification.",
+    "Explicit causal identification: randomized or quasi-random assignment, natural experiments, unexpected shocks such as deaths, instruments, or fixed-effects designs isolating exogenous variation.",
+    "Tests a clearly specified economic or behavioral mechanism and explicitly rules out rival explanations, e.g., signaling, selection, or anticipatory departure.",
+    "Reports economically interpretable magnitudes, such as percentile-equivalent or percentage effects, rather than only significance and direction of association.",
+    "Uses observed behavior in real markets or organizations (sales, revenues, ratings, performance, transactions) at scale rather than hypothetical choices.",
+    "Directly tests a well-known economic theory or a common practitioner claim against data, even with a surprising or null result.",
+    "Draws implications for how organizations, platforms, or evaluation processes should be designed, or for consumer welfare and policy.",
+    "Combines a theoretical model with several datasets, or separates individual-level from team-level effects using appropriate estimation."
+   ],
+   "red_flags": [
+    "Contribution framed as bridging literatures, combining theoretical perspectives, or 'extending research on X' rather than answering a sharp question.",
+    "Hypothesis-driven contingency stories stacking moderators (life stage, hierarchy level, orientation, tenure) on associational archival correlations without identification.",
+    "Purely conceptual pieces, literature reviews, or commentary on modeling approaches without new formal results or evidence.",
+    "Vignette or online experiments testing a theorized organizational paradox or perspective, where field data on market behavior would be expected instead.",
+    "Institution-centric or organization-theory constructs (institutional factors, exploration, authenticity) as the main contribution, with mechanisms asserted rather than identified.",
+    "Strategy-journal framing aimed at firms' competitive positioning ('informs complementor strategy') rather than mechanism, design, or welfare."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "added",
+    "before": "",
+    "after": "Formal analytical models (game-theoretic, equilibrium, optimization) yielding conditions under which a decision or design choice is optimal are strongly favored.",
+    "reason": "Analytical models won every pair against empirical or conceptual strategy papers, including the anchors."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Models framed in economic terms (competition, incentives, welfare, platform or contract design) beat models framed around sociological concepts like legitimacy or stratification.",
+    "reason": "In a pair where both papers used formal models, the IO/welfare model won over the sociologically framed one."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Explicit causal identification: randomized or quasi-random assignment, natural experiments, unexpected shocks such as deaths, instruments, or fixed-effects designs isolating exogenous variation.",
+    "reason": "Several misjudged MS papers relied on randomization, an IV or exogenous deaths, while their counterparts were associational."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Tests a clearly specified economic or behavioral mechanism and explicitly rules out rival explanations, e.g., signaling, selection, or anticipatory departure.",
+    "reason": "The MS papers traced effects to a specific mechanism and excluded alternatives."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Reports economically interpretable magnitudes, such as percentile-equivalent or percentage effects, rather than only significance and direction of association.",
+    "reason": "The winning papers stated effect sizes that are meaningful in economic terms."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Uses observed behavior in real markets or organizations (sales, revenues, ratings, performance, transactions) at scale rather than hypothetical choices.",
+    "reason": "MS papers using box-office, platform-rating and inspection data beat papers built on experiments or network-survey data."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Directly tests a well-known economic theory or a common practitioner claim against data, even with a surprising or null result.",
+    "reason": "A test of customer-discrimination theory against a common employer claim beat a contingency-based network study."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Draws implications for how organizations, platforms, or evaluation processes should be designed, or for consumer welfare and policy.",
+    "reason": "The MS papers stressed design elements and welfare consequences."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Combines a theoretical model with several datasets, or separates individual-level from team-level effects using appropriate estimation.",
+    "reason": "Methodological rigor of this kind marked MS papers on entrepreneurial teams and employee mobility."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Contribution framed as bridging literatures, combining theoretical perspectives, or 'extending research on X' rather than answering a sharp question.",
+    "reason": "Several losing papers framed themselves as a 'meeting ground' for literatures or as combining perspectives."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Hypothesis-driven contingency stories stacking moderators (life stage, hierarchy level, orientation, tenure) on associational archival correlations without identification.",
+    "reason": "The losing human-capital, homophily and foreign-hire papers relied on moderator contingencies without causal designs."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Purely conceptual pieces, literature reviews, or commentary on modeling approaches without new formal results or evidence.",
+    "reason": "An anchor pair contrasts a new model with a review of modeling approaches."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Vignette or online experiments testing a theorized organizational paradox or perspective, where field data on market behavior would be expected instead.",
+    "reason": "Experiments testing the authenticity paradox and a values-versus-monitoring account of misconduct lost to field-data papers."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Institution-centric or organization-theory constructs (institutional factors, exploration, authenticity) as the main contribution, with mechanisms asserted rather than identified.",
+    "reason": "Losing papers centered on institutional factors or exploration and theorized mechanisms without isolating them."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Strategy-journal framing aimed at firms' competitive positioning ('informs complementor strategy') rather than mechanism, design, or welfare.",
+    "reason": "Anchor pairs show papers framed around strategy positioning appearing elsewhere."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-MgmtSci-12d0a524",
+    "cross-train-OrgSci-MgmtSci-c3c107ea",
+    "cross-train-OrgSci-MgmtSci-c836fa73"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-MgmtSci-7cc9f5c0",
+    "cross-train-OrgSci-MgmtSci-27a2bc90",
+    "cross-train-OrgSci-MgmtSci-9530405a",
+    "cross-train-OrgSci-MgmtSci-0baf6df2",
+    "cross-train-OrgSci-MgmtSci-254c5e0f",
+    "cross-train-OrgSci-MgmtSci-2f1ba931"
+   ],
+   "anchors": [
+    "cross-train-SMJ-MgmtSci-26f5c1fe",
+    "cross-train-SMJ-MgmtSci-3e8f66fc",
+    "cross-train-SMJ-MgmtSci-bb099f3c"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-MgmtSci-09c6c4c2",
+   "cross-train-OrgSci-MgmtSci-2f1ba931",
+   "cross-train-OrgSci-MgmtSci-41cb80a9",
+   "cross-train-OrgSci-MgmtSci-7f42a372",
+   "cross-train-OrgSci-MgmtSci-d48b8c0a",
+   "cross-train-OrgSci-MgmtSci-4c497ff0",
+   "cross-train-OrgSci-MgmtSci-c836fa73",
+   "cross-train-OrgSci-MgmtSci-7cc9f5c0",
+   "cross-train-OrgSci-MgmtSci-27a2bc90",
+   "cross-train-OrgSci-MgmtSci-205af930",
+   "cross-train-OrgSci-MgmtSci-0baf6df2",
+   "cross-train-OrgSci-MgmtSci-0d748e01",
+   "cross-train-OrgSci-MgmtSci-12d0a524",
+   "cross-train-OrgSci-MgmtSci-4a39cac1",
+   "cross-train-OrgSci-MgmtSci-9530405a",
+   "cross-train-OrgSci-MgmtSci-f8fca17e",
+   "cross-train-OrgSci-MgmtSci-254c5e0f",
+   "cross-train-OrgSci-MgmtSci-c3c107ea",
+   "cross-train-OrgSci-MgmtSci-882e057c",
+   "cross-train-OrgSci-MgmtSci-a53271f4",
+   "cross-train-SMJ-MgmtSci-e5401e9f",
+   "cross-train-SMJ-MgmtSci-e3fa2704",
+   "cross-train-SMJ-MgmtSci-bb099f3c",
+   "cross-train-SMJ-MgmtSci-26f5c1fe",
+   "cross-train-SMJ-MgmtSci-e6298464",
+   "cross-train-SMJ-MgmtSci-28c9c429",
+   "cross-train-SMJ-MgmtSci-6403efdc",
+   "cross-train-SMJ-MgmtSci-d01620ee",
+   "cross-train-SMJ-MgmtSci-af924620",
+   "cross-train-SMJ-MgmtSci-c0751f97",
+   "cross-train-SMJ-MgmtSci-996bc48f",
+   "cross-train-SMJ-MgmtSci-f180647d",
+   "cross-train-SMJ-MgmtSci-ae6bbb5e",
+   "cross-train-SMJ-MgmtSci-017fe55c",
+   "cross-train-SMJ-MgmtSci-cdb4f214",
+   "cross-train-SMJ-MgmtSci-3e8f66fc",
+   "cross-train-SMJ-MgmtSci-071d5db8",
+   "cross-train-SMJ-MgmtSci-b4d107d4",
+   "cross-train-SMJ-MgmtSci-f522f4ea",
+   "cross-train-SMJ-MgmtSci-13b10d83"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-MgmtSci-09c6c4c2": 0.8,
+   "cross-train-OrgSci-MgmtSci-2f1ba931": 0.6499999999999999,
+   "cross-train-OrgSci-MgmtSci-41cb80a9": 0.775,
+   "cross-train-OrgSci-MgmtSci-7f42a372": 0.75,
+   "cross-train-OrgSci-MgmtSci-d48b8c0a": 0.75,
+   "cross-train-OrgSci-MgmtSci-4c497ff0": 0.675,
+   "cross-train-OrgSci-MgmtSci-c836fa73": 0.475,
+   "cross-train-OrgSci-MgmtSci-7cc9f5c0": 0.525,
+   "cross-train-OrgSci-MgmtSci-27a2bc90": 0.525,
+   "cross-train-OrgSci-MgmtSci-205af930": 0.8,
+   "cross-train-OrgSci-MgmtSci-0baf6df2": 0.575,
+   "cross-train-OrgSci-MgmtSci-0d748e01": 0.7,
+   "cross-train-OrgSci-MgmtSci-12d0a524": 0.4,
+   "cross-train-OrgSci-MgmtSci-4a39cac1": 0.7,
+   "cross-train-OrgSci-MgmtSci-9530405a": 0.525,
+   "cross-train-OrgSci-MgmtSci-f8fca17e": 0.7,
+   "cross-train-OrgSci-MgmtSci-254c5e0f": 0.575,
+   "cross-train-OrgSci-MgmtSci-c3c107ea": 0.4,
+   "cross-train-OrgSci-MgmtSci-882e057c": 0.725,
+   "cross-train-OrgSci-MgmtSci-a53271f4": 0.7,
+   "cross-train-SMJ-MgmtSci-e5401e9f": 0.875,
+   "cross-train-SMJ-MgmtSci-e3fa2704": 0.865,
+   "cross-train-SMJ-MgmtSci-bb099f3c": 0.865,
+   "cross-train-SMJ-MgmtSci-26f5c1fe": 0.865,
+   "cross-train-SMJ-MgmtSci-e6298464": 0.85,
+   "cross-train-SMJ-MgmtSci-28c9c429": 0.865,
+   "cross-train-SMJ-MgmtSci-6403efdc": 0.825,
+   "cross-train-SMJ-MgmtSci-d01620ee": 0.865,
+   "cross-train-SMJ-MgmtSci-af924620": 0.875,
+   "cross-train-SMJ-MgmtSci-c0751f97": 0.7849999999999999,
+   "cross-train-SMJ-MgmtSci-996bc48f": 0.875,
+   "cross-train-SMJ-MgmtSci-f180647d": 0.675,
+   "cross-train-SMJ-MgmtSci-ae6bbb5e": 0.825,
+   "cross-train-SMJ-MgmtSci-017fe55c": 0.7,
+   "cross-train-SMJ-MgmtSci-cdb4f214": 0.875,
+   "cross-train-SMJ-MgmtSci-3e8f66fc": 0.875,
+   "cross-train-SMJ-MgmtSci-071d5db8": 0.85,
+   "cross-train-SMJ-MgmtSci-b4d107d4": 0.8500000000000001,
+   "cross-train-SMJ-MgmtSci-f522f4ea": 0.875,
+   "cross-train-SMJ-MgmtSci-13b10d83": 0.85
+  },
+  "train_acc": 0.925,
+  "val_acc": 0.9166666666666666,
+  "val_by_rival": {
+   "OrgSci": 0.9,
+   "SMJ": 0.9333333333333333
+  },
+  "val_mean_p": 0.7586666666666666,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-4126d805": 0.8,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.91,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.92,
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.275,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.835,
+   "cross-val-OrgSci-MgmtSci-e4df3702": 0.91,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.5,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.7,
+   "cross-val-OrgSci-MgmtSci-ce85dc1b": 0.735,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.69,
+   "cross-val-OrgSci-MgmtSci-70d84011": 0.865,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.6699999999999999,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.76,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.955,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.7,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.885,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.48000000000000004,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.69,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.815,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.815,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.775,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.765,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.75,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.825,
+   "cross-val-SMJ-MgmtSci-132a543a": 0.835,
+   "cross-val-SMJ-MgmtSci-8a64f2ae": 0.735,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.635,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.865,
+   "cross-val-SMJ-MgmtSci-467111c3": 0.765,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.9
+  },
+  "accepted": false,
+  "best_before": 0.9666666666666667
+ },
+ {
+  "iteration": 3,
+  "version": 3,
+  "parent": 0,
+  "rulebook": {
+   "values": [
+    "Economics-style mechanisms such as incentives, information asymmetry, signaling, matching, equilibrium, or explicit trade-offs, rather than legitimacy, identity, or institutional logics.",
+    "Reports effect sizes in interpretable units (percentages, per-unit responses, gap closed), not just support for hypotheses' direction.",
+    "Credible causal identification: policy shocks, before/after events, counterfactual benchmarks, instruments, or field data isolating one mechanism.",
+    "A formal model that yields clear, checkable results, ideally paired with empirical measurement that quantifies its trade-offs.",
+    "A new, validated, reusable measurement method (e.g., text-based measures validated several ways) that predicts real outcomes.",
+    "Large-sample archival, administrative, platform, or field data on actual behavior over small samples, vignettes, or single cases.",
+    "Shows how decision makers (firms, employers, evaluators, boards) actually respond to constraints, with concrete managerial or policy implications.",
+    "Precise, decision-relevant formalization of fuzzy strategy concepts that produces tools usable in empirical work.",
+    "When both abstracts are sociological, prefer the one testing behavioral outcomes on large archival data over qualitative or multimethod case work.",
+    "Questions about bias, discrimination, or inequality framed as testable demand-side or incentive mechanisms rather than as contextualizing institutional forces."
+   ],
+   "red_flags": [
+    "Inductive qualitative work: grounded theory, single in-depth case studies, ethnography, or process models built from interviews.",
+    "Contribution framed mainly as 'implications for research on' named literatures (optimal distinctiveness, ambidexterity, categories) rather than a substantive answer.",
+    "Hypotheses stated as an inverted U or a list of moderators, with no effect magnitudes or identification strategy.",
+    "Formal models full of coined jargon constructs and long lists of propositions, without a crisp economic insight or empirical tie-in.",
+    "Purely conceptual critique or redefinition of a construct with only verbal or illustrative arguments.",
+    "Context-bound descriptive findings (one occupation or sector) framed as institutional or contextual nuance rather than a general mechanism.",
+    "Multimethod designs that combine a case narrative with hypothetical-vignette experiments to illustrate a perception mechanism."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "added",
+    "before": "",
+    "after": "Economics-style mechanisms such as incentives, information asymmetry, signaling, matching, equilibrium, or explicit trade-offs, rather than legitimacy, identity, or institutional logics.",
+    "reason": "MS winners framed things through cheap talk, matching, and incentives; the losing abstracts leaned on legitimacy, institutional, and category theory."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Reports effect sizes in interpretable units (percentages, per-unit responses, gap closed), not just support for hypotheses' direction.",
+    "reason": "MS abstracts often stated quantified magnitudes; the other journals' abstracts reported only whether predictions were supported."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Credible causal identification: policy shocks, before/after events, counterfactual benchmarks, instruments, or field data isolating one mechanism.",
+    "reason": "MS winners used shocks, award receipt events, counterfactual matches, and IVs."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "A formal model that yields clear, checkable results, ideally paired with empirical measurement that quantifies its trade-offs.",
+    "reason": "MS favored a model plus data, and parsimonious equilibrium models, over a simulation-only portfolio model."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "A new, validated, reusable measurement method (e.g., text-based measures validated several ways) that predicts real outcomes.",
+    "reason": "Several MS winners contributed new measurement approaches as their core contribution."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Large-sample archival, administrative, platform, or field data on actual behavior over small samples, vignettes, or single cases.",
+    "reason": "MS winners relied on comprehensive behavioral data; the losers relied on cases, vignettes, or narrow samples."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Shows how decision makers (firms, employers, evaluators, boards) actually respond to constraints, with concrete managerial or policy implications.",
+    "reason": "MS winners emphasized measurable responses by firms and evaluators to constraints."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Precise, decision-relevant formalization of fuzzy strategy concepts that produces tools usable in empirical work.",
+    "reason": "A formalization of competitive intensity beat a case study; it was published in MS."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "When both abstracts are sociological, prefer the one testing behavioral outcomes on large archival data over qualitative or multimethod case work.",
+    "reason": "The board tied on a status-inconsistency paper versus an authenticity case-plus-experiment paper, and the archival one was MS."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Questions about bias, discrimination, or inequality framed as testable demand-side or incentive mechanisms rather than as contextualizing institutional forces.",
+    "reason": "In the gender-gap and evaluator-bias pairs, MS took the mechanism-testing versions."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Inductive qualitative work: grounded theory, single in-depth case studies, ethnography, or process models built from interviews.",
+    "reason": "Case and grounded-theory abstracts consistently appeared elsewhere."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Contribution framed mainly as 'implications for research on' named literatures (optimal distinctiveness, ambidexterity, categories) rather than a substantive answer.",
+    "reason": "The losing abstracts closed by listing the literatures they contribute to."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Hypotheses stated as an inverted U or a list of moderators, with no effect magnitudes or identification strategy.",
+    "reason": "The inverted-U multi-project paper and the moderator-heavy exemplar paper were from other journals."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Formal models full of coined jargon constructs and long lists of propositions, without a crisp economic insight or empirical tie-in.",
+    "reason": "A jargon-heavy CEO succession model lost to an empirical directors paper, so being a formal model is not enough by itself."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Purely conceptual critique or redefinition of a construct with only verbal or illustrative arguments.",
+    "reason": "A conceptual competitive-advantage measure paper appeared outside MS."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Context-bound descriptive findings (one occupation or sector) framed as institutional or contextual nuance rather than a general mechanism.",
+    "reason": "The contextualized gender pay study and the status-decoupling study lost to mechanism-focused counterparts."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Multimethod designs that combine a case narrative with hypothetical-vignette experiments to illustrate a perception mechanism.",
+    "reason": "A case-plus-experiment authenticity paper was published elsewhere."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-MgmtSci-de1bd0bb",
+    "cross-train-OrgSci-MgmtSci-6e533c0b",
+    "cross-train-OrgSci-MgmtSci-491fb0ac",
+    "cross-train-OrgSci-MgmtSci-9255b123"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-MgmtSci-dc1212d2",
+    "cross-train-OrgSci-MgmtSci-471770c5",
+    "cross-train-OrgSci-MgmtSci-9f693227",
+    "cross-train-OrgSci-MgmtSci-986748a4",
+    "cross-train-OrgSci-MgmtSci-c2945674"
+   ],
+   "anchors": [
+    "cross-train-SMJ-MgmtSci-7dd36cb1",
+    "cross-train-SMJ-MgmtSci-c3495786",
+    "cross-train-SMJ-MgmtSci-e8683ec6"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-MgmtSci-986748a4",
+   "cross-train-OrgSci-MgmtSci-c2945674",
+   "cross-train-OrgSci-MgmtSci-9f693227",
+   "cross-train-OrgSci-MgmtSci-dc1212d2",
+   "cross-train-OrgSci-MgmtSci-0a3f8b47",
+   "cross-train-OrgSci-MgmtSci-f2b0e74e",
+   "cross-train-OrgSci-MgmtSci-6e533c0b",
+   "cross-train-OrgSci-MgmtSci-b3e70cbb",
+   "cross-train-OrgSci-MgmtSci-de1bd0bb",
+   "cross-train-OrgSci-MgmtSci-875bdb94",
+   "cross-train-OrgSci-MgmtSci-65184138",
+   "cross-train-OrgSci-MgmtSci-471770c5",
+   "cross-train-OrgSci-MgmtSci-491fb0ac",
+   "cross-train-OrgSci-MgmtSci-5a6a758d",
+   "cross-train-OrgSci-MgmtSci-7431a8e2",
+   "cross-train-OrgSci-MgmtSci-13443640",
+   "cross-train-OrgSci-MgmtSci-cca61cba",
+   "cross-train-OrgSci-MgmtSci-290cba5a",
+   "cross-train-OrgSci-MgmtSci-9255b123",
+   "cross-train-OrgSci-MgmtSci-61b668ea",
+   "cross-train-SMJ-MgmtSci-bd2e68c7",
+   "cross-train-SMJ-MgmtSci-24bbd61e",
+   "cross-train-SMJ-MgmtSci-c3495786",
+   "cross-train-SMJ-MgmtSci-7f2d8177",
+   "cross-train-SMJ-MgmtSci-219816db",
+   "cross-train-SMJ-MgmtSci-a9ea4143",
+   "cross-train-SMJ-MgmtSci-e8683ec6",
+   "cross-train-SMJ-MgmtSci-f7f989fe",
+   "cross-train-SMJ-MgmtSci-754f2696",
+   "cross-train-SMJ-MgmtSci-c6b54021",
+   "cross-train-SMJ-MgmtSci-550d32c1",
+   "cross-train-SMJ-MgmtSci-9976ec99",
+   "cross-train-SMJ-MgmtSci-715e5558",
+   "cross-train-SMJ-MgmtSci-94f62895",
+   "cross-train-SMJ-MgmtSci-468fbf09",
+   "cross-train-SMJ-MgmtSci-88207385",
+   "cross-train-SMJ-MgmtSci-8766a6e6",
+   "cross-train-SMJ-MgmtSci-61cb0e0e",
+   "cross-train-SMJ-MgmtSci-ea030702",
+   "cross-train-SMJ-MgmtSci-7dd36cb1"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-MgmtSci-986748a4": 0.6499999999999999,
+   "cross-train-OrgSci-MgmtSci-c2945674": 0.6499999999999999,
+   "cross-train-OrgSci-MgmtSci-9f693227": 0.6,
+   "cross-train-OrgSci-MgmtSci-dc1212d2": 0.55,
+   "cross-train-OrgSci-MgmtSci-0a3f8b47": 0.7,
+   "cross-train-OrgSci-MgmtSci-f2b0e74e": 0.65,
+   "cross-train-OrgSci-MgmtSci-6e533c0b": 0.5,
+   "cross-train-OrgSci-MgmtSci-b3e70cbb": 0.725,
+   "cross-train-OrgSci-MgmtSci-de1bd0bb": 0.45,
+   "cross-train-OrgSci-MgmtSci-875bdb94": 0.65,
+   "cross-train-OrgSci-MgmtSci-65184138": 0.675,
+   "cross-train-OrgSci-MgmtSci-471770c5": 0.575,
+   "cross-train-OrgSci-MgmtSci-491fb0ac": 0.5,
+   "cross-train-OrgSci-MgmtSci-5a6a758d": 0.65,
+   "cross-train-OrgSci-MgmtSci-7431a8e2": 0.7,
+   "cross-train-OrgSci-MgmtSci-13443640": 0.725,
+   "cross-train-OrgSci-MgmtSci-cca61cba": 0.725,
+   "cross-train-OrgSci-MgmtSci-290cba5a": 0.675,
+   "cross-train-OrgSci-MgmtSci-9255b123": 0.5,
+   "cross-train-OrgSci-MgmtSci-61b668ea": 0.725,
+   "cross-train-SMJ-MgmtSci-bd2e68c7": 0.85,
+   "cross-train-SMJ-MgmtSci-24bbd61e": 0.6499999999999999,
+   "cross-train-SMJ-MgmtSci-c3495786": 0.825,
+   "cross-train-SMJ-MgmtSci-7f2d8177": 0.825,
+   "cross-train-SMJ-MgmtSci-219816db": 0.7849999999999999,
+   "cross-train-SMJ-MgmtSci-a9ea4143": 0.825,
+   "cross-train-SMJ-MgmtSci-e8683ec6": 0.875,
+   "cross-train-SMJ-MgmtSci-f7f989fe": 0.85,
+   "cross-train-SMJ-MgmtSci-754f2696": 0.7,
+   "cross-train-SMJ-MgmtSci-c6b54021": 0.7,
+   "cross-train-SMJ-MgmtSci-550d32c1": 0.8,
+   "cross-train-SMJ-MgmtSci-9976ec99": 0.85,
+   "cross-train-SMJ-MgmtSci-715e5558": 0.875,
+   "cross-train-SMJ-MgmtSci-94f62895": 0.875,
+   "cross-train-SMJ-MgmtSci-468fbf09": 0.675,
+   "cross-train-SMJ-MgmtSci-88207385": 0.825,
+   "cross-train-SMJ-MgmtSci-8766a6e6": 0.85,
+   "cross-train-SMJ-MgmtSci-61cb0e0e": 0.8,
+   "cross-train-SMJ-MgmtSci-ea030702": 0.8,
+   "cross-train-SMJ-MgmtSci-7dd36cb1": 0.825
+  },
+  "train_acc": 0.9375,
+  "val_acc": 0.9666666666666667,
+  "val_by_rival": {
+   "OrgSci": 0.9333333333333333,
+   "SMJ": 1.0
+  },
+  "val_mean_p": 0.749,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-4126d805": 0.79,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.9,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.935,
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.3,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.865,
+   "cross-val-OrgSci-MgmtSci-e4df3702": 0.835,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.6,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.7,
+   "cross-val-OrgSci-MgmtSci-ce85dc1b": 0.735,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.6000000000000001,
+   "cross-val-OrgSci-MgmtSci-70d84011": 0.85,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.7,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.7,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.95,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.7,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.815,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.665,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.645,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.75,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.735,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.765,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.735,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.765,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.75,
+   "cross-val-SMJ-MgmtSci-132a543a": 0.865,
+   "cross-val-SMJ-MgmtSci-8a64f2ae": 0.74,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.615,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.85,
+   "cross-val-SMJ-MgmtSci-467111c3": 0.765,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.85
+  },
+  "accepted": true,
+  "best_before": 0.9666666666666667
+ },
+ {
+  "iteration": 4,
+  "version": 4,
+  "parent": 3,
+  "rulebook": {
+   "values": [
+    "Economics-style mechanisms such as incentives, information asymmetry, signaling, matching, equilibrium, or explicit trade-offs, rather than legitimacy, identity, or institutional logics.",
+    "Reports effect sizes in interpretable units (percentages, per-unit responses, gap closed), not just support for hypotheses' direction.",
+    "Credible causal identification (policy shocks, sudden events, instruments, randomization) beats panel associations with moderators, even on large samples.",
+    "A formal model (real options, matching, game, optimal choice) that derives predictions, especially when tested by field experiment or data, even if magnitudes are unstated.",
+    "A new, validated, reusable measure that predicts real outcomes; not a critique or correction of an existing measure.",
+    "Large-sample archival, administrative, platform, or field data on actual behavior over small samples, vignettes, or single cases.",
+    "Shows how decision makers (firms, employers, evaluators, boards) actually respond to constraints, with concrete managerial or policy implications.",
+    "Precise, decision-relevant formalization of fuzzy strategy concepts that produces tools usable in empirical work.",
+    "When both abstracts are sociological, prefer the one testing behavioral outcomes on large archival data over qualitative or multimethod case work.",
+    "Questions about bias, discrimination, or inequality framed as testable demand-side or incentive mechanisms rather than as contextualizing institutional forces.",
+    "Tests a common management practice (rankings, pay, hiring tools) on firm records, ruling out alternative mechanisms or showing standard remedies fail.",
+    "Studies innovation as search or problem-solving behavior measured on novel behavioral data, rather than audience perceptions of novelty or distinctiveness."
+   ],
+   "red_flags": [
+    "Inductive qualitative work: grounded theory, single in-depth case studies, ethnography, or process models built from interviews.",
+    "Contribution framed around named literatures or coined labels (a new 'paradox', a named hypothesis, optimal distinctiveness, categories) rather than a substantive answer.",
+    "Long verbal theorizing ('we/I theorize', inverted U, lists of moderators) where the data merely confirm predicted directions without identification.",
+    "Formal models full of coined jargon constructs and long lists of propositions, without a crisp economic insight or empirical tie-in.",
+    "Purely conceptual critique or redefinition of a construct with only verbal or illustrative arguments.",
+    "Context-bound descriptive findings (one occupation or sector) framed as institutional or contextual nuance rather than a general mechanism.",
+    "Multimethod designs that combine a case narrative with hypothetical-vignette experiments to illustrate a perception mechanism.",
+    "Methodological critique of an existing measure pitched as guidance for 'organizational' or strategy scholars rather than answering a substantive question."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Credible causal identification: policy shocks, before/after events, counterfactual benchmarks, instruments, or field data isolating one mechanism.",
+    "after": "Credible causal identification (policy shocks, sudden events, instruments, randomization) beats panel associations with moderators, even on large samples.",
+    "reason": "Exogenous-shock papers beat large-sample associational panels with moderators but the board was only weakly confident."
+   },
+   {
+    "change": "edited",
+    "before": "A formal model that yields clear, checkable results, ideally paired with empirical measurement that quantifies its trade-offs.",
+    "after": "A formal model (real options, matching, game, optimal choice) that derives predictions, especially when tested by field experiment or data, even if magnitudes are unstated.",
+    "reason": "Model-derived hypotheses tested empirically, and analytical models of optimal choice, were underweighted against archival rivals."
+   },
+   {
+    "change": "edited",
+    "before": "A new, validated, reusable measurement method (e.g., text-based measures validated several ways) that predicts real outcomes.",
+    "after": "A new, validated, reusable measure that predicts real outcomes; not a critique or correction of an existing measure.",
+    "reason": "The measurement rule wrongly favored a critique of an existing measure over a policy-shock study."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Tests a common management practice (rankings, pay, hiring tools) on firm records, ruling out alternative mechanisms or showing standard remedies fail.",
+    "reason": "A single-firm personnel-data study of an evaluation practice lost out to an RCT built on a psychological mechanism."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Studies innovation as search or problem-solving behavior measured on novel behavioral data, rather than audience perceptions of novelty or distinctiveness.",
+    "reason": "A study of innovation search behavior was published over a study of audience valuation built on a coined hypothesis."
+   },
+   {
+    "change": "edited",
+    "before": "Contribution framed mainly as 'implications for research on' named literatures (optimal distinctiveness, ambidexterity, categories) rather than a substantive answer.",
+    "after": "Contribution framed around named literatures or coined labels (a new 'paradox', a named hypothesis, optimal distinctiveness, categories) rather than a substantive answer.",
+    "reason": "Coined paradoxes and named hypotheses that extend sociological constructs marked the non-MS papers."
+   },
+   {
+    "change": "edited",
+    "before": "Hypotheses stated as an inverted U or a list of moderators, with no effect magnitudes or identification strategy.",
+    "after": "Long verbal theorizing ('we/I theorize', inverted U, lists of moderators) where the data merely confirm predicted directions without identification.",
+    "reason": "Non-MS papers, even experimental ones, devoted most of the abstract to theorized chains of predictions."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Methodological critique of an existing measure pitched as guidance for 'organizational' or strategy scholars rather than answering a substantive question.",
+    "reason": "A methods critique aimed at organizational scholars appeared outside MS, while a substantive causal study was in MS."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-SMJ-MgmtSci-7864b8e8",
+    "cross-train-SMJ-MgmtSci-ba230906"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-MgmtSci-fec9998e",
+    "cross-train-OrgSci-MgmtSci-319b5d86",
+    "cross-train-OrgSci-MgmtSci-b462bc63",
+    "cross-train-OrgSci-MgmtSci-12becf24",
+    "cross-train-OrgSci-MgmtSci-fd5756b4",
+    "cross-train-OrgSci-MgmtSci-d45559e6",
+    "cross-train-OrgSci-MgmtSci-1def32e5"
+   ],
+   "anchors": [
+    "cross-train-SMJ-MgmtSci-d2029b26",
+    "cross-train-SMJ-MgmtSci-cc36f1de",
+    "cross-train-OrgSci-MgmtSci-1422db3c"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-MgmtSci-999d67f8",
+   "cross-train-OrgSci-MgmtSci-83096145",
+   "cross-train-OrgSci-MgmtSci-2f7c721c",
+   "cross-train-OrgSci-MgmtSci-049c07f5",
+   "cross-train-OrgSci-MgmtSci-86d0f405",
+   "cross-train-OrgSci-MgmtSci-1422db3c",
+   "cross-train-OrgSci-MgmtSci-d45559e6",
+   "cross-train-OrgSci-MgmtSci-fec9998e",
+   "cross-train-OrgSci-MgmtSci-9e66b4c1",
+   "cross-train-OrgSci-MgmtSci-3370f472",
+   "cross-train-OrgSci-MgmtSci-c6c79b64",
+   "cross-train-OrgSci-MgmtSci-99dc18fb",
+   "cross-train-OrgSci-MgmtSci-774622aa",
+   "cross-train-OrgSci-MgmtSci-1d383701",
+   "cross-train-OrgSci-MgmtSci-319b5d86",
+   "cross-train-OrgSci-MgmtSci-b462bc63",
+   "cross-train-OrgSci-MgmtSci-1def32e5",
+   "cross-train-OrgSci-MgmtSci-12becf24",
+   "cross-train-OrgSci-MgmtSci-0e08fdd0",
+   "cross-train-OrgSci-MgmtSci-fd5756b4",
+   "cross-train-SMJ-MgmtSci-ba230906",
+   "cross-train-SMJ-MgmtSci-77f45cca",
+   "cross-train-SMJ-MgmtSci-e690a0bb",
+   "cross-train-SMJ-MgmtSci-9d003c30",
+   "cross-train-SMJ-MgmtSci-fc332950",
+   "cross-train-SMJ-MgmtSci-57ec795e",
+   "cross-train-SMJ-MgmtSci-adb561c0",
+   "cross-train-SMJ-MgmtSci-cc36f1de",
+   "cross-train-SMJ-MgmtSci-d2029b26",
+   "cross-train-SMJ-MgmtSci-7f95e1a6",
+   "cross-train-SMJ-MgmtSci-4a51d670",
+   "cross-train-SMJ-MgmtSci-eebca082",
+   "cross-train-SMJ-MgmtSci-415c2e86",
+   "cross-train-SMJ-MgmtSci-57232e69",
+   "cross-train-SMJ-MgmtSci-d204ab09",
+   "cross-train-SMJ-MgmtSci-f77f4bfa",
+   "cross-train-SMJ-MgmtSci-c32ed010",
+   "cross-train-SMJ-MgmtSci-47d9790c",
+   "cross-train-SMJ-MgmtSci-5b305c56",
+   "cross-train-SMJ-MgmtSci-7864b8e8"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-MgmtSci-999d67f8": 0.71,
+   "cross-train-OrgSci-MgmtSci-83096145": 0.675,
+   "cross-train-OrgSci-MgmtSci-2f7c721c": 0.75,
+   "cross-train-OrgSci-MgmtSci-049c07f5": 0.7,
+   "cross-train-OrgSci-MgmtSci-86d0f405": 0.775,
+   "cross-train-OrgSci-MgmtSci-1422db3c": 0.8,
+   "cross-train-OrgSci-MgmtSci-d45559e6": 0.65,
+   "cross-train-OrgSci-MgmtSci-fec9998e": 0.575,
+   "cross-train-OrgSci-MgmtSci-9e66b4c1": 0.75,
+   "cross-train-OrgSci-MgmtSci-3370f472": 0.775,
+   "cross-train-OrgSci-MgmtSci-c6c79b64": 0.775,
+   "cross-train-OrgSci-MgmtSci-99dc18fb": 0.725,
+   "cross-train-OrgSci-MgmtSci-774622aa": 0.725,
+   "cross-train-OrgSci-MgmtSci-1d383701": 0.675,
+   "cross-train-OrgSci-MgmtSci-319b5d86": 0.575,
+   "cross-train-OrgSci-MgmtSci-b462bc63": 0.575,
+   "cross-train-OrgSci-MgmtSci-1def32e5": 0.65,
+   "cross-train-OrgSci-MgmtSci-12becf24": 0.575,
+   "cross-train-OrgSci-MgmtSci-0e08fdd0": 0.675,
+   "cross-train-OrgSci-MgmtSci-fd5756b4": 0.6,
+   "cross-train-SMJ-MgmtSci-ba230906": 0.5,
+   "cross-train-SMJ-MgmtSci-77f45cca": 0.7250000000000001,
+   "cross-train-SMJ-MgmtSci-e690a0bb": 0.7250000000000001,
+   "cross-train-SMJ-MgmtSci-9d003c30": 0.8,
+   "cross-train-SMJ-MgmtSci-fc332950": 0.8,
+   "cross-train-SMJ-MgmtSci-57ec795e": 0.725,
+   "cross-train-SMJ-MgmtSci-adb561c0": 0.74,
+   "cross-train-SMJ-MgmtSci-cc36f1de": 0.8400000000000001,
+   "cross-train-SMJ-MgmtSci-d2029b26": 0.81,
+   "cross-train-SMJ-MgmtSci-7f95e1a6": 0.8,
+   "cross-train-SMJ-MgmtSci-4a51d670": 0.75,
+   "cross-train-SMJ-MgmtSci-eebca082": 0.75,
+   "cross-train-SMJ-MgmtSci-415c2e86": 0.8400000000000001,
+   "cross-train-SMJ-MgmtSci-57232e69": 0.7,
+   "cross-train-SMJ-MgmtSci-d204ab09": 0.675,
+   "cross-train-SMJ-MgmtSci-f77f4bfa": 0.7250000000000001,
+   "cross-train-SMJ-MgmtSci-c32ed010": 0.875,
+   "cross-train-SMJ-MgmtSci-47d9790c": 0.815,
+   "cross-train-SMJ-MgmtSci-5b305c56": 0.75,
+   "cross-train-SMJ-MgmtSci-7864b8e8": 0.475
+  },
+  "train_acc": 0.9625,
+  "val_acc": 0.9666666666666667,
+  "val_by_rival": {
+   "OrgSci": 0.9333333333333333,
+   "SMJ": 1.0
+  },
+  "val_mean_p": 0.7505,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-4126d805": 0.865,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.91,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.955,
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.30000000000000004,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.85,
+   "cross-val-OrgSci-MgmtSci-e4df3702": 0.885,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.5249999999999999,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.715,
+   "cross-val-OrgSci-MgmtSci-ce85dc1b": 0.75,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.69,
+   "cross-val-OrgSci-MgmtSci-70d84011": 0.8500000000000001,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.71,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.7,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.95,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.71,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.79,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.6599999999999999,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.525,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.75,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.79,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.775,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.725,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.76,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.7150000000000001,
+   "cross-val-SMJ-MgmtSci-132a543a": 0.865,
+   "cross-val-SMJ-MgmtSci-8a64f2ae": 0.725,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.6,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.865,
+   "cross-val-SMJ-MgmtSci-467111c3": 0.74,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.865
+  },
+  "accepted": true,
+  "best_before": 0.9666666666666667
+ },
+ {
+  "iteration": 5,
+  "version": 5,
+  "parent": 4,
+  "rulebook": {
+   "values": [
+    "Economics-style mechanisms (incentives, information asymmetry, self-enforcing contracts, signaling, matching, equilibrium, trade-offs) rather than legitimacy, identity, culture, or institutional logics.",
+    "Reports effect sizes in interpretable units (percentages, per-unit responses, gap closed), not just support for hypotheses' direction.",
+    "Credible causal identification (policy shocks, historical or sudden events, instruments, randomization) beats panel associations with moderators, even on large samples.",
+    "Analytical formal model (principal-agent, game, optimal policy) with characterized solutions or sharp predictions; valued even without data or stated magnitudes.",
+    "Computational or structural models count when fitted to experimental or field behavior to separate competing mechanisms, not as stand-alone simulations.",
+    "A new, validated, reusable measure (e.g., text-based, experimentally checked) that predicts real outcomes; not a critique or correction of an existing measure.",
+    "Large-sample archival, administrative, platform, or field data on actual behavior, but sharp theory-derived predictions outrank sheer sample size or broad regional proxies.",
+    "Representative, population-scale measurement of an economically important phenomenon with precise, benchmarked magnitudes counts even without a causal design.",
+    "Shows how decision makers respond to constraints, or tests a common management practice on real firms, with concrete managerial or policy implications.",
+    "Precise, decision-relevant formalization of fuzzy strategy concepts that produces tools usable in empirical work.",
+    "Bias, discrimination, inequality, or welfare questions framed as testable demand-side or incentive mechanisms, including counterintuitive efficiency or welfare effects.",
+    "In psychology-style pairs, prefer effort or performance in real work groups plus lab replication over many-study packages on lay beliefs or self-reports."
+   ],
+   "red_flags": [
+    "Inductive qualitative work: grounded theory, single in-depth case studies, ethnography, or process models built from interviews.",
+    "Contribution built on a coined concept or label ('we introduce the concept of', 'what we call', a new paradox, optimal distinctiveness), even with strong design.",
+    "Long verbal theorizing ('we theorize', inverted U, moderator lists, 'self-limiting' propositions) where data merely confirm predicted directions without identification.",
+    "Formal models full of coined jargon constructs and long lists of propositions, without a crisp economic insight or empirical tie-in.",
+    "Purely conceptual critique or redefinition of a construct with only verbal or illustrative arguments.",
+    "Context-bound descriptive findings (one occupation or sector) framed as institutional or contextual nuance rather than a general mechanism.",
+    "Multimethod designs that combine a case narrative with hypothetical-vignette experiments to illustrate a perception mechanism.",
+    "Pure simulation models arguing against a prevailing explanation without data; or associational findings backed only by 'suggestive' mechanism evidence."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Economics-style mechanisms such as incentives, information asymmetry, signaling, matching, equilibrium, or explicit trade-offs, rather than legitimacy, identity, or institutional logics.",
+    "after": "Economics-style mechanisms (incentives, information asymmetry, self-enforcing contracts, signaling, matching, equilibrium, trade-offs) rather than legitimacy, identity, culture, or institutional logics.",
+    "reason": "Relational-contract theory won over a generalized-trust/culture study despite the latter's huge sample."
+   },
+   {
+    "change": "edited",
+    "before": "Credible causal identification (policy shocks, sudden events, instruments, randomization) beats panel associations with moderators, even on large samples.",
+    "after": "Credible causal identification (policy shocks, historical or sudden events, instruments, randomization) beats panel associations with moderators, even on large samples.",
+    "reason": "A historical natural event combined with a model won over hypothesis testing on industry panels."
+   },
+   {
+    "change": "edited",
+    "before": "A formal model (real options, matching, game, optimal choice) that derives predictions, especially when tested by field experiment or data, even if magnitudes are unstated.",
+    "after": "Analytical formal model (principal-agent, game, optimal policy) with characterized solutions or sharp predictions; valued even without data or stated magnitudes.",
+    "reason": "A stylized principal-agent model with no data beat a field experiment only by a slim margin; the board needs more confidence here."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Computational or structural models count when fitted to experimental or field behavior to separate competing mechanisms, not as stand-alone simulations.",
+    "reason": "Experiment plus fitted computational model won, while a stand-alone simulation lost to an RCT."
+   },
+   {
+    "change": "edited",
+    "before": "A new, validated, reusable measure that predicts real outcomes; not a critique or correction of an existing measure.",
+    "after": "A new, validated, reusable measure (e.g., text-based, experimentally checked) that predicts real outcomes; not a critique or correction of an existing measure.",
+    "reason": "A validated text-based measure tested on field data won but was judged with low confidence."
+   },
+   {
+    "change": "edited",
+    "before": "Large-sample archival, administrative, platform, or field data on actual behavior over small samples, vignettes, or single cases.",
+    "after": "Large-sample archival, administrative, platform, or field data on actual behavior, but sharp theory-derived predictions outrank sheer sample size or broad regional proxies.",
+    "reason": "The board over-weighted million-firm samples against a theory-sharp test on a smaller sample."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Representative, population-scale measurement of an economically important phenomenon with precise, benchmarked magnitudes counts even without a causal design.",
+    "reason": "A nationally representative descriptive adoption study won over a coined-concept experiment; the board was at 50%."
+   },
+   {
+    "change": "edited",
+    "before": "Shows how decision makers (firms, employers, evaluators, boards) actually respond to constraints, with concrete managerial or policy implications.",
+    "after": "Shows how decision makers respond to constraints, or tests a common management practice on real firms, with concrete managerial or policy implications.",
+    "reason": "Merged with the overlapping management-practice rule to free a slot."
+   },
+   {
+    "change": "dropped",
+    "before": "Tests a common management practice (rankings, pay, hiring tools) on firm records, ruling out alternative mechanisms or showing standard remedies fail.",
+    "after": "",
+    "reason": "Merged into the decision-maker response rule."
+   },
+   {
+    "change": "dropped",
+    "before": "When both abstracts are sociological, prefer the one testing behavioral outcomes on large archival data over qualitative or multimethod case work.",
+    "after": "",
+    "reason": "Redundant with the large-sample data rule and the qualitative-work red flag."
+   },
+   {
+    "change": "edited",
+    "before": "Questions about bias, discrimination, or inequality framed as testable demand-side or incentive mechanisms rather than as contextualizing institutional forces.",
+    "after": "Bias, discrimination, inequality, or welfare questions framed as testable demand-side or incentive mechanisms, including counterintuitive efficiency or welfare effects.",
+    "reason": "Counterintuitive welfare findings (e.g., a harmful practice creating value) mark Management Science papers."
+   },
+   {
+    "change": "dropped",
+    "before": "Studies innovation as search or problem-solving behavior measured on novel behavioral data, rather than audience perceptions of novelty or distinctiveness.",
+    "after": "",
+    "reason": "Too narrow; covered by the behavior-data and coined-label rules, and the slot was needed for a general rule."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "In psychology-style pairs, prefer effort or performance in real work groups plus lab replication over many-study packages on lay beliefs or self-reports.",
+    "reason": "A status-effort study using field teams and a lab lost to a seven-study beliefs package."
+   },
+   {
+    "change": "edited",
+    "before": "Contribution framed around named literatures or coined labels (a new 'paradox', a named hypothesis, optimal distinctiveness, categories) rather than a substantive answer.",
+    "after": "Contribution built on a coined concept or label ('we introduce the concept of', 'what we call', a new paradox, optimal distinctiveness), even with strong design.",
+    "reason": "Losing abstracts in two misjudged pairs were built around a newly named concept despite strong experimental designs."
+   },
+   {
+    "change": "edited",
+    "before": "Long verbal theorizing ('we/I theorize', inverted U, lists of moderators) where the data merely confirm predicted directions without identification.",
+    "after": "Long verbal theorizing ('we theorize', inverted U, moderator lists, 'self-limiting' propositions) where data merely confirm predicted directions without identification.",
+    "reason": "Platform data followed by post-hoc theorizing about conditions lost to a mechanism-separating experiment."
+   },
+   {
+    "change": "dropped",
+    "before": "Methodological critique of an existing measure pitched as guidance for 'organizational' or strategy scholars rather than answering a substantive question.",
+    "after": "",
+    "reason": "Already covered by the measure rule in values; the slot was freed for a simulation/suggestive-evidence flag."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Pure simulation models arguing against a prevailing explanation without data; or associational findings backed only by 'suggestive' mechanism evidence.",
+    "reason": "A data-free computational model lost to an RCT; an 'associated with'/'suggestive evidence' study lost to a validated-measure field test."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-MgmtSci-e20314df",
+    "cross-train-OrgSci-MgmtSci-419f2880"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-MgmtSci-e842bfd8",
+    "cross-train-OrgSci-MgmtSci-569e8765",
+    "cross-train-OrgSci-MgmtSci-e9680ad6",
+    "cross-train-SMJ-MgmtSci-fc2e8822",
+    "cross-train-SMJ-MgmtSci-2a558cc9",
+    "cross-train-OrgSci-MgmtSci-e5a890bf",
+    "cross-train-SMJ-MgmtSci-81839b38"
+   ],
+   "anchors": [
+    "cross-train-SMJ-MgmtSci-b1932106",
+    "cross-train-SMJ-MgmtSci-d1138ee9",
+    "cross-train-SMJ-MgmtSci-1bb8deb3"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-MgmtSci-e1337962",
+   "cross-train-OrgSci-MgmtSci-e20314df",
+   "cross-train-OrgSci-MgmtSci-e842bfd8",
+   "cross-train-OrgSci-MgmtSci-e9680ad6",
+   "cross-train-OrgSci-MgmtSci-d68e16ac",
+   "cross-train-OrgSci-MgmtSci-419f2880",
+   "cross-train-OrgSci-MgmtSci-20f1dbed",
+   "cross-train-OrgSci-MgmtSci-98cd8761",
+   "cross-train-OrgSci-MgmtSci-52e3979c",
+   "cross-train-OrgSci-MgmtSci-5305a2fd",
+   "cross-train-OrgSci-MgmtSci-07f08dea",
+   "cross-train-OrgSci-MgmtSci-569e8765",
+   "cross-train-OrgSci-MgmtSci-f378687c",
+   "cross-train-OrgSci-MgmtSci-80e75ace",
+   "cross-train-OrgSci-MgmtSci-d42eb9df",
+   "cross-train-OrgSci-MgmtSci-e5a890bf",
+   "cross-train-OrgSci-MgmtSci-ca4ed862",
+   "cross-train-OrgSci-MgmtSci-822d0207",
+   "cross-train-OrgSci-MgmtSci-fc167ea7",
+   "cross-train-SMJ-MgmtSci-49e2a83f",
+   "cross-train-SMJ-MgmtSci-87c02e81",
+   "cross-train-SMJ-MgmtSci-d1138ee9",
+   "cross-train-SMJ-MgmtSci-ca2b9357",
+   "cross-train-SMJ-MgmtSci-a75b1c2a",
+   "cross-train-SMJ-MgmtSci-b1932106",
+   "cross-train-SMJ-MgmtSci-e6fef0d1",
+   "cross-train-SMJ-MgmtSci-a398ef28",
+   "cross-train-SMJ-MgmtSci-107cf6d6",
+   "cross-train-SMJ-MgmtSci-81839b38",
+   "cross-train-SMJ-MgmtSci-2a558cc9",
+   "cross-train-SMJ-MgmtSci-f5703373",
+   "cross-train-SMJ-MgmtSci-debda0e3",
+   "cross-train-SMJ-MgmtSci-1bb8deb3",
+   "cross-train-SMJ-MgmtSci-65716e01",
+   "cross-train-SMJ-MgmtSci-9163f53e",
+   "cross-train-SMJ-MgmtSci-fc2e8822",
+   "cross-train-SMJ-MgmtSci-a7184d4d",
+   "cross-train-SMJ-MgmtSci-456dab6c",
+   "cross-train-SMJ-MgmtSci-cfc0651e"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-MgmtSci-e1337962": 0.9,
+   "cross-train-OrgSci-MgmtSci-e20314df": 0.425,
+   "cross-train-OrgSci-MgmtSci-e842bfd8": 0.575,
+   "cross-train-OrgSci-MgmtSci-e9680ad6": 0.625,
+   "cross-train-OrgSci-MgmtSci-d68e16ac": 0.775,
+   "cross-train-OrgSci-MgmtSci-419f2880": 0.5,
+   "cross-train-OrgSci-MgmtSci-20f1dbed": 0.775,
+   "cross-train-OrgSci-MgmtSci-98cd8761": 0.825,
+   "cross-train-OrgSci-MgmtSci-52e3979c": 0.7,
+   "cross-train-OrgSci-MgmtSci-5305a2fd": 0.76,
+   "cross-train-OrgSci-MgmtSci-07f08dea": 0.85,
+   "cross-train-OrgSci-MgmtSci-569e8765": 0.6,
+   "cross-train-OrgSci-MgmtSci-f378687c": 0.89,
+   "cross-train-OrgSci-MgmtSci-80e75ace": 0.85,
+   "cross-train-OrgSci-MgmtSci-d42eb9df": 0.8,
+   "cross-train-OrgSci-MgmtSci-e5a890bf": 0.675,
+   "cross-train-OrgSci-MgmtSci-ca4ed862": 0.775,
+   "cross-train-OrgSci-MgmtSci-822d0207": 0.875,
+   "cross-train-OrgSci-MgmtSci-fc167ea7": 0.85,
+   "cross-train-SMJ-MgmtSci-49e2a83f": 0.75,
+   "cross-train-SMJ-MgmtSci-87c02e81": 0.775,
+   "cross-train-SMJ-MgmtSci-d1138ee9": 0.85,
+   "cross-train-SMJ-MgmtSci-ca2b9357": 0.725,
+   "cross-train-SMJ-MgmtSci-a75b1c2a": 0.825,
+   "cross-train-SMJ-MgmtSci-b1932106": 0.89,
+   "cross-train-SMJ-MgmtSci-e6fef0d1": 0.775,
+   "cross-train-SMJ-MgmtSci-a398ef28": 0.8,
+   "cross-train-SMJ-MgmtSci-107cf6d6": 0.8,
+   "cross-train-SMJ-MgmtSci-81839b38": 0.675,
+   "cross-train-SMJ-MgmtSci-2a558cc9": 0.65,
+   "cross-train-SMJ-MgmtSci-f5703373": 0.7,
+   "cross-train-SMJ-MgmtSci-debda0e3": 0.91,
+   "cross-train-SMJ-MgmtSci-1bb8deb3": 0.8,
+   "cross-train-SMJ-MgmtSci-65716e01": 0.675,
+   "cross-train-SMJ-MgmtSci-9163f53e": 0.8400000000000001,
+   "cross-train-SMJ-MgmtSci-fc2e8822": 0.6499999999999999,
+   "cross-train-SMJ-MgmtSci-a7184d4d": 0.7,
+   "cross-train-SMJ-MgmtSci-456dab6c": 0.865,
+   "cross-train-SMJ-MgmtSci-cfc0651e": 0.775
+  },
+  "train_acc": 0.9615384615384616,
+  "val_acc": 0.9,
+  "val_by_rival": {
+   "OrgSci": 0.8666666666666667,
+   "SMJ": 0.9333333333333333
+  },
+  "val_mean_p": 0.7386666666666666,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-4126d805": 0.825,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.91,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.95,
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.30000000000000004,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.865,
+   "cross-val-OrgSci-MgmtSci-e4df3702": 0.9,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.47,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.69,
+   "cross-val-OrgSci-MgmtSci-ce85dc1b": 0.775,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.6950000000000001,
+   "cross-val-OrgSci-MgmtSci-70d84011": 0.825,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.6799999999999999,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.735,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.95,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.685,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.815,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.29000000000000004,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.52,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.79,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.825,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.79,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.72,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.73,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.775,
+   "cross-val-SMJ-MgmtSci-132a543a": 0.865,
+   "cross-val-SMJ-MgmtSci-8a64f2ae": 0.7,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.635,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.865,
+   "cross-val-SMJ-MgmtSci-467111c3": 0.72,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.865
+  },
+  "accepted": false,
+  "best_before": 0.9666666666666667
+ },
+ {
+  "iteration": 6,
+  "version": 6,
+  "parent": 4,
+  "rulebook": {
+   "values": [
+    "Economics-style mechanisms such as incentives, information asymmetry, signaling, matching, equilibrium, or explicit trade-offs, rather than legitimacy, identity, or institutional logics.",
+    "Reports effect sizes in interpretable units (percentages, per-unit responses, gap closed), not just support for hypotheses' direction.",
+    "Credible causal identification (random or quasi-random assignment, unexpected deaths or shocks, instruments, policy changes) decisively beats panel associations with moderators, even with richer theory.",
+    "A formal model (real options, matching, game, optimal choice) deriving predictions tested on field or archival data, ideally several datasets, even if magnitudes are unstated.",
+    "A new, validated, reusable measure that predicts real outcomes; not a critique or correction of an existing measure.",
+    "Large-sample archival, administrative, platform, or field data on actual behavior over small samples, vignettes, or single cases.",
+    "Shows how decision makers (firms, employers, evaluators, boards) actually respond to constraints, with concrete managerial or policy implications.",
+    "Precise, decision-relevant formalization of fuzzy strategy concepts that produces tools usable in empirical work.",
+    "On sociological or audience-perception topics, prefer large-scale behavioral evidence from archival or platform data over experiments, qualitative, or multimethod case work.",
+    "Questions about bias, discrimination, or inequality framed as testable demand-side or incentive mechanisms rather than as contextualizing institutional forces.",
+    "Traces an observed gap to a specific channel by explicitly ruling out competing explanations (selection, signaling, enforcer bias, anticipation).",
+    "Studies innovation as search or problem-solving behavior measured on novel behavioral data, rather than audience perceptions of novelty or distinctiveness."
+   ],
+   "red_flags": [
+    "Inductive qualitative work: grounded theory, single in-depth case studies, ethnography, or process models built from interviews.",
+    "Contribution is a named literature or coined label (a 'paradox', named hypothesis, optimal distinctiveness) itself, not an identified, tested effect.",
+    "Long verbal theorizing ('we/I theorize', inverted U, moderation by life stage or structure, bridging perspectives) where data merely confirm directions without identification.",
+    "Formal models full of coined jargon constructs and long lists of propositions, without a crisp economic insight or empirical tie-in.",
+    "Purely conceptual critique or redefinition of a construct with only verbal or illustrative arguments.",
+    "Context-bound descriptive findings (one occupation or sector) framed as institutional or contextual nuance rather than a general mechanism.",
+    "Lab, online, or vignette experiments on stylized tasks or hypothetical perceptions, when the rival uses field randomization or real behavioral data.",
+    "Methodological critique of an existing measure pitched as guidance for 'organizational' or strategy scholars rather than answering a substantive question."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Credible causal identification (policy shocks, sudden events, instruments, randomization) beats panel associations with moderators, even on large samples.",
+    "after": "Credible causal identification (random or quasi-random assignment, unexpected deaths or shocks, instruments, policy changes) decisively beats panel associations with moderators, even with richer theory.",
+    "reason": "In several low-confidence pairs the identified study won over moderator-heavy panels; the rule needed more decisive weight."
+   },
+   {
+    "change": "edited",
+    "before": "A formal model (real options, matching, game, optimal choice) that derives predictions, especially when tested by field experiment or data, even if magnitudes are unstated.",
+    "after": "A formal model (real options, matching, game, optimal choice) deriving predictions tested on field or archival data, ideally several datasets, even if magnitudes are unstated.",
+    "reason": "A model tested on multiple archival datasets beat a hand-collected replication study, but the board was unsure."
+   },
+   {
+    "change": "edited",
+    "before": "When both abstracts are sociological, prefer the one testing behavioral outcomes on large archival data over qualitative or multimethod case work.",
+    "after": "On sociological or audience-perception topics, prefer large-scale behavioral evidence from archival or platform data over experiments, qualitative, or multimethod case work.",
+    "reason": "Platform-data audience study beat an experiment built around a coined paradox; the rule now covers experiments too."
+   },
+   {
+    "change": "edited",
+    "before": "Tests a common management practice (rankings, pay, hiring tools) on firm records, ruling out alternative mechanisms or showing standard remedies fail.",
+    "after": "Traces an observed gap to a specific channel by explicitly ruling out competing explanations (selection, signaling, enforcer bias, anticipation).",
+    "reason": "Management Science winners decomposed effects and excluded rival channels; generalized beyond management practices."
+   },
+   {
+    "change": "edited",
+    "before": "Contribution framed around named literatures or coined labels (a new 'paradox', a named hypothesis, optimal distinctiveness, categories) rather than a substantive answer.",
+    "after": "Contribution is a named literature or coined label (a 'paradox', named hypothesis, optimal distinctiveness) itself, not an identified, tested effect.",
+    "reason": "A Management Science winner introduced a new construct but backed it with an instrument; the label alone should not penalize it."
+   },
+   {
+    "change": "edited",
+    "before": "Long verbal theorizing ('we/I theorize', inverted U, lists of moderators) where the data merely confirm predicted directions without identification.",
+    "after": "Long verbal theorizing ('we/I theorize', inverted U, moderation by life stage or structure, bridging perspectives) where data merely confirm directions without identification.",
+    "reason": "Losers framed contributions as contingent moderation or as bridging scholarly perspectives without identification."
+   },
+   {
+    "change": "edited",
+    "before": "Multimethod designs that combine a case narrative with hypothetical-vignette experiments to illustrate a perception mechanism.",
+    "after": "Lab, online, or vignette experiments on stylized tasks or hypothetical perceptions, when the rival uses field randomization or real behavioral data.",
+    "reason": "Lab and real-effort experiments lost to field experiments and archival mechanism studies in multiple pairs."
+   }
+  ],
+  "minibatch": {
+   "wrong": [],
+   "shaky": [
+    "cross-train-OrgSci-MgmtSci-7cc9f5c0",
+    "cross-train-OrgSci-MgmtSci-c3c107ea",
+    "cross-train-OrgSci-MgmtSci-12d0a524",
+    "cross-train-OrgSci-MgmtSci-27a2bc90",
+    "cross-train-OrgSci-MgmtSci-9530405a",
+    "cross-train-OrgSci-MgmtSci-0baf6df2",
+    "cross-train-OrgSci-MgmtSci-254c5e0f",
+    "cross-train-OrgSci-MgmtSci-c836fa73",
+    "cross-train-SMJ-MgmtSci-f180647d"
+   ],
+   "anchors": [
+    "cross-train-OrgSci-MgmtSci-4a39cac1",
+    "cross-train-OrgSci-MgmtSci-882e057c",
+    "cross-train-OrgSci-MgmtSci-d48b8c0a"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-MgmtSci-09c6c4c2",
+   "cross-train-OrgSci-MgmtSci-2f1ba931",
+   "cross-train-OrgSci-MgmtSci-41cb80a9",
+   "cross-train-OrgSci-MgmtSci-7f42a372",
+   "cross-train-OrgSci-MgmtSci-d48b8c0a",
+   "cross-train-OrgSci-MgmtSci-4c497ff0",
+   "cross-train-OrgSci-MgmtSci-c836fa73",
+   "cross-train-OrgSci-MgmtSci-7cc9f5c0",
+   "cross-train-OrgSci-MgmtSci-27a2bc90",
+   "cross-train-OrgSci-MgmtSci-205af930",
+   "cross-train-OrgSci-MgmtSci-0baf6df2",
+   "cross-train-OrgSci-MgmtSci-0d748e01",
+   "cross-train-OrgSci-MgmtSci-12d0a524",
+   "cross-train-OrgSci-MgmtSci-4a39cac1",
+   "cross-train-OrgSci-MgmtSci-9530405a",
+   "cross-train-OrgSci-MgmtSci-f8fca17e",
+   "cross-train-OrgSci-MgmtSci-254c5e0f",
+   "cross-train-OrgSci-MgmtSci-c3c107ea",
+   "cross-train-OrgSci-MgmtSci-882e057c",
+   "cross-train-OrgSci-MgmtSci-a53271f4",
+   "cross-train-SMJ-MgmtSci-e5401e9f",
+   "cross-train-SMJ-MgmtSci-e3fa2704",
+   "cross-train-SMJ-MgmtSci-bb099f3c",
+   "cross-train-SMJ-MgmtSci-26f5c1fe",
+   "cross-train-SMJ-MgmtSci-e6298464",
+   "cross-train-SMJ-MgmtSci-28c9c429",
+   "cross-train-SMJ-MgmtSci-6403efdc",
+   "cross-train-SMJ-MgmtSci-d01620ee",
+   "cross-train-SMJ-MgmtSci-af924620",
+   "cross-train-SMJ-MgmtSci-c0751f97",
+   "cross-train-SMJ-MgmtSci-996bc48f",
+   "cross-train-SMJ-MgmtSci-f180647d",
+   "cross-train-SMJ-MgmtSci-ae6bbb5e",
+   "cross-train-SMJ-MgmtSci-017fe55c",
+   "cross-train-SMJ-MgmtSci-cdb4f214",
+   "cross-train-SMJ-MgmtSci-3e8f66fc",
+   "cross-train-SMJ-MgmtSci-071d5db8",
+   "cross-train-SMJ-MgmtSci-b4d107d4",
+   "cross-train-SMJ-MgmtSci-f522f4ea",
+   "cross-train-SMJ-MgmtSci-13b10d83"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-MgmtSci-09c6c4c2": 0.865,
+   "cross-train-OrgSci-MgmtSci-2f1ba931": 0.7250000000000001,
+   "cross-train-OrgSci-MgmtSci-41cb80a9": 0.875,
+   "cross-train-OrgSci-MgmtSci-7f42a372": 0.865,
+   "cross-train-OrgSci-MgmtSci-d48b8c0a": 0.85,
+   "cross-train-OrgSci-MgmtSci-4c497ff0": 0.8,
+   "cross-train-OrgSci-MgmtSci-c836fa73": 0.675,
+   "cross-train-OrgSci-MgmtSci-7cc9f5c0": 0.525,
+   "cross-train-OrgSci-MgmtSci-27a2bc90": 0.6,
+   "cross-train-OrgSci-MgmtSci-205af930": 0.875,
+   "cross-train-OrgSci-MgmtSci-0baf6df2": 0.6499999999999999,
+   "cross-train-OrgSci-MgmtSci-0d748e01": 0.75,
+   "cross-train-OrgSci-MgmtSci-12d0a524": 0.575,
+   "cross-train-OrgSci-MgmtSci-4a39cac1": 0.8,
+   "cross-train-OrgSci-MgmtSci-9530405a": 0.6,
+   "cross-train-OrgSci-MgmtSci-f8fca17e": 0.775,
+   "cross-train-OrgSci-MgmtSci-254c5e0f": 0.65,
+   "cross-train-OrgSci-MgmtSci-c3c107ea": 0.525,
+   "cross-train-OrgSci-MgmtSci-882e057c": 0.85,
+   "cross-train-OrgSci-MgmtSci-a53271f4": 0.75,
+   "cross-train-SMJ-MgmtSci-e5401e9f": 0.875,
+   "cross-train-SMJ-MgmtSci-e3fa2704": 0.825,
+   "cross-train-SMJ-MgmtSci-bb099f3c": 0.825,
+   "cross-train-SMJ-MgmtSci-26f5c1fe": 0.725,
+   "cross-train-SMJ-MgmtSci-e6298464": 0.775,
+   "cross-train-SMJ-MgmtSci-28c9c429": 0.85,
+   "cross-train-SMJ-MgmtSci-6403efdc": 0.775,
+   "cross-train-SMJ-MgmtSci-d01620ee": 0.85,
+   "cross-train-SMJ-MgmtSci-af924620": 0.85,
+   "cross-train-SMJ-MgmtSci-c0751f97": 0.825,
+   "cross-train-SMJ-MgmtSci-996bc48f": 0.9,
+   "cross-train-SMJ-MgmtSci-f180647d": 0.7,
+   "cross-train-SMJ-MgmtSci-ae6bbb5e": 0.725,
+   "cross-train-SMJ-MgmtSci-017fe55c": 0.7749999999999999,
+   "cross-train-SMJ-MgmtSci-cdb4f214": 0.875,
+   "cross-train-SMJ-MgmtSci-3e8f66fc": 0.8400000000000001,
+   "cross-train-SMJ-MgmtSci-071d5db8": 0.775,
+   "cross-train-SMJ-MgmtSci-b4d107d4": 0.8,
+   "cross-train-SMJ-MgmtSci-f522f4ea": 0.865,
+   "cross-train-SMJ-MgmtSci-13b10d83": 0.7
+  },
+  "train_acc": 1.0,
+  "val_acc": 0.9333333333333333,
+  "val_by_rival": {
+   "OrgSci": 0.8666666666666667,
+   "SMJ": 1.0
+  },
+  "val_mean_p": 0.7486666666666665,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-4126d805": 0.815,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.91,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.955,
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.285,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.85,
+   "cross-val-OrgSci-MgmtSci-e4df3702": 0.8300000000000001,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.485,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.725,
+   "cross-val-OrgSci-MgmtSci-ce85dc1b": 0.69,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.63,
+   "cross-val-OrgSci-MgmtSci-70d84011": 0.785,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.6799999999999999,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.71,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.91,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.75,
+   "cross-val-SMJ-MgmtSci-95d3d219": 0.79,
+   "cross-val-SMJ-MgmtSci-8ef8f252": 0.6799999999999999,
+   "cross-val-SMJ-MgmtSci-6302b79f": 0.64,
+   "cross-val-SMJ-MgmtSci-9f352f03": 0.79,
+   "cross-val-SMJ-MgmtSci-a446835f": 0.8,
+   "cross-val-SMJ-MgmtSci-7a4fe913": 0.79,
+   "cross-val-SMJ-MgmtSci-e61ac72a": 0.72,
+   "cross-val-SMJ-MgmtSci-bc224429": 0.72,
+   "cross-val-SMJ-MgmtSci-8bf5e47b": 0.725,
+   "cross-val-SMJ-MgmtSci-132a543a": 0.9,
+   "cross-val-SMJ-MgmtSci-8a64f2ae": 0.74,
+   "cross-val-SMJ-MgmtSci-328dfaa0": 0.61,
+   "cross-val-SMJ-MgmtSci-3ad0f383": 0.88,
+   "cross-val-SMJ-MgmtSci-467111c3": 0.775,
+   "cross-val-SMJ-MgmtSci-369288a6": 0.89
+  },
+  "accepted": false,
+  "best_before": 0.9666666666666667
+ }
+]

@@ -91,7 +91,11 @@
   3. One reflection call (Opus, high effort) rewrites the rules and writes a changelog.
   4. Score on fixed val pairs, one pair per call.
   5. Accept if the score is ≥ the best − 1 point.
-- **Output:** `results/harness/RULEBOOKS.md`, with the final rulebooks side by side, the rules dropped along the way, and the cross-journal differences. [RUNNING]
+- **Output:** `results/harness/RULEBOOKS.md`, with the final rulebooks side by side, the rules dropped along the way, and the cross-journal differences. Changelogs record the evidence behind every edit.
+- **Results (test pairs, one pair per call):**
+  - Journal hidden, rules only: **86%** [82–89], vs. 50% with nothing and 93% with 100 abstracts. On Org Sci vs. MS: 85% vs. 80% for the abstracts.
+  - Journal named, empty vs. final rulebook: 92 → 89 (Org Sci), 93 → 86 (SMJ), 99 → 96 (MS). Validation gains on 30 pairs did not generalize; the named prior already carries the taste.
+  - Run: 6 iterations per journal, 3,549 CLI calls, 271 minutes (interrupted once by the plan's 5-hour limit and resumed from cache).
 
 ## 8. Infrastructure and cost
 - **Backends:** Claude Code headless (on the author's plan, the default), the Anthropic API (capped) and OpenRouter (capped).

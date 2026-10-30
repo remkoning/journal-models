@@ -1,0 +1,1590 @@
+[
+ {
+  "iteration": 0,
+  "version": 0,
+  "parent": null,
+  "rulebook": {
+   "values": [],
+   "red_flags": []
+  },
+  "val_acc": 0.8,
+  "val_by_rival": {
+   "SMJ": 1.0,
+   "MgmtSci": 0.6
+  },
+  "val_mean_p": 0.6371666666666668,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.7,
+   "cross-val-OrgSci-MgmtSci-ad018280": 0.30999999999999994,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.49,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.575,
+   "cross-val-OrgSci-MgmtSci-caba48ce": 0.635,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.735,
+   "cross-val-OrgSci-MgmtSci-a710458b": 0.46,
+   "cross-val-OrgSci-MgmtSci-00d65e40": 0.7250000000000001,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.505,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.485,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.33499999999999996,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.6599999999999999,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.565,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.685,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.395,
+   "cross-val-OrgSci-SMJ-c1a1e829": 0.69,
+   "cross-val-OrgSci-SMJ-f3890681": 0.7,
+   "cross-val-OrgSci-SMJ-39492d36": 0.575,
+   "cross-val-OrgSci-SMJ-14b4ce2d": 0.735,
+   "cross-val-OrgSci-SMJ-576dca8c": 0.715,
+   "cross-val-OrgSci-SMJ-44eb2739": 0.8,
+   "cross-val-OrgSci-SMJ-ea873d6c": 0.75,
+   "cross-val-OrgSci-SMJ-d20c268c": 0.675,
+   "cross-val-OrgSci-SMJ-a5a5438b": 0.815,
+   "cross-val-OrgSci-SMJ-ffca386d": 0.775,
+   "cross-val-OrgSci-SMJ-1a290790": 0.72,
+   "cross-val-OrgSci-SMJ-eae11ad5": 0.815,
+   "cross-val-OrgSci-SMJ-4d60e9c6": 0.815,
+   "cross-val-OrgSci-SMJ-14f630ef": 0.5249999999999999,
+   "cross-val-OrgSci-SMJ-909772d9": 0.75
+  },
+  "accepted": true,
+  "best_before": null
+ },
+ {
+  "iteration": 1,
+  "version": 1,
+  "parent": 0,
+  "rulebook": {
+   "values": [
+    "Theorizes how audiences such as investors, analysts, customers or job seekers read signals, claims, categories or actor attributes to form evaluations.",
+    "Posits countervailing effects, paradoxes or trade-offs, such as a benefit at one stage or condition and a penalty at another, and specifies contingencies.",
+    "Explains with sociological or behavioral constructs such as status, legitimacy, categories, identity, authenticity, cognition, tokenism or symbolic compliance, not mainly economic efficiency.",
+    "Links individual cognition or behavior to organizational systems, structures, governance arrangements or group processes, explaining how context changes what individuals do.",
+    "Advances core organization-theory conversations: organizational learning, exploration and exploitation, search, optimal distinctiveness, categories, entrepreneurial creation, status dynamics.",
+    "Frames the contribution as resolving a tension between prevailing theory and emerging evidence, or between competing mechanisms, not just estimating an effect.",
+    "Uses quasi-experiments or field data to tell theoretical mechanisms apart (e.g., symbolic versus substantive), not only to test whether an intervention works.",
+    "Accepts formal, computational or simulation models that derive propositions about actors' beliefs, misalignment, learning or organizational processes.",
+    "Builds moderators from named theoretical mechanisms about actors, audiences or organizations, rather than from convenient proxies or practical boundary conditions."
+   ],
+   "red_flags": [
+    "Economics-style evaluation of a program, law or practice using exogenous variation, closing with efficiency or policy prescriptions instead of organizational theory.",
+    "Formal incentive or contracting models centered on leverage, wages or effort efficiency, backed by stylized correlations, suggest economics or finance journals.",
+    "The main contribution is a new measure, dataset or descriptive typology rather than a theoretical mechanism about organizations or audiences.",
+    "Framed mainly around competitive advantage, industry evolution or strategic investment outcomes for strategy audiences, with thin sociological or behavioral mechanism.",
+    "The main explanation is cross-national culture, legal origins or country institutions, with legal or regulatory implications, which points to international business or governance outlets.",
+    "Openly exploratory pattern-finding whose mechanisms are guessed after the fact, with no theoretical argument set out in advance.",
+    "Explains outcomes through individual skill or human-capital advantages from learning-by-doing, without social, cognitive or organizational process."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "added",
+    "before": "",
+    "after": "Theorizes how audiences such as investors, analysts, customers or job seekers read signals, claims, categories or actor attributes to form evaluations.",
+    "reason": "Most Organization Science winners (pitch language, exemplar similarity, board diversity signals, authenticity claims, CEO traits seen by lenders) are about audiences interpreting cues."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Posits countervailing effects, paradoxes or trade-offs, such as a benefit at one stage or condition and a penalty at another, and specifies contingencies.",
+    "reason": "Winners kept arguing two-sided effects: screening versus assessment, penalty versus premium, a self-limiting group advantage, an authenticity paradox."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Explains with sociological or behavioral constructs such as status, legitimacy, categories, identity, authenticity, cognition, tokenism or symbolic compliance, not mainly economic efficiency.",
+    "reason": "Organization Science articles use mechanisms from sociology and psychology, while the other journals' articles leaned on economic efficiency logic."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Links individual cognition or behavior to organizational systems, structures, governance arrangements or group processes, explaining how context changes what individuals do.",
+    "reason": "The winner linked individual cognitive states to organizational ethics systems; the loser looked at peer diffusion and hiring policy."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Advances core organization-theory conversations: organizational learning, exploration and exploitation, search, optimal distinctiveness, categories, entrepreneurial creation, status dynamics.",
+    "reason": "Winners spoke directly to the journal's core theory conversations."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Frames the contribution as resolving a tension between prevailing theory and emerging evidence, or between competing mechanisms, not just estimating an effect.",
+    "reason": "The certification, group learning and board-reform winners framed themselves around reconciling tensions or comparing mechanisms."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Uses quasi-experiments or field data to tell theoretical mechanisms apart (e.g., symbolic versus substantive), not only to test whether an intervention works.",
+    "reason": "Both board-reform papers used difference-in-differences; the winner used it to separate representation from empowerment, while the loser only asked whether one law worked."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Accepts formal, computational or simulation models that derive propositions about actors' beliefs, misalignment, learning or organizational processes.",
+    "reason": "The board wrongly rejected a formal model of belief misalignment; Organization Science also publishes simulation work."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Builds moderators from named theoretical mechanisms about actors, audiences or organizations, rather than from convenient proxies or practical boundary conditions.",
+    "reason": "A tiebreaker for pairs where both sides test hypotheses: winners tied their moderators to named theory."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Economics-style evaluation of a program, law or practice using exogenous variation, closing with efficiency or policy prescriptions instead of organizational theory.",
+    "reason": "Losing papers on mentoring advice, dishonesty diffusion and a hiring-committee law were econ-style intervention studies with policy conclusions."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Formal incentive or contracting models centered on leverage, wages or effort efficiency, backed by stylized correlations, suggest economics or finance journals.",
+    "reason": "The debt and relational-incentives model lost to an upper-echelons study of how stakeholders perceive executives."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "The main contribution is a new measure, dataset or descriptive typology rather than a theoretical mechanism about organizations or audiences.",
+    "reason": "Losers put their novel measures or typologies first, ahead of theory."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Framed mainly around competitive advantage, industry evolution or strategic investment outcomes for strategy audiences, with thin sociological or behavioral mechanism.",
+    "reason": "Anchor losers (industry evolution, client transfer after employee mobility) were framed for strategy audiences."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "The main explanation is cross-national culture, legal origins or country institutions, with legal or regulatory implications, which points to international business or governance outlets.",
+    "reason": "The cross-country study of directors' values and legal origins lost to an organizational governance model."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Openly exploratory pattern-finding whose mechanisms are guessed after the fact, with no theoretical argument set out in advance.",
+    "reason": "An exploratory board-diversity study, with mechanisms inferred from interviews afterwards, lost to a signaling-theory argument."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Explains outcomes through individual skill or human-capital advantages from learning-by-doing, without social, cognitive or organizational process.",
+    "reason": "The losing mentoring paper explained its results by one group of mentors having a skill advantage, not by any organizational mechanism."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-MgmtSci-4a39cac1",
+    "cross-train-OrgSci-MgmtSci-f378687c",
+    "cross-train-OrgSci-MgmtSci-986748a4",
+    "cross-train-OrgSci-MgmtSci-6e533c0b",
+    "cross-train-OrgSci-MgmtSci-99dc18fb"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-MgmtSci-ca4ed862",
+    "cross-train-OrgSci-MgmtSci-569e8765",
+    "cross-train-OrgSci-SMJ-870c4950",
+    "cross-train-OrgSci-MgmtSci-09c6c4c2"
+   ],
+   "anchors": [
+    "cross-train-OrgSci-SMJ-b0e3f94d",
+    "cross-train-OrgSci-SMJ-9bc543fa",
+    "cross-train-OrgSci-SMJ-531b9730"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-02dad069",
+   "cross-train-OrgSci-SMJ-b06cae6b",
+   "cross-train-OrgSci-SMJ-b0e3f94d",
+   "cross-train-OrgSci-SMJ-599216f5",
+   "cross-train-OrgSci-SMJ-249ffad1",
+   "cross-train-OrgSci-SMJ-1cc62907",
+   "cross-train-OrgSci-SMJ-909fc028",
+   "cross-train-OrgSci-SMJ-9bc543fa",
+   "cross-train-OrgSci-SMJ-8f9cece8",
+   "cross-train-OrgSci-SMJ-ca0c58c5",
+   "cross-train-OrgSci-SMJ-55b8ef33",
+   "cross-train-OrgSci-SMJ-8753e5f5",
+   "cross-train-OrgSci-SMJ-870c4950",
+   "cross-train-OrgSci-SMJ-531b9730",
+   "cross-train-OrgSci-SMJ-b8dab650",
+   "cross-train-OrgSci-SMJ-0d6a5828",
+   "cross-train-OrgSci-SMJ-2fc3cfad",
+   "cross-train-OrgSci-SMJ-7d5c3e78",
+   "cross-train-OrgSci-SMJ-067c8f44",
+   "cross-train-OrgSci-MgmtSci-569e8765",
+   "cross-train-OrgSci-MgmtSci-f378687c",
+   "cross-train-OrgSci-MgmtSci-2f1ba931",
+   "cross-train-OrgSci-MgmtSci-99dc18fb",
+   "cross-train-OrgSci-MgmtSci-419f2880",
+   "cross-train-OrgSci-MgmtSci-09c6c4c2",
+   "cross-train-OrgSci-MgmtSci-ca4ed862",
+   "cross-train-OrgSci-MgmtSci-882e057c",
+   "cross-train-OrgSci-MgmtSci-9f693227",
+   "cross-train-OrgSci-MgmtSci-6e533c0b",
+   "cross-train-OrgSci-MgmtSci-7431a8e2",
+   "cross-train-OrgSci-MgmtSci-986748a4",
+   "cross-train-OrgSci-MgmtSci-1d383701",
+   "cross-train-OrgSci-MgmtSci-049c07f5",
+   "cross-train-OrgSci-MgmtSci-4a39cac1",
+   "cross-train-OrgSci-MgmtSci-290cba5a",
+   "cross-train-OrgSci-MgmtSci-f8fca17e",
+   "cross-train-OrgSci-MgmtSci-20f1dbed",
+   "cross-train-OrgSci-MgmtSci-83096145"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-02dad069": 0.8,
+   "cross-train-OrgSci-SMJ-b06cae6b": 0.75,
+   "cross-train-OrgSci-SMJ-b0e3f94d": 0.8,
+   "cross-train-OrgSci-SMJ-599216f5": 0.775,
+   "cross-train-OrgSci-SMJ-249ffad1": 0.775,
+   "cross-train-OrgSci-SMJ-1cc62907": 0.825,
+   "cross-train-OrgSci-SMJ-909fc028": 0.8,
+   "cross-train-OrgSci-SMJ-9bc543fa": 0.825,
+   "cross-train-OrgSci-SMJ-8f9cece8": 0.825,
+   "cross-train-OrgSci-SMJ-ca0c58c5": 0.825,
+   "cross-train-OrgSci-SMJ-55b8ef33": 0.815,
+   "cross-train-OrgSci-SMJ-8753e5f5": 0.825,
+   "cross-train-OrgSci-SMJ-870c4950": 0.6,
+   "cross-train-OrgSci-SMJ-531b9730": 0.815,
+   "cross-train-OrgSci-SMJ-b8dab650": 0.8500000000000001,
+   "cross-train-OrgSci-SMJ-0d6a5828": 0.85,
+   "cross-train-OrgSci-SMJ-2fc3cfad": 0.85,
+   "cross-train-OrgSci-SMJ-7d5c3e78": 0.765,
+   "cross-train-OrgSci-SMJ-067c8f44": 0.85,
+   "cross-train-OrgSci-MgmtSci-569e8765": 0.55,
+   "cross-train-OrgSci-MgmtSci-f378687c": 0.375,
+   "cross-train-OrgSci-MgmtSci-2f1ba931": 0.75,
+   "cross-train-OrgSci-MgmtSci-99dc18fb": 0.5,
+   "cross-train-OrgSci-MgmtSci-419f2880": 0.7,
+   "cross-train-OrgSci-MgmtSci-09c6c4c2": 0.6,
+   "cross-train-OrgSci-MgmtSci-ca4ed862": 0.525,
+   "cross-train-OrgSci-MgmtSci-882e057c": 0.65,
+   "cross-train-OrgSci-MgmtSci-9f693227": 0.625,
+   "cross-train-OrgSci-MgmtSci-6e533c0b": 0.425,
+   "cross-train-OrgSci-MgmtSci-7431a8e2": 0.675,
+   "cross-train-OrgSci-MgmtSci-986748a4": 0.375,
+   "cross-train-OrgSci-MgmtSci-1d383701": 0.7,
+   "cross-train-OrgSci-MgmtSci-049c07f5": 0.675,
+   "cross-train-OrgSci-MgmtSci-4a39cac1": 0.35,
+   "cross-train-OrgSci-MgmtSci-290cba5a": 0.625,
+   "cross-train-OrgSci-MgmtSci-f8fca17e": 0.6,
+   "cross-train-OrgSci-MgmtSci-20f1dbed": 0.675,
+   "cross-train-OrgSci-MgmtSci-83096145": 0.625
+  },
+  "train_acc": 0.881578947368421,
+  "val_acc": 0.8833333333333333,
+  "val_by_rival": {
+   "SMJ": 1.0,
+   "MgmtSci": 0.7666666666666667
+  },
+  "val_mean_p": 0.662,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.6499999999999999,
+   "cross-val-OrgSci-MgmtSci-ad018280": 0.29000000000000004,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.515,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.525,
+   "cross-val-OrgSci-MgmtSci-caba48ce": 0.6699999999999999,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.8300000000000001,
+   "cross-val-OrgSci-MgmtSci-a710458b": 0.6,
+   "cross-val-OrgSci-MgmtSci-00d65e40": 0.75,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.615,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.31,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.5,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.6950000000000001,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.765,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.725,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.47500000000000003,
+   "cross-val-OrgSci-SMJ-c1a1e829": 0.6799999999999999,
+   "cross-val-OrgSci-SMJ-f3890681": 0.725,
+   "cross-val-OrgSci-SMJ-39492d36": 0.61,
+   "cross-val-OrgSci-SMJ-14b4ce2d": 0.625,
+   "cross-val-OrgSci-SMJ-576dca8c": 0.755,
+   "cross-val-OrgSci-SMJ-44eb2739": 0.71,
+   "cross-val-OrgSci-SMJ-ea873d6c": 0.75,
+   "cross-val-OrgSci-SMJ-d20c268c": 0.725,
+   "cross-val-OrgSci-SMJ-a5a5438b": 0.835,
+   "cross-val-OrgSci-SMJ-ffca386d": 0.765,
+   "cross-val-OrgSci-SMJ-1a290790": 0.7,
+   "cross-val-OrgSci-SMJ-eae11ad5": 0.91,
+   "cross-val-OrgSci-SMJ-4d60e9c6": 0.75,
+   "cross-val-OrgSci-SMJ-14f630ef": 0.655,
+   "cross-val-OrgSci-SMJ-909772d9": 0.75
+  },
+  "accepted": true,
+  "best_before": 0.8
+ },
+ {
+  "iteration": 2,
+  "version": 2,
+  "parent": 1,
+  "rulebook": {
+   "values": [
+    "Theorizes how audiences read signals, claims, categories or actor attributes, and how those evaluations constrain or enable what organizations can do.",
+    "Posits countervailing effects, paradoxes or trade-offs, such as a benefit at one stage or condition and a penalty at another, and specifies contingencies.",
+    "Explains with sociological or behavioral constructs such as status, legitimacy, identity, authenticity, trust, reciprocity, reputation or symbolic compliance, not mainly economic efficiency.",
+    "Links individual cognition or perceptions to organizational structures, governance or group processes, explaining how individual reactions aggregate into collective decisions or outcomes.",
+    "Advances core organization-theory conversations: organizational learning, legitimacy, optimal distinctiveness, categories, status dynamics, entrepreneurial creation, inequality inside organizations.",
+    "Frames the contribution as resolving a tension between prevailing theory and emerging evidence, or between competing mechanisms, not just estimating an effect.",
+    "Uses quasi-experiments, experiments or field data to tell theoretical mechanisms apart (e.g., symbolic versus substantive), not only to test whether an intervention works.",
+    "Accepts formal, computational or simulation models that derive propositions about actors' beliefs, misalignment, learning or organizational processes.",
+    "Builds moderators from named theoretical mechanisms about actors, audiences or organizations, rather than from convenient proxies or practical boundary conditions.",
+    "Welcomes inductive qualitative studies that build new constructs showing how organizational practices produce identity tensions, inequality or unintended consequences.",
+    "Theorizes temporal or reciprocal dynamics, e.g., how status, evaluation and performance feed back, reinforce or decouple over repeated rounds.",
+    "Accepts organizational-economics arguments about interorganizational arrangements, firm boundaries or vertical structure when they explain organizational form and capabilities."
+   ],
+   "red_flags": [
+    "Economics-style evaluation of a program, law or practice using exogenous variation, closing with efficiency or policy prescriptions instead of organizational theory.",
+    "Formal incentive or contracting models centered on leverage, wages or effort efficiency, backed by stylized correlations, suggest economics or finance journals.",
+    "The main contribution is a new measure, index, dataset or typology, even when pitched as enabling future theory, rather than a theoretical mechanism.",
+    "Framed around competitive advantage, capability deployment, scale or scope advantages, or industry emergence for strategy audiences, with thin sociological or behavioral mechanism.",
+    "Explanation hinges on cross-national culture, legal origins, or one country's distinctive regime or campaign, rather than a general organizational mechanism such as legitimacy.",
+    "Quantitative pattern-finding whose mechanisms are guessed after the fact; this does not apply to inductive qualitative theory-building.",
+    "Explains outcomes through individual skill or human-capital advantages from learning-by-doing, without social, cognitive or organizational process.",
+    "Applies decision biases or effect estimates to online platform or contest data, headlining precise percentages or design prescriptions rather than social mechanisms."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Theorizes how audiences such as investors, analysts, customers or job seekers read signals, claims, categories or actor attributes to form evaluations.",
+    "after": "Theorizes how audiences read signals, claims, categories or actor attributes, and how those evaluations constrain or enable what organizations can do.",
+    "reason": "Organization Science audience papers trace audience perception back to what the firm can and cannot do, which separates them from audience-perception papers published elsewhere."
+   },
+   {
+    "change": "edited",
+    "before": "Explains with sociological or behavioral constructs such as status, legitimacy, categories, identity, authenticity, cognition, tokenism or symbolic compliance, not mainly economic efficiency.",
+    "after": "Explains with sociological or behavioral constructs such as status, legitimacy, identity, authenticity, trust, reciprocity, reputation or symbolic compliance, not mainly economic efficiency.",
+    "reason": "Relational mechanisms (trust, reciprocity, reputation) marked an Organization Science nonmarket-strategy paper that the board missed."
+   },
+   {
+    "change": "edited",
+    "before": "Links individual cognition or behavior to organizational systems, structures, governance arrangements or group processes, explaining how context changes what individuals do.",
+    "after": "Links individual cognition or perceptions to organizational structures, governance or group processes, explaining how individual reactions aggregate into collective decisions or outcomes.",
+    "reason": "Organization Science team papers theorize emergent processes from individual perceptions to collective choices; the board's confidence there was low."
+   },
+   {
+    "change": "edited",
+    "before": "Advances core organization-theory conversations: organizational learning, exploration and exploitation, search, optimal distinctiveness, categories, entrepreneurial creation, status dynamics.",
+    "after": "Advances core organization-theory conversations: organizational learning, legitimacy, optimal distinctiveness, categories, status dynamics, entrepreneurial creation, inequality inside organizations.",
+    "reason": "The search and exploration cues pulled the board toward non-Organization Science platform and user-innovation papers; legitimacy and inequality inside organizations were missing."
+   },
+   {
+    "change": "edited",
+    "before": "Uses quasi-experiments or field data to tell theoretical mechanisms apart (e.g., symbolic versus substantive), not only to test whether an intervention works.",
+    "after": "Uses quasi-experiments, experiments or field data to tell theoretical mechanisms apart (e.g., symbolic versus substantive), not only to test whether an intervention works.",
+    "reason": "Organization Science papers using experiments to distinguish mechanisms were under-credited."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Welcomes inductive qualitative studies that build new constructs showing how organizational practices produce identity tensions, inequality or unintended consequences.",
+    "reason": "An interview-based Organization Science paper on identity and unintended consequences lost to a large-sample quantitative paper."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Theorizes temporal or reciprocal dynamics, e.g., how status, evaluation and performance feed back, reinforce or decouple over repeated rounds.",
+    "reason": "An Organization Science paper on status and performance feeding back or decoupling over time was not credited."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Accepts organizational-economics arguments about interorganizational arrangements, firm boundaries or vertical structure when they explain organizational form and capabilities.",
+    "reason": "An Organization Science paper on collaborative arrangements and vertical structure lost to a measurement paper."
+   },
+   {
+    "change": "edited",
+    "before": "The main contribution is a new measure, dataset or descriptive typology rather than a theoretical mechanism about organizations or audiences.",
+    "after": "The main contribution is a new measure, index, dataset or typology, even when pitched as enabling future theory, rather than a theoretical mechanism.",
+    "reason": "The board still favored a measure-centred paper because it claimed to support theory development."
+   },
+   {
+    "change": "edited",
+    "before": "Framed mainly around competitive advantage, industry evolution or strategic investment outcomes for strategy audiences, with thin sociological or behavioral mechanism.",
+    "after": "Framed around competitive advantage, capability deployment, scale or scope advantages, or industry emergence for strategy audiences, with thin sociological or behavioral mechanism.",
+    "reason": "Capability-deployment internationalization papers are the strategy-journal signature; the broad 'industry evolution' wording wrongly penalized Organization Science structural papers."
+   },
+   {
+    "change": "edited",
+    "before": "The main explanation is cross-national culture, legal origins or country institutions, with legal or regulatory implications, which points to international business or governance outlets.",
+    "after": "Explanation hinges on cross-national culture, legal origins, or one country's distinctive regime or campaign, rather than a general organizational mechanism such as legitimacy.",
+    "reason": "The flag hit an Organization Science paper set in developing economies whose mechanism was legitimacy, and missed the single-country campaign framing of a non-Organization Science paper."
+   },
+   {
+    "change": "edited",
+    "before": "Openly exploratory pattern-finding whose mechanisms are guessed after the fact, with no theoretical argument set out in advance.",
+    "after": "Quantitative pattern-finding whose mechanisms are guessed after the fact; this does not apply to inductive qualitative theory-building.",
+    "reason": "The flag wrongly penalized an inductive interview study that Organization Science published."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Applies decision biases or effect estimates to online platform or contest data, headlining precise percentages or design prescriptions rather than social mechanisms.",
+    "reason": "Non-Organization Science papers on platform data led with loss-aversion effects, percentage gaps or advice on choosing a search mode."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-SMJ-cf439914",
+    "cross-train-OrgSci-MgmtSci-7cc9f5c0",
+    "cross-train-OrgSci-MgmtSci-0a3f8b47",
+    "cross-train-OrgSci-MgmtSci-491fb0ac",
+    "cross-train-OrgSci-MgmtSci-fc167ea7",
+    "cross-train-OrgSci-MgmtSci-12becf24",
+    "cross-train-OrgSci-SMJ-86d9584b",
+    "cross-train-OrgSci-MgmtSci-80e75ace"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-SMJ-7ab02313"
+   ],
+   "anchors": [
+    "cross-train-OrgSci-SMJ-55ff2995",
+    "cross-train-OrgSci-MgmtSci-1422db3c",
+    "cross-train-OrgSci-SMJ-340d5d32"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-5cabfc7b",
+   "cross-train-OrgSci-SMJ-6b11ae31",
+   "cross-train-OrgSci-SMJ-cf439914",
+   "cross-train-OrgSci-SMJ-55ff2995",
+   "cross-train-OrgSci-SMJ-340d5d32",
+   "cross-train-OrgSci-SMJ-2316d17d",
+   "cross-train-OrgSci-SMJ-7ab02313",
+   "cross-train-OrgSci-SMJ-900e5c38",
+   "cross-train-OrgSci-SMJ-90c3cd93",
+   "cross-train-OrgSci-SMJ-16b7f70e",
+   "cross-train-OrgSci-SMJ-ca199749",
+   "cross-train-OrgSci-SMJ-0bd5d218",
+   "cross-train-OrgSci-SMJ-9e07603b",
+   "cross-train-OrgSci-SMJ-51850762",
+   "cross-train-OrgSci-SMJ-a44aeb12",
+   "cross-train-OrgSci-SMJ-10fea4a2",
+   "cross-train-OrgSci-SMJ-86d9584b",
+   "cross-train-OrgSci-SMJ-f627da25",
+   "cross-train-OrgSci-SMJ-e55947fe",
+   "cross-train-OrgSci-SMJ-9472a39f",
+   "cross-train-OrgSci-MgmtSci-4c497ff0",
+   "cross-train-OrgSci-MgmtSci-fec9998e",
+   "cross-train-OrgSci-MgmtSci-12d0a524",
+   "cross-train-OrgSci-MgmtSci-1def32e5",
+   "cross-train-OrgSci-MgmtSci-491fb0ac",
+   "cross-train-OrgSci-MgmtSci-52e3979c",
+   "cross-train-OrgSci-MgmtSci-319b5d86",
+   "cross-train-OrgSci-MgmtSci-3370f472",
+   "cross-train-OrgSci-MgmtSci-80e75ace",
+   "cross-train-OrgSci-MgmtSci-fc167ea7",
+   "cross-train-OrgSci-MgmtSci-471770c5",
+   "cross-train-OrgSci-MgmtSci-7cc9f5c0",
+   "cross-train-OrgSci-MgmtSci-0baf6df2",
+   "cross-train-OrgSci-MgmtSci-774622aa",
+   "cross-train-OrgSci-MgmtSci-f2b0e74e",
+   "cross-train-OrgSci-MgmtSci-12becf24",
+   "cross-train-OrgSci-MgmtSci-13443640",
+   "cross-train-OrgSci-MgmtSci-e5a890bf",
+   "cross-train-OrgSci-MgmtSci-0a3f8b47",
+   "cross-train-OrgSci-MgmtSci-1422db3c"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-5cabfc7b": 0.775,
+   "cross-train-OrgSci-SMJ-6b11ae31": 0.75,
+   "cross-train-OrgSci-SMJ-cf439914": 0.375,
+   "cross-train-OrgSci-SMJ-55ff2995": 0.8,
+   "cross-train-OrgSci-SMJ-340d5d32": 0.8,
+   "cross-train-OrgSci-SMJ-2316d17d": 0.675,
+   "cross-train-OrgSci-SMJ-7ab02313": 0.5249999999999999,
+   "cross-train-OrgSci-SMJ-900e5c38": 0.7749999999999999,
+   "cross-train-OrgSci-SMJ-90c3cd93": 0.75,
+   "cross-train-OrgSci-SMJ-16b7f70e": 0.775,
+   "cross-train-OrgSci-SMJ-ca199749": 0.75,
+   "cross-train-OrgSci-SMJ-0bd5d218": 0.65,
+   "cross-train-OrgSci-SMJ-9e07603b": 0.725,
+   "cross-train-OrgSci-SMJ-51850762": 0.725,
+   "cross-train-OrgSci-SMJ-a44aeb12": 0.725,
+   "cross-train-OrgSci-SMJ-10fea4a2": 0.675,
+   "cross-train-OrgSci-SMJ-86d9584b": 0.475,
+   "cross-train-OrgSci-SMJ-f627da25": 0.675,
+   "cross-train-OrgSci-SMJ-e55947fe": 0.7,
+   "cross-train-OrgSci-SMJ-9472a39f": 0.65,
+   "cross-train-OrgSci-MgmtSci-4c497ff0": 0.625,
+   "cross-train-OrgSci-MgmtSci-fec9998e": 0.625,
+   "cross-train-OrgSci-MgmtSci-12d0a524": 0.55,
+   "cross-train-OrgSci-MgmtSci-1def32e5": 0.725,
+   "cross-train-OrgSci-MgmtSci-491fb0ac": 0.44999999999999996,
+   "cross-train-OrgSci-MgmtSci-52e3979c": 0.65,
+   "cross-train-OrgSci-MgmtSci-319b5d86": 0.6499999999999999,
+   "cross-train-OrgSci-MgmtSci-3370f472": 0.6499999999999999,
+   "cross-train-OrgSci-MgmtSci-80e75ace": 0.5,
+   "cross-train-OrgSci-MgmtSci-fc167ea7": 0.44999999999999996,
+   "cross-train-OrgSci-MgmtSci-471770c5": 0.65,
+   "cross-train-OrgSci-MgmtSci-7cc9f5c0": 0.4,
+   "cross-train-OrgSci-MgmtSci-0baf6df2": 0.6,
+   "cross-train-OrgSci-MgmtSci-774622aa": 0.625,
+   "cross-train-OrgSci-MgmtSci-f2b0e74e": 0.675,
+   "cross-train-OrgSci-MgmtSci-12becf24": 0.44999999999999996,
+   "cross-train-OrgSci-MgmtSci-13443640": 0.725,
+   "cross-train-OrgSci-MgmtSci-e5a890bf": 0.575,
+   "cross-train-OrgSci-MgmtSci-0a3f8b47": 0.4,
+   "cross-train-OrgSci-MgmtSci-1422db3c": 0.8
+  },
+  "train_acc": 0.8125,
+  "val_acc": 0.8333333333333334,
+  "val_by_rival": {
+   "SMJ": 1.0,
+   "MgmtSci": 0.6666666666666666
+  },
+  "val_mean_p": 0.66,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.735,
+   "cross-val-OrgSci-MgmtSci-ad018280": 0.30999999999999994,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.44999999999999996,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.5650000000000001,
+   "cross-val-OrgSci-MgmtSci-caba48ce": 0.665,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.8,
+   "cross-val-OrgSci-MgmtSci-a710458b": 0.365,
+   "cross-val-OrgSci-MgmtSci-00d65e40": 0.815,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.7,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.30999999999999994,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.51,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.75,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.7,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.75,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.41000000000000003,
+   "cross-val-OrgSci-SMJ-c1a1e829": 0.6699999999999999,
+   "cross-val-OrgSci-SMJ-f3890681": 0.725,
+   "cross-val-OrgSci-SMJ-39492d36": 0.575,
+   "cross-val-OrgSci-SMJ-14b4ce2d": 0.6699999999999999,
+   "cross-val-OrgSci-SMJ-576dca8c": 0.79,
+   "cross-val-OrgSci-SMJ-44eb2739": 0.765,
+   "cross-val-OrgSci-SMJ-ea873d6c": 0.75,
+   "cross-val-OrgSci-SMJ-d20c268c": 0.59,
+   "cross-val-OrgSci-SMJ-a5a5438b": 0.8400000000000001,
+   "cross-val-OrgSci-SMJ-ffca386d": 0.765,
+   "cross-val-OrgSci-SMJ-1a290790": 0.7,
+   "cross-val-OrgSci-SMJ-eae11ad5": 0.91,
+   "cross-val-OrgSci-SMJ-4d60e9c6": 0.825,
+   "cross-val-OrgSci-SMJ-14f630ef": 0.6,
+   "cross-val-OrgSci-SMJ-909772d9": 0.79
+  },
+  "accepted": false,
+  "best_before": 0.8833333333333333
+ },
+ {
+  "iteration": 3,
+  "version": 3,
+  "parent": 1,
+  "rulebook": {
+   "values": [
+    "Theorizes how audiences read signals, claims, categories or actor attributes to form evaluations, emphasizing social meaning-making rather than testing economic demand or discrimination models.",
+    "Posits countervailing effects, paradoxes or trade-offs, such as a benefit at one stage or condition and a penalty at another, and specifies contingencies.",
+    "Explains with sociological or behavioral constructs such as status, legitimacy, categories, identity, authenticity, cognition, tokenism or symbolic compliance, not mainly economic efficiency.",
+    "Links individual cognition or behavior to organizational structures, formal arrangements or group processes, e.g., how contract terms or hierarchy create pressures that shape decisions.",
+    "Advances core organization-theory conversations: organizational learning, exploration and exploitation, search, optimal distinctiveness, categories, entrepreneurial creation, status dynamics.",
+    "Frames the contribution as resolving a tension between prevailing theory and emerging evidence, or between competing mechanisms, not just estimating an effect.",
+    "Uses experiments, quasi-experiments or field data to separate mechanisms or reveal hidden trade-offs of a management practice, not only whether it works.",
+    "Accepts formal or simulation models of organizational decision processes, such as judgment aggregation, learning, search or unintended consequences of practices, deriving propositions rather than optimal incentive designs.",
+    "Builds moderators from named theoretical mechanisms about actors, audiences or organizations, rather than from convenient proxies or practical boundary conditions.",
+    "Theorizes interplay between formal controls (monitoring, incentives, contracts) and informal or normative ones (values, trust, relationships), including substitution or crowding out.",
+    "Explains individual or team outcomes through intraorganizational relationships, networks, social integration or position in formal and informal hierarchies."
+   ],
+   "red_flags": [
+    "Economics-style effect estimation, such as percentage-point gaps or policy evaluation using exogenous variation, closing with efficiency or policy prescriptions rather than organizational mechanism.",
+    "Principal-agent, mechanism-design or relational-contract models where a principal optimizes incentives, matching or challenges; self-enforcement or discounted-value logic suggests economics journals.",
+    "The main contribution is a new measure, dataset or descriptive typology rather than a theoretical mechanism about organizations or audiences.",
+    "Framed for strategy audiences, such as competitive advantage, M&A or capability performance, or industry evolution, with thin behavioral mechanism; also literature reviews or research agendas.",
+    "Main explanation is cross-national legal origins or country regulation with legal implications; broad social context like generalized trust is fine when theorized as shaping organizing.",
+    "Openly exploratory pattern-finding whose mechanisms are guessed after the fact, with no theoretical argument set out in advance.",
+    "Explains career or productivity outcomes through individual skill or human-capital accumulation, without social, relational, cognitive or organizational process.",
+    "Tests a classic economic theory, such as taste-based discrimination, network effects or foreclosure, against market outcomes like prices, revenues or sales."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Theorizes how audiences such as investors, analysts, customers or job seekers read signals, claims, categories or actor attributes to form evaluations.",
+    "after": "Theorizes how audiences read signals, claims, categories or actor attributes to form evaluations, emphasizing social meaning-making rather than testing economic demand or discrimination models.",
+    "reason": "The rule wrongly favored consumer-response tests of economic discrimination theory based on market revenues over within-organization network studies."
+   },
+   {
+    "change": "edited",
+    "before": "Links individual cognition or behavior to organizational systems, structures, governance arrangements or group processes, explaining how context changes what individuals do.",
+    "after": "Links individual cognition or behavior to organizational structures, formal arrangements or group processes, e.g., how contract terms or hierarchy create pressures that shape decisions.",
+    "reason": "OS published executive-contract work explaining decisions through felt pressures; the board did not credit this behavioral link."
+   },
+   {
+    "change": "edited",
+    "before": "Uses quasi-experiments or field data to tell theoretical mechanisms apart (e.g., symbolic versus substantive), not only to test whether an intervention works.",
+    "after": "Uses experiments, quasi-experiments or field data to separate mechanisms or reveal hidden trade-offs of a management practice, not only whether it works.",
+    "reason": "OS experiments on management practices that reveal trade-offs or interacting effects were underweighted against the alternatives."
+   },
+   {
+    "change": "edited",
+    "before": "Accepts formal, computational or simulation models that derive propositions about actors' beliefs, misalignment, learning or organizational processes.",
+    "after": "Accepts formal or simulation models of organizational decision processes, such as judgment aggregation, learning, search or unintended consequences of practices, deriving propositions rather than optimal incentive designs.",
+    "reason": "OS formal models study decision aggregation or unintended consequences; principal-optimization models went to other outlets, and the old rule did not tell them apart."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Theorizes interplay between formal controls (monitoring, incentives, contracts) and informal or normative ones (values, trust, relationships), including substitution or crowding out.",
+    "reason": "OS articles combined agency and relational views or studied trust-based exchange; the board misread these as economics."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Explains individual or team outcomes through intraorganizational relationships, networks, social integration or position in formal and informal hierarchies.",
+    "reason": "OS picks centered on prior relationships, homophily and hierarchy position within organizations, while counterparts used human-capital or market logic."
+   },
+   {
+    "change": "edited",
+    "before": "Economics-style evaluation of a program, law or practice using exogenous variation, closing with efficiency or policy prescriptions instead of organizational theory.",
+    "after": "Economics-style effect estimation, such as percentage-point gaps or policy evaluation using exogenous variation, closing with efficiency or policy prescriptions rather than organizational mechanism.",
+    "reason": "The non-OS articles reported percentage-point gaps; the old wording also penalized OS experiments on organizational practices."
+   },
+   {
+    "change": "edited",
+    "before": "Formal incentive or contracting models centered on leverage, wages or effort efficiency, backed by stylized correlations, suggest economics or finance journals.",
+    "after": "Principal-agent, mechanism-design or relational-contract models where a principal optimizes incentives, matching or challenges; self-enforcement or discounted-value logic suggests economics journals.",
+    "reason": "Non-OS articles used principal-agent optimization, matching mechanisms and self-enforcing contract logic; the board needed a sharper cue."
+   },
+   {
+    "change": "edited",
+    "before": "Framed mainly around competitive advantage, industry evolution or strategic investment outcomes for strategy audiences, with thin sociological or behavioral mechanism.",
+    "after": "Framed for strategy audiences, such as competitive advantage, M&A or capability performance, or industry evolution, with thin behavioral mechanism; also literature reviews or research agendas.",
+    "reason": "A counterpart framed around M&A capability microfoundations for corporate strategy readers, and a review anchor came from a strategy outlet."
+   },
+   {
+    "change": "edited",
+    "before": "The main explanation is cross-national culture, legal origins or country institutions, with legal or regulatory implications, which points to international business or governance outlets.",
+    "after": "Main explanation is cross-national legal origins or country regulation with legal implications; broad social context like generalized trust is fine when theorized as shaping organizing.",
+    "reason": "An OS article explained firm sourcing with regional generalized trust, and the old flag nearly penalized it."
+   },
+   {
+    "change": "edited",
+    "before": "Explains outcomes through individual skill or human-capital advantages from learning-by-doing, without social, cognitive or organizational process.",
+    "after": "Explains career or productivity outcomes through individual skill or human-capital accumulation, without social, relational, cognitive or organizational process.",
+    "reason": "A non-OS mobility study explained career gains through skill development, while the OS counterpart explained outcomes through relationships."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Tests a classic economic theory, such as taste-based discrimination, network effects or foreclosure, against market outcomes like prices, revenues or sales.",
+    "reason": "Several non-OS articles tested economic theories on market outcomes; these were sometimes confused with OS audience-evaluation work."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-MgmtSci-9530405a",
+    "cross-train-OrgSci-SMJ-8df5a140"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-MgmtSci-e9680ad6",
+    "cross-train-OrgSci-MgmtSci-254c5e0f",
+    "cross-train-OrgSci-MgmtSci-999d67f8",
+    "cross-train-OrgSci-MgmtSci-c836fa73",
+    "cross-train-OrgSci-MgmtSci-e842bfd8",
+    "cross-train-OrgSci-MgmtSci-de1bd0bb",
+    "cross-train-OrgSci-MgmtSci-875bdb94"
+   ],
+   "anchors": [
+    "cross-train-OrgSci-MgmtSci-7f42a372",
+    "cross-train-OrgSci-MgmtSci-2f7c721c",
+    "cross-train-OrgSci-SMJ-c2d567b5"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-ecc95ae9",
+   "cross-train-OrgSci-SMJ-622242ff",
+   "cross-train-OrgSci-SMJ-e30d9fb4",
+   "cross-train-OrgSci-SMJ-cff880b6",
+   "cross-train-OrgSci-SMJ-0fcd315e",
+   "cross-train-OrgSci-SMJ-7cadc795",
+   "cross-train-OrgSci-SMJ-e80729e4",
+   "cross-train-OrgSci-SMJ-27b4d402",
+   "cross-train-OrgSci-SMJ-89664362",
+   "cross-train-OrgSci-SMJ-ff4e5118",
+   "cross-train-OrgSci-SMJ-e9e538c1",
+   "cross-train-OrgSci-SMJ-4057abf4",
+   "cross-train-OrgSci-SMJ-c2d567b5",
+   "cross-train-OrgSci-SMJ-87a77634",
+   "cross-train-OrgSci-SMJ-2669a134",
+   "cross-train-OrgSci-SMJ-adcb9935",
+   "cross-train-OrgSci-SMJ-8df5a140",
+   "cross-train-OrgSci-SMJ-dc1caffc",
+   "cross-train-OrgSci-SMJ-4d715274",
+   "cross-train-OrgSci-MgmtSci-9530405a",
+   "cross-train-OrgSci-MgmtSci-e9680ad6",
+   "cross-train-OrgSci-MgmtSci-c836fa73",
+   "cross-train-OrgSci-MgmtSci-2f7c721c",
+   "cross-train-OrgSci-MgmtSci-27a2bc90",
+   "cross-train-OrgSci-MgmtSci-cca61cba",
+   "cross-train-OrgSci-MgmtSci-0e08fdd0",
+   "cross-train-OrgSci-MgmtSci-e1337962",
+   "cross-train-OrgSci-MgmtSci-98cd8761",
+   "cross-train-OrgSci-MgmtSci-41cb80a9",
+   "cross-train-OrgSci-MgmtSci-0d748e01",
+   "cross-train-OrgSci-MgmtSci-254c5e0f",
+   "cross-train-OrgSci-MgmtSci-999d67f8",
+   "cross-train-OrgSci-MgmtSci-e842bfd8",
+   "cross-train-OrgSci-MgmtSci-875bdb94",
+   "cross-train-OrgSci-MgmtSci-fd5756b4",
+   "cross-train-OrgSci-MgmtSci-de1bd0bb",
+   "cross-train-OrgSci-MgmtSci-a53271f4",
+   "cross-train-OrgSci-MgmtSci-7f42a372",
+   "cross-train-OrgSci-MgmtSci-d42eb9df"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-ecc95ae9": 0.725,
+   "cross-train-OrgSci-SMJ-622242ff": 0.675,
+   "cross-train-OrgSci-SMJ-e30d9fb4": 0.725,
+   "cross-train-OrgSci-SMJ-cff880b6": 0.625,
+   "cross-train-OrgSci-SMJ-0fcd315e": 0.625,
+   "cross-train-OrgSci-SMJ-7cadc795": 0.725,
+   "cross-train-OrgSci-SMJ-e80729e4": 0.625,
+   "cross-train-OrgSci-SMJ-27b4d402": 0.6499999999999999,
+   "cross-train-OrgSci-SMJ-89664362": 0.65,
+   "cross-train-OrgSci-SMJ-ff4e5118": 0.735,
+   "cross-train-OrgSci-SMJ-e9e538c1": 0.825,
+   "cross-train-OrgSci-SMJ-4057abf4": 0.775,
+   "cross-train-OrgSci-SMJ-c2d567b5": 0.85,
+   "cross-train-OrgSci-SMJ-87a77634": 0.725,
+   "cross-train-OrgSci-SMJ-2669a134": 0.775,
+   "cross-train-OrgSci-SMJ-adcb9935": 0.725,
+   "cross-train-OrgSci-SMJ-8df5a140": 0.5,
+   "cross-train-OrgSci-SMJ-dc1caffc": 0.7,
+   "cross-train-OrgSci-SMJ-4d715274": 0.675,
+   "cross-train-OrgSci-MgmtSci-9530405a": 0.325,
+   "cross-train-OrgSci-MgmtSci-e9680ad6": 0.55,
+   "cross-train-OrgSci-MgmtSci-c836fa73": 0.6,
+   "cross-train-OrgSci-MgmtSci-2f7c721c": 0.8,
+   "cross-train-OrgSci-MgmtSci-27a2bc90": 0.625,
+   "cross-train-OrgSci-MgmtSci-cca61cba": 0.6499999999999999,
+   "cross-train-OrgSci-MgmtSci-0e08fdd0": 0.625,
+   "cross-train-OrgSci-MgmtSci-e1337962": 0.7250000000000001,
+   "cross-train-OrgSci-MgmtSci-98cd8761": 0.675,
+   "cross-train-OrgSci-MgmtSci-41cb80a9": 0.7,
+   "cross-train-OrgSci-MgmtSci-0d748e01": 0.675,
+   "cross-train-OrgSci-MgmtSci-254c5e0f": 0.55,
+   "cross-train-OrgSci-MgmtSci-999d67f8": 0.55,
+   "cross-train-OrgSci-MgmtSci-e842bfd8": 0.6,
+   "cross-train-OrgSci-MgmtSci-875bdb94": 0.6000000000000001,
+   "cross-train-OrgSci-MgmtSci-fd5756b4": 0.625,
+   "cross-train-OrgSci-MgmtSci-de1bd0bb": 0.6,
+   "cross-train-OrgSci-MgmtSci-a53271f4": 0.6000000000000001,
+   "cross-train-OrgSci-MgmtSci-7f42a372": 0.865,
+   "cross-train-OrgSci-MgmtSci-d42eb9df": 0.65
+  },
+  "train_acc": 0.9615384615384616,
+  "val_acc": 0.8833333333333333,
+  "val_by_rival": {
+   "SMJ": 1.0,
+   "MgmtSci": 0.7666666666666667
+  },
+  "val_mean_p": 0.6651666666666666,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.675,
+   "cross-val-OrgSci-MgmtSci-ad018280": 0.29000000000000004,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.5,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.51,
+   "cross-val-OrgSci-MgmtSci-caba48ce": 0.69,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.7749999999999999,
+   "cross-val-OrgSci-MgmtSci-a710458b": 0.465,
+   "cross-val-OrgSci-MgmtSci-00d65e40": 0.7050000000000001,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.6399999999999999,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.375,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.55,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.7,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.775,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.735,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.52,
+   "cross-val-OrgSci-SMJ-c1a1e829": 0.6699999999999999,
+   "cross-val-OrgSci-SMJ-f3890681": 0.7050000000000001,
+   "cross-val-OrgSci-SMJ-39492d36": 0.5249999999999999,
+   "cross-val-OrgSci-SMJ-14b4ce2d": 0.69,
+   "cross-val-OrgSci-SMJ-576dca8c": 0.79,
+   "cross-val-OrgSci-SMJ-44eb2739": 0.785,
+   "cross-val-OrgSci-SMJ-ea873d6c": 0.7150000000000001,
+   "cross-val-OrgSci-SMJ-d20c268c": 0.69,
+   "cross-val-OrgSci-SMJ-a5a5438b": 0.875,
+   "cross-val-OrgSci-SMJ-ffca386d": 0.79,
+   "cross-val-OrgSci-SMJ-1a290790": 0.69,
+   "cross-val-OrgSci-SMJ-eae11ad5": 0.91,
+   "cross-val-OrgSci-SMJ-4d60e9c6": 0.79,
+   "cross-val-OrgSci-SMJ-14f630ef": 0.635,
+   "cross-val-OrgSci-SMJ-909772d9": 0.79
+  },
+  "accepted": true,
+  "best_before": 0.8833333333333333
+ },
+ {
+  "iteration": 4,
+  "version": 4,
+  "parent": 3,
+  "rulebook": {
+   "values": [
+    "Theorizes how audiences read signals, claims, categories or actor attributes to form evaluations, emphasizing social meaning-making rather than testing economic demand or discrimination models.",
+    "Posits countervailing effects, paradoxes or trade-offs, such as a benefit at one stage or condition and a penalty at another, and specifies contingencies.",
+    "Explains with sociological or behavioral constructs such as status, legitimacy, categories, identity, authenticity, cognition, tokenism or symbolic compliance, not mainly economic efficiency.",
+    "Links levels: how organizational status, structure, hierarchy, life stage or field-level actors shape or condition individual, team or organizational behavior and outcomes.",
+    "Advances core organization-theory conversations: organizational learning, behavioral theory of the firm, attention, exploration and exploitation, search, categories, entrepreneurial creation, status dynamics.",
+    "Frames the contribution as resolving a tension between prevailing theory and emerging evidence, or between competing mechanisms, not just estimating an effect.",
+    "Uses experiments or multimethod designs to isolate actor or audience mechanisms theorized in advance, rather than mainly reporting effect sizes of a practice's consequences.",
+    "Accepts formal or simulation models of organizational processes, such as learning, search, judgment aggregation, or divergent beliefs among organizational actors, deriving testable propositions.",
+    "Builds moderators from named theoretical mechanisms about actors, audiences or organizations, rather than from convenient proxies or practical boundary conditions.",
+    "Theorizes interplay between formal controls (monitoring, incentives, contracts) and informal or normative ones (values, trust, relationships), including substitution or crowding out.",
+    "Explains individual or team outcomes through relationships, networks, social integration or hierarchy position, including how actors' beliefs about hierarchy shape tie formation.",
+    "Contextualizes familiar individual-level effects (pay gaps, human capital, status) by showing which organizational conditions amplify, erase or reverse them."
+   ],
+   "red_flags": [
+    "Economics-style effect estimation or tests of classic economic theories (demand-side discrimination, real options, network effects) against wages, prices or sales, closing with efficiency or policy prescriptions.",
+    "Principal-agent or mechanism-design models where a principal optimizes incentives with no role for divergent beliefs, cognition or organizational process.",
+    "The main contribution is a new measure, dataset, research method, computational technique or descriptive typology rather than a theoretical mechanism about organizations or audiences.",
+    "Corporate-strategy outcomes (divestiture, diversification, M&A, competitive advantage) tested on firm panels with audience or social mechanisms only inferred; also literature reviews or research agendas.",
+    "Main explanation is cross-national legal origins or country regulation with legal implications; broad social context like generalized trust is fine when theorized as shaping organizing.",
+    "Exploratory or null-result pattern-finding whose mechanism is guessed afterward, e.g., results described only as 'suggestive of' a mechanism, with no prior theoretical argument.",
+    "Explains outcomes through individual skill or human-capital accumulation alone; human capital is fine when conditioned by organizational structure, power or life stage.",
+    "Framed mainly as advancing individual psychology (effort, motivation, psychological experience) without consequences for relationships, networks, social structure or organizing."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Links individual cognition or behavior to organizational structures, formal arrangements or group processes, e.g., how contract terms or hierarchy create pressures that shape decisions.",
+    "after": "Links levels: how organizational status, structure, hierarchy, life stage or field-level actors shape or condition individual, team or organizational behavior and outcomes.",
+    "reason": "Several Organization Science winners were distinguished by cross-level theorizing: organization status moderating individual pay, population-level actors shaping firm learning, and subgroups across hierarchical levels."
+   },
+   {
+    "change": "edited",
+    "before": "Advances core organization-theory conversations: organizational learning, exploration and exploitation, search, optimal distinctiveness, categories, entrepreneurial creation, status dynamics.",
+    "after": "Advances core organization-theory conversations: organizational learning, behavioral theory of the firm, attention, exploration and exploitation, search, categories, entrepreneurial creation, status dynamics.",
+    "reason": "Behavioral-theory and attention-based framing marked an Organization Science article that lost out to a methods paper on a similar topic."
+   },
+   {
+    "change": "edited",
+    "before": "Uses experiments, quasi-experiments or field data to separate mechanisms or reveal hidden trade-offs of a management practice, not only whether it works.",
+    "after": "Uses experiments or multimethod designs to isolate actor or audience mechanisms theorized in advance, rather than mainly reporting effect sizes of a practice's consequences.",
+    "reason": "The old wording rewarded empirical papers on a practice's unintended consequences that report percentage effects, which led the board to favor non-Organization Science articles."
+   },
+   {
+    "change": "edited",
+    "before": "Accepts formal or simulation models of organizational decision processes, such as judgment aggregation, learning, search or unintended consequences of practices, deriving propositions rather than optimal incentive designs.",
+    "after": "Accepts formal or simulation models of organizational processes, such as learning, search, judgment aggregation, or divergent beliefs among organizational actors, deriving testable propositions.",
+    "reason": "Organization Science published a formal model built around belief misalignment among governance actors, even though it included incentive elements; the old rule penalized it."
+   },
+   {
+    "change": "edited",
+    "before": "Explains individual or team outcomes through intraorganizational relationships, networks, social integration or position in formal and informal hierarchies.",
+    "after": "Explains individual or team outcomes through relationships, networks, social integration or hierarchy position, including how actors' beliefs about hierarchy shape tie formation.",
+    "reason": "The Organization Science side theorized how beliefs about status shape networking, while the other side focused on status and individual effort."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Contextualizes familiar individual-level effects (pay gaps, human capital, status) by showing which organizational conditions amplify, erase or reverse them.",
+    "reason": "The Organization Science winners took known individual effects and made them depend on organizational context; the board underrated this."
+   },
+   {
+    "change": "edited",
+    "before": "Economics-style effect estimation, such as percentage-point gaps or policy evaluation using exogenous variation, closing with efficiency or policy prescriptions rather than organizational mechanism.",
+    "after": "Economics-style effect estimation or tests of classic economic theories (demand-side discrimination, real options, network effects) against wages, prices or sales, closing with efficiency or policy prescriptions.",
+    "reason": "Merged the old classic-economic-theory flag into this one, adding demand-side wage tests and real-option decision models, both seen on non-Organization Science sides."
+   },
+   {
+    "change": "dropped",
+    "before": "Tests a classic economic theory, such as taste-based discrimination, network effects or foreclosure, against market outcomes like prices, revenues or sales.",
+    "after": "",
+    "reason": "Merged into the economics-style estimation flag to free a slot."
+   },
+   {
+    "change": "edited",
+    "before": "Principal-agent, mechanism-design or relational-contract models where a principal optimizes incentives, matching or challenges; self-enforcement or discounted-value logic suggests economics journals.",
+    "after": "Principal-agent or mechanism-design models where a principal optimizes incentives with no role for divergent beliefs, cognition or organizational process.",
+    "reason": "A formal agency model centered on belief misalignment appeared in Organization Science; the flag should hit only pure incentive optimization."
+   },
+   {
+    "change": "edited",
+    "before": "The main contribution is a new measure, dataset or descriptive typology rather than a theoretical mechanism about organizations or audiences.",
+    "after": "The main contribution is a new measure, dataset, research method, computational technique or descriptive typology rather than a theoretical mechanism about organizations or audiences.",
+    "reason": "A paper introducing a new computational method for researchers was favored over a theory-testing Organization Science article."
+   },
+   {
+    "change": "edited",
+    "before": "Framed for strategy audiences, such as competitive advantage, M&A or capability performance, or industry evolution, with thin behavioral mechanism; also literature reviews or research agendas.",
+    "after": "Corporate-strategy outcomes (divestiture, diversification, M&A, competitive advantage) tested on firm panels with audience or social mechanisms only inferred; also literature reviews or research agendas.",
+    "reason": "Identity or status language on corporate-portfolio panels fooled the board. Meanwhile, a competitive-advantage opening with relational theory was wrongly penalized."
+   },
+   {
+    "change": "edited",
+    "before": "Openly exploratory pattern-finding whose mechanisms are guessed after the fact, with no theoretical argument set out in advance.",
+    "after": "Exploratory or null-result pattern-finding whose mechanism is guessed afterward, e.g., results described only as 'suggestive of' a mechanism, with no prior theoretical argument.",
+    "reason": "A non-Organization Science paper that offered an organizational-learning mechanism only as a post hoc interpretation of negative results was not flagged."
+   },
+   {
+    "change": "edited",
+    "before": "Explains career or productivity outcomes through individual skill or human-capital accumulation, without social, relational, cognitive or organizational process.",
+    "after": "Explains outcomes through individual skill or human-capital accumulation alone; human capital is fine when conditioned by organizational structure, power or life stage.",
+    "reason": "This flag wrongly penalized an Organization Science article that made founding-team human capital depend on decision structure and life stage."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Framed mainly as advancing individual psychology (effort, motivation, psychological experience) without consequences for relationships, networks, social structure or organizing.",
+    "reason": "The non-Organization Science side of a status pair framed its contribution as understanding the psychological experience of status and effort."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-MgmtSci-dc1212d2",
+    "cross-train-OrgSci-MgmtSci-c3c107ea",
+    "cross-train-OrgSci-MgmtSci-205af930",
+    "cross-train-OrgSci-MgmtSci-5a6a758d",
+    "cross-train-OrgSci-MgmtSci-e20314df",
+    "cross-train-OrgSci-MgmtSci-9255b123",
+    "cross-train-OrgSci-SMJ-9b6e1834",
+    "cross-train-OrgSci-SMJ-3b8b375c"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-MgmtSci-b3e70cbb"
+   ],
+   "anchors": [
+    "cross-train-OrgSci-SMJ-de553185",
+    "cross-train-OrgSci-SMJ-bb9efdb1",
+    "cross-train-OrgSci-SMJ-9e4aaec3"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-e40cb662",
+   "cross-train-OrgSci-SMJ-bb9efdb1",
+   "cross-train-OrgSci-SMJ-9e4aaec3",
+   "cross-train-OrgSci-SMJ-ed698a75",
+   "cross-train-OrgSci-SMJ-00d3c92d",
+   "cross-train-OrgSci-SMJ-294fcb27",
+   "cross-train-OrgSci-SMJ-827d283e",
+   "cross-train-OrgSci-SMJ-3b8b375c",
+   "cross-train-OrgSci-SMJ-9b6e1834",
+   "cross-train-OrgSci-SMJ-45ee9453",
+   "cross-train-OrgSci-SMJ-e03ee1ff",
+   "cross-train-OrgSci-SMJ-de553185",
+   "cross-train-OrgSci-SMJ-7a511e32",
+   "cross-train-OrgSci-SMJ-9b3a9d11",
+   "cross-train-OrgSci-SMJ-044ba3ba",
+   "cross-train-OrgSci-SMJ-71322b3d",
+   "cross-train-OrgSci-SMJ-4f95b80b",
+   "cross-train-OrgSci-SMJ-af81ae00",
+   "cross-train-OrgSci-SMJ-c5b0ae69",
+   "cross-train-OrgSci-SMJ-4cb23462",
+   "cross-train-OrgSci-MgmtSci-61b668ea",
+   "cross-train-OrgSci-MgmtSci-86d0f405",
+   "cross-train-OrgSci-MgmtSci-c3c107ea",
+   "cross-train-OrgSci-MgmtSci-5a6a758d",
+   "cross-train-OrgSci-MgmtSci-5305a2fd",
+   "cross-train-OrgSci-MgmtSci-9e66b4c1",
+   "cross-train-OrgSci-MgmtSci-d68e16ac",
+   "cross-train-OrgSci-MgmtSci-205af930",
+   "cross-train-OrgSci-MgmtSci-65184138",
+   "cross-train-OrgSci-MgmtSci-b462bc63",
+   "cross-train-OrgSci-MgmtSci-d48b8c0a",
+   "cross-train-OrgSci-MgmtSci-d45559e6",
+   "cross-train-OrgSci-MgmtSci-e20314df",
+   "cross-train-OrgSci-MgmtSci-c2945674",
+   "cross-train-OrgSci-MgmtSci-c6c79b64",
+   "cross-train-OrgSci-MgmtSci-b3e70cbb",
+   "cross-train-OrgSci-MgmtSci-9255b123",
+   "cross-train-OrgSci-MgmtSci-dc1212d2",
+   "cross-train-OrgSci-MgmtSci-07f08dea",
+   "cross-train-OrgSci-MgmtSci-822d0207"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-e40cb662": 0.725,
+   "cross-train-OrgSci-SMJ-bb9efdb1": 0.8,
+   "cross-train-OrgSci-SMJ-9e4aaec3": 0.825,
+   "cross-train-OrgSci-SMJ-ed698a75": 0.775,
+   "cross-train-OrgSci-SMJ-00d3c92d": 0.625,
+   "cross-train-OrgSci-SMJ-294fcb27": 0.775,
+   "cross-train-OrgSci-SMJ-827d283e": 0.775,
+   "cross-train-OrgSci-SMJ-3b8b375c": 0.5,
+   "cross-train-OrgSci-SMJ-9b6e1834": 0.475,
+   "cross-train-OrgSci-SMJ-45ee9453": 0.7,
+   "cross-train-OrgSci-SMJ-e03ee1ff": 0.7,
+   "cross-train-OrgSci-SMJ-de553185": 0.825,
+   "cross-train-OrgSci-SMJ-7a511e32": 0.75,
+   "cross-train-OrgSci-SMJ-9b3a9d11": 0.7,
+   "cross-train-OrgSci-SMJ-044ba3ba": 0.7250000000000001,
+   "cross-train-OrgSci-SMJ-71322b3d": 0.71,
+   "cross-train-OrgSci-SMJ-4f95b80b": 0.7,
+   "cross-train-OrgSci-SMJ-af81ae00": 0.7,
+   "cross-train-OrgSci-SMJ-c5b0ae69": 0.75,
+   "cross-train-OrgSci-SMJ-4cb23462": 0.675,
+   "cross-train-OrgSci-MgmtSci-61b668ea": 0.575,
+   "cross-train-OrgSci-MgmtSci-86d0f405": 0.6000000000000001,
+   "cross-train-OrgSci-MgmtSci-c3c107ea": 0.375,
+   "cross-train-OrgSci-MgmtSci-5a6a758d": 0.4,
+   "cross-train-OrgSci-MgmtSci-5305a2fd": 0.7,
+   "cross-train-OrgSci-MgmtSci-9e66b4c1": 0.65,
+   "cross-train-OrgSci-MgmtSci-d68e16ac": 0.7,
+   "cross-train-OrgSci-MgmtSci-205af930": 0.39999999999999997,
+   "cross-train-OrgSci-MgmtSci-65184138": 0.575,
+   "cross-train-OrgSci-MgmtSci-b462bc63": 0.6,
+   "cross-train-OrgSci-MgmtSci-d48b8c0a": 0.71,
+   "cross-train-OrgSci-MgmtSci-d45559e6": 0.665,
+   "cross-train-OrgSci-MgmtSci-e20314df": 0.42500000000000004,
+   "cross-train-OrgSci-MgmtSci-c2945674": 0.75,
+   "cross-train-OrgSci-MgmtSci-c6c79b64": 0.8,
+   "cross-train-OrgSci-MgmtSci-b3e70cbb": 0.55,
+   "cross-train-OrgSci-MgmtSci-9255b123": 0.42500000000000004,
+   "cross-train-OrgSci-MgmtSci-dc1212d2": 0.35,
+   "cross-train-OrgSci-MgmtSci-07f08dea": 0.55,
+   "cross-train-OrgSci-MgmtSci-822d0207": 0.725
+  },
+  "train_acc": 0.8125,
+  "val_acc": 0.8666666666666667,
+  "val_by_rival": {
+   "SMJ": 1.0,
+   "MgmtSci": 0.7333333333333333
+  },
+  "val_mean_p": 0.6629999999999999,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.6000000000000001,
+   "cross-val-OrgSci-MgmtSci-ad018280": 0.30000000000000004,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.55,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.49000000000000005,
+   "cross-val-OrgSci-MgmtSci-caba48ce": 0.6799999999999999,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.815,
+   "cross-val-OrgSci-MgmtSci-a710458b": 0.355,
+   "cross-val-OrgSci-MgmtSci-00d65e40": 0.74,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.63,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.33499999999999996,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.655,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.7150000000000001,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.775,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.71,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.51,
+   "cross-val-OrgSci-SMJ-c1a1e829": 0.625,
+   "cross-val-OrgSci-SMJ-f3890681": 0.685,
+   "cross-val-OrgSci-SMJ-39492d36": 0.6499999999999999,
+   "cross-val-OrgSci-SMJ-14b4ce2d": 0.6799999999999999,
+   "cross-val-OrgSci-SMJ-576dca8c": 0.75,
+   "cross-val-OrgSci-SMJ-44eb2739": 0.75,
+   "cross-val-OrgSci-SMJ-ea873d6c": 0.725,
+   "cross-val-OrgSci-SMJ-d20c268c": 0.7,
+   "cross-val-OrgSci-SMJ-a5a5438b": 0.875,
+   "cross-val-OrgSci-SMJ-ffca386d": 0.8,
+   "cross-val-OrgSci-SMJ-1a290790": 0.645,
+   "cross-val-OrgSci-SMJ-eae11ad5": 0.9,
+   "cross-val-OrgSci-SMJ-4d60e9c6": 0.79,
+   "cross-val-OrgSci-SMJ-14f630ef": 0.6799999999999999,
+   "cross-val-OrgSci-SMJ-909772d9": 0.775
+  },
+  "accepted": false,
+  "best_before": 0.8833333333333333
+ },
+ {
+  "iteration": 5,
+  "version": 5,
+  "parent": 3,
+  "rulebook": {
+   "values": [
+    "Theorizes meaning-making: how audiences read signals, categories or claims, or how organizations interpret ambiguous feedback cues to decide under uncertainty.",
+    "Posits countervailing effects, trade-offs or self-limiting advantages with contingencies, framed as resolving tensions between theories or competing mechanisms.",
+    "Explains with sociological or behavioral constructs such as status, legitimacy, categories, identity, authenticity, cognition, tokenism or symbolic compliance, not mainly economic efficiency.",
+    "Links individual cognition or behavior to organizational structures, formal arrangements or group processes, e.g., how contract terms or hierarchy create pressures that shape decisions.",
+    "Advances core organization-theory conversations: organizational learning, exploration and exploitation, search, optimal distinctiveness, categories, entrepreneurial creation, status dynamics.",
+    "Uses experiments, quasi-experiments or field data to contrast named theoretical mechanisms (e.g., symbolic versus substantive) or reveal hidden trade-offs, not just whether something works.",
+    "Accepts formal or simulation models of organizational processes, such as search, learning, aggregation or governance amid divergent beliefs, deriving propositions about organizational actors, not market welfare.",
+    "Builds moderators from named theoretical mechanisms about actors, audiences or organizations, rather than from convenient proxies or practical boundary conditions.",
+    "Theorizes interplay between formal controls (monitoring, incentives, contracts) and informal or normative ones (values, trust, relationships), including substitution or crowding out.",
+    "Explains individual or team outcomes through intraorganizational relationships, networks, social integration or position in formal and informal hierarchies.",
+    "Values purely conceptual theory-building that explains how organizational or institutional fields are structured, persist and change, including around grand challenges.",
+    "Traces how external pressures shape attention inside firms and consequences for employees or stakeholders, rather than only financial or growth performance."
+   ],
+   "red_flags": [
+    "Single policy or law evaluated via difference-in-differences, reporting an effect (even a backfire) and a policy lesson, without theorizing contrasting organizational mechanisms.",
+    "Models of market competition, pricing, platforms or consumer welfare, or relational contracts with self-enforcement logic; agency models centered on divergent beliefs are acceptable.",
+    "Main contribution is a new measure, dataset or descriptive empirical typology; conceptual typologies that theorize how structures emerge and change are acceptable.",
+    "Framed for strategy audiences: competitive advantage, M&A, diversification, internal capital allocation, TMT composition and firm growth, with thin social or behavioral mechanism; also literature reviews.",
+    "Explains via cross-national law, culture or individual values of elites, closing with legal or policy prescriptions rather than theorizing organizing processes.",
+    "Pattern-finding with mechanisms guessed post hoc; abductive theorizing that turns findings into a general theoretical proposition about organizing is acceptable.",
+    "Explains career or productivity outcomes through individual skill or human-capital accumulation, without social, relational, cognitive or organizational process.",
+    "Tests a classic economic theory, such as taste-based discrimination, network effects or foreclosure, against market outcomes like prices, revenues or sales."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Theorizes how audiences read signals, claims, categories or actor attributes to form evaluations, emphasizing social meaning-making rather than testing economic demand or discrimination models.",
+    "after": "Theorizes meaning-making: how audiences read signals, categories or claims, or how organizations interpret ambiguous feedback cues to decide under uncertainty.",
+    "reason": "The board over-rewarded audience-accuracy framing and missed the Organization Science paper on firms interpreting market feedback to choose positions."
+   },
+   {
+    "change": "edited",
+    "before": "Posits countervailing effects, paradoxes or trade-offs, such as a benefit at one stage or condition and a penalty at another, and specifies contingencies.",
+    "after": "Posits countervailing effects, trade-offs or self-limiting advantages with contingencies, framed as resolving tensions between theories or competing mechanisms.",
+    "reason": "Merged with the overlapping tension-framing rule; self-limiting advantages (strength at generating options, weakness at selecting) marked the Organization Science paper in the group-learning pair."
+   },
+   {
+    "change": "dropped",
+    "before": "Frames the contribution as resolving a tension between prevailing theory and emerging evidence, or between competing mechanisms, not just estimating an effect.",
+    "after": "",
+    "reason": "Merged into the trade-off rule to free a slot."
+   },
+   {
+    "change": "edited",
+    "before": "Uses experiments, quasi-experiments or field data to separate mechanisms or reveal hidden trade-offs of a management practice, not only whether it works.",
+    "after": "Uses experiments, quasi-experiments or field data to contrast named theoretical mechanisms (e.g., symbolic versus substantive) or reveal hidden trade-offs, not just whether something works.",
+    "reason": "When both papers used quasi-experiments, the Organization Science one theorized and compared named mechanisms."
+   },
+   {
+    "change": "edited",
+    "before": "Accepts formal or simulation models of organizational decision processes, such as judgment aggregation, learning, search or unintended consequences of practices, deriving propositions rather than optimal incentive designs.",
+    "after": "Accepts formal or simulation models of organizational processes, such as search, learning, aggregation or governance amid divergent beliefs, deriving propositions about organizational actors, not market welfare.",
+    "reason": "Organization Science published a governance model built on belief misalignment between board and CEO; models of market welfare still belong elsewhere."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Values purely conceptual theory-building that explains how organizational or institutional fields are structured, persist and change, including around grand challenges.",
+    "reason": "A conceptual paper on field structure was penalized as a typology but was the Organization Science article."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Traces how external pressures shape attention inside firms and consequences for employees or stakeholders, rather than only financial or growth performance.",
+    "reason": "Organization Science favored a paper on stakeholder salience and employee outcomes over a corporate capital-allocation paper."
+   },
+   {
+    "change": "edited",
+    "before": "Economics-style effect estimation, such as percentage-point gaps or policy evaluation using exogenous variation, closing with efficiency or policy prescriptions rather than organizational mechanism.",
+    "after": "Single policy or law evaluated via difference-in-differences, reporting an effect (even a backfire) and a policy lesson, without theorizing contrasting organizational mechanisms.",
+    "reason": "The board took a backfire result in a policy evaluation for a theorized paradox and chose the non-Organization Science paper."
+   },
+   {
+    "change": "edited",
+    "before": "Principal-agent, mechanism-design or relational-contract models where a principal optimizes incentives, matching or challenges; self-enforcement or discounted-value logic suggests economics journals.",
+    "after": "Models of market competition, pricing, platforms or consumer welfare, or relational contracts with self-enforcement logic; agency models centered on divergent beliefs are acceptable.",
+    "reason": "The old flag rejected an Organization Science CEO-succession model; the flag should target welfare and relational-contract models."
+   },
+   {
+    "change": "edited",
+    "before": "The main contribution is a new measure, dataset or descriptive typology rather than a theoretical mechanism about organizations or audiences.",
+    "after": "Main contribution is a new measure, dataset or descriptive empirical typology; conceptual typologies that theorize how structures emerge and change are acceptable.",
+    "reason": "A conceptual typology that theorizes how fields change was wrongly penalized."
+   },
+   {
+    "change": "edited",
+    "before": "Framed for strategy audiences, such as competitive advantage, M&A or capability performance, or industry evolution, with thin behavioral mechanism; also literature reviews or research agendas.",
+    "after": "Framed for strategy audiences: competitive advantage, M&A, diversification, internal capital allocation, TMT composition and firm growth, with thin social or behavioral mechanism; also literature reviews.",
+    "reason": "Corporate-strategy topics lost even when they borrowed behavioral theory; research-agenda language wrongly hurt a conceptual Organization Science paper."
+   },
+   {
+    "change": "edited",
+    "before": "Main explanation is cross-national legal origins or country regulation with legal implications; broad social context like generalized trust is fine when theorized as shaping organizing.",
+    "after": "Explains via cross-national law, culture or individual values of elites, closing with legal or policy prescriptions rather than theorizing organizing processes.",
+    "reason": "A cross-national paper on directors' values and culture with legal prescriptions slipped past the narrower legal-origins flag."
+   },
+   {
+    "change": "edited",
+    "before": "Openly exploratory pattern-finding whose mechanisms are guessed after the fact, with no theoretical argument set out in advance.",
+    "after": "Pattern-finding with mechanisms guessed post hoc; abductive theorizing that turns findings into a general theoretical proposition about organizing is acceptable.",
+    "reason": "An Organization Science paper that theorized from field findings was wrongly penalized as exploratory."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-SMJ-45bfd426",
+    "cross-train-OrgSci-MgmtSci-986748a4",
+    "cross-train-OrgSci-MgmtSci-ca4ed862",
+    "cross-train-OrgSci-MgmtSci-569e8765",
+    "cross-train-OrgSci-SMJ-d382ecc0"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-SMJ-8f450014",
+    "cross-train-OrgSci-MgmtSci-99dc18fb",
+    "cross-train-OrgSci-SMJ-9abf810c",
+    "cross-train-OrgSci-MgmtSci-4a39cac1"
+   ],
+   "anchors": [
+    "cross-train-OrgSci-MgmtSci-7431a8e2",
+    "cross-train-OrgSci-SMJ-4eab45fb",
+    "cross-train-OrgSci-MgmtSci-2f1ba931"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-8ae1e38e",
+   "cross-train-OrgSci-SMJ-9abf810c",
+   "cross-train-OrgSci-SMJ-8f450014",
+   "cross-train-OrgSci-SMJ-2874a3c8",
+   "cross-train-OrgSci-SMJ-d382ecc0",
+   "cross-train-OrgSci-SMJ-791bbd57",
+   "cross-train-OrgSci-SMJ-1f29f8e6",
+   "cross-train-OrgSci-SMJ-575835f4",
+   "cross-train-OrgSci-SMJ-01403730",
+   "cross-train-OrgSci-SMJ-b98d15a1",
+   "cross-train-OrgSci-SMJ-45bfd426",
+   "cross-train-OrgSci-SMJ-6a1940b5",
+   "cross-train-OrgSci-SMJ-8657a4d6",
+   "cross-train-OrgSci-SMJ-4eab45fb",
+   "cross-train-OrgSci-SMJ-2760577a",
+   "cross-train-OrgSci-SMJ-db0634c1",
+   "cross-train-OrgSci-SMJ-7705de7d",
+   "cross-train-OrgSci-SMJ-1d66fc1e",
+   "cross-train-OrgSci-SMJ-09acdb52",
+   "cross-train-OrgSci-SMJ-2ec03161",
+   "cross-train-OrgSci-MgmtSci-569e8765",
+   "cross-train-OrgSci-MgmtSci-f378687c",
+   "cross-train-OrgSci-MgmtSci-2f1ba931",
+   "cross-train-OrgSci-MgmtSci-99dc18fb",
+   "cross-train-OrgSci-MgmtSci-419f2880",
+   "cross-train-OrgSci-MgmtSci-09c6c4c2",
+   "cross-train-OrgSci-MgmtSci-ca4ed862",
+   "cross-train-OrgSci-MgmtSci-882e057c",
+   "cross-train-OrgSci-MgmtSci-9f693227",
+   "cross-train-OrgSci-MgmtSci-6e533c0b",
+   "cross-train-OrgSci-MgmtSci-7431a8e2",
+   "cross-train-OrgSci-MgmtSci-986748a4",
+   "cross-train-OrgSci-MgmtSci-1d383701",
+   "cross-train-OrgSci-MgmtSci-049c07f5",
+   "cross-train-OrgSci-MgmtSci-4a39cac1",
+   "cross-train-OrgSci-MgmtSci-290cba5a",
+   "cross-train-OrgSci-MgmtSci-f8fca17e",
+   "cross-train-OrgSci-MgmtSci-20f1dbed",
+   "cross-train-OrgSci-MgmtSci-83096145"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-8ae1e38e": 0.6499999999999999,
+   "cross-train-OrgSci-SMJ-9abf810c": 0.575,
+   "cross-train-OrgSci-SMJ-8f450014": 0.525,
+   "cross-train-OrgSci-SMJ-2874a3c8": 0.7,
+   "cross-train-OrgSci-SMJ-d382ecc0": 0.5,
+   "cross-train-OrgSci-SMJ-791bbd57": 0.65,
+   "cross-train-OrgSci-SMJ-1f29f8e6": 0.75,
+   "cross-train-OrgSci-SMJ-575835f4": 0.725,
+   "cross-train-OrgSci-SMJ-01403730": 0.775,
+   "cross-train-OrgSci-SMJ-b98d15a1": 0.625,
+   "cross-train-OrgSci-SMJ-45bfd426": 0.325,
+   "cross-train-OrgSci-SMJ-6a1940b5": 0.7,
+   "cross-train-OrgSci-SMJ-8657a4d6": 0.735,
+   "cross-train-OrgSci-SMJ-4eab45fb": 0.8,
+   "cross-train-OrgSci-SMJ-2760577a": 0.75,
+   "cross-train-OrgSci-SMJ-db0634c1": 0.675,
+   "cross-train-OrgSci-SMJ-7705de7d": 0.725,
+   "cross-train-OrgSci-SMJ-1d66fc1e": 0.625,
+   "cross-train-OrgSci-SMJ-09acdb52": 0.75,
+   "cross-train-OrgSci-SMJ-2ec03161": 0.725,
+   "cross-train-OrgSci-MgmtSci-569e8765": 0.475,
+   "cross-train-OrgSci-MgmtSci-f378687c": 0.625,
+   "cross-train-OrgSci-MgmtSci-2f1ba931": 0.85,
+   "cross-train-OrgSci-MgmtSci-99dc18fb": 0.525,
+   "cross-train-OrgSci-MgmtSci-419f2880": 0.6499999999999999,
+   "cross-train-OrgSci-MgmtSci-09c6c4c2": 0.7,
+   "cross-train-OrgSci-MgmtSci-ca4ed862": 0.44999999999999996,
+   "cross-train-OrgSci-MgmtSci-882e057c": 0.75,
+   "cross-train-OrgSci-MgmtSci-9f693227": 0.725,
+   "cross-train-OrgSci-MgmtSci-6e533c0b": 0.675,
+   "cross-train-OrgSci-MgmtSci-7431a8e2": 0.8,
+   "cross-train-OrgSci-MgmtSci-986748a4": 0.39999999999999997,
+   "cross-train-OrgSci-MgmtSci-1d383701": 0.775,
+   "cross-train-OrgSci-MgmtSci-049c07f5": 0.775,
+   "cross-train-OrgSci-MgmtSci-4a39cac1": 0.6,
+   "cross-train-OrgSci-MgmtSci-290cba5a": 0.7,
+   "cross-train-OrgSci-MgmtSci-f8fca17e": 0.6,
+   "cross-train-OrgSci-MgmtSci-20f1dbed": 0.7,
+   "cross-train-OrgSci-MgmtSci-83096145": 0.675
+  },
+  "train_acc": 0.8846153846153846,
+  "val_acc": 0.8333333333333334,
+  "val_by_rival": {
+   "SMJ": 1.0,
+   "MgmtSci": 0.6666666666666666
+  },
+  "val_mean_p": 0.6555,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.6499999999999999,
+   "cross-val-OrgSci-MgmtSci-ad018280": 0.31999999999999995,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.565,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.495,
+   "cross-val-OrgSci-MgmtSci-caba48ce": 0.635,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.79,
+   "cross-val-OrgSci-MgmtSci-a710458b": 0.47500000000000003,
+   "cross-val-OrgSci-MgmtSci-00d65e40": 0.79,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.595,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.30000000000000004,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.43000000000000005,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.6699999999999999,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.73,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.745,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.605,
+   "cross-val-OrgSci-SMJ-c1a1e829": 0.65,
+   "cross-val-OrgSci-SMJ-f3890681": 0.725,
+   "cross-val-OrgSci-SMJ-39492d36": 0.56,
+   "cross-val-OrgSci-SMJ-14b4ce2d": 0.665,
+   "cross-val-OrgSci-SMJ-576dca8c": 0.725,
+   "cross-val-OrgSci-SMJ-44eb2739": 0.7050000000000001,
+   "cross-val-OrgSci-SMJ-ea873d6c": 0.69,
+   "cross-val-OrgSci-SMJ-d20c268c": 0.675,
+   "cross-val-OrgSci-SMJ-a5a5438b": 0.865,
+   "cross-val-OrgSci-SMJ-ffca386d": 0.8,
+   "cross-val-OrgSci-SMJ-1a290790": 0.7,
+   "cross-val-OrgSci-SMJ-eae11ad5": 0.91,
+   "cross-val-OrgSci-SMJ-4d60e9c6": 0.79,
+   "cross-val-OrgSci-SMJ-14f630ef": 0.61,
+   "cross-val-OrgSci-SMJ-909772d9": 0.8
+  },
+  "accepted": false,
+  "best_before": 0.8833333333333333
+ },
+ {
+  "iteration": 6,
+  "version": 6,
+  "parent": 3,
+  "rulebook": {
+   "values": [
+    "Theorizes how audiences, including lenders and investors, infer unobservable qualities such as intent, risk or competence from claims, language, categories or seemingly unrelated actor attributes.",
+    "Posits countervailing effects, paradoxes or trade-offs, and specifies contingencies using moderators derived from named mechanisms about actors, audiences or organizations, not convenient proxies.",
+    "Traces how audience expectations feed back into organizational choices, e.g., claims or identities that constrain a producer's growth, scale, production or repositioning.",
+    "Explains with sociological or behavioral constructs such as status, legitimacy, categories, identity, authenticity, cognition, tokenism or symbolic compliance, not mainly economic efficiency.",
+    "Explains individual or team outcomes, including careers and entrepreneurship, through organizational structures: hierarchy, formal arrangements, firm size, internal opportunities, networks or social integration.",
+    "Advances core organization-theory conversations: organizational learning, exploration and exploitation, search, optimal distinctiveness, categories, entrepreneurial creation, status dynamics.",
+    "Frames the contribution as resolving a tension between prevailing theory and emerging evidence, or between competing mechanisms, not just estimating an effect.",
+    "Uses experiments, quasi-experiments, policy-capturing or mixed methods to separate mechanisms or reveal hidden trade-offs of a practice, not only whether it works.",
+    "Accepts formal or simulation models of organizational decision processes, such as judgment aggregation, learning, search or unintended consequences of practices, deriving propositions rather than optimal incentive designs.",
+    "Theorizes interplay between formal controls (monitoring, incentives, contracts) and informal or normative ones (values, trust, relationships), including substitution or crowding out.",
+    "Theorizes how inter-organizational collaborations or shared standards reshape firm boundaries, vertical industry structure, or the capabilities firms need, weighing competing mechanisms.",
+    "Examines workers' subjective experience of status, identity or fit across work contexts, often grounding hypotheses in qualitative data before testing them."
+   ],
+   "red_flags": [
+    "Economics-style effect estimation or policy evaluation ending in efficiency prescriptions; effect sizes alone are fine when organizational mechanisms drive the argument.",
+    "Principal-agent, mechanism-design, relational-contract or individual sorting-and-self-learning models, where optimizing agents or discounted-value logic drive results, suggest economics or finance journals.",
+    "Main contribution is a new measure, index, dataset or typology; such papers lose to same-topic papers advancing a substantive organizational mechanism, even effect-estimating ones.",
+    "Framed for strategy audiences, such as competitive advantage, M&A or capability performance, or industry evolution, with thin behavioral mechanism; also literature reviews or research agendas.",
+    "Main explanation is cross-national legal origins or country regulation with legal implications; broad social context like generalized trust is fine when theorized as shaping organizing.",
+    "Openly exploratory pattern-finding whose mechanisms are guessed after the fact, with no theoretical argument set out in advance.",
+    "Explains career or productivity outcomes through individual skill or human-capital accumulation alone; human capital is fine as a moderator of social or organizational processes.",
+    "Tests a classic economic theory, such as taste-based discrimination, network effects or foreclosure, against market outcomes like prices, revenues or sales."
+   ]
+  },
+  "changelog": [
+   {
+    "change": "edited",
+    "before": "Theorizes how audiences read signals, claims, categories or actor attributes to form evaluations, emphasizing social meaning-making rather than testing economic demand or discrimination models.",
+    "after": "Theorizes how audiences, including lenders and investors, infer unobservable qualities such as intent, risk or competence from claims, language, categories or seemingly unrelated actor attributes.",
+    "reason": "Organization Science (OS) winners included financial stakeholders inferring trustworthiness or risk from behavior or traits seen elsewhere, and audiences reading speech; the old rule left these cases at about a coin flip."
+   },
+   {
+    "change": "edited",
+    "before": "Posits countervailing effects, paradoxes or trade-offs, such as a benefit at one stage or condition and a penalty at another, and specifies contingencies.",
+    "after": "Posits countervailing effects, paradoxes or trade-offs, and specifies contingencies using moderators derived from named mechanisms about actors, audiences or organizations, not convenient proxies.",
+    "reason": "Merged with the old moderator rule to free a slot; the content is unchanged."
+   },
+   {
+    "change": "dropped",
+    "before": "Builds moderators from named theoretical mechanisms about actors, audiences or organizations, rather than from convenient proxies or practical boundary conditions.",
+    "after": "",
+    "reason": "Folded into the countervailing-effects rule."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Traces how audience expectations feed back into organizational choices, e.g., claims or identities that constrain a producer's growth, scale, production or repositioning.",
+    "reason": "The OS paper on audience evaluation tied perceptions to firm-level organizing consequences; its rival stopped at evaluator perception alone."
+   },
+   {
+    "change": "edited",
+    "before": "Links individual cognition or behavior to organizational structures, formal arrangements or group processes, e.g., how contract terms or hierarchy create pressures that shape decisions.",
+    "after": "Explains individual or team outcomes, including careers and entrepreneurship, through organizational structures: hierarchy, formal arrangements, firm size, internal opportunities, networks or social integration.",
+    "reason": "Merged with the intraorganizational-relationships rule and extended to employer features shaping careers; the OS career paper beat an individual self-learning model."
+   },
+   {
+    "change": "dropped",
+    "before": "Explains individual or team outcomes through intraorganizational relationships, networks, social integration or position in formal and informal hierarchies.",
+    "after": "",
+    "reason": "Folded into the merged organizational-structure rule."
+   },
+   {
+    "change": "edited",
+    "before": "Uses experiments, quasi-experiments or field data to separate mechanisms or reveal hidden trade-offs of a management practice, not only whether it works.",
+    "after": "Uses experiments, quasi-experiments, policy-capturing or mixed methods to separate mechanisms or reveal hidden trade-offs of a practice, not only whether it works.",
+    "reason": "OS winners paired archival data with policy-capturing or qualitative-plus-experimental designs to confirm a mechanism."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Theorizes how inter-organizational collaborations or shared standards reshape firm boundaries, vertical industry structure, or the capabilities firms need, weighing competing mechanisms.",
+    "reason": "The OS paper on a collaborative arrangement was underrated because it reported an effect size; its organizational-boundary theory was not credited."
+   },
+   {
+    "change": "added",
+    "before": "",
+    "after": "Examines workers' subjective experience of status, identity or fit across work contexts, often grounding hypotheses in qualitative data before testing them.",
+    "reason": "The OS paper on how workers experience status, built from qualitative data and then experiments, was nearly lost to a loss-aversion paper with percentage effects."
+   },
+   {
+    "change": "edited",
+    "before": "Economics-style effect estimation, such as percentage-point gaps or policy evaluation using exogenous variation, closing with efficiency or policy prescriptions rather than organizational mechanism.",
+    "after": "Economics-style effect estimation or policy evaluation ending in efficiency prescriptions; effect sizes alone are fine when organizational mechanisms drive the argument.",
+    "reason": "The board penalized an OS paper just for reporting a percentage effect, although its argument rested on organizational mechanisms."
+   },
+   {
+    "change": "edited",
+    "before": "Principal-agent, mechanism-design or relational-contract models where a principal optimizes incentives, matching or challenges; self-enforcement or discounted-value logic suggests economics journals.",
+    "after": "Principal-agent, mechanism-design, relational-contract or individual sorting-and-self-learning models, where optimizing agents or discounted-value logic drive results, suggest economics or finance journals.",
+    "reason": "The non-OS rival was a formal model of employees learning their own fitness and sorting into other jobs."
+   },
+   {
+    "change": "edited",
+    "before": "The main contribution is a new measure, dataset or descriptive typology rather than a theoretical mechanism about organizations or audiences.",
+    "after": "Main contribution is a new measure, index, dataset or typology; such papers lose to same-topic papers advancing a substantive organizational mechanism, even effect-estimating ones.",
+    "reason": "A paper built around a new index beat an OS paper with substantive theory; the flag needed to apply even when the OS paper reports effects."
+   },
+   {
+    "change": "edited",
+    "before": "Explains career or productivity outcomes through individual skill or human-capital accumulation, without social, relational, cognitive or organizational process.",
+    "after": "Explains career or productivity outcomes through individual skill or human-capital accumulation alone; human capital is fine as a moderator of social or organizational processes.",
+    "reason": "An OS paper using founder human capital to moderate how audiences read language was wrongly penalized."
+   }
+  ],
+  "minibatch": {
+   "wrong": [
+    "cross-train-OrgSci-MgmtSci-7cc9f5c0",
+    "cross-train-OrgSci-MgmtSci-0a3f8b47",
+    "cross-train-OrgSci-SMJ-261fb791"
+   ],
+   "shaky": [
+    "cross-train-OrgSci-MgmtSci-0baf6df2",
+    "cross-train-OrgSci-MgmtSci-491fb0ac",
+    "cross-train-OrgSci-SMJ-2eb2f0c7",
+    "cross-train-OrgSci-SMJ-ab7da45f",
+    "cross-train-OrgSci-MgmtSci-fc167ea7",
+    "cross-train-OrgSci-MgmtSci-12becf24"
+   ],
+   "anchors": [
+    "cross-train-OrgSci-MgmtSci-1422db3c",
+    "cross-train-OrgSci-SMJ-04ad08c4",
+    "cross-train-OrgSci-SMJ-0c4abe65"
+   ]
+  },
+  "train_ids": [
+   "cross-train-OrgSci-SMJ-ccf105b8",
+   "cross-train-OrgSci-SMJ-0c4abe65",
+   "cross-train-OrgSci-SMJ-2eb2f0c7",
+   "cross-train-OrgSci-SMJ-2676f488",
+   "cross-train-OrgSci-SMJ-0dd0d63b",
+   "cross-train-OrgSci-SMJ-261fb791",
+   "cross-train-OrgSci-SMJ-3896a2e9",
+   "cross-train-OrgSci-SMJ-c6c3ff4a",
+   "cross-train-OrgSci-SMJ-f5f33e4c",
+   "cross-train-OrgSci-SMJ-e1328d02",
+   "cross-train-OrgSci-SMJ-ab7da45f",
+   "cross-train-OrgSci-SMJ-bd0ce877",
+   "cross-train-OrgSci-SMJ-04ad08c4",
+   "cross-train-OrgSci-SMJ-04d28cd4",
+   "cross-train-OrgSci-SMJ-776317b5",
+   "cross-train-OrgSci-SMJ-4b8654c7",
+   "cross-train-OrgSci-SMJ-81d9505a",
+   "cross-train-OrgSci-SMJ-fd20ceb7",
+   "cross-train-OrgSci-SMJ-af8ba904",
+   "cross-train-OrgSci-MgmtSci-4c497ff0",
+   "cross-train-OrgSci-MgmtSci-fec9998e",
+   "cross-train-OrgSci-MgmtSci-12d0a524",
+   "cross-train-OrgSci-MgmtSci-1def32e5",
+   "cross-train-OrgSci-MgmtSci-491fb0ac",
+   "cross-train-OrgSci-MgmtSci-52e3979c",
+   "cross-train-OrgSci-MgmtSci-319b5d86",
+   "cross-train-OrgSci-MgmtSci-3370f472",
+   "cross-train-OrgSci-MgmtSci-80e75ace",
+   "cross-train-OrgSci-MgmtSci-fc167ea7",
+   "cross-train-OrgSci-MgmtSci-471770c5",
+   "cross-train-OrgSci-MgmtSci-7cc9f5c0",
+   "cross-train-OrgSci-MgmtSci-0baf6df2",
+   "cross-train-OrgSci-MgmtSci-774622aa",
+   "cross-train-OrgSci-MgmtSci-f2b0e74e",
+   "cross-train-OrgSci-MgmtSci-12becf24",
+   "cross-train-OrgSci-MgmtSci-13443640",
+   "cross-train-OrgSci-MgmtSci-e5a890bf",
+   "cross-train-OrgSci-MgmtSci-0a3f8b47",
+   "cross-train-OrgSci-MgmtSci-1422db3c"
+  ],
+  "train_probs": {
+   "cross-train-OrgSci-SMJ-ccf105b8": 0.725,
+   "cross-train-OrgSci-SMJ-0c4abe65": 0.925,
+   "cross-train-OrgSci-SMJ-2eb2f0c7": 0.55,
+   "cross-train-OrgSci-SMJ-2676f488": 0.725,
+   "cross-train-OrgSci-SMJ-0dd0d63b": 0.75,
+   "cross-train-OrgSci-SMJ-261fb791": 0.5,
+   "cross-train-OrgSci-SMJ-3896a2e9": 0.65,
+   "cross-train-OrgSci-SMJ-c6c3ff4a": 0.775,
+   "cross-train-OrgSci-SMJ-f5f33e4c": 0.675,
+   "cross-train-OrgSci-SMJ-e1328d02": 0.7,
+   "cross-train-OrgSci-SMJ-ab7da45f": 0.575,
+   "cross-train-OrgSci-SMJ-bd0ce877": 0.75,
+   "cross-train-OrgSci-SMJ-04ad08c4": 0.8,
+   "cross-train-OrgSci-SMJ-04d28cd4": 0.725,
+   "cross-train-OrgSci-SMJ-776317b5": 0.75,
+   "cross-train-OrgSci-SMJ-4b8654c7": 0.7,
+   "cross-train-OrgSci-SMJ-81d9505a": 0.7,
+   "cross-train-OrgSci-SMJ-fd20ceb7": 0.7,
+   "cross-train-OrgSci-SMJ-af8ba904": 0.7250000000000001,
+   "cross-train-OrgSci-MgmtSci-4c497ff0": 0.725,
+   "cross-train-OrgSci-MgmtSci-fec9998e": 0.625,
+   "cross-train-OrgSci-MgmtSci-12d0a524": 0.65,
+   "cross-train-OrgSci-MgmtSci-1def32e5": 0.7250000000000001,
+   "cross-train-OrgSci-MgmtSci-491fb0ac": 0.525,
+   "cross-train-OrgSci-MgmtSci-52e3979c": 0.75,
+   "cross-train-OrgSci-MgmtSci-319b5d86": 0.725,
+   "cross-train-OrgSci-MgmtSci-3370f472": 0.625,
+   "cross-train-OrgSci-MgmtSci-80e75ace": 0.6,
+   "cross-train-OrgSci-MgmtSci-fc167ea7": 0.575,
+   "cross-train-OrgSci-MgmtSci-471770c5": 0.725,
+   "cross-train-OrgSci-MgmtSci-7cc9f5c0": 0.42500000000000004,
+   "cross-train-OrgSci-MgmtSci-0baf6df2": 0.5249999999999999,
+   "cross-train-OrgSci-MgmtSci-774622aa": 0.625,
+   "cross-train-OrgSci-MgmtSci-f2b0e74e": 0.75,
+   "cross-train-OrgSci-MgmtSci-12becf24": 0.575,
+   "cross-train-OrgSci-MgmtSci-13443640": 0.775,
+   "cross-train-OrgSci-MgmtSci-e5a890bf": 0.625,
+   "cross-train-OrgSci-MgmtSci-0a3f8b47": 0.45,
+   "cross-train-OrgSci-MgmtSci-1422db3c": 0.85
+  },
+  "train_acc": 0.9358974358974359,
+  "val_acc": 0.8,
+  "val_by_rival": {
+   "SMJ": 0.9666666666666667,
+   "MgmtSci": 0.6333333333333333
+  },
+  "val_mean_p": 0.6513333333333332,
+  "val_probs": {
+   "cross-val-OrgSci-MgmtSci-5184b0af": 0.7,
+   "cross-val-OrgSci-MgmtSci-ad018280": 0.285,
+   "cross-val-OrgSci-MgmtSci-cad1182a": 0.375,
+   "cross-val-OrgSci-MgmtSci-90365d0a": 0.47500000000000003,
+   "cross-val-OrgSci-MgmtSci-caba48ce": 0.64,
+   "cross-val-OrgSci-MgmtSci-21a94283": 0.8,
+   "cross-val-OrgSci-MgmtSci-a710458b": 0.5,
+   "cross-val-OrgSci-MgmtSci-00d65e40": 0.74,
+   "cross-val-OrgSci-MgmtSci-b2a5a558": 0.645,
+   "cross-val-OrgSci-MgmtSci-8d9cffba": 0.32999999999999996,
+   "cross-val-OrgSci-MgmtSci-372ad899": 0.575,
+   "cross-val-OrgSci-MgmtSci-0c7f474d": 0.6799999999999999,
+   "cross-val-OrgSci-MgmtSci-f20812cc": 0.725,
+   "cross-val-OrgSci-MgmtSci-91f12063": 0.72,
+   "cross-val-OrgSci-MgmtSci-13457399": 0.485,
+   "cross-val-OrgSci-SMJ-c1a1e829": 0.6599999999999999,
+   "cross-val-OrgSci-SMJ-f3890681": 0.725,
+   "cross-val-OrgSci-SMJ-39492d36": 0.5,
+   "cross-val-OrgSci-SMJ-14b4ce2d": 0.625,
+   "cross-val-OrgSci-SMJ-576dca8c": 0.775,
+   "cross-val-OrgSci-SMJ-44eb2739": 0.73,
+   "cross-val-OrgSci-SMJ-ea873d6c": 0.775,
+   "cross-val-OrgSci-SMJ-d20c268c": 0.69,
+   "cross-val-OrgSci-SMJ-a5a5438b": 0.865,
+   "cross-val-OrgSci-SMJ-ffca386d": 0.79,
+   "cross-val-OrgSci-SMJ-1a290790": 0.6699999999999999,
+   "cross-val-OrgSci-SMJ-eae11ad5": 0.91,
+   "cross-val-OrgSci-SMJ-4d60e9c6": 0.775,
+   "cross-val-OrgSci-SMJ-14f630ef": 0.61,
+   "cross-val-OrgSci-SMJ-909772d9": 0.765
+  },
+  "accepted": false,
+  "best_before": 0.8833333333333333
+ }
+]
