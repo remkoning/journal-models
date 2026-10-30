@@ -30,8 +30,9 @@ from pathlib import Path
 
 import numpy as np
 from scipy.stats import spearmanr
+from sklearn.cluster import KMeans
 
-from jm.data import JOURNALS, load_works
+from jm.data import JOURNALS, emb, load_works
 from jm.journal_model import JournalModel, taste_ids
 from jm.llm import call, map_parallel
 
@@ -87,13 +88,17 @@ def betas(X, Y):
     return B
 
 
-def split_half(X, Y, own, splits=200):
-    """Mean split-half r of value over random half-splits of the runs (one fixed split is too noisy)."""
+def split_half(X, Y, own, splits=200, labels=None):
+    """Mean split-half r of value over random half-splits of the runs (one fixed split is too noisy).
+    With labels, value is first averaged within each group: credit to a line of work, not one paper."""
     val = lambda b: b[:, own].mean(1) - b[:, ~own].mean(1)
+    agg = (lambda v: v) if labels is None else (lambda v: np.array([v[labels == g].mean() for g in np.unique(labels)]))
     rs = []
     for s in range(splits):
         h = np.random.default_rng(s).permutation(len(X)) < len(X) // 2
-        rs.append(np.corrcoef(val(betas(X[h], Y[h])), val(betas(X[~h], Y[~h])))[0, 1])
+        va, vb = agg(val(betas(X[h], Y[h]))), agg(val(betas(X[~h], Y[~h])))
+        ok = np.isfinite(va) & np.isfinite(vb)       # small m: an abstract can be missing from a half
+        rs.append(np.corrcoef(va[ok], vb[ok])[0, 1])
     r = float(np.mean(rs))
     return r, 2 * r / (1 + r)                                           # Spearman-Brown to all runs
 
@@ -108,6 +113,8 @@ def analyze(journal, X, Y, probes, ids):
     influence = np.sqrt(np.clip(infl_sq, 0, None))
     r_half, rel = split_half(X, Y, own)
     by_m = {int(m): split_half(X[:m], Y[:m], own, splits=100)[1] for m in (150, 300) if m < len(X)}
+    lines = KMeans(10, n_init=10, random_state=0).fit_predict(emb(ids))    # 10 lines of work (bge clusters)
+    rel_lines = split_half(X, Y, own, splits=100, labels=lines)[1]
     w = load_works().set_index("openalex_id").loc[ids]
     pct = w.groupby("year")["cites_total"].rank(pct=True).values  # within-year citation percentile
     logc = np.log1p(w["cites_total"].values)
@@ -116,14 +123,15 @@ def analyze(journal, X, Y, probes, ids):
         "journal": journal, "m_subsets": int(len(X)), "k": int(X[0].sum()), "n_probes": len(probes),
         "missing_scores_share": float(np.isnan(Y).mean()),
         "split_half_r_value": r_half, "reliability_value": rel, "reliability_at_m": by_m,
+        "reliability_value_10_lines_of_work": rel_lines,
         "mean_own_minus_other_score": float(np.nanmean(Y[:, own]) - np.nanmean(Y[:, ~own])),
         "spearman_value_vs_cite_pct": corr(v, pct), "spearman_value_vs_logcites": corr(v, logc),
         "spearman_influence_vs_cite_pct": corr(influence, pct),
         "spearman_influence_vs_logcites": corr(influence, logc),
         "per_abstract": [{"id": i, "title": w.loc[i, "title"], "year": int(w.loc[i, "year"]),
                           "cites_total": int(w.loc[i, "cites_total"]), "cite_pct": float(p),
-                          "value": float(a), "influence": float(b)}
-                         for i, p, a, b in zip(ids, pct, v, influence)],
+                          "value": float(a), "influence": float(b), "line_of_work": int(c)}
+                         for i, p, a, b, c in zip(ids, pct, v, influence, lines)],
     }
     return res
 

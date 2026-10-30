@@ -104,6 +104,13 @@
   - k = 10, so each abstract carries a larger share.
   - 48 probes (24 own, 24 other) in one fixed order, so runs differ only in the subset.
   - m = 600. Results are compared with the pilot at matched m.
+- **v2 results (Org Sci, m = 600, 0 missing scores):**
+  - Reliability 0.63 per paper, and 0.77 for 10 "lines of work" (k-means clusters of the taste abstracts' embeddings, credit averaged within cluster). In the pilot, clustering did not help.
+  - At matched m the design gain is small: 0.28 vs. 0.24 at m = 150, and 0.35 at m = 300. Most of the gain is from more runs.
+  - The highest credit goes to abstracts that sharpen Org Sci's *distinctive* taste: leader emotions and creativity, group norms, knowledge work in teams.
+  - The most negative credit goes to abstracts that look like SMJ or MS work: profit distributions, microfinance trade-offs, managerial risk-taking. Including them blurs the model's taste.
+  - Value vs. log citations: ρ = 0.13 (p = 0.19). Value vs. year: ρ = −0.09.
+  - SMJ and MS: `scripts/credit_overnight.sh SMJ MgmtSci` (launched 2026-10-30).
 - **Status:** a working pipeline, and a separate option rather than a core exhibit. Fine-tuning-based influence functions are a Stage 2 alternative.
 
 ## 7. Self-improving rulebook harness
@@ -144,4 +151,4 @@
 - **Style.** House style is part of what the models learn. We treat framing as part of taste, but cannot fully separate it from substance.
 - **Small Management Science sample.** Only 287 core papers, so its CIs are wide.
 - **Model drift.** Results depend on one base model, which will change.
-- **Credit is underpowered** at pilot scale.
+- **Credit:** reliable for Org Sci at 600 runs (0.63 per paper); influence on an in-context model is not yet the Stage 2 influence on a fine-tuned one.

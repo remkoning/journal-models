@@ -1,0 +1,1021 @@
+{
+  "journal": "OrgSci",
+  "m_subsets": 600,
+  "k": 10,
+  "n_probes": 48,
+  "missing_scores_share": 0.0,
+  "split_half_r_value": 0.45406241063782926,
+  "reliability_value": 0.6245432208630622,
+  "reliability_at_m": {
+    "150": 0.277381624125379,
+    "300": 0.3479494122794327
+  },
+  "reliability_value_10_lines_of_work": 0.7723395510955887,
+  "mean_own_minus_other_score": 11.348888888888894,
+  "spearman_value_vs_cite_pct": 0.09062555089022054,
+  "spearman_value_vs_logcites": 0.1332228953675238,
+  "spearman_influence_vs_cite_pct": -0.06553793320928654,
+  "spearman_influence_vs_logcites": -0.08442142420210896,
+  "per_abstract": [
+    {
+      "id": "W2336340531",
+      "title": "Spreading the Word: The Microfoundations of Institutional Persuasion and Conversion",
+      "year": 2016,
+      "cites_total": 51,
+      "cite_pct": 0.2,
+      "value": -0.05871518418688129,
+      "influence": 0.48035093902767356,
+      "line_of_work": 6
+    },
+    {
+      "id": "W2755477938",
+      "title": "Experiential Learning, Competitive Selection, and Downside Risk: A New Perspective on Managerial Risk Taking",
+      "year": 2017,
+      "cites_total": 14,
+      "cite_pct": 0.1111111111111111,
+      "value": -0.9670769926658257,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2800232835",
+      "title": "Taking Trade-offs Seriously: Examining the Contextually Contingent Relationship Between Social Outreach Intensity and Financial Sustainability in Global Microfinance",
+      "year": 2018,
+      "cites_total": 190,
+      "cite_pct": 0.7777777777777778,
+      "value": -1.2402777777777771,
+      "influence": 0.900759567511231,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2959537802",
+      "title": "Hybrid Ambidexterity: How the Environment Shapes Incumbents\u2019 Use of Structural and Contextual Approaches",
+      "year": 2019,
+      "cites_total": 110,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.4307478454267432,
+      "influence": 0.0,
+      "line_of_work": 0
+    },
+    {
+      "id": "W3092685420",
+      "title": "Moving Violations: Pairing an Illegitimate Learning Hierarchy with Trainee Status Mobility for Acquiring New Skills When Traditional Expertise Erodes",
+      "year": 2020,
+      "cites_total": 25,
+      "cite_pct": 0.2777777777777778,
+      "value": -0.7151237158732057,
+      "influence": 0.8909951454641734,
+      "line_of_work": 0
+    },
+    {
+      "id": "W3168509151",
+      "title": "(How) Will I Socialize You? The Impact of Supervisor Initial Evaluations and Subsequent Support on the Socialization of Temporary Newcomers",
+      "year": 2021,
+      "cites_total": 31,
+      "cite_pct": 0.6111111111111112,
+      "value": 0.5883792048929665,
+      "influence": 1.0675260883992925,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4307134461",
+      "title": "Anchoring on Historical Round Number Reference Points: Evidence from Durable Goods Resale Prices",
+      "year": 2022,
+      "cites_total": 10,
+      "cite_pct": 0.2222222222222222,
+      "value": -0.0196708114959067,
+      "influence": 0.8409960430352534,
+      "line_of_work": 7
+    },
+    {
+      "id": "W4385416957",
+      "title": "Inspiring, Yet Tiring: How Leader Emotional Complexity Shapes Follower Creativity",
+      "year": 2023,
+      "cites_total": 23,
+      "cite_pct": 0.7222222222222222,
+      "value": 1.9835581157370687,
+      "influence": 2.027928584021053,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4392191289",
+      "title": "Survivalist Organizing in Urban Poverty Contexts",
+      "year": 2024,
+      "cites_total": 32,
+      "cite_pct": 1.0,
+      "value": -0.06381660470879646,
+      "influence": 0.0,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4407838717",
+      "title": "Looking at the Trees to See the Forest: Construal Level Shift in Strategic Problem Framing and Formulation",
+      "year": 2025,
+      "cites_total": 9,
+      "cite_pct": 0.8888888888888888,
+      "value": -0.43941679235797043,
+      "influence": 0.9269846145269814,
+      "line_of_work": 4
+    },
+    {
+      "id": "W7165124089",
+      "title": "From Founders\u2019 Knowledge to Economic Value Capture in Academic and Employee Start-ups",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.2777777777777778,
+      "value": 0.3218062187617239,
+      "influence": 0.4953808871508312,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2527356824",
+      "title": "A Laughing Matter: Patterns of Laughter and the Effectiveness of Working Dyads",
+      "year": 2016,
+      "cites_total": 16,
+      "cite_pct": 0.1,
+      "value": 0.5304271991586833,
+      "influence": 0.7547252892301015,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2755507626",
+      "title": "Beyond the Startup Stage: The Founding Team\u2019s Human Capital, New Venture\u2019s Stage of Life, Founder\u2013CEO Duality, and Breakthrough Innovation",
+      "year": 2017,
+      "cites_total": 144,
+      "cite_pct": 1.0,
+      "value": -0.4953636393008299,
+      "influence": 0.554284475410543,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2795504814",
+      "title": "Demand Heterogeneity in Platform Markets: Implications for Complementors",
+      "year": 2018,
+      "cites_total": 221,
+      "cite_pct": 0.8888888888888888,
+      "value": 1.041180921601069,
+      "influence": 0.8460106030246791,
+      "line_of_work": 7
+    },
+    {
+      "id": "W2946706026",
+      "title": "An Integrative Perspective of Organizational Responses: Routines, Heuristics, and Improvisations in a Mount Everest Expedition",
+      "year": 2019,
+      "cites_total": 67,
+      "cite_pct": 0.7222222222222222,
+      "value": -0.3887298356961361,
+      "influence": 0.6067704335683405,
+      "line_of_work": 0
+    },
+    {
+      "id": "W3008858154",
+      "title": "The Paradox of Resource Provision in Entrepreneurial Teams: Between Self-Interest and the Collective Enterprise",
+      "year": 2020,
+      "cites_total": 36,
+      "cite_pct": 0.6666666666666666,
+      "value": -0.3971542874396146,
+      "influence": 0.927488051821478,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3187438885",
+      "title": "Sustaining Effectiveness in Global Teams: The Coevolution of Knowledge Management Activities and Technology Affordances",
+      "year": 2021,
+      "cites_total": 39,
+      "cite_pct": 0.7777777777777778,
+      "value": 1.2638686956802678,
+      "influence": 1.0352409247808236,
+      "line_of_work": 0
+    },
+    {
+      "id": "W4206456231",
+      "title": "External Interfaces or Internal Processes? Market Positioning and Divergent Professionalization Paths in Young Ventures",
+      "year": 2022,
+      "cites_total": 61,
+      "cite_pct": 0.8888888888888888,
+      "value": -0.21348986688565103,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4389388390",
+      "title": "Mobile Money as a Stepping Stone to Financial Inclusion: How Digital Multisided Platforms Fill Institutional Voids",
+      "year": 2023,
+      "cites_total": 41,
+      "cite_pct": 1.0,
+      "value": -1.1829247531494724,
+      "influence": 0.5838339226361745,
+      "line_of_work": 1
+    },
+    {
+      "id": "W4400196598",
+      "title": "The Effect of Financial Resources on Misconduct: Evidence from Lottery Ticket Sales",
+      "year": 2024,
+      "cites_total": 2,
+      "cite_pct": 0.16666666666666666,
+      "value": -0.47242424242424313,
+      "influence": 1.0701678427593888,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4415126445",
+      "title": "Teams in Crisis: The Effect of Team Familiarity on Performance Under Conditions of Crisis and Uncertainty",
+      "year": 2025,
+      "cites_total": 1,
+      "cite_pct": 0.16666666666666666,
+      "value": 0.20628240948340226,
+      "influence": 0.7638976095450245,
+      "line_of_work": 4
+    },
+    {
+      "id": "W7171516853",
+      "title": "Mixing Motives: Political Donations by Corporate Executives",
+      "year": 2026,
+      "cites_total": 1,
+      "cite_pct": 0.6111111111111112,
+      "value": -0.3289646689570347,
+      "influence": 1.2892803873980394,
+      "line_of_work": 2
+    },
+    {
+      "id": "W561988217",
+      "title": "Growing New Corporate Businesses: From Initiation to Graduation",
+      "year": 2016,
+      "cites_total": 103,
+      "cite_pct": 0.7,
+      "value": -0.18165646418667974,
+      "influence": 0.8163651148884545,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2769490467",
+      "title": "The Role of Ambidexterity in Managing Buyer\u2013Supplier Relationships: The Toyota Case",
+      "year": 2017,
+      "cites_total": 130,
+      "cite_pct": 0.6666666666666666,
+      "value": -0.19722099366062196,
+      "influence": 0.0,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2800738283",
+      "title": "Optimal Distinctiveness in the Console Video Game Industry: An Exemplar-Based Model of Proto-Category Evolution",
+      "year": 2018,
+      "cites_total": 174,
+      "cite_pct": 0.6666666666666666,
+      "value": -0.15256258753501317,
+      "influence": 0.0,
+      "line_of_work": 7
+    },
+    {
+      "id": "W2968657041",
+      "title": "Product Adaptation During New Industry Emergence: The Role of Start-Up Team Preentry Experience",
+      "year": 2019,
+      "cites_total": 67,
+      "cite_pct": 0.7222222222222222,
+      "value": 0.007384978214814986,
+      "influence": 0.6337839750196141,
+      "line_of_work": 8
+    },
+    {
+      "id": "W3039025274",
+      "title": "Entering a Golden Age of Sustained Superiority: Entrepreneurial Creation or Discovery?",
+      "year": 2020,
+      "cites_total": 18,
+      "cite_pct": 0.1111111111111111,
+      "value": 0.2610711098403125,
+      "influence": 0.5501640146702577,
+      "line_of_work": 8
+    },
+    {
+      "id": "W3134179573",
+      "title": "No-Fly Zone in the Loan Office: How Chief Executive Officers\u2019 Risky Hobbies Affect Credit Stakeholders\u2019 Evaluation of Firms",
+      "year": 2021,
+      "cites_total": 15,
+      "cite_pct": 0.2777777777777778,
+      "value": 0.6316358024691362,
+      "influence": 1.2447075002169599,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4220783886",
+      "title": "Settlement Constellations and the Dynamics of Fields Formed Around Social and Environmental Issues",
+      "year": 2022,
+      "cites_total": 27,
+      "cite_pct": 0.6666666666666666,
+      "value": -0.3910558499072577,
+      "influence": 1.1015423447356767,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4315645920",
+      "title": "Work (Un)Interrupted: How Non-territorial Space Shapes Worker Control over Social Interaction",
+      "year": 2023,
+      "cites_total": 21,
+      "cite_pct": 0.5555555555555556,
+      "value": -0.2391973458048534,
+      "influence": 0.47293364968633783,
+      "line_of_work": 0
+    },
+    {
+      "id": "W4404536342",
+      "title": "Difference in Deference: When Competitors Do Not Give in Despite Having Lost",
+      "year": 2024,
+      "cites_total": 3,
+      "cite_pct": 0.3333333333333333,
+      "value": 0.20973373883358182,
+      "influence": 0.6667544441259431,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4409316252",
+      "title": "Learning in Temporally Complex Problems: The Role of External Knowledge",
+      "year": 2025,
+      "cites_total": 6,
+      "cite_pct": 0.6666666666666666,
+      "value": -0.6083426913718886,
+      "influence": 0.4214021427485852,
+      "line_of_work": 4
+    },
+    {
+      "id": "W7166525527",
+      "title": "Specialized Roles and Task Allocation in Organizations",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.2777777777777778,
+      "value": -0.8970604925661113,
+      "influence": 1.2919221459687666,
+      "line_of_work": 0
+    },
+    {
+      "id": "W2415594013",
+      "title": "Collaborative Promotion of Technology Standards and the Impact on Innovation, Industry Structure, and Organizational Capabilities: Evidence from Modern Patent Pools",
+      "year": 2016,
+      "cites_total": 68,
+      "cite_pct": 0.3,
+      "value": -0.6188998256037352,
+      "influence": 0.7231523135305171,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2604689430",
+      "title": "Structural Disruption, Relational Experimentation, and Performance in Professional Hockey Teams: A Network Perspective on Member Change",
+      "year": 2017,
+      "cites_total": 50,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.5529859608940932,
+      "influence": 0.9024708009035137,
+      "line_of_work": 0
+    },
+    {
+      "id": "W2783327529",
+      "title": "Ignorant Decision Making and Educated Inertia: Some Political Pathologies of Organizational Learning",
+      "year": 2018,
+      "cites_total": 34,
+      "cite_pct": 0.2222222222222222,
+      "value": -0.6487925654592326,
+      "influence": 1.4035112418193885,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2986512687",
+      "title": "Why Do Firms Suffer Differently from Input Stigmatization? The Costs of Removing Stigmatized Inputs",
+      "year": 2019,
+      "cites_total": 20,
+      "cite_pct": 0.1111111111111111,
+      "value": -0.7188167462992445,
+      "influence": 1.0065665430969468,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3032140957",
+      "title": "The Risky Side of Leadership: Conceptualizing Risk Perceptions in Informal Leadership and Investigating the Effects of Their Over-Time Changes in Teams",
+      "year": 2020,
+      "cites_total": 71,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.8236337382678831,
+      "influence": 0.6721307889626889,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3112671272",
+      "title": "Relational Work and the Knowledge Transfer Process: Rituals in Rural Ghana",
+      "year": 2021,
+      "cites_total": 15,
+      "cite_pct": 0.2777777777777778,
+      "value": 0.01790441878872384,
+      "influence": 0.2654555844251019,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4225008561",
+      "title": "When Do Firms Crack Under Pressure? Legal Professionals, Negative Role Models, and Organizational Misconduct",
+      "year": 2022,
+      "cites_total": 24,
+      "cite_pct": 0.4444444444444444,
+      "value": -0.47727184390547234,
+      "influence": 0.3438790600571525,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4375950238",
+      "title": "The Challenge of Maintaining Passion for Work over Time: A Daily Perspective on Passion and Emotional Exhaustion",
+      "year": 2023,
+      "cites_total": 33,
+      "cite_pct": 0.8888888888888888,
+      "value": 1.0009163193520743,
+      "influence": 1.3036631794330042,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4401217273",
+      "title": "CEO Humility and Corporate Social Irresponsibility: Evidence Based on a New Unobtrusive Measure",
+      "year": 2024,
+      "cites_total": 20,
+      "cite_pct": 0.8333333333333334,
+      "value": 0.026428871441958268,
+      "influence": 1.112515721840947,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4413192500",
+      "title": "Situational Support for Corruption: A Two-Part Field Experiment on Collusive vs. Extortive Bribery",
+      "year": 2025,
+      "cites_total": 1,
+      "cite_pct": 0.16666666666666666,
+      "value": 0.46866246498599606,
+      "influence": 0.0,
+      "line_of_work": 1
+    },
+    {
+      "id": "W7130353381",
+      "title": "Knowing Enough to Be Dangerous: The Problem of \u201cArtificial Certainty\u201d for Expert Authority When Using AI for Decision Making and Planning",
+      "year": 2026,
+      "cites_total": 15,
+      "cite_pct": 1.0,
+      "value": -0.5298011902227356,
+      "influence": 0.5900586896288842,
+      "line_of_work": 4
+    },
+    {
+      "id": "W2339928365",
+      "title": "Routines as Shock Absorbers During Organizational Transformation: Integration, Control, and NASA\u2019s Enterprise Information System",
+      "year": 2016,
+      "cites_total": 132,
+      "cite_pct": 0.9,
+      "value": 0.19535486390301465,
+      "influence": 0.7409098547560502,
+      "line_of_work": 0
+    },
+    {
+      "id": "W2528276883",
+      "title": "Multiple Identity Configurations: The Benefits of Focused Enhancement for Prosocial Behavior",
+      "year": 2017,
+      "cites_total": 53,
+      "cite_pct": 0.5555555555555556,
+      "value": 0.29217149688216953,
+      "influence": 0.6555347836426068,
+      "line_of_work": 6
+    },
+    {
+      "id": "W2794902176",
+      "title": "Noise as Signal in Learning from Rare Events",
+      "year": 2018,
+      "cites_total": 43,
+      "cite_pct": 0.4444444444444444,
+      "value": -0.4933932919168549,
+      "influence": 0.7095225117136849,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2971412345",
+      "title": "Women Don\u2019t Mean Business? Gender Penalty in Board Composition",
+      "year": 2019,
+      "cites_total": 138,
+      "cite_pct": 1.0,
+      "value": 0.01839156715317905,
+      "influence": 0.1994245341897034,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3000609511",
+      "title": "Initial and Longer-Term Change in Unit-Level Turnover Following Leader Succession: Contingent Effects of Outgoing and Incoming Leader Characteristics",
+      "year": 2020,
+      "cites_total": 31,
+      "cite_pct": 0.5555555555555556,
+      "value": 0.20802469135802432,
+      "influence": 0.7420046841143445,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3126236953",
+      "title": "Category Evolution Under Conditions of Stigma: The Segregation of Abortion Provision into Specialist Clinics in the United States",
+      "year": 2021,
+      "cites_total": 19,
+      "cite_pct": 0.4444444444444444,
+      "value": -0.7472222222222217,
+      "influence": 0.7025738167571315,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4225141011",
+      "title": "Your Presence Is Requested: Mindfulness Infusion in Workplace Interactions and Relationships",
+      "year": 2022,
+      "cites_total": 38,
+      "cite_pct": 0.7777777777777778,
+      "value": 0.7142801616915431,
+      "influence": 0.7517593298219789,
+      "line_of_work": 0
+    },
+    {
+      "id": "W4384692351",
+      "title": "Leveraging Learning Collectives: How Novice Outsiders Break into an Occupation",
+      "year": 2023,
+      "cites_total": 5,
+      "cite_pct": 0.16666666666666666,
+      "value": 0.17871885596343753,
+      "influence": 0.5302944952320202,
+      "line_of_work": 0
+    },
+    {
+      "id": "W4392284326",
+      "title": "Learning from Failures: Differentiating Between Slip-ups and Knowledge Gaps",
+      "year": 2024,
+      "cites_total": 20,
+      "cite_pct": 0.8333333333333334,
+      "value": -0.6632591330543098,
+      "influence": 0.5698183830655191,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4411272998",
+      "title": "The Six Dimensions of Strong Theory",
+      "year": 2025,
+      "cites_total": 19,
+      "cite_pct": 1.0,
+      "value": 0.18238238238238258,
+      "influence": 0.8958281737493616,
+      "line_of_work": 4
+    },
+    {
+      "id": "W7163201388",
+      "title": "Shareholder Activism and Corporate Political Activity: A Governance Systems Perspective",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.2777777777777778,
+      "value": 0.16695040290545812,
+      "influence": 0.5942803922199769,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2296890391",
+      "title": "Hierarchy and Its Discontents: Status Disagreement Leads to Withdrawal of Contribution and Lower Group Performance",
+      "year": 2016,
+      "cites_total": 94,
+      "cite_pct": 0.6,
+      "value": 0.7259216180414212,
+      "influence": 0.41405990650174274,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2594627428",
+      "title": "Far from the Tree? Do Private Entrepreneurs Agglomerate Around Public Sector Incumbents During Economic Transition?",
+      "year": 2017,
+      "cites_total": 34,
+      "cite_pct": 0.2222222222222222,
+      "value": -0.4473385540801291,
+      "influence": 0.2799638041578562,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2792656269",
+      "title": "Gender Bias, Social Impact Framing, and Evaluation of Entrepreneurial Ventures",
+      "year": 2018,
+      "cites_total": 287,
+      "cite_pct": 1.0,
+      "value": -0.18703703703703653,
+      "influence": 0.28148414623866713,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2971079378",
+      "title": "Discontinuities in the Value of Relational Capital: The Effects on Employee Entrepreneurship and Mobility",
+      "year": 2019,
+      "cites_total": 39,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.30945815826330625,
+      "influence": 0.3584218024149773,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3093320723",
+      "title": "Making Space for Emotions: Empathy, Contagion, and Legitimacy\u2019s Double-Edged Sword",
+      "year": 2020,
+      "cites_total": 25,
+      "cite_pct": 0.2777777777777778,
+      "value": -0.4706518114817242,
+      "influence": 0.5276145416303848,
+      "line_of_work": 6
+    },
+    {
+      "id": "W3204031281",
+      "title": "Inside the Velvet Glove: Sustaining Private Regulatory Institutions Through Hollowing and Fortifying",
+      "year": 2021,
+      "cites_total": 10,
+      "cite_pct": 0.1111111111111111,
+      "value": -0.6164249088839455,
+      "influence": 0.4772057418992977,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4205420544",
+      "title": "To Engage or Not to Engage with AI for Critical Judgments: How Professionals Deal with Opacity When Using AI for Medical Diagnosis",
+      "year": 2022,
+      "cites_total": 629,
+      "cite_pct": 1.0,
+      "value": 0.6701235848241305,
+      "influence": 0.9726888126782264,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4387904201",
+      "title": "Centralization and Organization Reproduction: Ethnic Innovation in R&D Centers and Satellite Locations",
+      "year": 2023,
+      "cites_total": 5,
+      "cite_pct": 0.16666666666666666,
+      "value": -0.39008374693804265,
+      "influence": 0.7775002191264705,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4391996028",
+      "title": "Your Ancestors Worked Hard for this Legitimacy! Theory and Experiment on the Inauthenticity of Second Movers",
+      "year": 2024,
+      "cites_total": 5,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.38613664737260345,
+      "influence": 0.5129139864133905,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4408023097",
+      "title": "Working with the \u201cEnemy\u201d: Supervised Space, Free Space, and Cross-Border Collaboration amid Geopolitical Rivalry",
+      "year": 2025,
+      "cites_total": 7,
+      "cite_pct": 0.7777777777777778,
+      "value": 0.4389715736130713,
+      "influence": 0.3869858684237562,
+      "line_of_work": 0
+    },
+    {
+      "id": "W7204869548",
+      "title": "From Scarce Resources to Resourcing Spirals: A Theory of Mindful Resourcing",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.2777777777777778,
+      "value": 0.7932901839480817,
+      "influence": 0.49664436912364396,
+      "line_of_work": 4
+    },
+    {
+      "id": "W2294261637",
+      "title": "Shots Fired! Switching Between Practices in Police Work",
+      "year": 2016,
+      "cites_total": 74,
+      "cite_pct": 0.5,
+      "value": 0.25611650910364087,
+      "influence": 0.565882409949749,
+      "line_of_work": 4
+    },
+    {
+      "id": "W2610811340",
+      "title": "How Coordination Trajectories Influence the Performance of Interorganizational Project Networks",
+      "year": 2017,
+      "cites_total": 137,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.43665747549019585,
+      "influence": 0.7931280814764045,
+      "line_of_work": 0
+    },
+    {
+      "id": "W2795206143",
+      "title": "Value Creation Through Employer Loans: Evidence of Informal Lending to Employees at Small, Labor-Intensive Firms",
+      "year": 2018,
+      "cites_total": 7,
+      "cite_pct": 0.1111111111111111,
+      "value": -0.12538551816370533,
+      "influence": 0.23465541698787498,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2959039972",
+      "title": "Mobility Constraint Externalities",
+      "year": 2019,
+      "cites_total": 61,
+      "cite_pct": 0.5555555555555556,
+      "value": -0.29120370370370496,
+      "influence": 0.8805388739082466,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3116878598",
+      "title": "A Multilevel Contingency Model of Employee Ownership and Firm Productivity: The Moderating Roles of Industry Growth and Instability",
+      "year": 2020,
+      "cites_total": 26,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.38142721476054775,
+      "influence": 1.1655314717151215,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4200429321",
+      "title": "Algorithm-Augmented Work and Domain Experience: The Countervailing Forces of Ability and Aversion",
+      "year": 2021,
+      "cites_total": 181,
+      "cite_pct": 1.0,
+      "value": -0.5959876543209865,
+      "influence": 0.25879691866983034,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4214537742",
+      "title": "Driven to Distraction: The Unintended Consequences of Organizational Learning from Failure Caused by Human Error",
+      "year": 2022,
+      "cites_total": 25,
+      "cite_pct": 0.5555555555555556,
+      "value": 0.2639888166416588,
+      "influence": 0.5594075730382951,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4385724365",
+      "title": "Hybrid Administrative Interfaces: Authority Delegation and Reversion in Strategic Alliances",
+      "year": 2023,
+      "cites_total": 14,
+      "cite_pct": 0.3333333333333333,
+      "value": -0.8369791666666662,
+      "influence": 0.7919396235490047,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4402679502",
+      "title": "A Simple Law for the Distribution of Long-Term Profit: The Empirical Regularity Behind the 1% of Firms That Capture 73% of Value",
+      "year": 2024,
+      "cites_total": 2,
+      "cite_pct": 0.16666666666666666,
+      "value": -1.3899026134547507,
+      "influence": 1.7184668348302325,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4414092209",
+      "title": "Seeing Both Sides: How Shared Experience Can Improve Entrepreneur Evaluations of Investors Through Perceived Empathy",
+      "year": 2025,
+      "cites_total": 2,
+      "cite_pct": 0.3333333333333333,
+      "value": 0.08622685185185253,
+      "influence": 0.0,
+      "line_of_work": 1
+    },
+    {
+      "id": "W7155060750",
+      "title": "CEO Succession Under Anticipatory Awareness Misalignment",
+      "year": 2026,
+      "cites_total": 2,
+      "cite_pct": 0.8333333333333334,
+      "value": -0.6972407856084202,
+      "influence": 2.173421510805158,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2465073759",
+      "title": "Revisiting the Small-Firm Effect on Entrepreneurship: Evidence from Firm Dissolutions",
+      "year": 2016,
+      "cites_total": 69,
+      "cite_pct": 0.4,
+      "value": 0.2432166598833273,
+      "influence": 0.47791809696987386,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2776247718",
+      "title": "Deconstructing the Outsider Puzzle: The Legitimation Journey of Novelty",
+      "year": 2017,
+      "cites_total": 134,
+      "cite_pct": 0.7777777777777778,
+      "value": 0.3203275102716454,
+      "influence": 0.5459588411709165,
+      "line_of_work": 6
+    },
+    {
+      "id": "W2808736756",
+      "title": "The Influence of Multiple Knowledge Networks on Innovation in Foreign Operations",
+      "year": 2018,
+      "cites_total": 42,
+      "cite_pct": 0.3333333333333333,
+      "value": -0.5921446996042041,
+      "influence": 0.6777654474122984,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2980813966",
+      "title": "Can Busy Organizations Learn to Get Better? Distinguishing Between the Competing Effects of Constrained Capacity on the Organizational Learning Process",
+      "year": 2019,
+      "cites_total": 28,
+      "cite_pct": 0.2222222222222222,
+      "value": 0.5401022232587073,
+      "influence": 1.0645139309755478,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3035664665",
+      "title": "Why Do Banks Favor Employee-Friendly Firms? A Stakeholder-Screening Perspective",
+      "year": 2020,
+      "cites_total": 55,
+      "cite_pct": 0.7777777777777778,
+      "value": -0.07134250621890387,
+      "influence": 0.8290974457117961,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3158446240",
+      "title": "Transferring Knowledge by Transferring Individuals: Innovative Technology Use and Organizational Performance in Multiunit Firms",
+      "year": 2021,
+      "cites_total": 51,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.40787037037037066,
+      "influence": 0.0,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4295339135",
+      "title": "Bridgework: A Model of Brokering Relationships Across Social Boundaries in Organizations",
+      "year": 2022,
+      "cites_total": 20,
+      "cite_pct": 0.3333333333333333,
+      "value": 0.4464216715227084,
+      "influence": 0.0,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4328126415",
+      "title": "Unlocking the Inventive Potential of Knowledge Distance in Teams: How Intrateam Network Configurations Provide a Key",
+      "year": 2023,
+      "cites_total": 17,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.28998046587055804,
+      "influence": 0.12858384481197954,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4394605518",
+      "title": "Which Idea to Pursue? Gender Differences in Novelty Avoidance During Creative Idea Selection",
+      "year": 2024,
+      "cites_total": 9,
+      "cite_pct": 0.6111111111111112,
+      "value": 0.843805415768032,
+      "influence": 0.9201395336075524,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4407199883",
+      "title": "Let Us Not Speak of Them, But Look and Pass? Organizational Responses to Online Reviews",
+      "year": 2025,
+      "cites_total": 5,
+      "cite_pct": 0.5555555555555556,
+      "value": -0.6685226125167164,
+      "influence": 0.0,
+      "line_of_work": 7
+    },
+    {
+      "id": "W7141705171",
+      "title": "Positioning in Digital Markets: A Demand-Side View",
+      "year": 2026,
+      "cites_total": 1,
+      "cite_pct": 0.6111111111111112,
+      "value": -0.49189093225560415,
+      "influence": 0.0,
+      "line_of_work": 7
+    },
+    {
+      "id": "W2280190423",
+      "title": "The Interplay of Reflective and Experimental Spaces in Interrupting and Reorienting Routine Dynamics",
+      "year": 2016,
+      "cites_total": 227,
+      "cite_pct": 1.0,
+      "value": -0.35743028261276677,
+      "influence": 0.0,
+      "line_of_work": 0
+    },
+    {
+      "id": "W2610435949",
+      "title": "Near Misses in the Breakthrough Discovery Process",
+      "year": 2017,
+      "cites_total": 49,
+      "cite_pct": 0.3333333333333333,
+      "value": 0.39784259456390514,
+      "influence": 0.3608105686093764,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2805253005",
+      "title": "Multiple Organization Goals with Feedback from Shared Technological Task Environments",
+      "year": 2018,
+      "cites_total": 53,
+      "cite_pct": 0.5555555555555556,
+      "value": 0.13865207617593206,
+      "influence": 0.6258863929213289,
+      "line_of_work": 4
+    },
+    {
+      "id": "W2930453529",
+      "title": "Blurred Lines: How the Collectivism Norm Operates Through Perceived Group Diversity to Boost or Harm Group Performance in Himalayan Mountain Climbing",
+      "year": 2019,
+      "cites_total": 32,
+      "cite_pct": 0.3333333333333333,
+      "value": 1.1894434079601997,
+      "influence": 0.8353279730616733,
+      "line_of_work": 5
+    },
+    {
+      "id": "W3008872801",
+      "title": "Community-Based Resource Mobilization: How Entrepreneurs Acquire Resources from Distributed Non-Professionals via Crowdfunding",
+      "year": 2020,
+      "cites_total": 94,
+      "cite_pct": 1.0,
+      "value": -0.39970330237358115,
+      "influence": 0.0,
+      "line_of_work": 1
+    },
+    {
+      "id": "W3210158516",
+      "title": "Immigrant Entrepreneurship: The Effect of Early Career Immigration Constraints on New Venture Formation",
+      "year": 2021,
+      "cites_total": 31,
+      "cite_pct": 0.6111111111111112,
+      "value": 0.21897400008482987,
+      "influence": 0.3425601828504691,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4220751227",
+      "title": "How the Basis for Status Perceptions Varies with Perceiver Status",
+      "year": 2022,
+      "cites_total": 5,
+      "cite_pct": 0.1111111111111111,
+      "value": -0.3927758564630063,
+      "influence": 0.7949416936478486,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4388421339",
+      "title": "Microfoundations of Problem Solving: Attentional Engagement Predicts Problem-Solving Strategies",
+      "year": 2023,
+      "cites_total": 23,
+      "cite_pct": 0.7222222222222222,
+      "value": 0.34761904761904727,
+      "influence": 0.6653936873655626,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4404671699",
+      "title": "Discursive Struggles and Contested Stigma Extensions: Explaining the Gradual Stigmatization of the U.S. Tobacco Industry",
+      "year": 2024,
+      "cites_total": 9,
+      "cite_pct": 0.6111111111111112,
+      "value": -0.16067514058208454,
+      "influence": 0.0,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4409662480",
+      "title": "Why Should Organizational Scholars Study Migration?",
+      "year": 2025,
+      "cites_total": 4,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.23312952898550748,
+      "influence": 0.4113252476070829,
+      "line_of_work": 3
+    },
+    {
+      "id": "W7135096609",
+      "title": "With a Little Help from My (Girl) Friends: Field Evidence on Gender Homophily and Women\u2019s Training Outcomes in Remote Environments",
+      "year": 2026,
+      "cites_total": 2,
+      "cite_pct": 0.8333333333333334,
+      "value": -0.22231705182072797,
+      "influence": 0.54244148943662,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4236616772",
+      "title": "Cultural Molding, Shielding, and Shoring at Oilco: The Role of Culture in the Integration of Routines",
+      "year": 2016,
+      "cites_total": 116,
+      "cite_pct": 0.8,
+      "value": 0.7769458107501284,
+      "influence": 0.6981008208778988,
+      "line_of_work": 0
+    }
+  ]
+}
