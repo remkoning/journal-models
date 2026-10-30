@@ -2,44 +2,30 @@
 
 Prototype accompanying the Organization Science special-issue proposal *"The Journal as Model"* (Koning & Myers).
 
-Each journal-model is a base LLM paired with an evolved, human-readable **taste playbook** for that journal. It performs three functions on research abstracts:
+**Idea.** A journal is a horizontally differentiated organization of scientific taste. A *journal-model* is a base LLM given one journal's taste. The taste can be carried as the journal's own abstracts (contrastive in-context) or as a readable rulebook evolved by a self-improving harness. Journals in v0: *Organization Science*, *Strategic Management Journal*, and *Management Science* (strategy, organizations, entrepreneurship & innovation).
 
-1. **EVALUATE**: does this work fit the journal's taste, and does it show promise?
-2. **DEVELOP**: how could this work make a bigger contribution to the journal's community?
-3. **CREDIT**: Shapley attribution of later knowledge to earlier contributions.
+**Four questions, one set of models** (figures in `results/figures/`):
 
-Journals in v0: *Organization Science*, *Strategic Management Journal*, *Management Science*. Data: OpenAlex.
+| | Question | Script |
+|---|---|---|
+| A | Is journal taste learnable, and does it differ? | `scripts/pilot_taste.py --split test --batch 1 [--anonymous]` · `scripts/run_scoring.py` |
+| B | Calibration: does a high score mean it really is that journal's paper? | `scripts/run_scoring.py` |
+| C | Same paper, three journals: where does each push the research? | `scripts/run_feedback.py` · `scripts/feedback_robustness.py` |
+| D | Credit: how much does each training abstract shape the model? | `scripts/run_credit.py` |
+| + | Self-improving rulebooks: what each journal values, in plain language | `harness/` → `results/harness/RULEBOOKS.md` |
+
+Methods, in bullets: `TECHNICAL_APPENDIX.md`. Data card: `data/README.md`.
 
 ## Setup
 
 ```bash
 python3.13 -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/bin/python -m data.build_all          # rebuilds the local abstract store from OpenAlex (text is not committed)
 ```
 
-LLM access goes through `jm/llm.py`. It supports three backends:
-
-- **`cli`**: Claude Code headless (`claude -p`). This is the default for Claude models.
+All LLM access goes through `jm/llm.py`. It has three backends:
+- **`cli`**: Claude Code headless (`claude -p`). This is the default.
 - **`api`**: the Anthropic API. Set `ANTHROPIC_API_KEY`.
-- **`openrouter`**: for non-Claude judges. Set `OPENROUTER_API_KEY`.
+- **`openrouter`**: set `OPENROUTER_API_KEY`.
 
 Every call is cached and logged to `results/ledger.jsonl`. Billed backends are capped by `JM_CAP_API_USD` and `JM_CAP_OPENROUTER_USD`.
-
-## Data
-
-All data are built from OpenAlex, with no LLM calls. Abstract text lives only in the gitignored `data/local/`; the repo
-commits IDs, labels and pairs. Rebuild the local store with one command:
-
-```bash
-.venv/bin/python -m data.build_all
-```
-
-Downstream code loads data through `jm/data.py`: `load_works()`, `text(id)`, `emb(id)`, `load_pairs(kind, split)`.
-Schemas, counts, the cleaning audit and known limitations are in [`data/README.md`](data/README.md).
-
-| Path | Contents |
-|---|---|
-| `data/manifest/` | `works_manifest.csv` (IDs and metadata), drop log, cleaning audit, pair and embedding stats |
-| `evals/pairs/` | cross-journal pairs `cross_{train,val,test}.jsonl` |
-| `scripts/s01..s04, s08` | data pipeline steps, orchestrated by `data/build_all.py` |
-
-*(Work in progress; see `results/` for figures as they are produced.)*

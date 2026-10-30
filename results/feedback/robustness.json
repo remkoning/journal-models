@@ -1,0 +1,77 @@
+{
+  "n_suggestions": 270,
+  "second_classifier": {
+    "model": "sonnet",
+    "cohen_kappa_vs_opus": 0.732,
+    "raw_agreement": 0.774
+  },
+  "mix_second_classifier": {
+    "share": {
+      "OrgSci": {
+        "theory": 0.322,
+        "mechanism": 0.244,
+        "methods": 0.067,
+        "data": 0.1,
+        "scope": 0.167,
+        "practice": 0.033,
+        "positioning": 0.067
+      },
+      "SMJ": {
+        "theory": 0.144,
+        "mechanism": 0.1,
+        "methods": 0.167,
+        "data": 0.067,
+        "scope": 0.189,
+        "practice": 0.122,
+        "positioning": 0.211
+      },
+      "MgmtSci": {
+        "theory": 0.244,
+        "mechanism": 0.144,
+        "methods": 0.278,
+        "data": 0.122,
+        "scope": 0.022,
+        "practice": 0.167,
+        "positioning": 0.022
+      }
+    },
+    "chi2": 62.3064275421764,
+    "p": 8.545350419361873e-09
+  },
+  "exploratory_formal_split": {
+    "share": {
+      "OrgSci": {
+        "mechanism": 0.289,
+        "methods": 0.056,
+        "data": 0.122,
+        "scope": 0.133,
+        "practice": 0.011,
+        "positioning": 0.033,
+        "theory": 0.344,
+        "formal": 0.011
+      },
+      "SMJ": {
+        "mechanism": 0.111,
+        "methods": 0.178,
+        "data": 0.056,
+        "scope": 0.144,
+        "practice": 0.133,
+        "positioning": 0.189,
+        "theory": 0.144,
+        "formal": 0.044
+      },
+      "MgmtSci": {
+        "mechanism": 0.133,
+        "methods": 0.244,
+        "data": 0.122,
+        "scope": 0.011,
+        "practice": 0.167,
+        "positioning": 0.022,
+        "theory": 0.011,
+        "formal": 0.289
+      }
+    },
+    "chi2": 130.0587203743993,
+    "p": 6.618394581904398e-21
+  }
+}

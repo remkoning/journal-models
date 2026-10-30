@@ -88,7 +88,9 @@ def _pair_panel(ax, d, title, labels):
 
 
 def fig_pairs():
-    named, anon = _pair_rows(""), _pair_rows("_anon")
+    # Prefer one-pair-per-call runs (_b1); earlier batch-of-10 runs had in-batch leakage.
+    named = _pair_rows("_b1")
+    anon = _pair_rows("_anon_b1")
     if named.empty:
         return
     panels = [(named, "Journal named", {"plain": "Name only", "incontext": "+ 100 own abstracts",
@@ -102,7 +104,7 @@ def fig_pairs():
     for ax, (d, title, labels) in zip(axes, panels):
         _pair_panel(ax, d, title, labels)
     axes[0].set_ylabel("Picks its own journal's paper")
-    fig.suptitle("Is journal taste learnable? Topic-matched held-out pairs, both presentation orders",
+    fig.suptitle("Is journal taste learnable? Topic-matched held-out pairs (one pair per call, both orders)",
                  x=0.01, ha="left", fontsize=11)
     fig.tight_layout()
     fig.savefig(FIG / "fig_A_pairs.png", dpi=200)

@@ -1,7 +1,9 @@
 """Pilot: is 100 abstracts in context enough to learn a journal's taste?
 
-On topic-matched cross-journal pairs (val split), each journal-model says which paper
-its journal published. We compare three conditions: plain / incontext / contrast.
+On topic-matched cross-journal pairs, each journal-model says which paper its journal published.
+Conditions: plain / incontext / contrast, journal named or anonymized ("Journal X").
+Use --batch 1 (default): batching several pairs that all contain the target journal's paper lets the
+model infer the target journal from the batch itself (in-batch leakage). Early runs used batch 10.
 
     .venv/bin/python -m scripts.pilot_taste [--split val] [--limit N]
 """
@@ -48,6 +50,8 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--modes", default="plain,incontext,contrast")
     ap.add_argument("--anonymous", action="store_true")
+    ap.add_argument("--batch", type=int, default=1, help="pairs per call; 1 avoids in-batch leakage")
+    ap.add_argument("--tag", default="")
     args = ap.parse_args()
     pairs = load_pairs("cross", args.split)
     if args.limit:
@@ -60,14 +64,14 @@ def main():
             if not mine:
                 continue
             jm_ = JournalModel(j, mode=mode, anonymous=args.anonymous)
-            probs = jm_.which_is_ours(mine, tag=f"pilot/{args.split}")
+            probs = jm_.which_is_ours(mine, batch=args.batch, tag=f"pilot/{args.split}")
             acc = accuracy(mine, probs, j)
             lo, hi = boot_ci(acc)
             rows.append({"mode": mode, "journal": j, "n_pairs": len(acc), "acc": float(acc.mean()), "ci": [lo, hi]})
             print(f"{mode:9s}{'(anon)' if args.anonymous else ''} {j:7s} n={len(acc):3d} acc={acc.mean():.3f} [{lo:.2f},{hi:.2f}]  ({time.time() - t0:.0f}s)")
-            sfx = "_anon" if args.anonymous else ""
+            sfx = ("_anon" if args.anonymous else "") + (f"_b{args.batch}" if args.batch != 10 else "")
             (OUT / f"probs_{args.split}_{mode}_{j}{sfx}.json").write_text(json.dumps(probs))
-    (OUT / f"pilot_{args.split}{'_anon' if args.anonymous else ''}.json").write_text(json.dumps(rows, indent=2))
+    (OUT / f"pilot_{args.split}{'_anon' if args.anonymous else ''}{f'_b{args.batch}' if args.batch != 10 else ''}.json").write_text(json.dumps(rows, indent=2))
     print(spend_report())
 
 
