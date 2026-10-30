@@ -67,6 +67,12 @@ def _text_index() -> dict:
     for r in df[["openalex_id", "abstract_norm", "abstract_clean", "abstract_raw", "title"]].itertuples(index=False):
         idx[r.openalex_id] = {"abstract_norm": r.abstract_norm, "abstract_clean": r.abstract_clean,
                               "abstract_raw": r.abstract_raw, "title": r.title}
+    lp = LOCAL / "lower_tier.parquet"   # CALIBRATION lower-tier journals (JMS, GOM)
+    if lp.exists():
+        for r in pd.read_parquet(lp, columns=["openalex_id", "abstract_norm", "abstract_clean", "abstract_raw",
+                                              "title"]).itertuples(index=False):
+            idx[r.openalex_id] = {"abstract_norm": r.abstract_norm, "abstract_clean": r.abstract_clean,
+                                  "abstract_raw": r.abstract_raw, "title": r.title}
     fp = LOCAL / "develop_future.parquet"
     if fp.exists():
         fut = pd.read_parquet(fp).drop_duplicates("future_id")
@@ -78,7 +84,7 @@ def _text_index() -> dict:
 
 
 def text(openalex_id: str, field: str = "abstract_norm") -> str:
-    """Abstract text for a corpus work or a DEVELOP future work. field: abstract_norm | abstract_clean | abstract_raw | title."""
+    """Abstract text for a corpus work, a lower-tier (calibration) work, or a DEVELOP future work. field: abstract_norm | abstract_clean | abstract_raw | title."""
     return _text_index()[_sid(openalex_id)][field]
 
 
@@ -135,6 +141,21 @@ def load_credit() -> dict:
     return {"players": json.loads((CREDIT / "players.json").read_text()),
             "future": json.loads((CREDIT / "future_T.json").read_text()),
             "edges": _jsonl(CREDIT / "citation_edges.jsonl")}
+
+
+def load_lower_tier() -> pd.DataFrame:
+    """CALIBRATION lower-tier journals (JMS, GOM), 2022-2026; same columns as works.parquet + tier, gong_tier."""
+    return pd.read_parquet(_require(LOCAL / "lower_tier.parquet"))
+
+
+def load_lower_tier_embeddings() -> tuple[list[str], np.ndarray]:
+    return (json.loads(_require(LOCAL / "lower_tier_embedding_ids.json").read_text()),
+            np.load(_require(LOCAL / "lower_tier_embeddings.npy")))
+
+
+def load_calibration() -> list[dict]:
+    """evals/calibration_manifest.jsonl: {openalex_id, source, tier ('top'|'lower'), year}."""
+    return _jsonl(EVALS / "calibration_manifest.jsonl")
 
 
 def load_external_gong() -> list[dict]:

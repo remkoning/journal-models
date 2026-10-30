@@ -126,7 +126,8 @@ def smj_research_summary(raw: str) -> str:
     return s
 
 
-def clean_abstract(raw: str, journal: str) -> tuple[str, str | None]:
+def clean_abstract(raw: str, journal: str, extra_names: re.Pattern | None = None) -> tuple[str, str | None]:
+    """extra_names: optional regex of further journal names to mask (used for the lower-tier calibration journals)."""
     s = _ws(raw or "")
     dept = None
     if journal == "MgmtSci":
@@ -145,6 +146,8 @@ def clean_abstract(raw: str, journal: str) -> tuple[str, str | None]:
     s = PUB_DOI_RE.sub(" ", s)
     s = COPYRIGHT_TAIL_RE.sub("", s)
     s = JOURNAL_NAME_RE.sub("[JOURNAL]", s)
+    if extra_names is not None:
+        s = extra_names.sub("[JOURNAL]", s)
     s = _ws(s)
     if s and s[-1] not in ".?!\"”')":
         s = s.rstrip(" ,;:") + "."

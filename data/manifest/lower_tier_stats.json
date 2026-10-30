@@ -1,0 +1,168 @@
+{
+ "journals": {
+  "JMS": {
+   "openalex_source": "S151705444",
+   "doi_prefix": "10.1111/joms",
+   "gong_tier": "fair",
+   "name": "Journal of Management Studies"
+  },
+  "GOM": {
+   "openalex_source": "S192266589",
+   "doi_prefix": "10.1177/10596011",
+   "gong_tier": "limited",
+   "name": "Group & Organization Management"
+  }
+ },
+ "counts": {
+  "GOM": {
+   "2022": 61,
+   "2023": 51,
+   "2024": 55,
+   "2025": 50,
+   "2026": 34
+  },
+  "JMS": {
+   "2022": 87,
+   "2023": 97,
+   "2024": 121,
+   "2025": 137,
+   "2026": 91
+  }
+ },
+ "split_counts": {
+  "GOM": {
+   "test": 78,
+   "train": 132,
+   "val": 41
+  },
+  "JMS": {
+   "test": 160,
+   "train": 267,
+   "val": 106
+  }
+ },
+ "dropped": {
+  "GOM|nonresearch_title": 10,
+  "GOM|retracted": 7,
+  "GOM|short_abstract": 6,
+  "GOM|type:editorial": 32,
+  "GOM|type:other": 1,
+  "GOM|type:review": 2,
+  "JMS|doi_prefix_mismatch": 2,
+  "JMS|nonresearch_title": 34,
+  "JMS|short_abstract": 2,
+  "JMS|type:editorial": 7,
+  "JMS|type:erratum": 5,
+  "JMS|type:review": 7
+ },
+ "audit_clean_pct": {
+  "GOM": {
+   "accepted_by": 0.0,
+   "funding_label": 0.0,
+   "supplemental": 0.0,
+   "history_label": 0.0,
+   "copyright": 0.0,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.0,
+   "journal_name": 0.0,
+   "publisher_doi": 0.0,
+   "own_name": 0.0,
+   "raw_own_name": 0.0,
+   "median_words_raw": 182.0,
+   "median_words_norm": 161.0
+  },
+  "JMS": {
+   "accepted_by": 0.0,
+   "funding_label": 0.0,
+   "supplemental": 0.0,
+   "history_label": 0.0,
+   "copyright": 0.0,
+   "smj_headers": 0.0,
+   "abstract_prefix": 0.0,
+   "journal_name": 0.0,
+   "publisher_doi": 0.0,
+   "own_name": 0.0,
+   "raw_own_name": 1.31,
+   "median_words_raw": 172.0,
+   "median_words_norm": 157.0
+  }
+ },
+ "topical_overlap": {
+  "GOM": {
+   "n": 251,
+   "nn_cos_to_orgsci_smj_median": 0.823,
+   "share_nn_cos_ge_0.75": 0.972,
+   "top_subfields": {
+    "Organizational Behavior and Human Resource Management": 0.339,
+    "Social Psychology": 0.215,
+    "Sociology and Political Science": 0.104,
+    "Gender Studies": 0.076
+   }
+  },
+  "JMS": {
+   "n": 533,
+   "nn_cos_to_orgsci_smj_median": 0.821,
+   "share_nn_cos_ge_0.75": 0.972,
+   "top_subfields": {
+    "Organizational Behavior and Human Resource Management": 0.281,
+    "Strategy and Management": 0.235,
+    "Management of Technology and Innovation": 0.068,
+    "Accounting": 0.066
+   }
+  },
+  "OrgSci (vs the other flagship)": {
+   "n": 431,
+   "nn_cos_to_orgsci_smj_median": 0.815,
+   "share_nn_cos_ge_0.75": 0.97
+  },
+  "SMJ (vs the other flagship)": {
+   "n": 441,
+   "nn_cos_to_orgsci_smj_median": 0.823,
+   "share_nn_cos_ge_0.75": 0.991
+  }
+ },
+ "calibration_counts": {
+  "GOM|lower": 30,
+  "JMS|lower": 30,
+  "MgmtSci|top": 20,
+  "OrgSci|top": 20,
+  "SMJ|top": 20
+ },
+ "calibration_years": {
+  "GOM": {
+   "2022": 6,
+   "2023": 6,
+   "2024": 6,
+   "2025": 6,
+   "2026": 6
+  },
+  "JMS": {
+   "2022": 6,
+   "2023": 6,
+   "2024": 6,
+   "2025": 6,
+   "2026": 6
+  },
+  "MgmtSci": {
+   "2022": 4,
+   "2023": 4,
+   "2024": 4,
+   "2025": 4,
+   "2026": 4
+  },
+  "OrgSci": {
+   "2022": 4,
+   "2023": 4,
+   "2024": 4,
+   "2025": 4,
+   "2026": 4
+  },
+  "SMJ": {
+   "2022": 4,
+   "2023": 4,
+   "2024": 4,
+   "2025": 4,
+   "2026": 4
+  }
+ }
+}

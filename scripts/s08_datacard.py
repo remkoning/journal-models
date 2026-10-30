@@ -39,6 +39,73 @@ def main():
     fut = pd.DataFrame(jl(ROOT / "develop" / "future_manifest.jsonl"))
     gong = pd.DataFrame(jl(ROOT / "evals" / "external_gong_manifest.jsonl"))
     usage = oa.usage_summary()
+    lt = json.loads((M / "lower_tier_stats.json").read_text()) if (M / "lower_tier_stats.json").exists() else None
+    cal = pd.DataFrame(jl(ROOT / "evals" / "calibration_manifest.jsonl")) if lt else None
+    calib_md = ""
+    if lt:
+        lt_counts = pd.DataFrame(lt["counts"]).T
+        lt_counts["total"] = lt_counts.sum(axis=1)
+        lt_split = pd.DataFrame(lt["split_counts"]).T[["train", "val", "test"]]
+        ov = pd.DataFrame(lt["topical_overlap"]).T.drop(columns=["top_subfields"], errors="ignore").reset_index(names="journal")
+        au = pd.DataFrame(lt["audit_clean_pct"]).T.reset_index(names="journal")
+        cc = cal.groupby(["source", "tier"]).size().reset_index(name="n")
+        cy = pd.DataFrame(lt["calibration_years"]).T.reset_index(names="source")
+        drops_l = pd.Series(lt["dropped"]).rename_axis("journal / reason").reset_index(name="n")
+        drops_l["journal / reason"] = drops_l["journal / reason"].str.replace("|", " / ", regex=False)
+        calib_md = f"""
+## CALIBRATION: "is my paper good enough for journal J?"
+
+**Lower-tier journals.** The two are chosen from Gong, Li & Zhou's management tier map (ST3, in
+`data/local/external/ai_taste_3e6637c7/`). The requirements were: non-Elsevier, ≥85% OpenAlex abstract coverage for
+2022-2026 articles, and topical overlap with OrgSci/SMJ.
+
+| short | journal | publisher | Gong tier | OpenAlex source | abstract coverage 2022-26 |
+|---|---|---|---|---|---|
+| JMS | Journal of Management Studies | Wiley | Fair | S151705444 | 98.2% |
+| GOM | Group & Organization Management | SAGE | Limited | S192266589 | 87.8% |
+
+JMS has the closest strategy, organization-theory, innovation and entrepreneurship overlap among the Fair journals.
+GOM, from the Limited tier, adds a second step down, mostly on organizations and teams.
+
+Excluded candidates and why:
+* Leadership Quarterly is Elsevier.
+* Human Relations is Fair, with 93.7% coverage; it is the fallback if a second Fair journal is wanted.
+* Human Resource Management, Journal of Organizational Behavior, J Business & Psychology, J Managerial Psychology,
+  J Org Behavior Management and J Personnel Psychology are HR- or psychology-centred.
+
+Topical overlap was checked against the OrgSci+SMJ 2022-2026 corpus by nearest-neighbour bge cosine. Both lower-tier
+journals are about as close to the flagships as the flagships are to each other:
+
+{md(ov)}
+
+**Table.** `data/local/lower_tier.parquet` has the same columns as `works.parquet`, plus `tier="lower"` and `gong_tier`.
+It holds 2022-2026 articles with abstracts and is cleaned by the same pipeline: same filters, `abstract_norm` ≤180
+words, and the journals' own names masked as `[JOURNAL]`. Embeddings are in `lower_tier_embeddings.npy` and
+`lower_tier_embedding_ids.json` (same bge model). `split` uses the same ID hash. In this table, `in_core=False` means
+"not applicable". Nothing was added to `works.parquet`, and no existing split, pair or ID file was changed.
+`jm.data.text(id)` resolves these IDs, and `load_lower_tier()` loads the table.
+
+{md(lt_counts.reset_index(names="journal"))}
+
+{md(lt_split.reset_index(names="journal"))}
+
+Dropped rows (same filters as the main corpus):
+
+{md(drops_l)}
+
+Residual giveaway audit on the clean text (%); `own_name` is JMS/GOM name mentions after masking:
+
+{md(au)}
+
+**Probe set: `evals/calibration_manifest.jsonl`** (IDs only; fields `openalex_id, source, tier, year`). All rows are
+from the test split and 2022-2026. It has 20 core papers each from OrgSci, SMJ and MgmtSci, and 30 each from JMS and
+GOM, so 60 are `top` and 60 `lower`. Each source has equal per-year quotas (4 per year for the 20s, 6 per year for the
+30s). Gong external-check items are excluded. Load it with `jm.data.load_calibration()`.
+
+{md(cc)}
+
+{md(cy)}
+"""
     fetched = sorted({json.loads(x)["ts"][:10] for x in oa.USAGE_LOG.read_text().splitlines()}) if oa.USAGE_LOG.exists() else []
 
     # counts
@@ -262,6 +329,7 @@ before using this as an external check. The raw files are in `data/local/externa
 
 {md(gong.groupby(['selected_as', 'journal_short', 'unified_label']).size().reset_index(name='n'))}
 
+{calib_md}
 ## Regenerate
 
 ```bash
@@ -271,7 +339,7 @@ before using this as an external check. The raw files are in `data/local/externa
 ```
 
 The default mode pins the corpus to `data/manifest/works_manifest.csv` and leaves committed artifacts untouched. It
-re-fetches DEVELOP citing works by ID. A cold run uses about 75 OpenAlex credits and about 3 minutes of local embedding.
+re-fetches DEVELOP citing works by ID. A cold run uses about 90 OpenAlex credits and about 3 minutes of local embedding.
 OpenAlex is a moving target: citation counts and topics drift, so `--rebuild-evals` yields slightly different sets.
 Responses are cached in `data/local/raw/openalex/`, so reruns on the same machine are free.
 
