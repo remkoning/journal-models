@@ -19,7 +19,7 @@
   - greedy one-to-one matching.
 
   Embeddings: BAAI/bge-base-en-v1.5, run locally. Pairs share a subfield 96–98% of the time.
-- **Copyright:** no abstract text is committed. `python -m data.build_all` rebuilds the local store from OpenAlex.
+- **Data in the repo:** the processed corpus with abstracts and the embeddings are committed (OpenAlex, CC0). `python -m data.build_all` re-pulls everything from OpenAlex.
 
 ## 2. Journal-models
 - **Base model:** Claude Opus 5.5, effort `low`, called headless through Claude Code (`jm/llm.py`). The API is an alternative backend.
@@ -104,13 +104,32 @@
   - k = 10, so each abstract carries a larger share.
   - 48 probes (24 own, 24 other) in one fixed order, so runs differ only in the subset.
   - m = 600. Results are compared with the pilot at matched m.
-- **v2 results (Org Sci, m = 600, 0 missing scores):**
+- **v2 results, m = 600 per journal:**
+
+  | | Org Sci | SMJ | MS |
+  |---|---|---|---|
+  | Reliability per paper (200 random splits) | 0.62 | −0.02 | 0.70 |
+  | Reliability per line of work (10 clusters) | 0.77 | ≈ 0 | 0.73 |
+  | Reliability at m = 150 / 300 | 0.28 / 0.35 | 0.13 / 0.15 | 0.24 / 0.45 |
+  | Mean own − other score | 11 | 46 | 26 |
+  | Per-run AUC, own vs. other probes | 0.74 | 0.999 | 0.93 |
+  | ρ(value, log citations) | 0.13 | −0.16 | −0.02 |
+
+- **Org Sci details:**
   - Reliability 0.63 per paper, and 0.77 for 10 "lines of work" (k-means clusters of the taste abstracts' embeddings, credit averaged within cluster). In the pilot, clustering did not help.
   - At matched m the design gain is small: 0.28 vs. 0.24 at m = 150, and 0.35 at m = 300. Most of the gain is from more runs.
   - The highest credit goes to abstracts that sharpen Org Sci's *distinctive* taste: leader emotions and creativity, group norms, knowledge work in teams.
   - The most negative credit goes to abstracts that look like SMJ or MS work: profit distributions, microfinance trade-offs, managerial risk-taking. Including them blurs the model's taste.
   - Value vs. log citations: ρ = 0.13 (p = 0.19). Value vs. year: ρ = −0.09.
-  - SMJ and MS: `scripts/credit_overnight.sh SMJ MgmtSci` (launched 2026-10-30).
+- **MS:**
+  - Top credit goes to economics-style mechanism and policy papers: funding public goods, noncompete enforceability, gender quotas, management practices.
+  - The most negative credit goes to sociological status papers.
+  - This matches MS's evolved rulebook.
+- **SMJ (ceiling):**
+  - Any 10 SMJ abstracts let the model separate SMJ probes from the others almost perfectly (per-run AUC 0.999; exactly 1.0 in 69% of runs).
+  - No single abstract can add anything, so credit is ≈ 0 everywhere. The abstracts are substitutes, and a contribution duplicated many times earns little marginal credit.
+  - The per-run gap still varies (sd 5.6), but that is scale noise, not composition.
+  - Fix: harder probes (topic-matched pairs, as in exhibit A) or smaller k.
 - **Status:** a working pipeline, and a separate option rather than a core exhibit. Fine-tuning-based influence functions are a Stage 2 alternative.
 
 ## 7. Self-improving rulebook harness

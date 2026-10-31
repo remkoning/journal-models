@@ -4,7 +4,7 @@ __pycache__/
 *.pyc
 .DS_Store
 data/raw/
-data/local/
-# model-generated revisions paraphrase copyrighted abstracts: keep local
-results/feedback/*.jsonl
+data/local/raw/
+data/local/manifest_rebuild/
+data/local/openalex_usage.jsonl
 results/*.log

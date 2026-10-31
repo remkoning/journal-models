@@ -1,0 +1,1021 @@
+{
+  "journal": "SMJ",
+  "m_subsets": 600,
+  "k": 10,
+  "n_probes": 48,
+  "missing_scores_share": 0.0003125,
+  "split_half_r_value": -0.011584106788956428,
+  "reliability_value": -0.023439742052959935,
+  "reliability_at_m": {
+    "150": 0.12947629880535563,
+    "300": 0.1505094056809479
+  },
+  "reliability_value_10_lines_of_work": -0.29190494086072755,
+  "mean_own_minus_other_score": 45.783977209560874,
+  "spearman_value_vs_cite_pct": -0.0061370770214817915,
+  "spearman_value_vs_logcites": -0.16361328716305001,
+  "spearman_influence_vs_cite_pct": -0.05775425867602702,
+  "spearman_influence_vs_logcites": -0.15059690703928974,
+  "per_abstract": [
+    {
+      "id": "W2510121202",
+      "title": "The necessity, logic, and forms of replication",
+      "year": 2016,
+      "cites_total": 281,
+      "cite_pct": 0.9,
+      "value": -0.49811982887382567,
+      "influence": 0.8280462985036533,
+      "line_of_work": 0
+    },
+    {
+      "id": "W2606216665",
+      "title": "Entry into Nascent Industries: Disentangling a Firm's Capability Portfolio at the Time of Investment Versus Market Entry",
+      "year": 2017,
+      "cites_total": 109,
+      "cite_pct": 0.6666666666666666,
+      "value": -0.3092725010879771,
+      "influence": 0.3785850356036316,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2896012756",
+      "title": "The relative value of firm and nonprofit experience: Tackling large\u2010scale social issues across institutional contexts",
+      "year": 2018,
+      "cites_total": 50,
+      "cite_pct": 0.3333333333333333,
+      "value": -0.23354984143749596,
+      "influence": 0.6502951823060047,
+      "line_of_work": 1
+    },
+    {
+      "id": "W2944289093",
+      "title": "On the tip of the brain: Understanding when negative reputational events can have positive reputation spillovers, and for how long",
+      "year": 2019,
+      "cites_total": 47,
+      "cite_pct": 0.2222222222222222,
+      "value": -0.8644534679613314,
+      "influence": 0.08165538084993029,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3033200481",
+      "title": "Replication using templates: Does the unit learn from itself, the template, or both?",
+      "year": 2020,
+      "cites_total": 12,
+      "cite_pct": 0.3333333333333333,
+      "value": -0.567335182402735,
+      "influence": 0.6866822933174962,
+      "line_of_work": 0
+    },
+    {
+      "id": "W3195775525",
+      "title": "Pay and networks in organizations: Incentive redesign as a driver of network change",
+      "year": 2021,
+      "cites_total": 21,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.7119770005114177,
+      "influence": 0.8168705588350115,
+      "line_of_work": 7
+    },
+    {
+      "id": "W4206921982",
+      "title": "Theory\u2010based learning and experimentation: How strategists can systematically generate knowledge at the edge between the known and the unknown",
+      "year": 2022,
+      "cites_total": 93,
+      "cite_pct": 1.0,
+      "value": -0.40796552798174396,
+      "influence": 0.3273767393567488,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4365147453",
+      "title": "The disparate economic outcomes of stigma: Evidence from the arms industry",
+      "year": 2023,
+      "cites_total": 12,
+      "cite_pct": 0.5555555555555556,
+      "value": -0.31638135184151683,
+      "influence": 0.6766553484379755,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4401351416",
+      "title": "Double\u2010edged stars: Michelin stars, reactivity, and restaurant exits in New York City",
+      "year": 2024,
+      "cites_total": 20,
+      "cite_pct": 0.6111111111111112,
+      "value": -0.6148079182060869,
+      "influence": 0.6892482921944462,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4407181289",
+      "title": "Navigating market entry decisions in the solar PV industry: The role of founders' pre\u2010entry experience across the value chain",
+      "year": 2025,
+      "cites_total": 2,
+      "cite_pct": 0.3888888888888889,
+      "value": 0.2060007339427663,
+      "influence": 0.5944965453485866,
+      "line_of_work": 2
+    },
+    {
+      "id": "W7212108868",
+      "title": "Knowledge protection and modularity of innovation activities in firms: Evidence from US trade secrecy law",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.2777777777777778,
+      "value": 0.8575820750565981,
+      "influence": 0.5828445849453944,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2532944773",
+      "title": "Will firms go green if it pays? T he impact of disruption, cost, and external factors on the adoption of environmental initiatives",
+      "year": 2016,
+      "cites_total": 142,
+      "cite_pct": 0.5,
+      "value": -0.5188997883122107,
+      "influence": 0.0,
+      "line_of_work": 1
+    },
+    {
+      "id": "W2755069586",
+      "title": "A property rights theory of competitive advantage",
+      "year": 2017,
+      "cites_total": 42,
+      "cite_pct": 0.2222222222222222,
+      "value": -0.6596760240798645,
+      "influence": 1.2661015579368282,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2884811929",
+      "title": "CEO career horizon, corporate governance, and real options: The role of economic short\u2010termism",
+      "year": 2018,
+      "cites_total": 124,
+      "cite_pct": 0.6666666666666666,
+      "value": 0.6267188756840567,
+      "influence": 1.0025397687319337,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2910836230",
+      "title": "Family firms and the stock market performance of acquisitions and divestitures",
+      "year": 2019,
+      "cites_total": 80,
+      "cite_pct": 0.3333333333333333,
+      "value": 0.8596158240993715,
+      "influence": 0.0,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2999518970",
+      "title": "Mind the gap: The role of gender in entrepreneurial career choice and social influence by founders",
+      "year": 2020,
+      "cites_total": 167,
+      "cite_pct": 0.7777777777777778,
+      "value": -0.6326340067332337,
+      "influence": 0.0,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3203676369",
+      "title": "Thriving on contradiction: Toward a dialectical alternative to fit\u2010based models in strategy (and beyond)",
+      "year": 2021,
+      "cites_total": 49,
+      "cite_pct": 0.8888888888888888,
+      "value": -0.30927052210489475,
+      "influence": 0.0,
+      "line_of_work": 0
+    },
+    {
+      "id": "W4229023978",
+      "title": "How dynamic capabilities change ordinary capabilities: Reconnecting attention control and problem\u2010solving",
+      "year": 2022,
+      "cites_total": 84,
+      "cite_pct": 0.7777777777777778,
+      "value": -0.6728273994566507,
+      "influence": 0.8840602447632174,
+      "line_of_work": 7
+    },
+    {
+      "id": "W4380684198",
+      "title": "Light\u2010touch integration: A study on cross\u2010border acquisitions by emerging market multinationals",
+      "year": 2023,
+      "cites_total": 28,
+      "cite_pct": 0.7777777777777778,
+      "value": 1.2104096766922954,
+      "influence": 0.8331690554452288,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4392287486",
+      "title": "Lovely and likely: Using historical methods to improve inference to the best explanation in strategy",
+      "year": 2024,
+      "cites_total": 41,
+      "cite_pct": 0.8333333333333334,
+      "value": -0.732620338517477,
+      "influence": 0.9691723231426639,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4413053723",
+      "title": "When mimicry leads to divergence: Interdependence asymmetries and selective imitation among competitors",
+      "year": 2025,
+      "cites_total": 2,
+      "cite_pct": 0.3888888888888889,
+      "value": 0.19471668965776526,
+      "influence": 0.5029413126948831,
+      "line_of_work": 9
+    },
+    {
+      "id": "W7155649209",
+      "title": "Bias in, symbolic compliance out? GPT 's reliance on gender and race in strategic evaluations",
+      "year": 2026,
+      "cites_total": 2,
+      "cite_pct": 0.7777777777777778,
+      "value": 1.4255740689770056,
+      "influence": 0.599687696532078,
+      "line_of_work": 6
+    },
+    {
+      "id": "W2516847807",
+      "title": "Measuring value creation and appropriation in firms: The VCA model",
+      "year": 2016,
+      "cites_total": 71,
+      "cite_pct": 0.2,
+      "value": 0.5583986363522052,
+      "influence": 0.0,
+      "line_of_work": 1
+    },
+    {
+      "id": "W2755356343",
+      "title": "Surrendering control to gain advantage: Reconciling openness and the resource\u2010based view of the firm",
+      "year": 2017,
+      "cites_total": 230,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.8472054843548762,
+      "influence": 0.6325743167063176,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2613229639",
+      "title": "When does advice impact startup performance?",
+      "year": 2018,
+      "cites_total": 224,
+      "cite_pct": 0.7777777777777778,
+      "value": -1.0585605878559772,
+      "influence": 0.8445357395610006,
+      "line_of_work": 4
+    },
+    {
+      "id": "W2912500708",
+      "title": "CEO's age and the performance of closely held firms",
+      "year": 2019,
+      "cites_total": 182,
+      "cite_pct": 1.0,
+      "value": 0.14255669242826002,
+      "influence": 0.31673810178677264,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2999099995",
+      "title": "Work\u2010from\u2010anywhere : The productivity effects of geographic flexibility",
+      "year": 2020,
+      "cites_total": 626,
+      "cite_pct": 1.0,
+      "value": -0.0327251123133665,
+      "influence": 0.0,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3195351683",
+      "title": "Dynamic resource redeployment in global semiconductor firms",
+      "year": 2021,
+      "cites_total": 38,
+      "cite_pct": 0.7777777777777778,
+      "value": 0.6665923586689828,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4310361905",
+      "title": "Weathering a demand shock: The impact of prior vertical scope on post\u2010shock firm response",
+      "year": 2022,
+      "cites_total": 27,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.2796835353983669,
+      "influence": 0.2190900931259829,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4385326222",
+      "title": "Giant cluster formation and integrating role of bridges in social diffusion",
+      "year": 2023,
+      "cites_total": 11,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.774284150222883,
+      "influence": 0.6105431984457943,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4401964902",
+      "title": "Seeing the whole: Configurational cognition and new venture resource mobilization",
+      "year": 2024,
+      "cites_total": 19,
+      "cite_pct": 0.4444444444444444,
+      "value": -1.1487649620378837,
+      "influence": 0.5991256903927282,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4409745236",
+      "title": "Startup hiring through firm\u2010driven search: Evidence from Venture for America",
+      "year": 2025,
+      "cites_total": 7,
+      "cite_pct": 1.0,
+      "value": 0.47719819558814447,
+      "influence": 0.46833940337329016,
+      "line_of_work": 4
+    },
+    {
+      "id": "W7128190556",
+      "title": "Platform competition and strategic trade\u2010offs for complementors: Heterogeneous reactions to the entry of a new platform",
+      "year": 2026,
+      "cites_total": 5,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.15435132752055902,
+      "influence": 0.608022822629377,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3125935586",
+      "title": "Global diversification discount and its discontents: A bit of self\u2010selection makes a world of difference",
+      "year": 2016,
+      "cites_total": 81,
+      "cite_pct": 0.3,
+      "value": 0.46831593729041027,
+      "influence": 0.0,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2779080208",
+      "title": "Toward a behavioral theory of real options: Noisy signals, bias, and learning",
+      "year": 2017,
+      "cites_total": 92,
+      "cite_pct": 0.5555555555555556,
+      "value": 0.33372859932613175,
+      "influence": 0.46666752681581153,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2801205266",
+      "title": "The contingent effects of political strategies on firm performance: A political network perspective",
+      "year": 2018,
+      "cites_total": 88,
+      "cite_pct": 0.5555555555555556,
+      "value": 1.1224447272530331,
+      "influence": 0.6015098083323503,
+      "line_of_work": 9
+    },
+    {
+      "id": "W2981058544",
+      "title": "Navigating geographic and cultural distances in international expansion: The paradoxical roles of firm size, age, and ownership",
+      "year": 2019,
+      "cites_total": 158,
+      "cite_pct": 0.7777777777777778,
+      "value": -0.7538269673762727,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3033455853",
+      "title": "Multipoint contact without forbearance? How coverage synergies shape equity analysts' forecasting performance",
+      "year": 2020,
+      "cites_total": 7,
+      "cite_pct": 0.1111111111111111,
+      "value": -1.0079184000075982,
+      "influence": 0.9567377301416806,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3209417449",
+      "title": "Specialization as a double\u2010edged sword: The relationship of scientist specialization with R&D productivity and impact following collaborator change",
+      "year": 2021,
+      "cites_total": 34,
+      "cite_pct": 0.6666666666666666,
+      "value": -0.47555923235509234,
+      "influence": 0.49530135128022057,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4225425596",
+      "title": "Danger from a distance: Executives' social distance and multinationals' responses to host\u2010country terrorist attacks",
+      "year": 2022,
+      "cites_total": 26,
+      "cite_pct": 0.3333333333333333,
+      "value": 0.3785508329778511,
+      "influence": 0.0,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4386965051",
+      "title": "When firms may benefit from sticking with an old technology",
+      "year": 2023,
+      "cites_total": 10,
+      "cite_pct": 0.2777777777777778,
+      "value": -1.099868708636295,
+      "influence": 1.2218999115473947,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4396642219",
+      "title": "Giving up learning from failures? An examination of learning from one's own failures in the context of heart surgeons",
+      "year": 2024,
+      "cites_total": 5,
+      "cite_pct": 0.2222222222222222,
+      "value": -1.5121135688263465,
+      "influence": 0.3503176386352205,
+      "line_of_work": 7
+    },
+    {
+      "id": "W4410831145",
+      "title": "Do boards learn to hire? The effect of board experience with CEO replacement on CEO performance",
+      "year": 2025,
+      "cites_total": 3,
+      "cite_pct": 0.5555555555555556,
+      "value": 0.3414030549738229,
+      "influence": 0.7248699511870157,
+      "line_of_work": 3
+    },
+    {
+      "id": "W7130416388",
+      "title": "Collision in the boardroom: Director skill interdependence and corporate entrepreneurship in technology\u2010intensive firms",
+      "year": 2026,
+      "cites_total": 1,
+      "cite_pct": 0.6111111111111112,
+      "value": 1.0655696638609513,
+      "influence": 0.7892623507083321,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2492338721",
+      "title": "Categories and competition",
+      "year": 2016,
+      "cites_total": 230,
+      "cite_pct": 0.7,
+      "value": 0.25097597035033814,
+      "influence": 0.5382227318888461,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2595439648",
+      "title": "Pawn to Save a Chariot, or Drawbridge Into the Fort? Firms' Disclosure During Standard Setting and Complementary Technologies Within Ecosystems",
+      "year": 2017,
+      "cites_total": 74,
+      "cite_pct": 0.3333333333333333,
+      "value": -0.18323443300857056,
+      "influence": 0.3814574161475989,
+      "line_of_work": 8
+    },
+    {
+      "id": "W3021774595",
+      "title": "Competing with complementors: An empirical look at Amazon.com",
+      "year": 2018,
+      "cites_total": 543,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.12020863779536765,
+      "influence": 0.21419532300749353,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2988643814",
+      "title": "A contingency perspective on imitation strategies: When is \u201cbenchmarking\u201d ineffective?",
+      "year": 2019,
+      "cites_total": 42,
+      "cite_pct": 0.1111111111111111,
+      "value": -0.6694045189518711,
+      "influence": 0.5401185843806583,
+      "line_of_work": 6
+    },
+    {
+      "id": "W3087452248",
+      "title": "Out of character: CEO political ideology, peer influence, and adoption of CSR executive position by Fortune 500 firms",
+      "year": 2020,
+      "cites_total": 146,
+      "cite_pct": 0.6666666666666666,
+      "value": 0.024960530913579637,
+      "influence": 0.5478900064647301,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3144053542",
+      "title": "Value, rent, and profit: A stakeholder resource\u2010based theory",
+      "year": 2021,
+      "cites_total": 84,
+      "cite_pct": 1.0,
+      "value": -1.280725828700241,
+      "influence": 0.6376834106064799,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4220691609",
+      "title": "Funding ventures similar to one of us: How status dynamics within heterogeneous groups affect venture evaluation",
+      "year": 2022,
+      "cites_total": 12,
+      "cite_pct": 0.16666666666666666,
+      "value": 0.32765718312689107,
+      "influence": 0.24486769954449686,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4387308129",
+      "title": "Coaxing corporations: Enriching the conceptualization of governments as strategic actors",
+      "year": 2023,
+      "cites_total": 6,
+      "cite_pct": 0.1111111111111111,
+      "value": 0.6240802497822163,
+      "influence": 0.5388570201675194,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4400783018",
+      "title": "Is knowledge really the most important strategic resource? A meta\u2010analytic review",
+      "year": 2024,
+      "cites_total": 75,
+      "cite_pct": 1.0,
+      "value": 0.7659335182036892,
+      "influence": 0.6055835246470794,
+      "line_of_work": 7
+    },
+    {
+      "id": "W4414783952",
+      "title": "Welcome, stranger",
+      "year": 2025,
+      "cites_total": 0,
+      "cite_pct": 0.1111111111111111,
+      "value": -0.6402407515200488,
+      "influence": 0.8277546828024451,
+      "line_of_work": 4
+    },
+    {
+      "id": "W7161847017",
+      "title": "Do multinational enterprises from developed and emerging economies differ in their price discrimination strategies? Evidence from Africa",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.2777777777777778,
+      "value": -0.001468977162657481,
+      "influence": 0.8356252801294236,
+      "line_of_work": 1
+    },
+    {
+      "id": "W2401410660",
+      "title": "Firm growth, adaptive capability, and entrepreneurial orientation",
+      "year": 2016,
+      "cites_total": 273,
+      "cite_pct": 0.8,
+      "value": 1.5529118468720033,
+      "influence": 0.0,
+      "line_of_work": 7
+    },
+    {
+      "id": "W2575951717",
+      "title": "The Impact of Frictions in Routine Execution on Economies of Scope",
+      "year": 2017,
+      "cites_total": 18,
+      "cite_pct": 0.1111111111111111,
+      "value": -0.4078011306886564,
+      "influence": 0.4944809600165008,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2894844051",
+      "title": "The limits of relational governance: Sales force strategies in the U.S. medical device industry",
+      "year": 2018,
+      "cites_total": 27,
+      "cite_pct": 0.1111111111111111,
+      "value": 1.1970242299534988,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2972542348",
+      "title": "Jack of all trades and master of knowledge: The role of diversification in new distant knowledge integration",
+      "year": 2019,
+      "cites_total": 89,
+      "cite_pct": 0.5555555555555556,
+      "value": -1.347870719477719,
+      "influence": 0.6833852228482352,
+      "line_of_work": 6
+    },
+    {
+      "id": "W3038886883",
+      "title": "The corporate parenting advantage, revisited",
+      "year": 2020,
+      "cites_total": 39,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.5352555590372582,
+      "influence": 0.3191136584753641,
+      "line_of_work": 3
+    },
+    {
+      "id": "W3163725425",
+      "title": "Anti\u2010counterfeiting strategy unfolded: A closer look to the case of a large multinational manufacturer",
+      "year": 2021,
+      "cites_total": 13,
+      "cite_pct": 0.2222222222222222,
+      "value": -0.15430395225651344,
+      "influence": 0.40045517946468073,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4206233818",
+      "title": "Multilevel optimal distinctiveness: Examining the impact of within\u2010 and between\u2010organization distinctiveness of product design on market performance",
+      "year": 2022,
+      "cites_total": 64,
+      "cite_pct": 0.6666666666666666,
+      "value": 0.4940856187986525,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4384023346",
+      "title": "The theory\u2010based view: Entrepreneurial microfoundations, resources, and choices",
+      "year": 2023,
+      "cites_total": 61,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.6025939319256131,
+      "influence": 0.0,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4401377851",
+      "title": "The competitive dynamics of strategic risk\u2010taking, unethical behavior, and entry",
+      "year": 2024,
+      "cites_total": 4,
+      "cite_pct": 0.1111111111111111,
+      "value": 0.9200665497142768,
+      "influence": 0.0,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4415926774",
+      "title": "Activism risk and corporate self\u2010regulation: Investigating how anti\u2010 SLAPP laws impact firms' institutional corporate social performance",
+      "year": 2025,
+      "cites_total": 4,
+      "cite_pct": 0.6666666666666666,
+      "value": 0.5006014943827627,
+      "influence": 0.24794099231045763,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4400033681",
+      "title": "Abortion restriction laws and mobility of scientists",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.2777777777777778,
+      "value": 0.6937963471617248,
+      "influence": 0.4532315235152894,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2476979277",
+      "title": "R&D team diversity and performance in hypercompetitive environments",
+      "year": 2016,
+      "cites_total": 102,
+      "cite_pct": 0.4,
+      "value": -0.19897583948515724,
+      "influence": 0.0,
+      "line_of_work": 7
+    },
+    {
+      "id": "W2710007788",
+      "title": "Emerging Market Firms' Internationalization: How Do Firms' Inward Activities Affect Their Outward Activities?",
+      "year": 2017,
+      "cites_total": 79,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.1437441872698615,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2899876493",
+      "title": "Second\u2010order effects of CEO characteristics: How rivals' perceptions of CEOs as submissive and provocative precipitate competitive attacks",
+      "year": 2018,
+      "cites_total": 77,
+      "cite_pct": 0.4444444444444444,
+      "value": 1.7463689050442994,
+      "influence": 1.1066773926089457,
+      "line_of_work": 9
+    },
+    {
+      "id": "W2963979982",
+      "title": "Dealing with revered past: Historical identity statements and strategic change in Japanese family firms",
+      "year": 2019,
+      "cites_total": 169,
+      "cite_pct": 0.8888888888888888,
+      "value": -0.009735494372218101,
+      "influence": 0.0,
+      "line_of_work": 0
+    },
+    {
+      "id": "W2996851165",
+      "title": "Disentangling the effects of hedge fund activism on firm financial and social performance",
+      "year": 2020,
+      "cites_total": 194,
+      "cite_pct": 0.8888888888888888,
+      "value": -1.3316357839804442,
+      "influence": 0.3662247645031844,
+      "line_of_work": 1
+    },
+    {
+      "id": "W3215201608",
+      "title": "Firms' responses to changes in frictions in related human capital factor markets",
+      "year": 2021,
+      "cites_total": 17,
+      "cite_pct": 0.3333333333333333,
+      "value": -0.756235800860655,
+      "influence": 1.1963358663750874,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4288084593",
+      "title": "The effects of CEO activism: Partisan consumer behavior and its duration",
+      "year": 2022,
+      "cites_total": 86,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.6035932426013262,
+      "influence": 0.4086482029349629,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4388399743",
+      "title": "The role of information in the gender gap in the market for top managers: Evidence from a quasi\u2010experiment",
+      "year": 2023,
+      "cites_total": 10,
+      "cite_pct": 0.2777777777777778,
+      "value": -0.2244706011141775,
+      "influence": 0.0,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4391930282",
+      "title": "The effect of flatter hierarchy on applicant pool gender diversity: Evidence from experiments",
+      "year": 2024,
+      "cites_total": 18,
+      "cite_pct": 0.3333333333333333,
+      "value": 0.5409548161971948,
+      "influence": 0.0,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4406926245",
+      "title": "Repositioning, audience churn, and identity ambiguity: The external costs of market repositioning",
+      "year": 2025,
+      "cites_total": 5,
+      "cite_pct": 0.8333333333333334,
+      "value": 0.3659681578259988,
+      "influence": 0.0,
+      "line_of_work": 6
+    },
+    {
+      "id": "W7140304686",
+      "title": "Social comparison and the value of performance trajectory information: A field experiment in the workplace",
+      "year": 2026,
+      "cites_total": 1,
+      "cite_pct": 0.6111111111111112,
+      "value": -0.6534424434807521,
+      "influence": 0.4470526301977705,
+      "line_of_work": 4
+    },
+    {
+      "id": "W2485024469",
+      "title": "Rookies and seasoned recruits: How experience in different levels, firms, and industries shapes strategic renewal in top management",
+      "year": 2016,
+      "cites_total": 67,
+      "cite_pct": 0.1,
+      "value": 0.5353773918475286,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3122389437",
+      "title": "An economic case for CSR : T he comparative efficiency of for\u2010profit firms in meeting consumer demand for social goods",
+      "year": 2017,
+      "cites_total": 192,
+      "cite_pct": 0.7777777777777778,
+      "value": -1.8071593197988438,
+      "influence": 1.1871920228771786,
+      "line_of_work": 1
+    },
+    {
+      "id": "W2792004790",
+      "title": "The relational view revisited: A dynamic perspective on value creation and value capture",
+      "year": 2018,
+      "cites_total": 669,
+      "cite_pct": 1.0,
+      "value": -0.5075702227020052,
+      "influence": 0.0,
+      "line_of_work": 7
+    },
+    {
+      "id": "W2939246329",
+      "title": "CEO selection as risk\u2010taking: A new vantage on the debate about the consequences of insiders versus outsiders",
+      "year": 2019,
+      "cites_total": 104,
+      "cite_pct": 0.6666666666666666,
+      "value": -0.6816854563465031,
+      "influence": 0.4880767632961042,
+      "line_of_work": 3
+    },
+    {
+      "id": "W3032944477",
+      "title": "Decision weaving: Forming novel, complex strategy in entrepreneurial settings",
+      "year": 2020,
+      "cites_total": 122,
+      "cite_pct": 0.5555555555555556,
+      "value": -0.8594908183057236,
+      "influence": 0.0,
+      "line_of_work": 5
+    },
+    {
+      "id": "W3206980488",
+      "title": "Transparency in relational contracts",
+      "year": 2021,
+      "cites_total": 29,
+      "cite_pct": 0.5555555555555556,
+      "value": 0.11141398886942255,
+      "influence": 0.8362643683798675,
+      "line_of_work": 1
+    },
+    {
+      "id": "W4293235999",
+      "title": "The \u201cCEO in context\u201d technique revisited: A replication and extension of Hambrick and Quigley (2014)",
+      "year": 2022,
+      "cites_total": 12,
+      "cite_pct": 0.16666666666666666,
+      "value": -0.06618997044770115,
+      "influence": 0.0,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4378087384",
+      "title": "Training with AI: Evidence from chess computers",
+      "year": 2023,
+      "cites_total": 99,
+      "cite_pct": 1.0,
+      "value": -0.9859354630502793,
+      "influence": 0.0,
+      "line_of_work": 7
+    },
+    {
+      "id": "W3121305890",
+      "title": "Standing on the shoulders of science",
+      "year": 2024,
+      "cites_total": 41,
+      "cite_pct": 0.8333333333333334,
+      "value": -1.0972933818613153,
+      "influence": 0.45429220944804555,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4411989148",
+      "title": "Does corporate social responsibility increase access to finance? A commentary on Cheng et al. (2014)",
+      "year": 2025,
+      "cites_total": 1,
+      "cite_pct": 0.2222222222222222,
+      "value": -0.09282128264282245,
+      "influence": 0.24017334414619287,
+      "line_of_work": 1
+    },
+    {
+      "id": "W7139940227",
+      "title": "Patent regime shift and firm innovation strategy: Evidence from the Second Amendment to China's Patent Law",
+      "year": 2026,
+      "cites_total": 8,
+      "cite_pct": 1.0,
+      "value": 1.1376964722492877,
+      "influence": 0.20849469295457898,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2528097427",
+      "title": "Real options theory in strategic management",
+      "year": 2016,
+      "cites_total": 544,
+      "cite_pct": 1.0,
+      "value": 0.9899038863052013,
+      "influence": 0.0,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2755359835",
+      "title": "The sources of dynamism in dynamic capabilities",
+      "year": 2017,
+      "cites_total": 410,
+      "cite_pct": 1.0,
+      "value": -0.4770740892906414,
+      "influence": 0.38832808467122143,
+      "line_of_work": 7
+    },
+    {
+      "id": "W2886712576",
+      "title": "Using cooperative game theory to contribute to strategy research",
+      "year": 2018,
+      "cites_total": 45,
+      "cite_pct": 0.2222222222222222,
+      "value": -1.2445296361241032,
+      "influence": 0.6458803049881047,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2931136937",
+      "title": "Is all publicity good publicity? The impact of direct and indirect media pressure on the adoption of governance practices",
+      "year": 2019,
+      "cites_total": 83,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.5649068125869298,
+      "influence": 0.12388639422343217,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3013260915",
+      "title": "When Suppliers Shift My Boundaries: Supplier Employee Mobility and Its Impact on Buyer Firms\u2019 Sourcing Strategy",
+      "year": 2020,
+      "cites_total": 10,
+      "cite_pct": 0.2222222222222222,
+      "value": 0.9678804002515258,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W3123752765",
+      "title": "The geography of female small business survivorship: Examining the roles of proportional representation and stakeholders",
+      "year": 2021,
+      "cites_total": 8,
+      "cite_pct": 0.1111111111111111,
+      "value": 0.29138281133893545,
+      "influence": 0.40691930888854616,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4220903478",
+      "title": "Bargaining your way to success: The effect of Machiavellian chief executive officers on firm costs",
+      "year": 2022,
+      "cites_total": 30,
+      "cite_pct": 0.5555555555555556,
+      "value": -0.40250188472234455,
+      "influence": 0.5942310678463553,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4380487864",
+      "title": "Disentangling the corporate effect on subsidiary performance",
+      "year": 2023,
+      "cites_total": 21,
+      "cite_pct": 0.6666666666666666,
+      "value": 0.4744574330738926,
+      "influence": 0.0,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4403236013",
+      "title": "We go way back: Affiliation \u2010based hiring and young firm performance",
+      "year": 2024,
+      "cites_total": 20,
+      "cite_pct": 0.6111111111111112,
+      "value": 0.3467366843558197,
+      "influence": 0.0,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4407072894",
+      "title": "Comparative governance of for\u2010profit provision of public services: Investor\u2010owned firms versus cooperatives as internet providers",
+      "year": 2025,
+      "cites_total": 5,
+      "cite_pct": 0.8333333333333334,
+      "value": 0.08610956554675378,
+      "influence": 0.0,
+      "line_of_work": 1
+    },
+    {
+      "id": "W7203828247",
+      "title": "Information processing, mutual understanding, and organization design in healthcare",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.2777777777777778,
+      "value": -0.6851775834616183,
+      "influence": 0.4816345585585497,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2530270572",
+      "title": "Value capture theory: A strategic management review",
+      "year": 2016,
+      "cites_total": 173,
+      "cite_pct": 0.6,
+      "value": -0.3711977034746289,
+      "influence": 0.8714439815094565,
+      "line_of_work": 5
+    }
+  ]
+}

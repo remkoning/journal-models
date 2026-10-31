@@ -20,7 +20,7 @@ Methods, in bullets: `TECHNICAL_APPENDIX.md`. Data card: `data/README.md`.
 
 ```bash
 python3.13 -m venv .venv && .venv/bin/pip install -r requirements.txt
-.venv/bin/python -m data.build_all          # rebuilds the local abstract store from OpenAlex (text is not committed)
+.venv/bin/python -m data.build_all          # optional: the processed corpus is committed; this re-pulls it from OpenAlex
 ```
 
 All LLM access goes through `jm/llm.py`. It has three backends:

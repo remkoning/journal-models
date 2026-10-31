@@ -1,0 +1,14 @@
+{
+ "model": "BAAI/bge-base-en-v1.5",
+ "hf_revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+ "dim": 768,
+ "max_seq_length": 512,
+ "normalized": true,
+ "query_instruction": null,
+ "sentence_transformers": "6.2.0",
+ "torch": "2.15.0",
+ "text_field": "abstract_norm",
+ "n": 5495,
+ "seconds": 147.2,
+ "built": "2026-10-30"
+}

@@ -1,0 +1,1021 @@
+{
+  "journal": "MgmtSci",
+  "m_subsets": 600,
+  "k": 10,
+  "n_probes": 48,
+  "missing_scores_share": 0.0,
+  "split_half_r_value": 0.5397044704734925,
+  "reliability_value": 0.7010494297097437,
+  "reliability_at_m": {
+    "150": 0.2421213131844889,
+    "300": 0.4477759223184659
+  },
+  "reliability_value_10_lines_of_work": 0.725055014049917,
+  "mean_own_minus_other_score": 25.495833333333337,
+  "spearman_value_vs_cite_pct": 0.1555859167698472,
+  "spearman_value_vs_logcites": -0.02399721765964235,
+  "spearman_influence_vs_cite_pct": -0.07342699980846595,
+  "spearman_influence_vs_logcites": -0.06541679079719188,
+  "per_abstract": [
+    {
+      "id": "W3122511398",
+      "title": "Licensing Contracts: Control Rights, Options, and Timing",
+      "year": 2016,
+      "cites_total": 73,
+      "cite_pct": 0.4,
+      "value": 0.7275098613055111,
+      "influence": 1.1374577466665732,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3121515649",
+      "title": "Learning to Hire? Hiring as a Dynamic Experiential Learning Process in an Online Market for Contract Labor",
+      "year": 2017,
+      "cites_total": 51,
+      "cite_pct": 0.65,
+      "value": 0.4091517381915505,
+      "influence": 0.5900703470595512,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3122605061",
+      "title": "Team Leadership and Performance: Combining the Roles of Direction and Contribution",
+      "year": 2018,
+      "cites_total": 65,
+      "cite_pct": 0.6666666666666666,
+      "value": 0.6970541289798668,
+      "influence": 1.367681733974116,
+      "line_of_work": 9
+    },
+    {
+      "id": "W2955331624",
+      "title": "A Flexible Design for Funding Public Goods",
+      "year": 2019,
+      "cites_total": 60,
+      "cite_pct": 0.7142857142857143,
+      "value": 1.4361734020865815,
+      "influence": 1.3904843443696493,
+      "line_of_work": 6
+    },
+    {
+      "id": "W2996070327",
+      "title": "Platform Competition with Multihoming on Both Sides: Subsidize or Not?",
+      "year": 2020,
+      "cites_total": 240,
+      "cite_pct": 1.0,
+      "value": -0.7906540272299285,
+      "influence": 0.7912661108298651,
+      "line_of_work": 6
+    },
+    {
+      "id": "W3137274089",
+      "title": "Employee Responses to Compensation Changes: Evidence from a Sales Firm",
+      "year": 2021,
+      "cites_total": 28,
+      "cite_pct": 0.4,
+      "value": -0.13636078824524467,
+      "influence": 0.47296407076308883,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4221083607",
+      "title": "Information Acquisition, Decision Making, and Implementation in Organizations",
+      "year": 2022,
+      "cites_total": 10,
+      "cite_pct": 0.4,
+      "value": -0.0037040887941560408,
+      "influence": 1.230763792414843,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4321615388",
+      "title": "Platform Governance in the Presence of Within-Complementor Interdependencies: Evidence from the Rideshare Industry",
+      "year": 2023,
+      "cites_total": 52,
+      "cite_pct": 0.8,
+      "value": -0.23145988805970194,
+      "influence": 0.0,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4394604902",
+      "title": "Data-Driven Mergers",
+      "year": 2024,
+      "cites_total": 2,
+      "cite_pct": 0.16666666666666666,
+      "value": -0.07616878291492857,
+      "influence": 1.2027284733744952,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4408891782",
+      "title": "Price-Fixing Cartels and Firm Innovation",
+      "year": 2025,
+      "cites_total": 12,
+      "cite_pct": 1.0,
+      "value": 0.15983860955928209,
+      "influence": 1.243174793949748,
+      "line_of_work": 8
+    },
+    {
+      "id": "W7147061745",
+      "title": "The Trade-Offs of Letting Local Managers Make Hiring Decisions",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.3888888888888889,
+      "value": -0.1352611940298496,
+      "influence": 0.2056488151237902,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3125384854",
+      "title": "Learning on the Job? Employee Mobility in the Asset Management Industry",
+      "year": 2016,
+      "cites_total": 35,
+      "cite_pct": 0.2,
+      "value": 0.7464548319327735,
+      "influence": 0.7471481881022558,
+      "line_of_work": 4
+    },
+    {
+      "id": "W2593759742",
+      "title": "Choosing the Pond: On-the-Job Experience and Long-Run Career Outcomes",
+      "year": 2017,
+      "cites_total": 20,
+      "cite_pct": 0.4,
+      "value": -0.2593282997587646,
+      "influence": 0.0,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3085593028",
+      "title": "Faithful Strategies: How Religion Shapes Nonprofit Management",
+      "year": 2018,
+      "cites_total": 24,
+      "cite_pct": 0.16666666666666666,
+      "value": -0.7954708842559293,
+      "influence": 1.4510458480814254,
+      "line_of_work": 1
+    },
+    {
+      "id": "W2767996707",
+      "title": "A Scientific Approach to Entrepreneurial Decision Making: Evidence from a Randomized Control Trial",
+      "year": 2019,
+      "cites_total": 460,
+      "cite_pct": 1.0,
+      "value": 0.2178443345933895,
+      "influence": 0.5954379791074939,
+      "line_of_work": 1
+    },
+    {
+      "id": "W3033129021",
+      "title": "The Demotivating Effects of Communicating a Social-Political Stance: Field Experimental Evidence from an Online Labor Market Platform",
+      "year": 2020,
+      "cites_total": 136,
+      "cite_pct": 0.8,
+      "value": -0.929967622017028,
+      "influence": 1.122522121192627,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3146299149",
+      "title": "Low-Wage Workers and the Enforceability of Noncompete Agreements",
+      "year": 2021,
+      "cites_total": 75,
+      "cite_pct": 0.8,
+      "value": 1.144621657273055,
+      "influence": 0.8951172887184041,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4282024669",
+      "title": "Addictive Platforms",
+      "year": 2022,
+      "cites_total": 25,
+      "cite_pct": 0.6,
+      "value": 0.7839737880137416,
+      "influence": 1.248624603179604,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4388420957",
+      "title": "The Stickiness of Category Labels: Audience Perception and Evaluation of Producer Repositioning in Creative Markets",
+      "year": 2023,
+      "cites_total": 8,
+      "cite_pct": 0.1,
+      "value": -1.0908866418860954,
+      "influence": 3.1115674878064787,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4395073229",
+      "title": "Sharpen Your Sword for Litigation: Incumbent Strategic Reaction to the Threat of Entry",
+      "year": 2024,
+      "cites_total": 2,
+      "cite_pct": 0.16666666666666666,
+      "value": 0.33936507936507837,
+      "influence": 0.575304928765467,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4409479566",
+      "title": "The Economics of Advice: Evidence from Start-up Mentoring",
+      "year": 2025,
+      "cites_total": 6,
+      "cite_pct": 0.7777777777777778,
+      "value": 0.16447456002556046,
+      "influence": 0.763913983212349,
+      "line_of_work": 1
+    },
+    {
+      "id": "W7203767566",
+      "title": "Microfoundations of Absorptive Capacity as Revealed by Inventor Deaths",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.3888888888888889,
+      "value": -0.03578236567477688,
+      "influence": 0.5467293647548604,
+      "line_of_work": 9
+    },
+    {
+      "id": "W2137228576",
+      "title": "Spatial Organization of Firms and Location Choices Through the Value Chain",
+      "year": 2016,
+      "cites_total": 156,
+      "cite_pct": 0.6,
+      "value": -0.5257397342995157,
+      "influence": 0.0,
+      "line_of_work": 3
+    },
+    {
+      "id": "W104819647",
+      "title": "Competitive Intensity and Its Two-Sided Effect on the Boundaries of Firm Performance",
+      "year": 2017,
+      "cites_total": 11,
+      "cite_pct": 0.2,
+      "value": -0.7543163952835479,
+      "influence": 0.0,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2802629718",
+      "title": "Controlling vs. Enabling",
+      "year": 2018,
+      "cites_total": 83,
+      "cite_pct": 0.8333333333333334,
+      "value": -0.10801816013235277,
+      "influence": 1.4558717898126172,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2945312133",
+      "title": "Only When Others Are Watching: The Contingent Efforts of High Status Group Members",
+      "year": 2019,
+      "cites_total": 21,
+      "cite_pct": 0.2857142857142857,
+      "value": -2.1042798913043477,
+      "influence": 5.0647865038264515,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3036020023",
+      "title": "Labor Boundaries and Skills: The Case of Lobbyists",
+      "year": 2020,
+      "cites_total": 16,
+      "cite_pct": 0.2,
+      "value": -0.7002189847623115,
+      "influence": 0.0,
+      "line_of_work": 8
+    },
+    {
+      "id": "W3039311524",
+      "title": "Rotation as Contagion Mitigation",
+      "year": 2021,
+      "cites_total": 5,
+      "cite_pct": 0.1,
+      "value": 0.2590076958955219,
+      "influence": 0.5690925583744412,
+      "line_of_work": 2
+    },
+    {
+      "id": "W4281783106",
+      "title": "Measuring Founding Strategy",
+      "year": 2022,
+      "cites_total": 64,
+      "cite_pct": 0.8,
+      "value": -0.6761761761761776,
+      "influence": 1.0236981044839157,
+      "line_of_work": 1
+    },
+    {
+      "id": "W4387595484",
+      "title": "Author Country of Origin and Attention on Open Science Platforms: Evidence from COVID-19 Preprints",
+      "year": 2023,
+      "cites_total": 9,
+      "cite_pct": 0.2,
+      "value": 0.8361577758129488,
+      "influence": 0.819990912088614,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4401175216",
+      "title": "Acquihiring for Monopsony Power",
+      "year": 2024,
+      "cites_total": 11,
+      "cite_pct": 0.5555555555555556,
+      "value": -1.1603207526204673,
+      "influence": 1.5811981418610435,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4415295651",
+      "title": "Political Heterogeneity and Societal Polarization Impair Individual Performance: Evidence from Random Assignment in Professional Golf",
+      "year": 2025,
+      "cites_total": 0,
+      "cite_pct": 0.16666666666666666,
+      "value": -0.9499578888265019,
+      "influence": 1.6930189838651104,
+      "line_of_work": 2
+    },
+    {
+      "id": "W7207757208",
+      "title": "Do Job Applicants Consider Founder Race and Gender? Evidence from a Field Experiment",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.3888888888888889,
+      "value": -0.18684031324480777,
+      "influence": 0.29998675298847505,
+      "line_of_work": 7
+    },
+    {
+      "id": "W2272487465",
+      "title": "Bending the Pipeline? Executive Search and Gender Inequality in Hiring for Top Management Jobs",
+      "year": 2016,
+      "cites_total": 197,
+      "cite_pct": 0.7,
+      "value": -0.022943387881466992,
+      "influence": 1.1977875691402275,
+      "line_of_work": 7
+    },
+    {
+      "id": "W1588686575",
+      "title": "We\u2019re Number 1: Price Wars for Market Share Leadership",
+      "year": 2017,
+      "cites_total": 10,
+      "cite_pct": 0.1,
+      "value": -0.6156953810917413,
+      "influence": 1.0189811867100584,
+      "line_of_work": 0
+    },
+    {
+      "id": "W2803017783",
+      "title": "A Bridge Too Far: Divestiture as a Strategic Reaction to Status Inconsistency",
+      "year": 2018,
+      "cites_total": 35,
+      "cite_pct": 0.3333333333333333,
+      "value": -1.9451925666576888,
+      "influence": 2.4323027606273753,
+      "line_of_work": 1
+    },
+    {
+      "id": "W2981815057",
+      "title": "Platforms and the Exploration of New Products",
+      "year": 2019,
+      "cites_total": 48,
+      "cite_pct": 0.5714285714285714,
+      "value": -1.1466489600220764,
+      "influence": 1.4252654702260876,
+      "line_of_work": 6
+    },
+    {
+      "id": "W2998943847",
+      "title": "Matching and Winning? The Impact of Upper and Middle Managers on Firm Performance in Major League Baseball",
+      "year": 2020,
+      "cites_total": 26,
+      "cite_pct": 0.3,
+      "value": 0.3213955400267177,
+      "influence": 0.5655023990825414,
+      "line_of_work": 2
+    },
+    {
+      "id": "W2769476538",
+      "title": "Trials and Terminations: Learning from Competitors\u2019 R&D Failures",
+      "year": 2021,
+      "cites_total": 98,
+      "cite_pct": 0.9,
+      "value": 0.7106155585243045,
+      "influence": 1.4256666657591825,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4225265845",
+      "title": "Bilateral Trade with Multiunit Demand and Supply",
+      "year": 2022,
+      "cites_total": 4,
+      "cite_pct": 0.25,
+      "value": 0.9672727272727277,
+      "influence": 0.0,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4366411973",
+      "title": "Automation Enables Specialization: Field Evidence",
+      "year": 2023,
+      "cites_total": 23,
+      "cite_pct": 0.6,
+      "value": 0.3484440651260504,
+      "influence": 0.9903098389670715,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4403184344",
+      "title": "Lightning Network Economics: Topology",
+      "year": 2024,
+      "cites_total": 7,
+      "cite_pct": 0.4444444444444444,
+      "value": 0.28558052434456904,
+      "influence": 1.6036220375690728,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4415588203",
+      "title": "The Authenticity of Purpose Claims: Firm Capacity and Job Seeker Responses to Recruitment Efforts",
+      "year": 2025,
+      "cites_total": 3,
+      "cite_pct": 0.3888888888888889,
+      "value": -0.8501221001220987,
+      "influence": 2.294289670817956,
+      "line_of_work": 9
+    },
+    {
+      "id": "W7124974472",
+      "title": "The Rapid Adoption of Generative AI",
+      "year": 2026,
+      "cites_total": 48,
+      "cite_pct": 1.0,
+      "value": 0.3490294751976989,
+      "influence": 0.7142411553104236,
+      "line_of_work": 5
+    },
+    {
+      "id": "W2600660569",
+      "title": "Does Lean Improve Labor Standards? Management and Social Performance in the Nike Supply Chain",
+      "year": 2016,
+      "cites_total": 239,
+      "cite_pct": 0.8,
+      "value": 0.08907936945948575,
+      "influence": 0.24618750733953362,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2578906640",
+      "title": "Understanding Team Knowledge Production: The Interrelated Roles of Technology and Expertise",
+      "year": 2017,
+      "cites_total": 103,
+      "cite_pct": 1.0,
+      "value": -0.19474562135112788,
+      "influence": 0.0,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3124490869",
+      "title": "Sourcing Innovation: On Feedback in Contests",
+      "year": 2018,
+      "cites_total": 132,
+      "cite_pct": 1.0,
+      "value": 0.7489820587861056,
+      "influence": 0.9886431151344058,
+      "line_of_work": 6
+    },
+    {
+      "id": "W2985440240",
+      "title": "Halos and Egos: Rankings and Interspecialty Deference in Multispecialty U.S. Hospitals",
+      "year": 2019,
+      "cites_total": 11,
+      "cite_pct": 0.14285714285714285,
+      "value": -0.43062037719370183,
+      "influence": 1.5732905036642997,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3039887488",
+      "title": "Collusive Investments in Technological Compatibility: Lessons from U.S. Railroads in the Late 19th Century",
+      "year": 2020,
+      "cites_total": 8,
+      "cite_pct": 0.1,
+      "value": -0.5400000000000018,
+      "influence": 1.5643206995321854,
+      "line_of_work": 6
+    },
+    {
+      "id": "W3182380638",
+      "title": "Stars and Brokers: Knowledge Spillovers Among Medical Scientists",
+      "year": 2021,
+      "cites_total": 65,
+      "cite_pct": 0.7,
+      "value": 0.9445371142618839,
+      "influence": 1.1103687672368923,
+      "line_of_work": 9
+    },
+    {
+      "id": "W4284710604",
+      "title": "Capability Building in Sluggish Organizations",
+      "year": 2022,
+      "cites_total": 0,
+      "cite_pct": 0.1,
+      "value": -1.0887345679012337,
+      "influence": 1.2814495861499389,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4324317564",
+      "title": "How Do Restrictions on High-Skilled Immigration Affect Offshoring? Evidence from the H-1B Program",
+      "year": 2023,
+      "cites_total": 59,
+      "cite_pct": 0.9,
+      "value": -0.32526115859449245,
+      "influence": 0.47661518171969364,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4394821143",
+      "title": "Remote Work and Job Applicant Diversity: Evidence from Technology Startups",
+      "year": 2024,
+      "cites_total": 30,
+      "cite_pct": 0.8888888888888888,
+      "value": -0.17695099818511734,
+      "influence": 0.9002644569492905,
+      "line_of_work": 7
+    },
+    {
+      "id": "W4407744920",
+      "title": "Platform Competition and Interoperability: The Net Fee Model",
+      "year": 2025,
+      "cites_total": 7,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.2442226890756305,
+      "influence": 0.4692067426513342,
+      "line_of_work": 6
+    },
+    {
+      "id": "W7155063990",
+      "title": "Unlocking Local Market Information Through Franchising",
+      "year": 2026,
+      "cites_total": 1,
+      "cite_pct": 0.7777777777777778,
+      "value": 0.04854854854854962,
+      "influence": 1.1110272244668418,
+      "line_of_work": 1
+    },
+    {
+      "id": "W2169245053",
+      "title": "Business Practices in Small Firms in Developing Countries",
+      "year": 2016,
+      "cites_total": 297,
+      "cite_pct": 0.9,
+      "value": 0.5756172839506184,
+      "influence": 0.8993103991719545,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2738721587",
+      "title": "Does Copyright Affect Reuse? Evidence from Google Books and Wikipedia",
+      "year": 2017,
+      "cites_total": 51,
+      "cite_pct": 0.65,
+      "value": 0.7728400559867671,
+      "influence": 0.5991154555452195,
+      "line_of_work": 9
+    },
+    {
+      "id": "W2784290242",
+      "title": "Once in the Door: Gender, Tryouts, and the Initial Salaries of Managers",
+      "year": 2018,
+      "cites_total": 44,
+      "cite_pct": 0.5,
+      "value": -0.5091743119266062,
+      "influence": 1.0391382937996767,
+      "line_of_work": 7
+    },
+    {
+      "id": "W3122210956",
+      "title": "Testing the Theory of Consumer Discrimination as an Explanation for the Lack of Minority Hiring in Hollywood Films",
+      "year": 2019,
+      "cites_total": 67,
+      "cite_pct": 0.8571428571428571,
+      "value": -0.7791397117239818,
+      "influence": 1.5124455974649347,
+      "line_of_work": 4
+    },
+    {
+      "id": "W2816355363",
+      "title": "How Do Travel Costs Shape Collaboration?",
+      "year": 2020,
+      "cites_total": 158,
+      "cite_pct": 0.9,
+      "value": 0.38313946516369013,
+      "influence": 0.6334067828610005,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3138211085",
+      "title": "T he P rivate I mpact of P ublic D ata: L andsat S atellite M aps I ncreased G old D iscoveries and E ncouraged E ntry",
+      "year": 2021,
+      "cites_total": 151,
+      "cite_pct": 1.0,
+      "value": 0.2857057201103244,
+      "influence": 0.8213896767471099,
+      "line_of_work": 5
+    },
+    {
+      "id": "W4296641399",
+      "title": "What Makes Agility Fragile? A Dynamic Theory of Organizational Rigidity",
+      "year": 2022,
+      "cites_total": 11,
+      "cite_pct": 0.5,
+      "value": -0.18359665277373893,
+      "influence": 1.286529591180376,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4321110296",
+      "title": "The Impact of Socioeconomic and Cultural Differences on Online Trade",
+      "year": 2023,
+      "cites_total": 14,
+      "cite_pct": 0.4,
+      "value": 0.9004629629629628,
+      "influence": 0.5729771061648976,
+      "line_of_work": 3
+    },
+    {
+      "id": "W3168645643",
+      "title": "Management Practices and Resilience to Shocks: Evidence from COVID-19",
+      "year": 2024,
+      "cites_total": 43,
+      "cite_pct": 1.0,
+      "value": 0.9893947860735209,
+      "influence": 0.7838947757234197,
+      "line_of_work": 3
+    },
+    {
+      "id": "W4406736982",
+      "title": "Machine Data: Market and Analytics",
+      "year": 2025,
+      "cites_total": 5,
+      "cite_pct": 0.6111111111111112,
+      "value": 0.7557914122322396,
+      "influence": 1.460289022711171,
+      "line_of_work": 5
+    },
+    {
+      "id": "W7223923556",
+      "title": "Navigating the Rugged Data Landscape: The Impact of Data-Extrapolation Technologies on Knowledge Production",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.3888888888888889,
+      "value": 0.29838497899159655,
+      "influence": 0.0,
+      "line_of_work": 9
+    },
+    {
+      "id": "W2274067156",
+      "title": "Pricing Variation Within Dual-Distribution Chains: The Different Implications of Externalities and Signaling for High- and Low-Quality Brands",
+      "year": 2016,
+      "cites_total": 28,
+      "cite_pct": 0.1,
+      "value": -0.3757200510503258,
+      "influence": 0.8734287567756852,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2767383042",
+      "title": "Incentives and Ratcheting in a Multiproduct Firm: A Field Experiment",
+      "year": 2017,
+      "cites_total": 16,
+      "cite_pct": 0.3,
+      "value": 0.33007390735728104,
+      "influence": 0.8436255012625719,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2887830254",
+      "title": "Choosing Between Growth and Glory",
+      "year": 2019,
+      "cites_total": 34,
+      "cite_pct": 0.42857142857142855,
+      "value": -1.2166857477568613,
+      "influence": 1.128676123206211,
+      "line_of_work": 1
+    },
+    {
+      "id": "W3003333005",
+      "title": "A Simple Rule for Pricing with Limited Knowledge of Demand",
+      "year": 2020,
+      "cites_total": 44,
+      "cite_pct": 0.4,
+      "value": 0.1373017723880597,
+      "influence": 0.47091312448998046,
+      "line_of_work": 6
+    },
+    {
+      "id": "W3216700039",
+      "title": "Morale and Debt Dynamics",
+      "year": 2021,
+      "cites_total": 6,
+      "cite_pct": 0.2,
+      "value": -0.05725429994674083,
+      "influence": 0.70936369508245,
+      "line_of_work": 4
+    },
+    {
+      "id": "W2937274158",
+      "title": "Vertical Integration and Foreclosure: Evidence from Production Network Data",
+      "year": 2022,
+      "cites_total": 44,
+      "cite_pct": 0.7,
+      "value": 0.08563002311062032,
+      "influence": 0.0,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2911677839",
+      "title": "Gender Quotas in Hiring Committees: A Boon or a Bane for Women?",
+      "year": 2023,
+      "cites_total": 33,
+      "cite_pct": 0.7,
+      "value": 1.1047300571871679,
+      "influence": 0.871476658559011,
+      "line_of_work": 7
+    },
+    {
+      "id": "W4401883472",
+      "title": "Common Ownership, Competition, and Corporate Governance",
+      "year": 2024,
+      "cites_total": 24,
+      "cite_pct": 0.6666666666666666,
+      "value": 0.2972865123703114,
+      "influence": 0.5749117644520352,
+      "line_of_work": 0
+    },
+    {
+      "id": "W4414200742",
+      "title": "Should Human Capital Development Programs be Mandatory or Voluntary? Evidence from a Field Experiment on Mentorship",
+      "year": 2025,
+      "cites_total": 5,
+      "cite_pct": 0.6111111111111112,
+      "value": 0.7220344244765619,
+      "influence": 0.9175439453173003,
+      "line_of_work": 4
+    },
+    {
+      "id": "W7169096375",
+      "title": "The Effect of University Science on Corporate Innovation",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.3888888888888889,
+      "value": 0.8825711965500828,
+      "influence": 0.3594639370692946,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2303284028",
+      "title": "A Dynamic Network Measure of Technological Change",
+      "year": 2016,
+      "cites_total": 498,
+      "cite_pct": 1.0,
+      "value": -0.897234280367029,
+      "influence": 1.6192099471037535,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3121310053",
+      "title": "Anticipated Entry and Entry Deterrence: Evidence from the American Casino Industry",
+      "year": 2017,
+      "cites_total": 69,
+      "cite_pct": 0.8,
+      "value": -1.1401778198653219,
+      "influence": 1.11016707329762,
+      "line_of_work": 3
+    },
+    {
+      "id": "W3124841196",
+      "title": "Owning, Using, and Renting: Some Simple Economics of the \u201cSharing Economy\u201d",
+      "year": 2020,
+      "cites_total": 99,
+      "cite_pct": 0.6,
+      "value": 0.3965419792415995,
+      "influence": 0.385245151578076,
+      "line_of_work": 6
+    },
+    {
+      "id": "W3136219359",
+      "title": "Relationships Under Stress: Relational Outsourcing in the U.S. Airline Industry After the 2008 Financial Crisis",
+      "year": 2021,
+      "cites_total": 40,
+      "cite_pct": 0.55,
+      "value": -0.43893893893893854,
+      "influence": 0.6809407915035457,
+      "line_of_work": 3
+    },
+    {
+      "id": "W1488611732",
+      "title": "When Should Control Be Shared?",
+      "year": 2022,
+      "cites_total": 4,
+      "cite_pct": 0.25,
+      "value": -0.99382369455362,
+      "influence": 0.9940654990993052,
+      "line_of_work": 0
+    },
+    {
+      "id": "W4386482565",
+      "title": "Commitment Against Front-Running Attacks",
+      "year": 2023,
+      "cites_total": 11,
+      "cite_pct": 0.3,
+      "value": 0.7458396145546989,
+      "influence": 0.6373212171584826,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4398766412",
+      "title": "Gender Promotion Gaps and Career Aspirations",
+      "year": 2024,
+      "cites_total": 29,
+      "cite_pct": 0.7777777777777778,
+      "value": 0.3162190921564787,
+      "influence": 0.0,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4417466964",
+      "title": "A Theory of Front-Line Management",
+      "year": 2025,
+      "cites_total": 0,
+      "cite_pct": 0.16666666666666666,
+      "value": 0.3931213854156581,
+      "influence": 0.0,
+      "line_of_work": 4
+    },
+    {
+      "id": "W7221755170",
+      "title": "AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT",
+      "year": 2026,
+      "cites_total": 0,
+      "cite_pct": 0.3888888888888889,
+      "value": 0.3891353879362026,
+      "influence": 0.15441160016629482,
+      "line_of_work": 5
+    },
+    {
+      "id": "W3124667476",
+      "title": "When Suppliers Climb the Value Chain: A Theory of Value Distribution in Vertical Relationships",
+      "year": 2016,
+      "cites_total": 52,
+      "cite_pct": 0.3,
+      "value": -0.32293971045336267,
+      "influence": 0.6768803064982324,
+      "line_of_work": 3
+    },
+    {
+      "id": "W2781190956",
+      "title": "Training Aspiring Entrepreneurs to Pitch Experienced Investors: Evidence from a Field Experiment in the United States",
+      "year": 2017,
+      "cites_total": 76,
+      "cite_pct": 0.9,
+      "value": -0.543843494555911,
+      "influence": 0.4384468144429743,
+      "line_of_work": 1
+    },
+    {
+      "id": "W3122468877",
+      "title": "Are Inventors or Firms the Engines of Innovation?",
+      "year": 2020,
+      "cites_total": 67,
+      "cite_pct": 0.5,
+      "value": -0.38158820697062923,
+      "influence": 0.5462039933640398,
+      "line_of_work": 8
+    },
+    {
+      "id": "W3216891177",
+      "title": "The Disciplining Effect of Status: Evaluator Status Awards and Observed Gender Bias in Evaluations",
+      "year": 2021,
+      "cites_total": 40,
+      "cite_pct": 0.55,
+      "value": -0.03432665787264694,
+      "influence": 0.5863051650403187,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3124144674",
+      "title": "Experimentation and Start-up Performance: Evidence from A/B Testing",
+      "year": 2022,
+      "cites_total": 155,
+      "cite_pct": 1.0,
+      "value": -0.03682177227415284,
+      "influence": 0.0,
+      "line_of_work": 1
+    },
+    {
+      "id": "W4387774634",
+      "title": "The Effects of a Short-Term Corporate Social Impact Activity on Employee Turnover: Field Experimental Evidence",
+      "year": 2023,
+      "cites_total": 16,
+      "cite_pct": 0.5,
+      "value": -0.35243703358208867,
+      "influence": 1.2056199599434585,
+      "line_of_work": 4
+    },
+    {
+      "id": "W4405320430",
+      "title": "The Crowdfunding Effects on Venture Capital Investment",
+      "year": 2024,
+      "cites_total": 6,
+      "cite_pct": 0.3333333333333333,
+      "value": 0.7536876317011324,
+      "influence": 0.706741623712107,
+      "line_of_work": 1
+    },
+    {
+      "id": "W4413427187",
+      "title": "Cut to the Curve: Underrecognition and Talent Loss from Forced Ranking in a Multinational Firm",
+      "year": 2025,
+      "cites_total": 3,
+      "cite_pct": 0.3888888888888889,
+      "value": 0.42512784132895914,
+      "influence": 0.92531937385644,
+      "line_of_work": 4
+    },
+    {
+      "id": "W3205454670",
+      "title": "Does Offshoring Production Reduce Innovation? Firm-Level Evidence from Taiwan",
+      "year": 2026,
+      "cites_total": 2,
+      "cite_pct": 0.8888888888888888,
+      "value": 0.39649457613499484,
+      "influence": 1.4956060315294737,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3121173491",
+      "title": "Debtor Rights, Credit Supply, and Innovation",
+      "year": 2016,
+      "cites_total": 108,
+      "cite_pct": 0.5,
+      "value": 0.6929012345679016,
+      "influence": 0.6555462825806008,
+      "line_of_work": 8
+    },
+    {
+      "id": "W2774712948",
+      "title": "Structural Role Complementarity in Entrepreneurial Teams",
+      "year": 2017,
+      "cites_total": 30,
+      "cite_pct": 0.5,
+      "value": -1.051983406792843,
+      "influence": 1.6369074361782205,
+      "line_of_work": 9
+    },
+    {
+      "id": "W3030182655",
+      "title": "The Effect of Patent Protection on Inventor Mobility",
+      "year": 2020,
+      "cites_total": 104,
+      "cite_pct": 0.7,
+      "value": -0.48999165971642855,
+      "influence": 0.0,
+      "line_of_work": 8
+    },
+    {
+      "id": "W3122645905",
+      "title": "Cheap Talk on Freelance Platforms",
+      "year": 2021,
+      "cites_total": 19,
+      "cite_pct": 0.3,
+      "value": 0.752638206019906,
+      "influence": 0.912202620751381,
+      "line_of_work": 6
+    },
+    {
+      "id": "W4310251931",
+      "title": "Competition and Innovation in Markets for Technology",
+      "year": 2022,
+      "cites_total": 67,
+      "cite_pct": 0.9,
+      "value": -0.41576313594662023,
+      "influence": 0.6560446487684393,
+      "line_of_work": 8
+    },
+    {
+      "id": "W4321784234",
+      "title": "Dog Eat Dog: Balancing Network Effects and Differentiation in a Digital Platform Merger",
+      "year": 2023,
+      "cites_total": 78,
+      "cite_pct": 1.0,
+      "value": 0.5752272418939072,
+      "influence": 0.0,
+      "line_of_work": 6
+    }
+  ]
+}
