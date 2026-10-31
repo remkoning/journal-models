@@ -3,9 +3,12 @@
     .venv/bin/python -m scripts.make_figures
 
 Each figure is drawn only if its inputs exist:
-  fig_A_pairs.png        accuracy picking own paper on topic-matched test pairs, by journal pair x condition
-  fig_A_attribution.png  3x3: held-out papers assigned to the journal-model that rates them highest
-  fig_B_calibration.png  share of papers truly from J, by J-model score band
+  fig_A_pairs.png        journal hidden ("Journal X"): accuracy picking own paper on topic-matched test pairs,
+                         by journal pair x what the model is given (nothing / ~20 rules / 100 own abstracts)
+  fig_A_attribution.png  3x3: held-out papers assigned to the hidden journal-model that rates them highest
+  fig_B_calibration.png  share of papers truly from J, by J-model score band (journal hidden)
+The named-journal results are reported in the text, not the figures: the figures show taste learned from
+each journal's own output, which is what carries beyond abstracts.
   fig_C_push.png         where each journal pushes research: blind-classified suggestion categories
 """
 from __future__ import annotations
@@ -33,6 +36,9 @@ JMARK = {"OrgSci": "o", "SMJ": "s", "MgmtSci": "^"}
 SHORT = {"OrgSci": "Org Sci", "SMJ": "SMJ", "MgmtSci": "Mgmt Sci"}
 CONDS = [("plain", "Name only", "#86b6ef"), ("incontext", "+100 own abstracts", "#3987e5"),
          ("contrast", "+100 own & 100 elsewhere", "#1c5cab"), ("rulebook", "Evolved rulebook", "#0d366b")]
+HIDDEN = [("plain", "Nothing (no name, no examples)", "#9ec5f4"), ("rulebook", "~20 evolved rules only", "#3987e5"),
+          ("incontext", "100 own abstracts only", "#0d366b")]
+HIDDEN_TITLE = {"incontext_anon": "100 own abstracts", "rulebook_anon": "~20 evolved rules"}
 BLUES = ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"]
 
 plt.rcParams.update({
@@ -65,49 +71,41 @@ def _pair_rows(sfx: str) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def _pair_panel(ax, d, title, labels):
-    jps = ["OrgSci-SMJ", "SMJ-MgmtSci", "OrgSci-MgmtSci"]
-    conds = [c for c in CONDS if c[0] in set(d["mode"])]
+def _pair_panel(ax, d, title, conds):
+    jps = ["All", "OrgSci-SMJ", "SMJ-MgmtSci", "OrgSci-MgmtSci"]
+    conds = [c for c in conds if c[0] in set(d["mode"])]
     w = 0.8 / len(conds)
-    for k, (mode, _, color) in enumerate(conds):
+    for k, (mode, label, color) in enumerate(conds):
         for i, jp in enumerate(jps):
-            x = d[(d["mode"] == mode) & (d.jp == jp)].correct.values
+            x = d[(d["mode"] == mode) & ((d.jp == jp) | (jp == "All"))].correct.values
             if len(x) == 0:
                 continue
             lo, hi = boot(x)
             xi = i + (k - (len(conds) - 1) / 2) * w
-            ax.bar(xi, x.mean(), w - 0.02, color=color, label=labels.get(mode) if i == 0 else None, zorder=2)
+            ax.bar(xi, x.mean(), w - 0.02, color=color, label=label if i == 0 else None, zorder=2)
             ax.plot([xi, xi], [lo, hi], color=INK, lw=1, zorder=3)
             ax.text(xi, hi + 0.012, f"{x.mean():.0%}", ha="center", va="bottom", fontsize=7.5, color=INK2)
-    ax.set_xticks(range(len(jps)), [f"{SHORT[a]}\nvs {SHORT[b]}" for a, b in (jp.split("-") for jp in jps)])
+    ax.set_xticks(range(len(jps)), ["All pairs"] + [f"{SHORT[a]}\nvs {SHORT[b]}"
+                                                    for a, b in (jp.split("-") for jp in jps[1:])])
     ax.axhline(0.5, color=INK2, lw=0.8, ls="--", zorder=1)
-    ax.text(-0.55, 0.51, "chance", fontsize=8, color=INK2, ha="left")
+    ax.set_xlim(-0.5, len(jps) - 0.2)
+    ax.text(len(jps) - 0.58, 0.51, "chance", fontsize=8, color=INK2, ha="left")
     ax.set_ylim(0.3, 1.08)
     ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
     ax.set_title(title, loc="left", fontsize=10)
-    ax.legend(frameon=False, fontsize=8, loc="upper left", bbox_to_anchor=(0, -0.2))
+    ax.legend(frameon=False, fontsize=8, loc="upper left", bbox_to_anchor=(0, -0.2), ncol=len(conds))
 
 
 def fig_pairs():
     # Prefer one-pair-per-call runs (_b1); earlier batch-of-10 runs had in-batch leakage.
-    named = _pair_rows("_b1")
     anon = _pair_rows("_anon_b1")
-    if named.empty:
+    if anon.empty:
         return
-    panels = [(named, "Journal named", {"plain": "Name only", "incontext": "+ 100 own abstracts",
-                                        "contrast": "+ 100 own & 100 elsewhere"})]
-    if not anon.empty:
-        panels.append((anon, 'Journal hidden ("Journal X")', {"plain": "Nothing (no name, no abstracts)",
-                                                              "incontext": "100 own abstracts only",
-                                                              "contrast": "100 own & 100 elsewhere",
-                                                              "rulebook": "~20 evolved rules only"}))
-    fig, axes = plt.subplots(1, len(panels), figsize=(5.0 * len(panels), 3.9), sharey=True)
-    axes = np.atleast_1d(axes)
-    for ax, (d, title, labels) in zip(axes, panels):
-        _pair_panel(ax, d, title, labels)
-    axes[0].set_ylabel("Picks its own journal's paper")
-    fig.suptitle("Is journal taste learnable? Topic-matched held-out pairs (one pair per call, both orders)",
-                 x=0.01, ha="left", fontsize=11)
+    fig, ax = plt.subplots(figsize=(7.2, 4.0))
+    _pair_panel(ax, anon, 'Journal hidden ("Journal X"): which of two same-topic papers did Journal X publish?',
+                HIDDEN)
+    ax.set_ylabel("Picks its own journal's paper")
+    fig.suptitle("Is journal taste learnable from the journal's own output?", x=0.01, ha="left", fontsize=11)
     fig.tight_layout()
     fig.savefig(FIG / "fig_A_pairs.png", dpi=200)
     plt.close(fig)
@@ -118,7 +116,9 @@ def fig_attribution():
     if not f.exists():
         return
     s = json.loads(f.read_text())
-    modes = [m for m in ("plain", "contrast") if m in s]
+    modes = [m for m in ("incontext_anon", "rulebook_anon") if m in s]
+    if not modes:
+        return
     fig, axes = plt.subplots(1, len(modes), figsize=(4.0 * len(modes), 3.6))
     axes = np.atleast_1d(axes)
     for ax, m in zip(axes, modes):
@@ -132,10 +132,11 @@ def fig_attribution():
         ax.set_yticks(range(3), [SHORT[j] for j in JOURNALS])
         ax.set_xlabel("Claimed by (model rating it highest)")
         ax.grid(False)
-        title = "Name only" if m == "plain" else "Contrastive abstracts"
+        title = HIDDEN_TITLE[m]
         ax.set_title(f"{title}: {s[m]['attribution_accuracy']:.0%} correct", fontsize=10, loc="left")
     axes[0].set_ylabel("Actually published in")
-    fig.suptitle("Which journal would claim this held-out paper? (chance = 33%)", x=0.02, ha="left", fontsize=11)
+    fig.suptitle('Which hidden journal-model ("Journal X") would claim this held-out paper? (chance = 33%)',
+                 x=0.02, ha="left", fontsize=11)
     fig.tight_layout()
     fig.savefig(FIG / "fig_A_attribution.png", dpi=200)
     plt.close(fig)
@@ -146,25 +147,34 @@ def fig_calibration():
     if not f.exists():
         return
     s = json.loads(f.read_text())
-    m = "contrast" if "contrast" in s else next(iter(s))
-    fig, ax = plt.subplots(figsize=(6.2, 3.6))
-    for j in JOURNALS:
-        b = s[m]["calibration_bands"][j]
-        xs, ys, ns = [], [], []
-        for k, (band, v) in enumerate(b.items()):
-            if v["n"] >= 5 and v["share_own"] is not None:
-                xs.append(k); ys.append(v["share_own"]); ns.append(v["n"])
-        ax.plot(xs, ys, color=JCOLOR[j], lw=2, marker=JMARK[j], ms=8, mec=SURFACE, mew=1.5, zorder=3)
-        ax.text(xs[-1] + 0.08, ys[-1], SHORT[j], color=INK, fontsize=9, va="center")
-    ax.axhline(1 / 3, color=INK2, lw=0.8, ls="--")
-    ax.text(0, 1 / 3 + 0.02, "base rate (1 in 3)", fontsize=8, color=INK2)
-    ax.set_xticks(range(4), list(next(iter(s[m]["calibration_bands"].values())).keys())[:4])
-    ax.set_xlim(-0.2, 3.7)
-    ax.set_ylim(-0.03, 1.05)
-    ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
-    ax.set_xlabel("Journal-model's score: \"would we publish this?\" (bands with n ≥ 5)")
-    ax.set_ylabel("Share truly from that journal")
-    ax.set_title("Calibration: a high score means it really is that journal's paper", loc="left", fontsize=11)
+    modes = [m for m in ("incontext_anon", "rulebook_anon") if m in s]
+    if not modes:
+        return
+    fig, axes = plt.subplots(1, len(modes), figsize=(5.2 * len(modes), 3.7), sharey=True)
+    axes = np.atleast_1d(axes)
+    for ax, m in zip(axes, modes):
+        bands = list(next(iter(s[m]["calibration_bands"].values())).keys())
+        for j in JOURNALS:
+            xs, ys = [], []
+            for k, band in enumerate(bands):
+                v = s[m]["calibration_bands"][j][band]
+                if v["n"] >= 5 and v["share_own"] is not None:
+                    xs.append(k); ys.append(v["share_own"])
+            ax.plot(xs, ys, color=JCOLOR[j], lw=2, marker=JMARK[j], ms=8, mec=SURFACE, mew=1.5, zorder=3)
+            if xs:
+                ax.text(xs[-1] + 0.1, ys[-1], SHORT[j], color=INK, fontsize=9, va="center")
+        ax.axhline(1 / 3, color=INK2, lw=0.8, ls="--")
+        ax.text(0, 1 / 3 + 0.02, "base rate (1 in 3)", fontsize=8, color=INK2)
+        ax.set_xticks(range(len(bands)), bands)
+        ax.set_xlim(-0.2, len(bands) - 0.3)
+        ax.set_ylim(-0.03, 1.05)
+        ax.yaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0))
+        auc = " / ".join(f"{s[m]['auc_own_vs_other'][j]:.2f}" for j in JOURNALS)
+        ax.set_title(f'Journal X + {HIDDEN_TITLE[m]} (AUC {auc})', loc="left", fontsize=9.5)
+    fig.supxlabel("Journal-model's score: \"would we publish this?\" (bands with n ≥ 5)", fontsize=10)
+    axes[0].set_ylabel("Share truly from that journal")
+    fig.suptitle("Calibration: a high score means it really is that journal's paper (journal hidden)",
+                 x=0.01, ha="left", fontsize=11)
     fig.tight_layout()
     fig.savefig(FIG / "fig_B_calibration.png", dpi=200)
     plt.close(fig)

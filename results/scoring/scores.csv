@@ -1052,3 +1052,705 @@ rulebook,MgmtSci,W4401643197,80,Formal model plus empirical test with BlackRock-
 rulebook,MgmtSci,W4416425919,65,Principal-multiagent model of incentives with managerial implications,MgmtSci
 rulebook,MgmtSci,W4408879455,75,"Large field data, staggered transparency shocks, incentive mechanism on pay",SMJ
 rulebook,MgmtSci,W7128598029,50,Comment correcting MS game-theory paper; journal publishes such notes,MgmtSci
+incontext_anon,OrgSci,W7139935458,72,"Technology and hierarchy, organizational design, large novel data, DiD",MgmtSci
+incontext_anon,OrgSci,W4401577217,62,Field experiment on competitor information and attention; somewhat strategy-journal leaning,MgmtSci
+incontext_anon,OrgSci,W4403538563,45,"Narrow strategic disclosure study, limited organizational theory",MgmtSci
+incontext_anon,OrgSci,W7221144841,68,"Team dynamics, shared experience, sports data, multilevel theory fits",OrgSci
+incontext_anon,OrgSci,W4404720756,45,"Serial entrepreneur hiring; SMJ-style, modest theoretical contribution",SMJ
+incontext_anon,OrgSci,W4401000659,40,"Descriptive growth decomposition, strategy-journal style",SMJ
+incontext_anon,OrgSci,W4399786255,42,"Chinese VC risk-return paradox, weak organizational angle",SMJ
+incontext_anon,OrgSci,W4410431490,60,"CEO dismissal, expectancy violations, stakeholders; fits upper-echelons work here",OrgSci
+incontext_anon,OrgSci,W4407199819,45,"Accelerator matching, thin theory presentation",OrgSci
+incontext_anon,OrgSci,W4414092254,62,"Postacquisition knowledge integration at inventor level, organizational knowledge",OrgSci
+incontext_anon,OrgSci,W4403538325,25,"Economics signaling mechanism, minimal organizational theory",MgmtSci
+incontext_anon,OrgSci,W4411180928,25,"Pure contract theory model, economics journal fit",MgmtSci
+incontext_anon,OrgSci,W7127576577,66,"Alliance portfolios shaping internal inventor networks, organizational mechanism",OrgSci
+incontext_anon,OrgSci,W4415674079,20,"Methods guide, not a substantive organizational contribution",SMJ
+incontext_anon,OrgSci,W7213887525,45,"Serendipitous invention value, more SMJ/Research Policy style",SMJ
+incontext_anon,OrgSci,W4406212660,62,Social movements and innovation via attention and search; organizational theory fit,OrgSci
+incontext_anon,OrgSci,W4415429094,30,"Policy/innovation-economics focus on TRIPS, closer to a strategy journal",SMJ
+incontext_anon,OrgSci,W4405500024,45,Historical economics of corporate research; partially fits organizational interests,OrgSci
+incontext_anon,OrgSci,W4405486240,45,Work–nonwork micro OB study with experience sampling; borderline fit,OrgSci
+incontext_anon,OrgSci,W4409620756,45,Formal model of aspirations and search fits behavioral learning theory,SMJ
+incontext_anon,OrgSci,W4401533471,68,Inductive theory-building on strategy formation and institutional change,OrgSci
+incontext_anon,OrgSci,W4415962253,60,Organization design linked to alliance governance; fits journal,OrgSci
+incontext_anon,OrgSci,W4410537786,12,Analytical platform economics model with welfare focus; not organizational,MgmtSci
+incontext_anon,OrgSci,W4392760955,45,Startup scaling timing; entrepreneurship study with thin theory,SMJ
+incontext_anon,OrgSci,W4416011092,55,Emotional account of exit decisions; multi-method study,MgmtSci
+incontext_anon,OrgSci,W4403493445,40,Strategy-style technology in-sourcing study; fits a strategy journal better,SMJ
+incontext_anon,OrgSci,W4404164210,35,Principal-agent model of instructions; organizational economics,MgmtSci
+incontext_anon,OrgSci,W4416351719,38,Board interlock coevolution; corporate governance journal style,SMJ
+incontext_anon,OrgSci,W4391361637,10,Ad exchange property rights economics model,MgmtSci
+incontext_anon,OrgSci,W4413313723,15,"eBay bargaining natural experiment; economics, not organizational",MgmtSci
+incontext_anon,OrgSci,W7140330321,50,"Data/measurement release paper; the journal sometimes publishes these, but they are rare",OrgSci
+incontext_anon,OrgSci,W4402408038,80,Field study in inhabited institutionalism that introduces a new concept; classic fit,OrgSci
+incontext_anon,OrgSci,W4410127539,35,CSR-learning study in a strategy style; formatting suggests a different outlet,SMJ
+incontext_anon,OrgSci,W4402845374,55,Model plus empirical test of governance; leans toward economics-of-strategy outlets,MgmtSci
+incontext_anon,OrgSci,W4413342591,45,RD design on corporate political activity; reads as finance or strategy,MgmtSci
+incontext_anon,OrgSci,W4410298372,55,Executive narcissism in entrepreneurial pitches; a plausible but ordinary fit,OrgSci
+incontext_anon,OrgSci,W4405915894,25,"Narrow business-model moderation; small sample, strategy-journal style",SMJ
+incontext_anon,OrgSci,W4402310152,50,"Glassdoor ratings and CEO evaluation; governance focus, modest theory",OrgSci
+incontext_anon,OrgSci,W7138921623,35,Hiring-network study whose style points to a strategy journal,SMJ
+incontext_anon,OrgSci,W7160168093,65,Large field experiment on manager-worker collaboration and practice adoption,MgmtSci
+incontext_anon,OrgSci,W7170761526,65,"GenAI and organizing skills, built on organizational design theory",MgmtSci
+incontext_anon,OrgSci,W4408928101,70,"Gender stereotypes in online hiring, studied through employer interactions; fits well",OrgSci
+incontext_anon,OrgSci,W4394808604,80,Ethnography of role conflict and workplace relationships; strong fit,OrgSci
+incontext_anon,OrgSci,W7129025385,70,Organization of science and mentoring knowledge transfer; novel data,OrgSci
+incontext_anon,OrgSci,W4417280442,40,Import competition and innovation; reads as economics/strategy,MgmtSci
+incontext_anon,OrgSci,W7165365766,28,Finance-style event study with thin organizational theory,MgmtSci
+incontext_anon,OrgSci,W4391436263,45,"Status and evaluation theme fits, but mostly descriptive and closer to strategy journals",SMJ
+incontext_anon,OrgSci,W4394978746,35,Innovation strategy response fits strategy journals more than organization theory,SMJ
+incontext_anon,OrgSci,W4415181102,66,"Stigma, careers, multimethod design; strong organizational theory contribution",MgmtSci
+incontext_anon,OrgSci,W4392369033,55,Ideology and media evaluation of firms; plausible macro-organizational fit,OrgSci
+incontext_anon,OrgSci,W4410739828,62,"Team adaptation, field data with theory building; fits the journal's team research",OrgSci
+incontext_anon,OrgSci,W4413584536,65,"Gender, startup hiring, and a causal design, matching entrepreneurship work here",MgmtSci
+incontext_anon,OrgSci,W7172310516,38,"IO-style formal pricing model, more marketing than organizational",MgmtSci
+incontext_anon,OrgSci,W4415848566,35,Incremental performance-feedback study of alliance portfolios,SMJ
+incontext_anon,OrgSci,W4398168833,70,"Ethnographic identity-work theory building, typical of the journal",OrgSci
+incontext_anon,OrgSci,W7168163083,70,Inductive interview theory of an inequality process; fits well,OrgSci
+incontext_anon,OrgSci,W4406871104,55,"Audience evaluation of differentiation, in the categories tradition",MgmtSci
+incontext_anon,OrgSci,W4415700242,48,Formal model of disruption timing; somewhat strategy-oriented,MgmtSci
+incontext_anon,OrgSci,W4415966340,50,Psychology experiments on discrimination with a weaker organizational angle,OrgSci
+incontext_anon,OrgSci,W7215045513,58,Large-scale data on ownership and pay; addresses work and inequality,MgmtSci
+incontext_anon,OrgSci,W4406619528,30,Narrow formal economics model of AGI funding; weak organizational theory link,MgmtSci
+incontext_anon,OrgSci,W4415667705,45,Audit experiment on identity in negotiations; more psychology/sociology fit,OrgSci
+incontext_anon,OrgSci,W4415885063,40,Ecosystem and complementor strategy; reads like a strategy-journal paper,SMJ
+incontext_anon,OrgSci,W4407430050,75,Qualitative process model of rhetorical history and generations; strong theory fit,OrgSci
+incontext_anon,OrgSci,W4411880120,68,Misconduct and financial strain with novel data; matches published misconduct work,MgmtSci
+incontext_anon,OrgSci,W4396930942,15,Methods note on machine learning for matching; not a theory contribution,SMJ
+incontext_anon,OrgSci,W4401533548,65,Experiment on exploration and performance feedback; core learning theory,OrgSci
+incontext_anon,OrgSci,W7133752671,60,Integrative team experiment with new task framework; ambitious team research,MgmtSci
+incontext_anon,OrgSci,W7164527973,62,AI field experiment on collaboration and teams; timely and relevant,OrgSci
+incontext_anon,OrgSci,W4400456134,55,Entrepreneurship costs and incumbent pay inequality; credible but economics-leaning,OrgSci
+incontext_anon,OrgSci,W4391108968,30,Acquisition returns and travel time; strategy/finance focus,SMJ
+incontext_anon,OrgSci,W4391957405,65,Formal model of culture and adaptation; fits the journal's simulation tradition,OrgSci
+incontext_anon,OrgSci,W4392191201,62,Historical study of automation and interdependence; organizational design insight,MgmtSci
+incontext_anon,OrgSci,W7160560531,40,Acquisition motives in open source; strategy-journal style,SMJ
+incontext_anon,OrgSci,W7204030819,40,Diversification performance in lobbying; strategy-journal framing,SMJ
+incontext_anon,OrgSci,W7131875656,50,Formal principal-agent model of delegation; fits Org Sci's formal-theory strand,MgmtSci
+incontext_anon,OrgSci,W4413128838,35,Conceptual stakeholder governance piece; sounds more like strategy journal,SMJ
+incontext_anon,OrgSci,W4403391988,72,"Field experiment on dynamic teams, learning and coordination; core fit",OrgSci
+incontext_anon,OrgSci,W4410132467,30,Measurement and method contribution; weaker organizational theory,SMJ
+incontext_anon,OrgSci,W4391928606,35,Formal competitive positioning model; more strategy/economics oriented,SMJ
+incontext_anon,OrgSci,W4401437965,40,Nonmarket strategy and bribery; plausible but more strategy-journal fit,SMJ
+incontext_anon,OrgSci,W7160896437,25,IO economics merger policy model; little organizational theory,MgmtSci
+incontext_anon,OrgSci,W4400494323,62,Field experiment on entrepreneur networks and learning; good fit,MgmtSci
+incontext_anon,OrgSci,W7162518787,45,"Founder experience, formal model plus microdata; plausible fit",SMJ
+incontext_anon,OrgSci,W4395478680,45,Pipeline hiring and human capital; plausible but strategy-flavored,SMJ
+incontext_anon,OrgSci,W7140292561,35,Lobbying and trade policy; more strategy/nonmarket outlet,SMJ
+incontext_anon,OrgSci,W4415221881,78,Qualitative study of expert practices and merger; classic fit,OrgSci
+incontext_anon,OrgSci,W4391822681,68,Proximity and knowledge spillovers in coworking; strong fit,MgmtSci
+incontext_anon,OrgSci,W4393992555,50,Conceptual authenticity theory; fits Org Sci micro conceptual pieces,OrgSci
+incontext_anon,OrgSci,W4413078142,52,Demand spillovers on innovation via labor mobility; reasonable fit,OrgSci
+incontext_anon,OrgSci,W4401438064,70,Intraorganizational network change with a surprising asymmetry; strong organizational fit,SMJ
+incontext_anon,OrgSci,W4408615243,62,Misconduct and career consequences in a novel setting; fits the journal's organizational interests,MgmtSci
+incontext_anon,OrgSci,W4414575593,60,"Category work and label appropriation as a process theory; fits, though somewhat narrow",SMJ
+incontext_anon,OrgSci,W7140163197,58,Network brokerage theory extension; looks more like a strategy-journal paper,OrgSci
+incontext_anon,OrgSci,W7204194857,45,GenAI and innovation direction; formatting and framing suggest a strategy journal,SMJ
+incontext_anon,OrgSci,W4401913114,35,Finance-style event study with thin organizational theory,OrgSci
+incontext_anon,OrgSci,W7167915571,55,"AI field experiment with entrepreneurs; relevant, but framing leans toward management science",MgmtSci
+incontext_anon,OrgSci,W4409654205,40,Environmental policy unintended consequences; little organizational theory,MgmtSci
+incontext_anon,OrgSci,W7165627926,55,Historical study of industry emergence; plausible fit with organizational theory,OrgSci
+incontext_anon,OrgSci,W4416295432,50,Startup learning trade-off; leans toward a strategy journal,OrgSci
+incontext_anon,OrgSci,W7118789025,45,Operations or strategy design topic; looks like a strategy-journal paper,SMJ
+incontext_anon,OrgSci,W4412477089,45,Category spanning replication with a measurement focus; moderate contribution,OrgSci
+incontext_anon,OrgSci,W4396826999,45,Upper echelons work on CEO narcissism; more typical of a strategy journal,SMJ
+incontext_anon,OrgSci,W7154732713,65,Qualitative study of organizing human–GenAI collaboration; strong fit,SMJ
+incontext_anon,OrgSci,W7140141833,20,Methods essay aimed at strategic management research,SMJ
+incontext_anon,OrgSci,W4410395534,72,Mixed-methods network activation study with sociological mechanism; fits org theory well,OrgSci
+incontext_anon,OrgSci,W4408103243,45,"Policing RCT on procedural justice; more public management, though field experiment plausible",MgmtSci
+incontext_anon,OrgSci,W7223183398,55,"Intrafirm network incentive quasi-experiment; fits, but Wiley-style hyphenation hints at SMJ",SMJ
+incontext_anon,OrgSci,W4407148851,20,"Database resource note; strategy-journal style, not theory contribution",SMJ
+incontext_anon,OrgSci,W4400595406,68,"Status anxiety, rankings, decoupling with RDD; core org theory topic",SMJ
+incontext_anon,OrgSci,W4408812156,70,Categories misfit bias with archival plus experiment; classic Org Science,OrgSci
+incontext_anon,OrgSci,W4414937457,75,Inductive study of interpersonal holding in innovation; strong qualitative theory building,OrgSci
+incontext_anon,OrgSci,W7168839273,25,Industry classification and variance decomposition; SMJ-type methodological strategy,SMJ
+incontext_anon,OrgSci,W4401643197,12,Common ownership economics model; finance/economics journal fit,MgmtSci
+incontext_anon,OrgSci,W4416425919,10,Principal–multiagent operations model; Management Science style,MgmtSci
+incontext_anon,OrgSci,W4408879455,50,"Pay transparency field study on equity; plausible, though may be economics-oriented",SMJ
+incontext_anon,OrgSci,W7128598029,3,Game-theory comment on another journal's paper,MgmtSci
+incontext_anon,SMJ,W7139935458,62,"Tech, hierarchy and organization design studied with big data; fits strategy",MgmtSci
+incontext_anon,SMJ,W4401577217,65,Field experiment on competitor information and managerial attention; core strategy topic,MgmtSci
+incontext_anon,SMJ,W4403538563,55,Competitive disclosure in pharma; solid but narrow,MgmtSci
+incontext_anon,SMJ,W7221144841,35,Team-level micro OB study set in the NBA; weak strategy link,OrgSci
+incontext_anon,SMJ,W4404720756,72,Serial entrepreneurs' hiring strategies using Danish register data; matches past articles,SMJ
+incontext_anon,SMJ,W4401000659,70,Large-scale breakdown of firm growth modes; corporate strategy,SMJ
+incontext_anon,SMJ,W4399786255,62,"Government VC, Chinese setting, risk–return paradox",SMJ
+incontext_anon,SMJ,W4410431490,48,"Psychology of CEO dismissal; theory-heavy, closer to an OB journal",OrgSci
+incontext_anon,SMJ,W4407199819,50,Startup–accelerator matching; moderate contribution,OrgSci
+incontext_anon,SMJ,W4414092254,55,Post-acquisition inventor integration; knowledge-based view,OrgSci
+incontext_anon,SMJ,W4403538325,30,Crowdfunding signaling mechanism; more economics/IS than strategy,MgmtSci
+incontext_anon,SMJ,W4411180928,10,Pure contract-theory model; not a strategy contribution,MgmtSci
+incontext_anon,SMJ,W7127576577,55,Alliance knowledge safeguards and inventor networks; fits but untested framing,OrgSci
+incontext_anon,SMJ,W4415674079,60,Methods guidance on LLMs for management research; journal publishes methods pieces,SMJ
+incontext_anon,SMJ,W7213887525,68,Serendipitous inventions as option-like assets; links innovation and value capture,SMJ
+incontext_anon,SMJ,W4406212660,72,"Private politics and innovation, firm strategy with a matched sample; good fit",OrgSci
+incontext_anon,SMJ,W4415429094,62,IPR natural experiment linked to innovation strategy; leans toward economics of science,SMJ
+incontext_anon,SMJ,W4405500024,60,Historical corporate research; strategy-relevant but feels more like economic history,OrgSci
+incontext_anon,SMJ,W4405486240,12,Micro organizational behavior study of employee thriving; not strategy,OrgSci
+incontext_anon,SMJ,W4409620756,65,"Formal model of aspirations, exploration and problemistic search; fits the journal's modeling",SMJ
+incontext_anon,SMJ,W4401533471,62,"Qualitative study of strategy formation, decision weaving; similar to published work",OrgSci
+incontext_anon,SMJ,W4415962253,70,Organizational design and alliance governance in biopharma; core strategy,OrgSci
+incontext_anon,SMJ,W4410537786,42,Platform privacy model leaning toward IO and welfare economics,MgmtSci
+incontext_anon,SMJ,W4392760955,66,Startup scaling timing measured with job postings; entrepreneurial strategy,SMJ
+incontext_anon,SMJ,W4416011092,62,"Prosocial managers and exit decisions, field data plus experiments; behavioral strategy",MgmtSci
+incontext_anon,SMJ,W4403493445,72,"Technology in-sourcing, attention and familiarity in biopharma; strong fit",SMJ
+incontext_anon,SMJ,W4404164210,45,Principal-agent model of instructions; organizational economics with weak strategy link,MgmtSci
+incontext_anon,SMJ,W4416351719,65,Coevolution of board interlocks and corporate strategy with stochastic actor models,SMJ
+incontext_anon,SMJ,W4391361637,35,Ad exchange property rights model; IO and policy focus,MgmtSci
+incontext_anon,SMJ,W4413313723,38,"eBay bargaining natural experiment; economics or marketing focus, not strategy",MgmtSci
+incontext_anon,SMJ,W7140330321,15,Data/measurement release; not a strategy theory contribution,OrgSci
+incontext_anon,SMJ,W4402408038,10,"Inhabited institutionalism ethnography of strikes; organization theory, not strategy",OrgSci
+incontext_anon,SMJ,W4410127539,72,"CSR learning with quasi-random design; strategy-relevant mechanism, SMJ style",SMJ
+incontext_anon,SMJ,W4402845374,45,Buyer-supplier governance; fits strategy but econ style suggests another outlet,MgmtSci
+incontext_anon,SMJ,W4413342591,50,"Corporate political strategy using RD design; peer response, plausible fit",MgmtSci
+incontext_anon,SMJ,W4410298372,45,"CEO narcissism in entrepreneurial pitches; upper echelons but micro, Shark Tank",OrgSci
+incontext_anon,SMJ,W4405915894,55,"Business model and strategic change; SMJ formatting, modest contribution",SMJ
+incontext_anon,SMJ,W4402310152,45,CEO evaluation via Glassdoor; governance topic but leans toward finance/accounting,OrgSci
+incontext_anon,SMJ,W7138921623,62,"Hiring network strategy and innovation; strategic human capital, SMJ style",SMJ
+incontext_anon,SMJ,W7160168093,40,Field experiment on practice adoption; leans toward operations/management science,MgmtSci
+incontext_anon,SMJ,W7170761526,40,"GenAI and skill demand; organization design framing, timely",MgmtSci
+incontext_anon,SMJ,W4408928101,20,Gender stereotypes in online hiring; sociology/OS focus,OrgSci
+incontext_anon,SMJ,W4394808604,8,Ethnography of work-family conflict; OB/OS topic,OrgSci
+incontext_anon,SMJ,W7129025385,22,Science-of-science mentoring study; fits Organization Science better,OrgSci
+incontext_anon,SMJ,W4417280442,50,"Import competition and innovation; text measures, a competitive dynamics fit",MgmtSci
+incontext_anon,SMJ,W7165365766,45,"Event study of carbon goals; modest theory, but fits SMJ's interest in CSR and markets",MgmtSci
+incontext_anon,SMJ,W4391436263,45,"Gender and evaluation consensus; more of a sociology fit, weak strategy angle",SMJ
+incontext_anon,SMJ,W4394978746,68,Firms' innovation strategy responses to NPE litigation; classic SMJ question,SMJ
+incontext_anon,SMJ,W4415181102,40,Worker careers and associative stigma; leans toward organizational behavior and HR,MgmtSci
+incontext_anon,SMJ,W4392369033,42,"Media ideology and CSR coverage; no stated evidence, closer to organization theory",OrgSci
+incontext_anon,SMJ,W4410739828,12,"Firefighting team cognition; organizational behavior, not strategy",OrgSci
+incontext_anon,SMJ,W4413584536,62,Startup hiring of women using an RDiT design; fits SMJ's entrepreneurship and gender work,MgmtSci
+incontext_anon,SMJ,W7172310516,40,Formal pricing and ratings model; leans toward marketing and economics,MgmtSci
+incontext_anon,SMJ,W4415848566,55,Performance feedback and alliance portfolios; standard but incremental,SMJ
+incontext_anon,SMJ,W4398168833,10,Ethnography of refugee identity; not a strategy topic,OrgSci
+incontext_anon,SMJ,W7168163083,8,"Interviews on how journalists talk about discrimination; sociology, not strategy",OrgSci
+incontext_anon,SMJ,W4406871104,35,Music differentiation and audiences; better suited to an organization theory journal,MgmtSci
+incontext_anon,SMJ,W4415700242,62,Formal model of entry timing in disruptive innovation; fits SMJ's formal theory papers,MgmtSci
+incontext_anon,SMJ,W4415966340,8,Psychology experiments on discrimination attributions; off-topic for strategy,OrgSci
+incontext_anon,SMJ,W7215045513,65,Active owners and pay for comparable work; strategic human capital with large data,MgmtSci
+incontext_anon,SMJ,W4406619528,35,"Formal AGI governance model; weak strategy framing, closer to economics/policy",MgmtSci
+incontext_anon,SMJ,W4415667705,12,"Negotiation discrimination audit study; micro-OB/identity, not strategy",OrgSci
+incontext_anon,SMJ,W4415885063,75,"Ecosystem disruption, complementor adjustment costs; core strategy topic",SMJ
+incontext_anon,SMJ,W4407430050,20,"Rhetorical history in unions; organization theory, not strategy",OrgSci
+incontext_anon,SMJ,W4411880120,40,Misconduct as firm strategy under financial pressure; plausible but micro-firm setting,MgmtSci
+incontext_anon,SMJ,W4396930942,50,Methods guidance on ML matching; journal publishes some methods pieces,SMJ
+incontext_anon,SMJ,W4401533548,30,"Lab experiment on individual exploration; behavioral, weaker strategy link",OrgSci
+incontext_anon,SMJ,W7133752671,12,"Team task space experiment; group research, not strategy",MgmtSci
+incontext_anon,SMJ,W7164527973,30,AI collaboration field experiment; more organizational behavior/innovation,OrgSci
+incontext_anon,SMJ,W4400456134,45,Entrepreneurship reform and pay dispersion; strategic human capital fit,OrgSci
+incontext_anon,SMJ,W4391108968,65,"M&A market for corporate control, natural variation; core strategy",SMJ
+incontext_anon,SMJ,W4391957405,35,Formal culture-adaptation model; more organization science,OrgSci
+incontext_anon,SMJ,W4392191201,45,Historical case of automation and interdependencies; possible fit,MgmtSci
+incontext_anon,SMJ,W7160560531,70,Acquisition motives and partner collaborations; corporate strategy fit,SMJ
+incontext_anon,SMJ,W7204030819,70,"Diversification performance, question-driven; core strategy",SMJ
+incontext_anon,SMJ,W7131875656,33,Pure principal-agent delegation model; more economics/OrgSci than strategy,MgmtSci
+incontext_anon,SMJ,W4413128838,70,"Stakeholder governance theory, comparative governance; fits strategy theory pieces",SMJ
+incontext_anon,SMJ,W4403391988,22,Team coordination field experiment in hospital; organizational behavior focus,OrgSci
+incontext_anon,SMJ,W4410132467,66,New LLM-based measure of science's commercial potential; strategy-innovation methods,SMJ
+incontext_anon,SMJ,W4391928606,64,Formal competitive positioning model; core strategy question,SMJ
+incontext_anon,SMJ,W4401437965,62,"Nonmarket strategy, political competition, bribery panel data",SMJ
+incontext_anon,SMJ,W7160896437,30,Industrial organization merger policy model; economics outlet more likely,MgmtSci
+incontext_anon,SMJ,W4400494323,42,Entrepreneur networking field experiment; plausible but OrgSci-flavored,MgmtSci
+incontext_anon,SMJ,W7162518787,72,"Founder pre-entry experience, formal model plus Census data",SMJ
+incontext_anon,SMJ,W4395478680,66,"Strategic human capital, information asymmetry, sports setting",SMJ
+incontext_anon,SMJ,W7140292561,70,"Corporate political strategy under policy uncertainty, clean empirical design",SMJ
+incontext_anon,SMJ,W4415221881,15,"Qualitative study of occupational practices; organization theory, not strategy",OrgSci
+incontext_anon,SMJ,W4391822681,42,Knowledge spillovers between startups from proximity; more OrgSci/MS,MgmtSci
+incontext_anon,SMJ,W4393992555,7,Micro OB conceptual piece on self-presentation; wrong field,OrgSci
+incontext_anon,SMJ,W4413078142,52,"Demand-driven innovation spillovers, knowledge worker competition; fits strategy-innovation",OrgSci
+incontext_anon,SMJ,W4401438064,55,"Intraorganizational network rewiring fits, but leans organizational behavior rather than strategy",SMJ
+incontext_anon,SMJ,W4408615243,30,Career consequences of doping read like sociology/org theory; strategy link is weak,MgmtSci
+incontext_anon,SMJ,W4414575593,45,Category work in earnings calls; process theory fits org theory journals better,SMJ
+incontext_anon,SMJ,W7140163197,50,"Brokerage and innovation performance theory is plausible for strategy, but reads more like org theory",OrgSci
+incontext_anon,SMJ,W7204194857,72,Effect of generative AI on innovation direction; a timely strategy and innovation topic,SMJ
+incontext_anon,SMJ,W4401913114,45,Investor reaction to diversity via event study leans toward finance or management science,OrgSci
+incontext_anon,SMJ,W7167915571,45,"AI advice field experiment with entrepreneurs; reads economics-style, null average effect",MgmtSci
+incontext_anon,SMJ,W4409654205,45,Unintended consequences of environmental regulation; strategy contribution is modest,MgmtSci
+incontext_anon,SMJ,W7165627926,55,Historical study of industry emergence in solar; journal publishes historical methods and emergence work,OrgSci
+incontext_anon,SMJ,W4416295432,58,Startup market entry and learning tradeoff; credible entrepreneurial strategy,OrgSci
+incontext_anon,SMJ,W7118789025,68,Economies of scope and interdependence studied in the auto industry; core strategy topic,SMJ
+incontext_anon,SMJ,W4412477089,60,Replication of category-spanning findings with a new measure; journal values replications,OrgSci
+incontext_anon,SMJ,W4396826999,72,CEO narcissism and board attention mechanism; core upper echelons research,SMJ
+incontext_anon,SMJ,W7154732713,52,Qualitative study of organizing human–AI collaboration; organizing angle is borderline for strategy,SMJ
+incontext_anon,SMJ,W7140141833,75,Abduction methods essay for strategy research; matches the journal's philosophy-of-science pieces,SMJ
+incontext_anon,SMJ,W4410395534,22,Sociology-of-job-search focus; weak link to strategy or firms,OrgSci
+incontext_anon,SMJ,W4408103243,12,Policing training RCT; public administration rather than strategy,MgmtSci
+incontext_anon,SMJ,W7223183398,60,Incentive redesign and intrafirm networks; field quasi-experiment fits strategy,SMJ
+incontext_anon,SMJ,W4407148851,58,"Open-access executive turnover database, similar to the journal's data contributions",SMJ
+incontext_anon,SMJ,W4400595406,58,"Status, CSR, and a regression discontinuity design; plausible strategy fit",SMJ
+incontext_anon,SMJ,W4408812156,38,Category misfit evaluation bias; leans toward organization theory and marketing,OrgSci
+incontext_anon,SMJ,W4414937457,12,Inductive organizational-behavior study of emotional holding; not strategy,OrgSci
+incontext_anon,SMJ,W7168839273,72,Variance decomposition of industry effects; core strategy methods question,SMJ
+incontext_anon,SMJ,W4401643197,35,Common ownership and innovation; finance and economics framing,MgmtSci
+incontext_anon,SMJ,W4416425919,12,Operations-style principal–agent model of NPD project selection,MgmtSci
+incontext_anon,SMJ,W4408879455,62,Pay transparency and productivity; strategic human capital with field evidence,SMJ
+incontext_anon,SMJ,W7128598029,3,Technical game-theory note on another journal's paper,MgmtSci
+incontext_anon,MgmtSci,W7139935458,62,"Digital technology and hierarchy, novel data, DiD; fits org economics",MgmtSci
+incontext_anon,MgmtSci,W4401577217,80,Large field experiment on competitor information and managerial inattention,MgmtSci
+incontext_anon,MgmtSci,W4403538563,66,"Pharma competitive disclosure DiD, matches the journal's pharma strategy papers",MgmtSci
+incontext_anon,MgmtSci,W7221144841,40,OB-style multi-theory team model using NBA data; less economics-oriented,OrgSci
+incontext_anon,MgmtSci,W4404720756,38,"Serial entrepreneur hiring, register data; descriptive style typical of other journals",SMJ
+incontext_anon,MgmtSci,W4401000659,35,Descriptive decomposition of growth modes; weak identification,SMJ
+incontext_anon,MgmtSci,W4399786255,25,"China VC risk–return paradox, management-theory framing",SMJ
+incontext_anon,MgmtSci,W4410431490,18,Expectancy violations theory of CEO dismissal; micro-OB framing,OrgSci
+incontext_anon,MgmtSci,W4407199819,45,Accelerator–founder matching; plausible but identification is thin,OrgSci
+incontext_anon,MgmtSci,W4414092254,38,Knowledge-based view of post-acquisition integration; conventional archival hypotheses,OrgSci
+incontext_anon,MgmtSci,W4403538325,62,Signaling model plus experiment on crowdfunding; good fit,MgmtSci
+incontext_anon,MgmtSci,W4411180928,65,Formal principal–monitor–agent contracting model with retaliation,MgmtSci
+incontext_anon,MgmtSci,W7127576577,30,"Alliance safeguards theory, hypothesis-heavy and lacks causal design",OrgSci
+incontext_anon,MgmtSci,W4415674079,20,Methods guide for LLM annotation; not a strategy contribution,SMJ
+incontext_anon,MgmtSci,W7213887525,35,Descriptive survey of serendipitous patents; style fits other journals,SMJ
+incontext_anon,MgmtSci,W4406212660,42,"Social movements and innovation; sociological framing, matched-sample design is less causal",OrgSci
+incontext_anon,MgmtSci,W4415429094,45,"TRIPS and knowledge diffusion, causal design; framing fits innovation strategy",SMJ
+incontext_anon,MgmtSci,W4405500024,62,Historical firm data on corporate research origins; economics of innovation fits,OrgSci
+incontext_anon,MgmtSci,W4405486240,8,Micro-OB work-leisure thriving; outside the journal's economics/strategy scope,OrgSci
+incontext_anon,MgmtSci,W4409620756,45,Tractable model of aspirations and search; plausible but behavioral-strategy niche,SMJ
+incontext_anon,MgmtSci,W4401533471,25,Inductive case study on institutional theory; journal rarely publishes qualitative work,OrgSci
+incontext_anon,MgmtSci,W4415962253,40,"Alliance governance and org design; standard strategy empirics, weaker identification",OrgSci
+incontext_anon,MgmtSci,W4410537786,62,Platform business-model theory on privacy and network effects fits,MgmtSci
+incontext_anon,MgmtSci,W4392760955,52,Startup scaling timing measured with job postings; entrepreneurial strategy fits,SMJ
+incontext_anon,MgmtSci,W4416011092,45,"Prosocial managers and exit, field data plus experiments; behavioral emphasis",MgmtSci
+incontext_anon,MgmtSci,W4403493445,35,"Attention-based in-sourcing framework; case-control design, SMJ-style framing",SMJ
+incontext_anon,MgmtSci,W4404164210,65,Org-economics model of instructions and incentives; strong fit,MgmtSci
+incontext_anon,MgmtSci,W4416351719,25,Structuration theory on board interlocks; methodological rather than economic focus,SMJ
+incontext_anon,MgmtSci,W4391361637,62,Property-rights model of ad exchanges and data; digital-economy theory fits,MgmtSci
+incontext_anon,MgmtSci,W4413313723,62,Natural experiment on eBay bargaining communication; clean causal design,MgmtSci
+incontext_anon,MgmtSci,W7140330321,45,"Useful data resource, but there's little strategy or economics contribution beyond measurement",OrgSci
+incontext_anon,MgmtSci,W4402408038,10,Qualitative institutional theory field study; doesn't fit this journal's economics-oriented taste,OrgSci
+incontext_anon,MgmtSci,W4410127539,40,"Quasi-random design is a plus, but CSR learning framing feels SMJ-like",SMJ
+incontext_anon,MgmtSci,W4402845374,80,Formal model plus clean airline-slot evidence on governance; strong fit,MgmtSci
+incontext_anon,MgmtSci,W4413342591,50,"Credible regression discontinuity design, though nonmarket strategy is only a moderate fit",MgmtSci
+incontext_anon,MgmtSci,W4410298372,22,Psychological narcissism construct on Shark Tank data; weak identification,OrgSci
+incontext_anon,MgmtSci,W4405915894,10,Small-sample moderation study from a business model perspective; weak causal design,SMJ
+incontext_anon,MgmtSci,W4402310152,50,Difference-in-differences on Glassdoor data; governance topic is a plausible fit,OrgSci
+incontext_anon,MgmtSci,W7138921623,30,Network hiring hypotheses tested by panel matching; SMJ-style framing,SMJ
+incontext_anon,MgmtSci,W7160168093,68,Large field experiment on management practice adoption,MgmtSci
+incontext_anon,MgmtSci,W7170761526,50,"Timely genAI shock, but organizing-skills theory framing is a weaker fit",MgmtSci
+incontext_anon,MgmtSci,W4408928101,55,Online labor market hiring data; similar to published belief-updating work,OrgSci
+incontext_anon,MgmtSci,W4394808604,12,Ethnographic study of work–family conflict; not this journal's style,OrgSci
+incontext_anon,MgmtSci,W7129025385,55,Novel science-of-science data on knowledge transfer; fits innovation interest,OrgSci
+incontext_anon,MgmtSci,W4417280442,48,Competition and innovation measured with text; familiar China-shock design,MgmtSci
+incontext_anon,MgmtSci,W7165365766,35,"Simple event study; finance-like, limited strategic theory or identification",MgmtSci
+incontext_anon,MgmtSci,W4391436263,45,"Large-scale evaluation data on gender; fits, but SMJ-style framing",SMJ
+incontext_anon,MgmtSci,W4394978746,45,Innovation strategy response to NPEs; plausible but standard SMJ-type design,SMJ
+incontext_anon,MgmtSci,W4415181102,45,"Careers and stigma, multimethod; somewhat sociological framing",MgmtSci
+incontext_anon,MgmtSci,W4392369033,30,Hypothesis-driven media ideology framing; no causal design evident,OrgSci
+incontext_anon,MgmtSci,W4410739828,25,"Team cognition field study; OB-focused, weak economic framing",OrgSci
+incontext_anon,MgmtSci,W4413584536,65,"RDiT on registry data; startups, hiring, gender—strong fit",MgmtSci
+incontext_anon,MgmtSci,W7172310516,65,Formal model of platform ratings with clear managerial implications,MgmtSci
+incontext_anon,MgmtSci,W4415848566,25,Behavioral theory alliance portfolio; conventional SMJ-style panel regressions,SMJ
+incontext_anon,MgmtSci,W4398168833,12,Ethnographic identity study; qualitative work is absent from this journal,OrgSci
+incontext_anon,MgmtSci,W7168163083,12,Interview-based qualitative sociology; poor fit,OrgSci
+incontext_anon,MgmtSci,W4406871104,45,Categories and differentiation in music; plausible fit with audience evaluation,MgmtSci
+incontext_anon,MgmtSci,W4415700242,62,Formal model of entry timing and disruption; good fit,MgmtSci
+incontext_anon,MgmtSci,W4415966340,30,Psychology experiments on discrimination attributions; more OB/psych,OrgSci
+incontext_anon,MgmtSci,W7215045513,62,"Large-scale payroll data, owner effects on pay; good fit",MgmtSci
+incontext_anon,MgmtSci,W4406619528,62,Formal model on AGI competition and firm strategy fits the journal's theory papers,MgmtSci
+incontext_anon,MgmtSci,W4415667705,45,Audit field experiment on discrimination; negotiation and intersectionality framing is more OB,OrgSci
+incontext_anon,MgmtSci,W4415885063,35,Mixed-methods ecosystem study in SMJ style; less economics-driven,SMJ
+incontext_anon,MgmtSci,W4407430050,10,Qualitative process theory of organizational history; doesn't fit this journal,OrgSci
+incontext_anon,MgmtSci,W4411880120,62,Granular causal data linking capital constraints to firm misconduct,MgmtSci
+incontext_anon,MgmtSci,W4396930942,15,Methods tutorial on ML matching; not a substantive contribution,SMJ
+incontext_anon,MgmtSci,W4401533548,40,Lab experiment on exploration and self-enhancement; leans behavioral/OB,OrgSci
+incontext_anon,MgmtSci,W7133752671,45,"Large integrative team experiment; methodological, borderline fit",MgmtSci
+incontext_anon,MgmtSci,W7164527973,65,Field experiment on AI and teams at P&G; timely and causal,OrgSci
+incontext_anon,MgmtSci,W4400456134,55,Diff-in-diff on entry reform and pay variance; fits labor-strategy interest,OrgSci
+incontext_anon,MgmtSci,W4391108968,45,"Natural variation from airline routes in M&A; SMJ-style, decent design",SMJ
+incontext_anon,MgmtSci,W4391957405,55,Formal model of culture and adaptation; fits the journal's organizational-theory models,OrgSci
+incontext_anon,MgmtSci,W4392191201,60,Historical study of automation and complementarities; matches journal's taste,MgmtSci
+incontext_anon,MgmtSci,W7160560531,30,Descriptive typology of acquisition motives; weak identification,SMJ
+incontext_anon,MgmtSci,W7204030819,35,Question-driven correlational lobbying study; SMJ style,SMJ
+incontext_anon,MgmtSci,W7131875656,72,Principal-agent delegation model with managerial insight fits the journal's formal theory,MgmtSci
+incontext_anon,MgmtSci,W4413128838,30,Conceptual governance typology without a formal model or causal evidence,SMJ
+incontext_anon,MgmtSci,W4403391988,45,"Field experiment on teams, but more OB-oriented than economics-of-strategy",OrgSci
+incontext_anon,MgmtSci,W4410132467,50,Novel LLM-based measure of science with applications; fits measurement papers,SMJ
+incontext_anon,MgmtSci,W4391928606,62,Formal competitive positioning model with counterintuitive result,SMJ
+incontext_anon,MgmtSci,W4401437965,40,Nonmarket correlational panel study; weaker identification,SMJ
+incontext_anon,MgmtSci,W7160896437,75,Kill zone acquisitions model with policy implications fits theory taste,MgmtSci
+incontext_anon,MgmtSci,W4400494323,68,Randomized networking field experiment with entrepreneurs; credible causal evidence,MgmtSci
+incontext_anon,MgmtSci,W7162518787,60,Formal model plus Census microdata on founder experience,SMJ
+incontext_anon,MgmtSci,W4395478680,50,"Sports hiring setting; identification moderate, SMJ-like framing",SMJ
+incontext_anon,MgmtSci,W7140292561,55,Clever trade-war lobbying evidence with shipping data,SMJ
+incontext_anon,MgmtSci,W4415221881,15,Qualitative ethnography of practices; not the journal's style,OrgSci
+incontext_anon,MgmtSci,W4391822681,70,Exogenous office assignment identifies knowledge spillovers among startups,MgmtSci
+incontext_anon,MgmtSci,W4393992555,10,Purely conceptual OB self-presentation theory; poor fit,OrgSci
+incontext_anon,MgmtSci,W4413078142,58,Policy shock identifies labor-market spillovers on innovation,OrgSci
+incontext_anon,MgmtSci,W4401438064,55,"Network rewiring from offsites; organizational empirics, plausible but more org-theory flavored",SMJ
+incontext_anon,MgmtSci,W4408615243,45,"Sports career consequences fits, but descriptive, sociological framing",MgmtSci
+incontext_anon,MgmtSci,W4414575593,12,Qualitative category-work process study; journal favors causal or formal work,SMJ
+incontext_anon,MgmtSci,W7140163197,25,Network brokerage theorizing without clear identification; SMJ/OS style,OrgSci
+incontext_anon,MgmtSci,W7204194857,40,"GenAI innovation empirics are relevant, but the framing reads as SMJ",SMJ
+incontext_anon,MgmtSci,W4401913114,50,"Event-study evidence on diversity valuation, a credible fit",OrgSci
+incontext_anon,MgmtSci,W7167915571,78,Field experiment with AI advice for entrepreneurs; strong causal design,MgmtSci
+incontext_anon,MgmtSci,W4409654205,62,Policy natural experiment showing strategic firm responses; causal,MgmtSci
+incontext_anon,MgmtSci,W7165627926,12,Historical qualitative study of industry emergence; poor fit,OrgSci
+incontext_anon,MgmtSci,W4416295432,55,Startup learning with quasi-experimental platform timing; decent fit,OrgSci
+incontext_anon,MgmtSci,W7118789025,35,Task co-use and reliability; SMJ-style operations-strategy framing,SMJ
+incontext_anon,MgmtSci,W4412477089,40,Category-spanning replication with novel text measure; moderate fit,OrgSci
+incontext_anon,MgmtSci,W4396826999,25,"Upper-echelons CEO narcissism study, typical of SMJ",SMJ
+incontext_anon,MgmtSci,W7154732713,12,Qualitative organizing-process study of GenAI collaboration,SMJ
+incontext_anon,MgmtSci,W7140141833,5,Methodological essay on abduction; not this journal's genre,SMJ
+incontext_anon,MgmtSci,W4410395534,25,Sociological mixed-methods network study; less economic or causal than this journal's norm,OrgSci
+incontext_anon,MgmtSci,W4408103243,55,"Large field RCT on organizational behavior, but policing is a peripheral setting",MgmtSci
+incontext_anon,MgmtSci,W7223183398,35,"Network-incentive quasi-experiment, but framed in a management-theory style",SMJ
+incontext_anon,MgmtSci,W4407148851,22,Database contribution with little analysis behind it,SMJ
+incontext_anon,MgmtSci,W4400595406,45,"RDD on status and CSR fits, though the framing leans sociological",SMJ
+incontext_anon,MgmtSci,W4408812156,40,Categories and evaluation-bias work with an experiment; fits the journal moderately,OrgSci
+incontext_anon,MgmtSci,W4414937457,8,Purely inductive qualitative interview study; not the journal's style,OrgSci
+incontext_anon,MgmtSci,W7168839273,35,Variance decomposition with machine-learning industry classification; mainly a methods contribution,SMJ
+incontext_anon,MgmtSci,W4401643197,72,"Common ownership and innovation, combining theory with a natural-experiment test",MgmtSci
+incontext_anon,MgmtSci,W4416425919,50,Principal–multiagent model of project selection fits the journal's modeling tradition,MgmtSci
+incontext_anon,MgmtSci,W4408879455,55,Field evidence on pay transparency using staggered shocks; strong design,SMJ
+incontext_anon,MgmtSci,W7128598029,55,Comment on a 2019 paper this journal published; journals often print such notes,MgmtSci
+rulebook_anon,OrgSci,W7139935458,40,"Hierarchy and technology theory, but the evidence is DiD effect sizes and a new dataset",MgmtSci
+rulebook_anon,OrgSci,W4401577217,55,Field experiment on managerial attention and competitor information; organizational mechanism is modest,MgmtSci
+rulebook_anon,OrgSci,W4403538563,30,Economics-style DiD on strategic disclosure; thin behavioral mechanism,MgmtSci
+rulebook_anon,OrgSci,W7221144841,62,Team processes and trade-off between individual and team performance; relational mechanism,OrgSci
+rulebook_anon,OrgSci,W4404720756,50,"Entrepreneurial learning and hiring; register data, somewhat descriptive",SMJ
+rulebook_anon,OrgSci,W4401000659,15,Descriptive decomposition of growth modes; strategy and economics framing,SMJ
+rulebook_anon,OrgSci,W4399786255,45,"Paradoxes in risk and return, but the framing is about government and VC finance",SMJ
+rulebook_anon,OrgSci,W4410431490,72,"Board sensemaking via expectancy violations, agency/communion perceptions, contingencies",OrgSci
+rulebook_anon,OrgSci,W4407199819,35,Resource complementarity and matching; economics/strategy framing,OrgSci
+rulebook_anon,OrgSci,W4414092254,50,Integration after M&A with knowledge interplay; leans toward strategy audiences,OrgSci
+rulebook_anon,OrgSci,W4403538325,15,Economic signaling solution to information asymmetry,MgmtSci
+rulebook_anon,OrgSci,W4411180928,8,Principal-agent optimal contracting model,MgmtSci
+rulebook_anon,OrgSci,W7127576577,70,Links alliance pressures to the internal inventor network; hidden trade-off,OrgSci
+rulebook_anon,OrgSci,W4415674079,8,"Methods guidance, not a theoretical contribution",SMJ
+rulebook_anon,OrgSci,W7213887525,35,Descriptive comparison of patent value; strategy framing,SMJ
+rulebook_anon,OrgSci,W4406212660,72,"Social movements shaping attention and search; contrasting mechanisms, org theory",OrgSci
+rulebook_anon,OrgSci,W4415429094,25,Policy evaluation of TRIPS with staggered implementation; economics-style,SMJ
+rulebook_anon,OrgSci,W4405500024,35,"Historical economic substitution argument, new dataset, thin behavioral mechanism",OrgSci
+rulebook_anon,OrgSci,W4405486240,40,"Micro OB thriving study, countervailing paths but weak organizational linkage",OrgSci
+rulebook_anon,OrgSci,W4409620756,68,"Formal model of aspirations, problemistic search, exploration; propositions",SMJ
+rulebook_anon,OrgSci,W4401533471,62,Theory-building on institutional entrepreneurship and learning; somewhat strategy-framed,OrgSci
+rulebook_anon,OrgSci,W4415962253,45,"Org design and alliance governance; strategy-leaning, modest behavioral mechanism",OrgSci
+rulebook_anon,OrgSci,W4410537786,8,Economic platform competition model with network effects and welfare,MgmtSci
+rulebook_anon,OrgSci,W4392760955,38,"Trade-off posited but new measure, strategy framing, null countervailing",SMJ
+rulebook_anon,OrgSci,W4416011092,66,"Emotion mechanism for exit, field plus experiments, contingency moderator",MgmtSci
+rulebook_anon,OrgSci,W4403493445,70,"Attention, familiarity bias, search in in-sourcing; behavioral organizational mechanism",SMJ
+rulebook_anon,OrgSci,W4404164210,12,"Principal-agent incentive model, economics-style",MgmtSci
+rulebook_anon,OrgSci,W4416351719,45,"Structuration of interlock networks; strategy/governance framing, methods emphasis",SMJ
+rulebook_anon,OrgSci,W4391361637,5,"Property rights economic model, welfare and policy implications",MgmtSci
+rulebook_anon,OrgSci,W4413313723,20,Natural experiment effect estimate on eBay bargaining; economics-style,MgmtSci
+rulebook_anon,OrgSci,W7140330321,12,"New measure/dataset contribution, no theoretical mechanism",OrgSci
+rulebook_anon,OrgSci,W4402408038,80,"Inhabited institutionalism, temporal miscoupling, meaning-making in field study",OrgSci
+rulebook_anon,OrgSci,W4410127539,42,"Organizational learning via CSR, but strategy-framed effect estimation",SMJ
+rulebook_anon,OrgSci,W4402845374,22,"Economic free-riding model, strategy framing on supplier governance",MgmtSci
+rulebook_anon,OrgSci,W4413342591,30,"RD effect estimation, strategy framing; thin behavioral mechanism",MgmtSci
+rulebook_anon,OrgSci,W4410298372,50,"Status pursuit and investor sentiment, opposing effects; some audience evaluation",OrgSci
+rulebook_anon,OrgSci,W4405915894,30,"Strategy-framed business model moderator, thin mechanism",SMJ
+rulebook_anon,OrgSci,W4402310152,35,Governance effect estimation; limited sociological theorizing,OrgSci
+rulebook_anon,OrgSci,W7138921623,55,"Mobility network position, culture moderator, integration-diversity trade-off",SMJ
+rulebook_anon,OrgSci,W7160168093,58,Field experiment on manager-worker collaboration with organizational contingencies,MgmtSci
+rulebook_anon,OrgSci,W7170761526,45,"Organizing skills theory, but labor-demand shock estimation",MgmtSci
+rulebook_anon,OrgSci,W4408928101,72,"Stereotypes, interactions shaping category evaluations; social meaning-making",OrgSci
+rulebook_anon,OrgSci,W4394808604,75,"Ethnography linking role conflict to workplace relationships, trade-off",OrgSci
+rulebook_anon,OrgSci,W7129025385,60,"Advisor-advisee relationships, tacit knowledge, competing mechanisms",OrgSci
+rulebook_anon,OrgSci,W4417280442,18,"Economics-style import competition estimation, strategy audience, measure focus",MgmtSci
+rulebook_anon,OrgSci,W7165365766,15,Finance event study with effect estimation and prescriptions; thin organizational mechanism,MgmtSci
+rulebook_anon,OrgSci,W4391436263,62,"Status characteristics and audience evaluation consensus, with an experiment separating mechanisms",SMJ
+rulebook_anon,OrgSci,W4394978746,35,Innovation strategy responses to litigation; strategy framing with thin behavioral mechanism,SMJ
+rulebook_anon,OrgSci,W4415181102,75,Associative stigma and audience evaluations; multimethod design with countervailing penalties,MgmtSci
+rulebook_anon,OrgSci,W4392369033,65,Ideology shapes appropriateness judgments by audiences; meaning-making with theorized moderators,OrgSci
+rulebook_anon,OrgSci,W4410739828,55,Team cognition and coordination with a rigidity contingency; leans toward applied psychology,OrgSci
+rulebook_anon,OrgSci,W4413584536,55,"Employer experimentation and stereotypes, but RDiT policy framing and a legal regulation driver",MgmtSci
+rulebook_anon,OrgSci,W7172310516,15,Economic pricing model of ratings; market design implications,MgmtSci
+rulebook_anon,OrgSci,W4415848566,55,Performance feedback and search theory with contingencies; core organization-theory conversation,SMJ
+rulebook_anon,OrgSci,W4398168833,68,Ethnographic identity theory with a paradoxical finding; inductive but theory-building,OrgSci
+rulebook_anon,OrgSci,W7168163083,65,Sense-making accounts of discrimination embedded in relationships and structure,OrgSci
+rulebook_anon,OrgSci,W4406871104,72,Optimal distinctiveness; audiences differ in how they evaluate differentiation,MgmtSci
+rulebook_anon,OrgSci,W4415700242,30,Strategy timing model with a typology; competitive framing,MgmtSci
+rulebook_anon,OrgSci,W4415966340,62,Prototype cognition in attributions of discrimination; status hierarchy tested with experiments,OrgSci
+rulebook_anon,OrgSci,W7215045513,48,"Pay-gap estimation, but suggests monitoring substitutes for incentives",MgmtSci
+rulebook_anon,OrgSci,W4406619528,12,"Economic model of AGI funding competition, no organizational mechanism",MgmtSci
+rulebook_anon,OrgSci,W4415667705,45,"Audit experiment on identity, but percentage-gap estimation framing",OrgSci
+rulebook_anon,OrgSci,W4415885063,35,"Strategy/ecosystem framing with adjustment costs, resource dependence helps somewhat",SMJ
+rulebook_anon,OrgSci,W4407430050,70,"Inductive process model of organizational memory, generations, meaning-making",OrgSci
+rulebook_anon,OrgSci,W4411880120,30,Economics-style effect estimation of capital constraints on misconduct,MgmtSci
+rulebook_anon,OrgSci,W4396930942,10,"Methods guide, no theoretical mechanism",SMJ
+rulebook_anon,OrgSci,W4401533548,85,"Experiment on exploration, peer feedback, self-enhancement moderator; contingency",OrgSci
+rulebook_anon,OrgSci,W7133752671,40,"Primarily new measurement framework, though team experiment included",MgmtSci
+rulebook_anon,OrgSci,W7164527973,55,Field experiment on AI and collaboration; somewhat effect-focused,OrgSci
+rulebook_anon,OrgSci,W4400456134,35,"Bargaining/outside option logic, DiD policy evaluation",OrgSci
+rulebook_anon,OrgSci,W4391108968,12,"M&A market for corporate control, strategy/economics framing",SMJ
+rulebook_anon,OrgSci,W4391957405,72,"Formal model of culture, adaptation trade-offs, inverted-U",OrgSci
+rulebook_anon,OrgSci,W4392191201,45,Historical case on interdependence and automation; somewhat economic,MgmtSci
+rulebook_anon,OrgSci,W7160560531,30,Acquisition-focused strategy framing despite puzzle resolution,SMJ
+rulebook_anon,OrgSci,W7204030819,40,"Embeddedness mechanism, but exploratory question-driven and strategy framing",SMJ
+rulebook_anon,OrgSci,W7131875656,22,Principal-agent model optimizing delegation; economics framing,MgmtSci
+rulebook_anon,OrgSci,W4413128838,30,"Governance typology for strategy audiences, thin behavioral mechanism",SMJ
+rulebook_anon,OrgSci,W4403391988,72,Field experiment revealing efficiency-learning trade-off in dynamic teams,OrgSci
+rulebook_anon,OrgSci,W4410132467,12,Main contribution is a new measure,SMJ
+rulebook_anon,OrgSci,W4391928606,25,"Strategy competitive positioning formal model, economic logic",SMJ
+rulebook_anon,OrgSci,W4401437965,40,"Nonmarket strategy panel analysis, modest organizational theory",SMJ
+rulebook_anon,OrgSci,W7160896437,8,IO model with merger policy welfare prescriptions,MgmtSci
+rulebook_anon,OrgSci,W4400494323,55,"Field experiment on networking and learning, but effect-estimation flavor",MgmtSci
+rulebook_anon,OrgSci,W7162518787,50,"Formal model with trade-off, but human-capital and strategy framing",SMJ
+rulebook_anon,OrgSci,W4395478680,38,"Information asymmetry, human capital framing in hiring",SMJ
+rulebook_anon,OrgSci,W7140292561,22,"Strategy/political economy effect estimation, thin organizational mechanism",SMJ
+rulebook_anon,OrgSci,W4415221881,80,"Qualitative study of expert practices, knowledge, socialization processes",OrgSci
+rulebook_anon,OrgSci,W4391822681,60,"Proximity, socialization, diversity trade-off; some economic spillover framing",MgmtSci
+rulebook_anon,OrgSci,W4393992555,68,Theorizes authenticity signals and audience perceptions with trade-off,OrgSci
+rulebook_anon,OrgSci,W4413078142,30,"Policy shock, labor-market economic mechanism, strategy framing",OrgSci
+rulebook_anon,OrgSci,W4401438064,78,"Intraorganizational networks, asymmetric signaling effects of an organizational practice",SMJ
+rulebook_anon,OrgSci,W4408615243,70,"Audience evaluation of deviance, status contingency, career consequences",MgmtSci
+rulebook_anon,OrgSci,W4414575593,72,"Category work, label appropriation, audience meaning-making, paradox",SMJ
+rulebook_anon,OrgSci,W7140163197,62,Countervailing brokerage theory with mechanisms; somewhat strategy/innovation framing,OrgSci
+rulebook_anon,OrgSci,W7204194857,45,"GAI innovation direction; effect estimation, strategy/innovation framing",SMJ
+rulebook_anon,OrgSci,W4401913114,25,Event study of market valuation; economics-style estimation,OrgSci
+rulebook_anon,OrgSci,W7167915571,40,"Field experiment, treatment effects on revenues; economics framing",MgmtSci
+rulebook_anon,OrgSci,W4409654205,30,Policy evaluation of regulation; economics-style unintended consequences,MgmtSci
+rulebook_anon,OrgSci,W7165627926,40,Industry emergence historical study; strategy/industry evolution framing,OrgSci
+rulebook_anon,OrgSci,W4416295432,55,"Learning trade-off from signals, contingencies; somewhat strategy framed",OrgSci
+rulebook_anon,OrgSci,W7118789025,45,Operations/design trade-off; learning angle but thin social mechanism,SMJ
+rulebook_anon,OrgSci,W4412477089,45,Categories replication but main contribution new measure,OrgSci
+rulebook_anon,OrgSci,W4396826999,50,Upper echelons attention mechanism; strategy audience framing,SMJ
+rulebook_anon,OrgSci,W7154732713,62,"Qualitative organizing process, cognition, human-AI coordination",SMJ
+rulebook_anon,OrgSci,W7140141833,15,Methodological essay for strategy research,SMJ
+rulebook_anon,OrgSci,W4410395534,72,Challenges network theory with sociopsychological status mechanisms; mixed methods,OrgSci
+rulebook_anon,OrgSci,W4408103243,35,RCT policy evaluation of training; thin organizational theory,MgmtSci
+rulebook_anon,OrgSci,W7223183398,68,Quasi-experiment reveals hidden trade-off of formal incentives on informal networks,SMJ
+rulebook_anon,OrgSci,W4407148851,10,Dataset contribution for strategy audience,SMJ
+rulebook_anon,OrgSci,W4400595406,80,"Status anxiety paradox, rankings, decoupling; RD with mechanism moderator",SMJ
+rulebook_anon,OrgSci,W4408812156,85,"Audience evaluation, categories, misfit bias; archival plus experiment",OrgSci
+rulebook_anon,OrgSci,W4414937457,62,Inductive relational study linking holding to innovator identity,OrgSci
+rulebook_anon,OrgSci,W7168839273,15,Measurement/classification for strategy variance decomposition,SMJ
+rulebook_anon,OrgSci,W4401643197,8,"Economic theory of common ownership, welfare implications",MgmtSci
+rulebook_anon,OrgSci,W4416425919,10,Principal-multiagent optimal incentive design model,MgmtSci
+rulebook_anon,OrgSci,W4408879455,55,Equity theory mechanism with field shocks; somewhat economics-style,SMJ
+rulebook_anon,OrgSci,W7128598029,3,Game-theory technical note,MgmtSci
+rulebook_anon,SMJ,W7139935458,60,"Technology adoption reshaping firm organization design; firm-level, but limited strategy contingencies",MgmtSci
+rulebook_anon,SMJ,W4401577217,82,Field experiment on firms' competitive strategic choices with performance outcomes,MgmtSci
+rulebook_anon,SMJ,W4403538563,72,"Competitive dynamics driving firm disclosure strategy, with contingencies",MgmtSci
+rulebook_anon,SMJ,W7221144841,35,Team and individual performance in NBA; little firm strategy,OrgSci
+rulebook_anon,SMJ,W4404720756,60,"Entrepreneurial strategy: founder hiring choices, experiential learning",SMJ
+rulebook_anon,SMJ,W4401000659,62,"Firm growth modes and future performance; corporate strategy, descriptive",SMJ
+rulebook_anon,SMJ,W4399786255,58,Political ties and VC risk-return; somewhat finance-oriented,SMJ
+rulebook_anon,SMJ,W4410431490,48,"CEO dismissal governance, but personnel outcome and perception-focused",OrgSci
+rulebook_anon,SMJ,W4407199819,68,Resource complementarity drives matching and startup value creation,OrgSci
+rulebook_anon,SMJ,W4414092254,80,"Knowledge-based view of post-acquisition integration and innovation, with contingencies",OrgSci
+rulebook_anon,SMJ,W4403538325,30,"Signaling in crowdfunding, mainly economics model and market failure",MgmtSci
+rulebook_anon,SMJ,W4411180928,8,"Pure formal contracting model, no strategy empirics",MgmtSci
+rulebook_anon,SMJ,W7127576577,80,"Alliance portfolio costs, bargaining power, and innovation performance",OrgSci
+rulebook_anon,SMJ,W4415674079,45,Methods guidance for management research; not strategy content,SMJ
+rulebook_anon,SMJ,W7213887525,72,"Real-options view of serendipitous inventions, value capture via licensing",SMJ
+rulebook_anon,SMJ,W4406212660,75,"Firm innovation strategy responding to stakeholders, attention and search mechanisms",OrgSci
+rulebook_anon,SMJ,W4415429094,45,"Policy-driven knowledge diffusion; economics framing, weak firm strategic choice",SMJ
+rulebook_anon,SMJ,W4405500024,62,"Firm R&D investment decision with industry contingencies, historical archival data",OrgSci
+rulebook_anon,SMJ,W4405486240,8,"Individual employee thriving outcomes, OB topic",OrgSci
+rulebook_anon,SMJ,W4409620756,40,"Formal model of aspirations, behavioral theory but no empirical test",SMJ
+rulebook_anon,SMJ,W4401533471,62,"Qualitative strategy formation processes linked to performance, institutional framing partly",OrgSci
+rulebook_anon,SMJ,W4415962253,75,"Organizational design shaping alliance governance; core strategy, archival evidence",OrgSci
+rulebook_anon,SMJ,W4410537786,25,"Formal IO model of platform business models, welfare outcomes",MgmtSci
+rulebook_anon,SMJ,W4392760955,72,Entrepreneurial scaling timing trade-offs with firm survival outcomes,SMJ
+rulebook_anon,SMJ,W4416011092,70,"Manager emotion explaining firm exit decisions, field plus experiments",MgmtSci
+rulebook_anon,SMJ,W4403493445,75,"Technology in-sourcing choices, attention-based and behavioral theory, archival",SMJ
+rulebook_anon,SMJ,W4404164210,20,"Formal principal-agent model, organizational economics without testing",MgmtSci
+rulebook_anon,SMJ,W4416351719,72,Board interlocks coevolving with corporate strategic actions,SMJ
+rulebook_anon,SMJ,W4391361637,15,"Formal property-rights model, consumer welfare and policy focus",MgmtSci
+rulebook_anon,SMJ,W4413313723,18,"Economics of bargaining communication, platform users not firm strategy",MgmtSci
+rulebook_anon,SMJ,W7140330321,15,Data/measurement release on employee partisanship; no strategic choice or firm outcome,OrgSci
+rulebook_anon,SMJ,W4402408038,5,"Inhabited institutionalism field study; organization theory, not strategy",OrgSci
+rulebook_anon,SMJ,W4410127539,72,CSR as strategic learning improving core operations; firm-level outcome,SMJ
+rulebook_anon,SMJ,W4402845374,75,"Supplier concentration as governance choice; contingency on externalities, strategy contribution",MgmtSci
+rulebook_anon,SMJ,W4413342591,80,"Competitive dynamics in political strategy; board appointments, contingencies, differentiation",MgmtSci
+rulebook_anon,SMJ,W4410298372,50,CEO narcissism affecting venture funding; individual psychology but firm outcome,OrgSci
+rulebook_anon,SMJ,W4405915894,68,Strategic change contingent on business model design; explicit strategy contribution,SMJ
+rulebook_anon,SMJ,W4402310152,35,CEO pay and dismissal outcomes; governance but personnel reward focus,OrgSci
+rulebook_anon,SMJ,W7138921623,72,Hiring network position driving innovation and productivity; contingencies,SMJ
+rulebook_anon,SMJ,W7160168093,55,"Firm field experiment with contingencies; safety outcomes, practice adoption",MgmtSci
+rulebook_anon,SMJ,W7170761526,50,"Firm skill demand after GenAI; organizational design, formal model framing",MgmtSci
+rulebook_anon,SMJ,W4408928101,15,Gender stereotypes in hiring; individual evaluator outcomes,OrgSci
+rulebook_anon,SMJ,W4394808604,5,Ethnography of work-family conflict; individual outcomes,OrgSci
+rulebook_anon,SMJ,W7129025385,15,"Scientist career outcomes; individual-level, no firm strategy",OrgSci
+rulebook_anon,SMJ,W4417280442,68,Import competition drives firm innovation and diversification; strategy methods,MgmtSci
+rulebook_anon,SMJ,W7165365766,35,Finance-style event study; some strategic guidance on carbon goal announcements,MgmtSci
+rulebook_anon,SMJ,W4391436263,35,Audience evaluation focus; box-office link to studio strategy is minor,SMJ
+rulebook_anon,SMJ,W4394978746,82,Firm innovation strategy response to litigation risk with contingencies,SMJ
+rulebook_anon,SMJ,W4415181102,18,Worker career outcomes from stigma; no firm strategy,MgmtSci
+rulebook_anon,SMJ,W4392369033,38,Media ideology and CSR coverage; firm value consequences weak,OrgSci
+rulebook_anon,SMJ,W4410739828,15,"Team adaptation, organizational behavior; not firm strategy",OrgSci
+rulebook_anon,SMJ,W4413584536,30,Gender hiring gap outcome; startup employer decisions partly strategic,MgmtSci
+rulebook_anon,SMJ,W7172310516,22,Formal model of ratings and entry without empirical testing,MgmtSci
+rulebook_anon,SMJ,W4415848566,80,"Behavioral theory, alliance portfolio strategy, economic-condition contingencies",SMJ
+rulebook_anon,SMJ,W4398168833,12,"Identity ethnography, individual outcomes, organization theory",OrgSci
+rulebook_anon,SMJ,W7168163083,8,Individual discrimination accounts; no strategic or firm outcome,OrgSci
+rulebook_anon,SMJ,W4406871104,35,"Audience differentiation evaluations; categories framing, weak firm strategy",MgmtSci
+rulebook_anon,SMJ,W4415700242,55,Formal model but strategy synthesis on entry timing and disruption,MgmtSci
+rulebook_anon,SMJ,W4415966340,8,Discrimination attribution psychology; no firm strategy,OrgSci
+rulebook_anon,SMJ,W7215045513,35,"Ownership and pay; personnel outcome, governance angle",MgmtSci
+rulebook_anon,SMJ,W4406619528,15,Formal model of AGI safety funding; no empirical test or strategy synthesis,MgmtSci
+rulebook_anon,SMJ,W4415667705,5,Individual negotiation discrimination outcomes; no firm strategy,OrgSci
+rulebook_anon,SMJ,W4415885063,88,"Complementor strategy, adjustment costs, disruptor strategies; mixed methods",SMJ
+rulebook_anon,SMJ,W4407430050,15,Inductive process theory on rhetorical history; org theory focus,OrgSci
+rulebook_anon,SMJ,W4411880120,55,Misconduct as firm strategy under capital constraints; economics flavor,MgmtSci
+rulebook_anon,SMJ,W4396930942,45,Methods guide for strategy researchers; borderline fit,SMJ
+rulebook_anon,SMJ,W4401533548,60,"Experiment on exploration/exploitation, behavioral theory, individual mechanism",OrgSci
+rulebook_anon,SMJ,W7133752671,12,"Team task-space methodology; individual/group outcomes, not strategy",MgmtSci
+rulebook_anon,SMJ,W7164527973,45,AI in innovation field experiment; individual performance outcomes,OrgSci
+rulebook_anon,SMJ,W4400456134,20,Pay variance outcome; personnel outcome without firm performance,OrgSci
+rulebook_anon,SMJ,W4391108968,50,M&A competition and target returns; finance-leaning market-for-control framing,SMJ
+rulebook_anon,SMJ,W4391957405,35,Formal model on culture and adaptation; not core strategy theory,OrgSci
+rulebook_anon,SMJ,W4392191201,62,Historical study of technology adoption interdependencies at firm level,MgmtSci
+rulebook_anon,SMJ,W7160560531,80,Acquisition motives and post-acquisition collaboration; corporate strategy,SMJ
+rulebook_anon,SMJ,W7204030819,85,Diversification entry with client ties reduces firm performance,SMJ
+rulebook_anon,SMJ,W7131875656,15,"Formal principal-agent model on employee motivation, no strategic firm outcomes",MgmtSci
+rulebook_anon,SMJ,W4413128838,60,"Conceptual board governance of stakeholders, governance costs, strategy-relevant",SMJ
+rulebook_anon,SMJ,W4403391988,15,"Team coordination field experiment, individual learning outcomes, OB focus",OrgSci
+rulebook_anon,SMJ,W4410132467,55,Measure of commercial potential of science applied to firm science use,SMJ
+rulebook_anon,SMJ,W4391928606,40,"Formal model of competitive repositioning, strategic but mainly theoretical",SMJ
+rulebook_anon,SMJ,W4401437965,55,"Corporate nonmarket strategy under political competition, archival evidence",SMJ
+rulebook_anon,SMJ,W7160896437,20,IO formal model with welfare and merger policy focus,MgmtSci
+rulebook_anon,SMJ,W4400494323,72,"Field experiment on entrepreneur networks raising firm profits, contingency",MgmtSci
+rulebook_anon,SMJ,W7162518787,78,"Founder experience, pivot costs, startup performance; model plus empirical test",SMJ
+rulebook_anon,SMJ,W4395478680,55,Pipeline hiring as factor-market advantage with boundary conditions,SMJ
+rulebook_anon,SMJ,W7140292561,68,"Lobbying as firm strategy for policy uncertainty, firm-level actions",SMJ
+rulebook_anon,SMJ,W4415221881,12,"Inductive practice reconciliation study, organization theory focus",OrgSci
+rulebook_anon,SMJ,W4391822681,62,Startup proximity spillovers with performance outcomes and contingencies,MgmtSci
+rulebook_anon,SMJ,W4393992555,5,"Individual self-presentation conceptual paper, no firm outcomes",OrgSci
+rulebook_anon,SMJ,W4413078142,78,"Demand spillovers, knowledge worker competition, innovation strategy with shock",OrgSci
+rulebook_anon,SMJ,W4401438064,35,Intraorganizational network outcomes at individual level; firm intervention but no firm performance,SMJ
+rulebook_anon,SMJ,W4408615243,15,"Individual career consequences; personnel outcomes, no firm strategy",MgmtSci
+rulebook_anon,SMJ,W4414575593,40,"Category work and audience perception; org-theory framing, some strategic resource angle",SMJ
+rulebook_anon,SMJ,W7140163197,72,"Firm network position, innovation performance, contingencies and liabilities",OrgSci
+rulebook_anon,SMJ,W7204194857,55,"Innovation direction from GAI; product-level, developer-focused, limited strategy framing",SMJ
+rulebook_anon,SMJ,W4401913114,20,Finance event study of stock prices; market-price test,OrgSci
+rulebook_anon,SMJ,W7167915571,72,"Field experiment with firm revenue/profit outcomes, heterogeneous effects",MgmtSci
+rulebook_anon,SMJ,W4409654205,45,Policy outcome focus but strategic firm responses with contingencies,MgmtSci
+rulebook_anon,SMJ,W7165627926,55,"Historical industry emergence, ecosystems; somewhat systems/policy rather than firm strategy",OrgSci
+rulebook_anon,SMJ,W4416295432,80,"Startup international entry, learning tradeoff, contingencies, firm growth",OrgSci
+rulebook_anon,SMJ,W7118789025,78,"Scope economies trade-off, reliability penalty, experience contingency",SMJ
+rulebook_anon,SMJ,W4412477089,60,Replication of category spanning with firm value outcomes,OrgSci
+rulebook_anon,SMJ,W4396826999,78,"CEO narcissism, board governance, corporate risk-taking",SMJ
+rulebook_anon,SMJ,W7154732713,50,Qualitative organizing process; weak firm strategic outcome link,SMJ
+rulebook_anon,SMJ,W7140141833,60,Methodological synthesis for strategic management researchers,SMJ
+rulebook_anon,SMJ,W4410395534,10,"Individual job-search behavior; sociological, no firm strategy",OrgSci
+rulebook_anon,SMJ,W4408103243,10,Police training RCT with individual outcomes only,MgmtSci
+rulebook_anon,SMJ,W7223183398,35,"In-firm field experiment, trade-offs, but individual attrition outcomes",SMJ
+rulebook_anon,SMJ,W4407148851,55,CFO turnover database for strategy scholarship; governance resource,SMJ
+rulebook_anon,SMJ,W4400595406,35,"Status/categories framing, CSR response; organization theory leaning",SMJ
+rulebook_anon,SMJ,W4408812156,30,"Evaluator perception bias; categories focus, weak firm value",OrgSci
+rulebook_anon,SMJ,W4414937457,12,"Inductive identity process study, individual-level",OrgSci
+rulebook_anon,SMJ,W7168839273,75,Re-examines industry effects on firm performance; core strategy method,SMJ
+rulebook_anon,SMJ,W4401643197,25,"Finance/IO framing of common ownership, welfare focus",MgmtSci
+rulebook_anon,SMJ,W4416425919,12,Formal principal-agent model without empirical testing,MgmtSci
+rulebook_anon,SMJ,W4408879455,20,"Pay transparency, individual productivity; personnel focus",SMJ
+rulebook_anon,SMJ,W7128598029,3,Pure game-theory note,MgmtSci
+rulebook_anon,MgmtSci,W7139935458,80,"Supervision trade-off framework, DiD on big data, interpretable effect sizes",MgmtSci
+rulebook_anon,MgmtSci,W4401577217,88,"Large field experiment on competitor info, inattention mechanism",MgmtSci
+rulebook_anon,MgmtSci,W4403538563,75,"Strategic disclosure incentives, DiD, 13% effect size",MgmtSci
+rulebook_anon,MgmtSci,W7221144841,30,"Multi-theory verbal model, NBA context, interviews supplement",OrgSci
+rulebook_anon,MgmtSci,W4404720756,65,"Register data, matching mechanism, but limited identification",SMJ
+rulebook_anon,MgmtSci,W4401000659,55,"Comprehensive census decomposition, trade shock, mostly descriptive",SMJ
+rulebook_anon,MgmtSci,W4399786255,20,"Coined paradox labels, verbal theorizing, associational panel",SMJ
+rulebook_anon,MgmtSci,W4410431490,15,"Perception-based verbal theorizing, moderator lists, no identification",OrgSci
+rulebook_anon,MgmtSci,W4407199819,62,Assortative matching framework on Crunchbase/LinkedIn data,OrgSci
+rulebook_anon,MgmtSci,W4414092254,45,"Coined label, knowledge-based view, moderators, large sample",OrgSci
+rulebook_anon,MgmtSci,W4403538325,72,Signaling model with experiment on information asymmetry,MgmtSci
+rulebook_anon,MgmtSci,W4411180928,68,Formal contract model with crisp insight on rating compression,MgmtSci
+rulebook_anon,MgmtSci,W7127576577,40,"Verbal theorizing on safeguards, no clear identification or effects",OrgSci
+rulebook_anon,MgmtSci,W4415674079,22,"Methodological guidance for management scholars, not substantive",SMJ
+rulebook_anon,MgmtSci,W7213887525,55,"Large patent survey, option-like insight, associational",SMJ
+rulebook_anon,MgmtSci,W4406212660,35,"Verbal theorizing on social movements; matched sample, weak identification",OrgSci
+rulebook_anon,MgmtSci,W4415429094,62,Staggered TRIPS policy shock gives credible causal identification,SMJ
+rulebook_anon,MgmtSci,W4405500024,68,"New historical firm data, substantive economic answer on corporate research",OrgSci
+rulebook_anon,MgmtSci,W4405486240,12,"Micro OB experience sampling, coined construct, no economic mechanism",OrgSci
+rulebook_anon,MgmtSci,W4409620756,60,Tractable formal model with crisp insight on aspirations,SMJ
+rulebook_anon,MgmtSci,W4401533471,5,"Inductive two-case qualitative study, institutional theory framing",OrgSci
+rulebook_anon,MgmtSci,W4415962253,40,Plausible org design mechanism but associational panel evidence,OrgSci
+rulebook_anon,MgmtSci,W4410537786,55,"Formal platform competition model, clear welfare trade-offs",MgmtSci
+rulebook_anon,MgmtSci,W4392760955,58,"Novel job-posting measure, large data, explicit trade-off",SMJ
+rulebook_anon,MgmtSci,W4416011092,60,Import competition shock plus large experiments; decision-maker responses,MgmtSci
+rulebook_anon,MgmtSci,W4403493445,38,"Attention-based verbal theory, case-control association",SMJ
+rulebook_anon,MgmtSci,W4404164210,65,Principal-agent model with crisp economic insights on hiring,MgmtSci
+rulebook_anon,MgmtSci,W4416351719,15,"Structuration theory framing, literature integration, no identification",SMJ
+rulebook_anon,MgmtSci,W4391361637,55,Formal property-rights model with policy implications,MgmtSci
+rulebook_anon,MgmtSci,W4413313723,85,"Natural experiment, large platform data, interpretable 14% effect",MgmtSci
+rulebook_anon,MgmtSci,W7140330321,72,"New large-scale reusable measure, though partly comparison with existing measure",OrgSci
+rulebook_anon,MgmtSci,W4402408038,5,"Inductive single-case field study, inhabited institutionalism framing",OrgSci
+rulebook_anon,MgmtSci,W4410127539,68,Quasi-random matching identifies learning effect; some qualitative supplementation,SMJ
+rulebook_anon,MgmtSci,W4402845374,85,"Simple model, free-riding incentives, large field data tests",MgmtSci
+rulebook_anon,MgmtSci,W4413342591,80,RD design with interpretable effect size on board responses,MgmtSci
+rulebook_anon,MgmtSci,W4410298372,30,"Psychology construct framing, associational Shark Tank data",OrgSci
+rulebook_anon,MgmtSci,W4405915894,12,"Small panel moderator study, nuance framing, no identification",SMJ
+rulebook_anon,MgmtSci,W4402310152,70,Boards' responses on large data with DiD strengthening inference,OrgSci
+rulebook_anon,MgmtSci,W7138921623,35,"Verbal theorizing, moderators, panel associations",SMJ
+rulebook_anon,MgmtSci,W7160168093,82,Large field experiment on incentives and practice adoption,MgmtSci
+rulebook_anon,MgmtSci,W7170761526,65,ChatGPT shock with queuing model; some coined classification,MgmtSci
+rulebook_anon,MgmtSci,W4408928101,70,Large platform hiring data testing demand-side discrimination mechanism,OrgSci
+rulebook_anon,MgmtSci,W4394808604,6,Ethnographic inductive study of STEM workers,OrgSci
+rulebook_anon,MgmtSci,W7129025385,55,Large novel data but associational relationship,OrgSci
+rulebook_anon,MgmtSci,W4417280442,62,"Import competition shock, text measure, DiD on innovation",MgmtSci
+rulebook_anon,MgmtSci,W7165365766,62,"Event study with interpretable dollar effects; modest sample, limited mechanism",MgmtSci
+rulebook_anon,MgmtSci,W4391436263,66,Huge platform data plus experiment on demand-side bias mechanisms,SMJ
+rulebook_anon,MgmtSci,W4394978746,55,"Firm strategic response to litigation risk; verbal theory, moderators",SMJ
+rulebook_anon,MgmtSci,W4415181102,42,"Stigma framing, vignette multimethod, though administrative records help",MgmtSci
+rulebook_anon,MgmtSci,W4392369033,28,"Ideology/appropriateness framing, moderator hypotheses, no identification",OrgSci
+rulebook_anon,MgmtSci,W4410739828,18,"Context-bound team adaptation theory, small firefighter sample",OrgSci
+rulebook_anon,MgmtSci,W4413584536,80,RDiT on registry data; employer incentive mechanism for gender gap,MgmtSci
+rulebook_anon,MgmtSci,W7172310516,74,Crisp signaling model with platform design implications,MgmtSci
+rulebook_anon,MgmtSci,W4415848566,25,"Performance feedback moderators, panel associations, weak identification",SMJ
+rulebook_anon,MgmtSci,W4398168833,5,Inductive ethnography on identity,OrgSci
+rulebook_anon,MgmtSci,W7168163083,6,"Interview-based grounded theory, single occupation",OrgSci
+rulebook_anon,MgmtSci,W4406871104,30,"Audience perception of distinctiveness, legitimacy framing",MgmtSci
+rulebook_anon,MgmtSci,W4415700242,55,"Formal timing model, but coined typology, no empirical test",MgmtSci
+rulebook_anon,MgmtSci,W4415966340,45,Mostly perception experiments; EEOC data adds some behavior,OrgSci
+rulebook_anon,MgmtSci,W7215045513,82,"Large firm pay records, interpretable gap, monitoring-incentive mechanism",MgmtSci
+rulebook_anon,MgmtSci,W4406619528,62,Formal economic model with crisp insight on AGI safety competition,MgmtSci
+rulebook_anon,MgmtSci,W4415667705,72,"Large preregistered audit field experiment, interpretable effect sizes on discrimination",OrgSci
+rulebook_anon,MgmtSci,W4415885063,45,"Adjustment cost incentives, but mixed qualitative case of single industry",SMJ
+rulebook_anon,MgmtSci,W4407430050,8,"Inductive comparative case study, process model, coined constructs",OrgSci
+rulebook_anon,MgmtSci,W4411880120,75,"Granular GPS data, financial-pressure incentive mechanism, policy implications",MgmtSci
+rulebook_anon,MgmtSci,W4396930942,25,"Methodological guidance piece, not substantive question",SMJ
+rulebook_anon,MgmtSci,W4401533548,45,"Lab experiment with moderator; behavioral but small-sample, verbal explanation",OrgSci
+rulebook_anon,MgmtSci,W7133752671,60,New reusable measure plus large integrative experiment,MgmtSci
+rulebook_anon,MgmtSci,W7164527973,78,"Randomized field experiment at real firm, interpretable AI effects",OrgSci
+rulebook_anon,MgmtSci,W4400456134,72,"DiD on entry reform, outside-option bargaining mechanism, admin data",OrgSci
+rulebook_anon,MgmtSci,W4391108968,68,"Bargaining power mechanism, large archival data, travel-time identification",SMJ
+rulebook_anon,MgmtSci,W4391957405,40,"Formal model but inverted-U, culture framing, no empirical tie-in",OrgSci
+rulebook_anon,MgmtSci,W4392191201,50,"Historical single firm, but economic complementarity insight on automation",MgmtSci
+rulebook_anon,MgmtSci,W7160560531,42,"Motive typology, associational, literature-framed contribution",SMJ
+rulebook_anon,MgmtSci,W7204030819,55,"Post-9/11 shock, agency mechanism, but single-industry correlations",SMJ
+rulebook_anon,MgmtSci,W7131875656,72,Principal-agent model with crisp complementarity insight on delegation,MgmtSci
+rulebook_anon,MgmtSci,W4413128838,30,"Conceptual governance typology with propositions, no empirical tie-in",SMJ
+rulebook_anon,MgmtSci,W4403391988,55,"Field RCT but small sample, outcomes associational, team process framing",OrgSci
+rulebook_anon,MgmtSci,W4410132467,75,New validated reusable measure predicting real firm science use,SMJ
+rulebook_anon,MgmtSci,W4391928606,65,"Formal model with crisp competitive insight, only illustrative case",SMJ
+rulebook_anon,MgmtSci,W4401437965,45,Rare data but panel associations without identification,SMJ
+rulebook_anon,MgmtSci,W7160896437,72,Formal model of kill zones with clear policy implications,MgmtSci
+rulebook_anon,MgmtSci,W4400494323,82,"Randomized field experiment, interpretable profit effects, frictions mechanism",MgmtSci
+rulebook_anon,MgmtSci,W7162518787,70,Formal model tested on large administrative microdata,SMJ
+rulebook_anon,MgmtSci,W4395478680,55,"Information asymmetry mechanism but niche context, hypothesis framing",SMJ
+rulebook_anon,MgmtSci,W7140292561,75,"Trade war shock, shipping records, information mechanism on behavior",SMJ
+rulebook_anon,MgmtSci,W4415221881,8,Inductive qualitative single-case hospital study,OrgSci
+rulebook_anon,MgmtSci,W4391822681,78,"Exogenous office assignment, interpretable distance decay of spillovers",MgmtSci
+rulebook_anon,MgmtSci,W4393992555,8,Conceptual verbal theorizing with coined paradox and moderators,OrgSci
+rulebook_anon,MgmtSci,W4413078142,72,"Policy shock identification, labor market competition mechanism",OrgSci
+rulebook_anon,MgmtSci,W4401438064,66,"Firm intervention effect on networks, signaling mechanism, behavioral network data",SMJ
+rulebook_anon,MgmtSci,W4408615243,45,"Large archival data but context-bound sport setting, descriptive framing",MgmtSci
+rulebook_anon,MgmtSci,W4414575593,12,"Inductive process theory on categories/labels, eight firms",SMJ
+rulebook_anon,MgmtSci,W7140163197,25,"Coined label, verbal theorizing with moderator lists",OrgSci
+rulebook_anon,MgmtSci,W7204194857,55,Innovation as behavior on platform data; identification unclear,SMJ
+rulebook_anon,MgmtSci,W4401913114,72,"Event study, investor valuation, dollar effect sizes",OrgSci
+rulebook_anon,MgmtSci,W7167915571,85,"Randomized field experiment, interpretable effect sizes, decision implementation",MgmtSci
+rulebook_anon,MgmtSci,W4409654205,82,"Policy shock, unintended strategic firm responses, trade-off mechanism",MgmtSci
+rulebook_anon,MgmtSci,W7165627926,12,"Historical qualitative case study, systems perspective",OrgSci
+rulebook_anon,MgmtSci,W4416295432,70,"Learning tradeoff, signals, platform timing variation for identification",OrgSci
+rulebook_anon,MgmtSci,W7118789025,55,"Explicit trade-off on industry data, but associational",SMJ
+rulebook_anon,MgmtSci,W4412477089,40,"New measure predicting firm value, but category literature framing",OrgSci
+rulebook_anon,MgmtSci,W4396826999,38,"Unique data but small sample, process model, direction-only support",SMJ
+rulebook_anon,MgmtSci,W7154732713,10,Qualitative single-context process study,SMJ
+rulebook_anon,MgmtSci,W7140141833,5,Purely methodological/philosophical essay,SMJ
+rulebook_anon,MgmtSci,W4410395534,30,"Panel data plus heavy interview component; sociopsychological framing, single context",OrgSci
+rulebook_anon,MgmtSci,W4408103243,72,Large RCT on actual officer behavior; credible causal identification,MgmtSci
+rulebook_anon,MgmtSci,W7223183398,58,Field quasi-experiment on incentives with trade-off; coined concept label,SMJ
+rulebook_anon,MgmtSci,W4407148851,40,"Data resource, descriptive; no substantive causal answer",SMJ
+rulebook_anon,MgmtSci,W4400595406,50,"RD design good, but status anxiety/paradox framing and decoupling theory",SMJ
+rulebook_anon,MgmtSci,W4408812156,38,"Audience perception, categories literature, coined 'misfit bias'",OrgSci
+rulebook_anon,MgmtSci,W4414937457,8,"Inductive interview study, coined trajectories, identity focus",OrgSci
+rulebook_anon,MgmtSci,W7168839273,42,"New ML industry measure, but framed as methodological critique",SMJ
+rulebook_anon,MgmtSci,W4401643197,82,Formal model of spillover incentives tested with BlackRock-BGI shock,MgmtSci
+rulebook_anon,MgmtSci,W4416425919,62,Principal-multiagent model on information incentives; no empirical test,MgmtSci
+rulebook_anon,MgmtSci,W4408879455,85,"Staggered transparency shocks, large field data, incentive/equity mechanism",SMJ
+rulebook_anon,MgmtSci,W7128598029,45,Technical game-theory correction note; narrow contribution,MgmtSci

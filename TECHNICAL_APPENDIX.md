@@ -51,7 +51,11 @@
 - Each model gives every held-out paper a score from 0 to 100 for "would we publish this?" plus a short reason.
 - Batches of 15 abstracts mix all three journals, in shuffled order.
 - **Metrics:**
-  - AUC for own vs. other journals' papers. Name only → contrastive: Org Sci 0.74 → 0.86, SMJ 0.82 → 0.93, MS 0.89 → 0.92.
+  - AUC for own vs. other journals' papers. Name only → contrastive: Org Sci 0.74 → 0.85, SMJ 0.82 → 0.93, MS 0.88 → 0.92.
+  - **Journal hidden ("Journal X"), the version shown in Fig B** (`run_scoring --modes incontext,rulebook --anonymous`):
+    - Own abstracts only: AUC 0.82 / 0.92 / 0.91; attribution 75%; the 61–80 band is 60% / 76% / 89% own.
+    - Rules only: AUC 0.77 / 0.74 / 0.82; attribution 67%.
+    - A model built only from a journal's own papers calibrates about as well as the named models.
   - Within each score band, the share of papers truly from *J*. This rises monotonically: 0% at ≤20, and 61% (Org Sci), 79% (SMJ) and 88% (MS) at 61–80, against a 33% base rate.
 - **Vertical vs. horizontal** (`scripts/vertical_horizontal.py`), following the firm × application matrix of Alidaee, Khanna & Koning (2026):
   - All 117 papers × 3 models are re-scored with a different batch order (seed 1), giving two replicates.

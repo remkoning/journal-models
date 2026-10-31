@@ -7,6 +7,7 @@ Used for:
      rather than one of the other two journals'? (share own by score band; AUC own vs. other)
 
     .venv/bin/python -m scripts.run_scoring --modes plain,contrast --n 40
+    .venv/bin/python -m scripts.run_scoring --modes incontext,rulebook --anonymous   # journal hidden ("Journal X")
 """
 from __future__ import annotations
 
@@ -42,15 +43,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--modes", default="plain,contrast")
     ap.add_argument("--n", type=int, default=40)
+    ap.add_argument("--anonymous", action="store_true", help='journal hidden ("Journal X"); modes get "_anon"')
     args = ap.parse_args()
+    sfx = "_anon" if args.anonymous else ""
     OUT.mkdir(parents=True, exist_ok=True)
     probes = held_out(args.n)
     print(probes.groupby("source").size())
     long = []
     for mode in args.modes.split(","):
         for j in JOURNALS:
-            s = JournalModel(j, mode=mode).score(list(probes.id), tag=f"scoring/{mode}")
-            long += [{"mode": mode, "model": j, "id": k, "score": v["score"], "why": v["why"]} for k, v in s.items()]
+            s = JournalModel(j, mode=mode, anonymous=args.anonymous).score(list(probes.id), tag=f"scoring/{mode}{sfx}")
+            long += [{"mode": mode + sfx, "model": j, "id": k, "score": v["score"], "why": v["why"]} for k, v in s.items()]
             print(mode, j, len(s))
     df = pd.DataFrame(long).merge(probes, on="id")
     if (OUT / "scores.csv").exists():   # add these modes to earlier ones instead of overwriting
@@ -59,7 +62,7 @@ def main():
     df.to_csv(OUT / "scores.csv", index=False)
 
     summary = json.loads((OUT / "summary.json").read_text()) if (OUT / "summary.json").exists() else {}
-    for mode, g in df[df["mode"].isin(args.modes.split(","))].groupby("mode"):
+    for mode, g in df[df["mode"].isin([m + sfx for m in args.modes.split(",")])].groupby("mode"):
         g = g.copy()
         g["z"] = g.groupby("model").score.transform(lambda s: s - s.mean())
         wide = g.pivot_table(index=["id", "source"], columns="model", values="z").dropna().reset_index()
