@@ -4,6 +4,14 @@ Prototype accompanying the Organization Science special-issue proposal *"The Jou
 
 **Idea.** A journal is a horizontally differentiated organization of scientific taste. A *journal-model* is a base LLM given one journal's taste. The taste can be carried as the journal's own abstracts (contrastive in-context) or as a readable rulebook evolved by a self-improving harness. Journals in v0: *Organization Science*, *Strategic Management Journal*, and *Management Science* (strategy, organizations, entrepreneurship & innovation).
 
+> **Status: proof of concept.** v0 is deliberately simple: three journals, published abstracts only, and an off-the-shelf model given each journal's taste in context or as a short evolved rulebook. Its job is to show that journal taste is learnable, differs across journals, and can be made legible. Where we're headed:
+> - **Fine-tuning:** journal-models trained on each journal's corpus and decisions, not just prompted.
+> - **Much more data from the journal and its articles:** full texts (introductions, theory, figures, tables, code), review reports, and editorial decisions, including rejections.
+> - **Richer evolved rules:** self-improving rulebooks learned from that fuller record, not from abstracts alone.
+> - **Journals as multi-agent organizations:** editor, reviewer, methods and literature agents with their own tools.
+>
+> The numbers here are first results from v0, not estimates of what a full journal-model can do.
+
 **Four questions, one set of models** (figures in `results/figures/`):
 
 | | Question | Script |

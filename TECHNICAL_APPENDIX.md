@@ -1,5 +1,7 @@
 # Technical appendix: methods overview
-*Bullets only. Status as of 2026-10-30.*
+*Bullets only. Status as of 2026-10-31.*
+
+**Scope: a proof of concept.** v0 uses published abstracts and in-context or rulebook journal-models on a base model. The full project fine-tunes journal-models on much more of each journal's record: full texts, figures, tables and code, review reports, and decisions including rejections. It evolves richer rules from that record. See the README.
 
 ## 1. Data
 - **Source:** OpenAlex. Articles 2016–2026 from:
