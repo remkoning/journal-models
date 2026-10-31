@@ -1,5 +1,5 @@
 # Technical appendix: methods overview
-*Bullets only. Status as of 2026-10-30. Numbers marked [PROVISIONAL] are being re-run.*
+*Bullets only. Status as of 2026-10-30.*
 
 ## 1. Data
 - **Source:** OpenAlex. Articles 2016–2026 from:
@@ -40,7 +40,7 @@
   - For each topic-matched test pair, each of the two relevant journal-models answers "which did *J* publish?" as p_A ∈ [0,1].
   - Each pair is shown in both orders.
   - Accuracy = P(own paper > 0.5), with bootstrap 95% CIs.
-- **In-batch leakage and its fix.** Early runs batched 10 pairs per call. Every pair in a journal-model's batch contained that journal's paper, so the model could infer the journal from what the batch shared. The anonymized, no-information condition scored up to 82% instead of 50%. All pairs results now use **one pair per call**, and the anonymized no-information condition serves as the leakage check (it lands near 50%). With the leak removed, named models score 92% with the name only and 94% with contrastive abstracts. The earlier batched gain on Org Sci vs. MS was an artifact. Journal hidden ("Journal X"): 50% with no abstracts (chance, ties counted as ½) → 93% with 100 own abstracts only (97 / 95 / 80 by journal pair).
+- **In-batch leakage and its fix.** Early runs batched 10 pairs per call. Every pair in a journal-model's batch contained that journal's paper, so the model could infer the journal from what the batch shared. The anonymized, no-information condition scored up to 82% instead of 50%. All pairs results now use **one pair per call**, and the anonymized no-information condition serves as the leakage check (it lands near 50%). With the leak removed, named models score 92% with the name only and 95% with contrastive abstracts. The earlier batched gain on Org Sci vs. MS was an artifact. Journal hidden ("Journal X"): 50% with no abstracts (chance, ties counted as ½) → 93% with 100 own abstracts only (97 / 95 / 80 by journal pair).
 - **Attribution matrix:**
   - Held-out recent papers (2024–26 test; 40 per journal, 37 for MS) are scored by all three models (§4).
   - Each model's scores are centered to remove leniency differences.
